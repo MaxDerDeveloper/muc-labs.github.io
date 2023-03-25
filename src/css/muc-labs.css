@@ -1,0 +1,340 @@
+/* CSS fuer muc-labs*/
+
+
+.bg{
+	height: 100%;
+	width: 100%;
+	background-color: red;
+	background-size: cover;
+}
+
+/*Ueberschriften*/
+h1 {color: red; font: bold 36px Arial, sans-serif;}
+h2 {color: green; font: bold 28px Arial, sans-serif;}
+h3 {color: green; font: bold 18px Arial, sans-serif;}
+h4 {color: green; font: bold 16px Arial, sans-serif;}
+h5 {color: green; font: bold 14px Arial, sans-serif;}
+h6 {color: red; font: bold 12px Arial, sans-serif;}
+
+
+/* Hier werden Navigation-Listen formatiert - ul - unordered list*/
+nav	   {background: skyblue; 
+		border-radius: 5px;
+		border-bottom-width: 0.1em;
+		margin: 0.8em;
+		padding: 1px;}
+
+nav ul {list-style: none; 
+ 	    background-color: ivory;   /*margin: 5px;padding: 5px;*/
+	    font: 16px Arial, sans-serif;
+		text-align: center;
+		display: flex;
+		flex-direction: column;}
+		
+nav li {margin: 0.1em;
+		padding: 0px;
+		/*display: inline-block;*/}
+		
+@media (min-width: 45em) {/* Reihe wenn breit genug */
+	nav ul {	
+		flex-direction: row;}  }
+		
+nav a  {text-decoration: none; /*keine Unterstreichung*/
+        width: 6em;
+		padding: 0.3em;
+		display: block;
+		border: 1px solid BurlyWood;
+		border-radius: 5px;
+		color: grey; 
+		background-color: NavajoWhite;
+		font-weight: bold;	
+		transition: all 0.25s ease-in}
+
+nav a:focus, nav a:hover, nav a:active 
+       {text-decoration: underline;
+	    color:darkslategrey;
+		background-color: BlanchedAlmond;}
+	
+/* Allgemein Texte */
+p  {font: 14px Arial, sans-serif;}
+
+/*Footer*/
+footer{margin: 1px; padding: 0px; 
+		border: 2px solid seagreen; 
+		border-radius: .3em; 
+		background: lgrey;}
+
+footer ul {list-style: none; /*keine Punkte*/
+        /*width: 8em;
+		height: 0.3em;*/
+	    background-color: white;
+	    font: 14px Arial, sans-serif;
+		text-align: center;
+		vertical-align: center;
+		margin-top: 0pt;
+		margin-bottom: 0pt;
+		display: flex;
+		flex-direction: row;
+		}
+
+footer il {
+	    margin: 0.1em; padding: 0px;
+}
+
+/*Align*/
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+}
+/*Class Selektor - Class info*/
+.info {color: blue}
+
+
+/* Test Tabelle */
+table {	
+	border-collapse: collapse;
+}
+thead {
+	position:fixed;
+	margin-top: -25px;
+	background: white;
+}
+
+/* Tabelle fuer Laborbeschreibung */
+.desdiv {				
+	height: 350px; /* Gesamthoehe der Liste */	
+	overflow-y: scroll;
+	padding-top: 20px;
+}
+.descri {
+  table-layout: fixed;
+  border: 1px solid black;
+  border-collapse: collapse;/*macht eigene borders fuer jede zelle weg*/
+  width: 100%;
+  /*white-space: nowrap;*/
+  font: 14px Arial, sans-serif;
+}
+
+.descri th {
+	background: dodgerblue;
+	color: white;
+}
+.descri td,
+.descri th {
+  text-align: left;
+  padding: 5px 10px;
+  /*white-space: nowrap;*/
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.descri tr:nth-child(even) {
+  background: lightblue;
+}
+
+/* Tabelle fuer die Labore */
+.labdiv {				
+	height: 350px; /* Gesamthoehe der Liste */	
+	overflow-y: scroll;
+	padding-top: 25px;
+}
+.labors {
+  table-layout: fixed;
+  border-collapse: collapse;/*macht eigene borders fuer jede zelle weg*/
+  width: 100%;
+  /*white-space: nowrap;*/
+  font: 16px Arial, sans-serif;
+}
+
+.labors th {
+	background: dodgerblue;
+	color: white;
+}
+.labors td,
+.labors th {
+  text-align: left;
+  padding: 5px 10px;
+  /*white-space: nowrap;*/
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.labors thead {
+	position: fixed;
+	background: skyblue;
+	margin-top: -50px;
+}
+.labors tr:nth-child(even) {
+  background: lightblue;
+}
+/* Tabelle fuer Programme */
+.ptbl {
+  table-layout: fixed;
+  border-collapse: collapse;/*macht eigene borders fuer jede zelle weg*/
+  /*white-space: nowrap;*/
+  font: 16px Arial, sans-serif;
+}
+.ptbl thead{
+	position: fixed;
+	background: skyblue;
+	margin-top: -50px;
+    font: 18px Arial, sans-serif, bold;
+}
+.ptbl tr:nth-child(even) {
+  background: lightblue;
+}
+
+/* =============================================================================00 */
+/* ============= Tooltip */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  font: 12px Arial, sans-serif;
+  visibility: hidden;
+  width: 200px;
+  background-color: white;
+  color: black;
+  text-align: left;
+  border-radius: 2px;
+  padding: 5px 0;
+  border-style: solid;
+  border-width: 1px;
+  /* Position the tooltip z-index - nach vorne */
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 65%;
+}
+
+.openModal {
+	font: normal 12px Arial, sans-serif;
+	background-color: lightgrey;
+  	border: 1px solid grey;
+	border-radius: 0px;
+	color: black;
+	display: inline-block;
+	width: 8em;
+	text-align: center;
+	padding: 2px 10px;	
+}
+.openModal:hover {
+	background-color: BlanchedAlmond;
+	text-decoration: underline;
+}
+ /* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width - graue Abdeckung*/
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 2% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 70%; 
+  word-wrap: break-word;
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+} 
+
+gomap a  {
+		text-decoration: none; /*keine Unterstreichung*/
+		width: 8em;
+		padding: 2px 5px;	
+		font: normal 12px Arial, sans-serif;
+		text-align: center;
+		display: inline-block;
+		border: 1px solid grey;
+		border-radius: 0px;
+		color: black; 
+		background-color: lightgrey;
+		font-weight: normal;}
+gomap a:focus, gomap a:hover, gomap a:active 
+       {text-decoration: underline;
+	    color:darkslategrey;
+		background-color: BlanchedAlmond;}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+/* ================== Tooltip innerhalb <a> </a> */
+a:hover {background:#ffffff; text-decoration:none;}
+a.tooltip span {display:none; padding:2px 5px; margin-left:8px; width:180px;}
+a.tooltip:hover span {display:inline; position:absolute; background:#ffff00; border:1px solid #cccccc; color:#336699;}
+
+
+  /* Style the tab */
+.tab {
+	overflow: hidden;  
+	border: 1px solid #ccc;
+	background-color: ivory;		
+	padding: 0.05em 0.5em 0.05em 0.5em;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+	font: 14px Arial, sans-serif;
+	text-align: center;
+	color: grey; 
+	font-weight: bold;	
+	border-style: inherit;
+	border: 1px solid #ccc;
+	background-color: NavajoWhite;
+	float: left;
+	outline: none;
+	cursor: pointer;
+	padding: 0.3em 16px;
+	transition: 0.25s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: BlanchedAlmond;;
+}
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: BlanchedAlmond;;
+}
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+} 
+ 
+
+
+
+
+
+
+
+
