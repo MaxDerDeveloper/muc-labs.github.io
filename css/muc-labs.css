@@ -1,0 +1,34 @@
+:root {
+	--navbar-height: 56.5px;
+}
+
+main.no-overlap-with-navbar {
+	position: relative;
+	top: var(--navbar-height);
+}
+
+nav {
+	border-bottom: 1px solid lightgrey;
+}
+
+body {
+	background-color: #eeeeee;
+}
+
+
+
+
+
+
+/* Reference: https://stackoverflow.com/a/7419891 */
+div.image-container-dont-resize-navbar {
+	position: relative;
+}
+div.image-container-dont-resize-navbar img {
+	position: absolute;
+}
+
+img.image-centered-vertically {
+	-ms-transform: translate(0%, -50%);
+		transform: translate(0%, -50%);
+}

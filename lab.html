@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>| Muc-Labs</title>
+		
+		
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+		<script type="text/javascript" src="/js/config.js"></script>
+		<link href="/css/muc-labs.css" rel="stylesheet">
+
+		<!-- <script src="/js/jquery.min.js"></script>
+		<link href="/js/bootstrap.min.css" rel="stylesheet">
+		<script src="/js/bootstrap.bundle.min.js"></script> -->
+		
+		<style type="text/css">
+			:root {
+				--lab-container-percentage: 0.9;
+			}
+
+			div#lab-container {
+				display: flex;
+				flex-direction: var(--flex-dir);
+				width: calc(var(--lab-container-percentage) * 100vw);
+				position: relative;
+				left: calc((100vw - var(--lab-container-percentage) * 100vw) * 0.5);
+				height: calc(100vh - var(--navbar-height)); /* fill remaining height of screen */
+
+				margin-top: 10px;
+			}
+
+			div#lab-container * {
+				/* outline: 1px solid red;*/
+			}
+
+			div.left-column, div.right-column {
+				width: 50%;
+			}
+
+			div.left-column {
+				width: 20%;
+			}
+
+			div.right-column {
+				--left-border: 20px;
+				width: calc(70% - var(--left-border));
+				margin-left: var(--left-border);
+				display: flex;
+				flex-direction: column;
+			}
+
+			div.horiz-flex-container {
+				display: flex;
+				flex-direction: row;
+				flex-wrap: wrap;
+			}
+
+			div.flex-item {}
+
+			h1.lab-name {
+				text-decoration: underline;
+				margin-bottom: 0px;
+			}
+
+			div.lab-tag {
+				background-color: #000c66; /*Navy Blau*/
+				padding: 1px 4px 1px 4px;
+				color: white;
+				position: relative;
+				margin-right: 3px;
+				margin-bottom: 2px;
+				border-radius: 7.5px;
+			}
+
+			div.main-lab-tag div.lab-tag {
+				background-color: #333f99;
+				border: 2px solid #7ec8e3;
+				position: relative;
+				top: -2px;
+			}
+
+			hr.separator {
+				margin: 10px 0px 10px 0px;
+			}
+
+			p.lab-adresse {
+				margin-top: 2px;
+				margin-bottom: 0px;
+				margin-right: 10px;
+			}
+
+			div.lab-maps-container {
+				margin-bottom: 0px;
+			}
+
+			div.lab-maps-link-container {
+				margin: 3px;
+			}
+
+			a.lab-maps-link {
+				background-color: #888; /*Navy Blau*/
+				padding: 1px 4px 1px 4px;
+				color: white;
+				position: relative;
+				margin-right: 3px;
+				border-radius: 7.5px;
+				border: 1px solid black;
+			}
+
+			div.lab-tabelle-container {
+				display: flex;
+				flex-direction: var(--flex-dir);
+				flex-wrap: wrap;
+			}
+
+			div.tab-left-column {
+				width: 50%;
+			}
+
+			div.tab-right-column {
+				width: 50%;
+				/* outline: 1px solid black; */
+			}
+
+			div.tab-right-column-spacer {
+				--left-border: 20px;
+				width: calc(50% - var(--left-border));
+				margin-left: var(--left-border);
+			}
+
+			table.lab-tabelle {
+				width: 100%;
+				outline: 1px solid grey;
+			}
+
+			table.lab-tabelle tr:nth-child(even) td:first-child {
+				background-color: #ddd;
+			}
+
+			table.lab-tabelle tr:nth-child(odd) td:last-child {
+				background-color: #ddd;
+			}
+
+			div.slider-container {
+				--margin-percentage: 0.1;
+
+				width: calc(100% * (1 - var(--margin-percentage)));
+				margin-left: calc(100% * var(--margin-percentage) * 0.5);
+			}
+
+			input.zielgruppen-slider  {
+				--slider-height: 10px;
+
+				-webkit-appearance: none;
+				width: 100%;
+				height: var(--slider-height);
+				border-radius: 5px;
+				background: linear-gradient(to left, #264CFF, #3FA0FF, #72D8FF, #AAF7FF, #E0FFFF, #FFFFBF, #FFE099, #FFAD72, #F76D5E, #D82632, #A50021);
+			}
+			.zielgruppen-slider::-webkit-slider-thumb {
+				-webkit-appearance: none;
+				appearance: none;
+				width: 15px;
+				height: 15px;
+				background: grey;
+			}
+
+			.zielgruppen-slider::-moz-range-thumb {
+				width: 15px;
+				height: 15px;
+				background: grey;
+			}
+
+			div.slider-labels {
+				display: flex;
+				justify-content: space-between;
+			}
+
+			@media (max-width: 900px) {
+				:root {
+					--flex-dir: column;
+				}
+
+				div.left-column {
+					width: 100%;
+				}
+				div.right-column {
+					width: 100%;
+				}
+				div.left-column div.carousel-spacer {
+					--carousel-spacer-percentage: 0.4;
+					width: calc(100% * var(--carousel-spacer-percentage));
+					
+					margin-left: calc(50% * (1 - var(--carousel-spacer-percentage)));
+				}
+			}
+			@media (min-width: 900px) {
+				:root {
+					--flex-dir: row;
+				}
+			}
+
+			p.lab-description, div.lab-description-container, div.tab-right-column-spacer {
+				width: 100%;
+			}
+
+			p.carousel-p-tag {
+				text-decoration: underline;
+			}
+		</style>
+
+		<script>
+			function prependToTitle(string) {
+				document.title = string + " | " + document.title;
+			}
+			function initializeCarousel() {
+				$('a#next-btn').click((e) => { $('.carousel').carousel("next"); });
+				$('a#prev-btn').click((e) => { $('.carousel').carousel("prev"); });
+			}
+			function parseUrlQueryString() {
+				// Reference: https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams?retiredLocale=de
+				const query = new URLSearchParams(window.location.search);
+
+				var dictionary = {};
+				for (const [key, value] of query.entries()) {
+					dictionary[key] = value;
+				}
+				return dictionary;
+			}
+			function getLab(query) {
+				if ("lab" in query) {
+					const labname = query["lab"];
+					if (labname in context) {
+						return context[labname];
+					} else {
+						alert("Das Lab '" + labname + "' existiert nicht in der Datenbank. Haben Sie sich vertippt?");
+						window.location.replace("/labs.html");
+					}
+				} else {
+					alert("Es wurde kein Lab in der Url angegeben, bitte hängen Sie ein '?lab=NameDesLabs' an die URL an.");
+					window.location.replace("/labs.html");
+				}
+			}
+			function checkDataValidity(lab) {
+				const muster_lab = context["Muster"];
+				for (const [key, value] of Object.entries(muster_lab)) {
+					if (!(key in lab)) {
+						console.log("Dem Lab '"+lab.name+"' fehlt der Wert '"+key+"' aus dem Muster.", key, value)
+						return false;
+					}
+				}
+				return true
+			}
+			function renderLab(lab) {
+				prependToTitle(lab.name);
+
+				if(!checkDataValidity(lab)) {
+					var msg = "Die Konfiguration für dieses Lab ist fehlerhaft, bitte gleichen Sie es mit dem Muster ab.";
+					alert(msg);
+					throw new Error(msg);
+				}
+				
+				// Insert simple ones.
+				$(".lab-name").html(lab.name);
+				$(".lab-maps-link").attr("href", lab.google_maps_url);
+				$(".lab-adresse").html(lab.adresse);
+				$("div.main-lab-tag div.lab-tag	").html(lab.überthema)
+				$("p.lab-description").html(lab.beschreibung);
+			
+				function renderTags(lab) {
+					var haupt_tags = ""
+					for (var üt of lab.überthema) {
+						haupt_tags += '<div class="flex-item main-lab-tag"><div class="lab-tag">'+üt+'</div></div>';
+					}
+					var tags = "";
+					for (var ut of lab.unterthema) {
+						tags += '<div class="flex-item"><div class="lab-tag">'+ut+'</div></div>';
+					}
+					return haupt_tags+tags;
+				}
+
+				var tags = renderTags(lab)
+				$("div.tag-container").html($(tags));
+
+				function createTableRow(key, value) {
+					return "<tr><td>"+key+"</td><td>"+value+"</td></tr/";
+				}
+
+				function createCarouselSlide(i, img_src) {
+					active_or_not = (i==0) ? "active" : "";
+					return `<div class="carousel-item ${active_or_not}">
+								<img class="d-block w-100" src="${img_src}" alt="${i}. Bild">
+							</div>`;
+				}
+
+				rows = "";
+				for (var key of ["zielgruppe", "altersgruppe", "teilnehmer_anzahl", "schularten", "sprachen", "praktika", "w-seminare", "betreuungspersonal", "außerschulisches_angebot"]) {
+					var value;
+					if (key != "zielgruppe") {
+						value = lab[key];
+					} else {
+						// Ausnahme
+						value = `<div class="slider-container">
+									<input type=range disabled class="zielgruppen-slider" min=1 max=3 value=${lab.zielgruppe}>
+									<div class="slider-labels"><p>Schule</p><p>Freizeit</p></div>
+								</div>`;
+					}
+					rows += createTableRow(interal_to_displayed_mapping[key], value);
+				}
+				$("table.lab-tabelle").html($(rows));
+
+				// FOR DEVELOPMENT
+				lab.images = ["/bilder/welpe1.jpg","/bilder/welpe2.jpg","/bilder/welpe3.jpg"];
+
+				slides = "";
+				lab.images.forEach((img, i) => {
+					slides += createCarouselSlide(i, img);
+				});
+				$("div.carousel-inner").html(slides);
+
+				// Show rendered web page
+				$("main").removeAttr('hidden');
+			}
+
+			function main() {
+				query = parseUrlQueryString();
+				initializeCarousel();
+				const lab = getLab(query);
+				renderLab(lab);
+			}
+			window.onload = main;
+		</script>
+	</head>
+
+	<body>
+		<nav class="navbar bg-body-tertiary fixed-top">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="/">
+					<div class="image-container-dont-resize-navbar">
+						<img src="logo.png" alt="Muclabs Logo" class="image-centered-vertically" width=240 height=52>
+					</div>
+				</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+					<div class="offcanvas-header">
+						<h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+							<!-- Platzhaltertext -->
+						</h5>
+						<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+					</div>
+					<div class="offcanvas-body">
+						<ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+							<li class="nav-item">
+								<a class="nav-link" aria-current="page" href="/">Start</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="/aktuelles.html">Aktuelles</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="/labore.html">Labore</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="/karte.html">Karte</a>
+							</li>
+
+							<hr>
+
+							<li class="nav-item">
+								<a class="nav-link" href="/ueber-uns.html">Über uns</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="/kontakt.html">Kontakt</a>
+							</li>
+							<!-- <li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+									Dropdown
+								</a>
+								<ul class="dropdown-menu">
+									<li><a class="dropdown-item" href="#">Action</a></li>
+									<li><a class="dropdown-item" href="#">Another action</a></li>
+									<li>
+										<hr class="dropdown-divider">
+									</li>
+									<li><a class="dropdown-item" href="#">Something else here</a></li>
+								</ul>
+							</li> -->
+						</ul>
+						<!-- <form class="d-flex mt-3" role="search">
+							<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+							<button class="btn btn-outline-success" type="submit">Search</button>
+						</form> -->
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<main class="no-overlap-with-navbar" hidden>
+			<div id="lab-container">
+				<div class="left-column">
+					<div class="carousel-spacer">
+						<div class="carousel-wrapper" >
+							<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+								<div class="carousel-inner">
+									<!-- <div class="carousel-item active">
+										<img class="d-block w-100" src="/bilder/welpe1.jpg" alt="First slide">
+									</div>
+									<div class="carousel-item">
+										<img class="d-block w-100" src="/bilder/welpe2.jpg" alt="Second slide">
+									</div> -->
+									
+								</div>
+								
+								<a id="prev-btn" class="carousel-control-prev" href="#" role="button" data-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span></a>
+								<a id="next-btn" class="carousel-control-next" href="#" role="button" data-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="right-column">
+					<h1 class="lab-name">...</h1>
+					<hr class="separator">
+
+
+					<div class="lab-maps-container horiz-flex-container">
+						<p class="lab-adresse">...</p>
+						<div class="lab-maps-link-container">
+							<a class="lab-maps-link" href="..." target="_blank">Google Maps</a>
+						</div>
+					</div>
+
+					<hr class="separator">
+
+					<div class="horiz-flex-container tag-container">
+					</div>
+
+
+					<div class="lab-tabelle-container">
+						<div class="tab-left-column">
+							<table class="lab-tabelle">
+							</table>
+						</div>
+
+						<div class="tab-right-column">
+							<div class="tab-right-column-spacer">
+								<div class="lab-description-container">
+									<p class="lab-description">...</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</main>
+	</body>
+</html>
