@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,7 +7,7 @@
 		
 		
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 		<script type="text/javascript" src="/js/config.js"></script>
 		<link href="/css/muc-labs.css" rel="stylesheet">
@@ -19,6 +19,8 @@
 		<style type="text/css">
 			:root {
 				--lab-container-percentage: 0.9;
+				--navbar-height: 55px;
+				--footer-height: 52px;
 			}
 
 			div#lab-container {
@@ -27,7 +29,7 @@
 				width: calc(var(--lab-container-percentage) * 100vw);
 				position: relative;
 				left: calc((100vw - var(--lab-container-percentage) * 100vw) * 0.5);
-				height: calc(100vh - var(--navbar-height)); /* fill remaining height of screen */
+				/* height: calc(100vh - var(--navbar-height) - var(--footer-height) - 50px); /* fill remaining height of screen */*/
 
 				margin-top: 10px;
 			}
@@ -36,17 +38,17 @@
 				/* outline: 1px solid red;*/
 			}
 
-			div.left-column, div.right-column {
+			/*div.left-column, div.right-column {
 				width: 50%;
-			}
+			}*/
 
 			div.left-column {
-				width: 20%;
+				width: 100%;
 			}
 
 			div.right-column {
 				--left-border: 20px;
-				width: calc(70% - var(--left-border));
+				width: calc(100% - var(--left-border));
 				margin-left: var(--left-border);
 				display: flex;
 				flex-direction: column;
@@ -58,6 +60,10 @@
 				flex-wrap: wrap;
 			}
 
+			div.tag-container {
+				margin-bottom: 30px;
+			}
+
 			div.flex-item {}
 
 			h1.lab-name {
@@ -65,21 +71,8 @@
 				margin-bottom: 0px;
 			}
 
-			div.lab-tag {
-				background-color: #000c66; /*Navy Blau*/
-				padding: 1px 4px 1px 4px;
-				color: white;
-				position: relative;
+			span.lab-tag {
 				margin-right: 3px;
-				margin-bottom: 2px;
-				border-radius: 7.5px;
-			}
-
-			div.main-lab-tag div.lab-tag {
-				background-color: #333f99;
-				border: 2px solid #7ec8e3;
-				position: relative;
-				top: -2px;
 			}
 
 			hr.separator {
@@ -100,40 +93,29 @@
 				margin: 3px;
 			}
 
-			a.lab-maps-link {
-				background-color: #888; /*Navy Blau*/
-				padding: 1px 4px 1px 4px;
-				color: white;
-				position: relative;
-				margin-right: 3px;
-				border-radius: 7.5px;
-				border: 1px solid black;
-			}
-
 			div.lab-tabelle-container {
 				display: flex;
-				flex-direction: var(--flex-dir);
+				flex-direction: column;
 				flex-wrap: wrap;
 			}
 
 			div.tab-left-column {
-				width: 50%;
+				width: 100%;
 			}
 
 			div.tab-right-column {
-				width: 50%;
+				width: 100%;
 				/* outline: 1px solid black; */
 			}
 
 			div.tab-right-column-spacer {
-				--left-border: 20px;
-				width: calc(50% - var(--left-border));
-				margin-left: var(--left-border);
+				width: 50%;
 			}
 
 			table.lab-tabelle {
 				width: 100%;
 				outline: 1px solid grey;
+				margin-bottom: 20px;
 			}
 
 			table.lab-tabelle tr:nth-child(even) td:first-child {
@@ -142,6 +124,18 @@
 
 			table.lab-tabelle tr:nth-child(odd) td:last-child {
 				background-color: #ddd;
+			}
+
+			table.lab-tabelle tr td {
+				text-align: center;
+			}
+
+			table.lab-tabelle tr td:first-child {
+				padding-left: 10px;
+			}
+
+			table.lab-tabelle tr td:last-child {
+				padding-right: 10px;
 			}
 
 			div.slider-container {
@@ -179,6 +173,7 @@
 				justify-content: space-between;
 			}
 
+			/* Mobile */
 			@media (max-width: 900px) {
 				:root {
 					--flex-dir: column;
@@ -191,12 +186,22 @@
 					width: 100%;
 				}
 				div.left-column div.carousel-spacer {
-					--carousel-spacer-percentage: 0.4;
+					--carousel-spacer-percentage: 1.0;
 					width: calc(100% * var(--carousel-spacer-percentage));
 					
 					margin-left: calc(50% * (1 - var(--carousel-spacer-percentage)));
 				}
+				div.right-column {
+					--left-border: 0px;
+					position: relative;
+					top: 20px;
+				}
+				div.right-column h1 {
+					text-align: center;
+				}
 			}
+
+			/* PC */
 			@media (min-width: 900px) {
 				:root {
 					--flex-dir: row;
@@ -205,10 +210,40 @@
 
 			p.lab-description, div.lab-description-container, div.tab-right-column-spacer {
 				width: 100%;
-			}
+				}
 
+			p.lab-description {
+				hyphens: auto; 
+				text-align: justify
+			}
+	
 			p.carousel-p-tag {
 				text-decoration: underline;
+			}
+
+			/* Optional styling */
+			summary::-webkit-details-marker {
+				color: blue;
+			}
+			summary:focus {
+				outline-style: none;
+			}
+
+
+			body    { min-height: 100vh; margin:0; }
+
+			nav     { height: var(--navbar-height); }
+			footer  {
+				height: var(--footer-height);
+				position: relative;
+				top: -10px;
+			}
+
+			body    { display:flex; flex-direction:column; }
+			main    {
+				margin-top: 10px;
+				flex:1;
+				margin-bottom: calc(var(--footer-height) + 20px);
 			}
 		</style>
 
@@ -271,19 +306,21 @@
 				$("p.lab-description").html(lab.beschreibung);
 			
 				function renderTags(lab) {
-					var haupt_tags = ""
+					var main_tags = ""
 					for (var üt of lab.überthema) {
-						haupt_tags += '<div class="flex-item main-lab-tag"><div class="lab-tag">'+üt+'</div></div>';
+
+						main_tags += '<span class="lab-tag badge rounded-pill text-bg-primary">'+üt+'</span>';
 					}
-					var tags = "";
+					var side_tags = "";
 					for (var ut of lab.unterthema) {
-						tags += '<div class="flex-item"><div class="lab-tag">'+ut+'</div></div>';
+						side_tags += '<span class="lab-tag badge rounded-pill text-bg-info">'+ut+'</span>';
 					}
-					return haupt_tags+tags;
+					return [main_tags, side_tags];
 				}
 
-				var tags = renderTags(lab)
-				$("div.tag-container").html($(tags));
+				var [main_tags, side_tags] = renderTags(lab)
+				$("div#main-tags").html($(main_tags));
+				$("div#side-tags").html($(side_tags));
 
 				function createTableRow(key, value) {
 					return "<tr><td>"+key+"</td><td>"+value+"</td></tr/";
@@ -292,7 +329,7 @@
 				function createCarouselSlide(i, img_src) {
 					active_or_not = (i==0) ? "active" : "";
 					return `<div class="carousel-item ${active_or_not}">
-								<img class="d-block w-100" src="${img_src}" alt="${i}. Bild">
+								<img class="d-block w-100" src="${img_src}" alt="${i+1}. Bild von '${lab.name}'">
 							</div>`;
 				}
 
@@ -313,7 +350,7 @@
 				$("table.lab-tabelle").html($(rows));
 
 				// FOR DEVELOPMENT
-				lab.images = ["/bilder/welpe1.jpg","/bilder/welpe2.jpg","/bilder/welpe3.jpg"];
+				// lab.images = ["/bilder/welpe1.jpg","/bilder/welpe2.jpg","/bilder/welpe3.jpg"];
 
 				slides = "";
 				lab.images.forEach((img, i) => {
@@ -362,7 +399,7 @@
 								<a class="nav-link" href="/aktuelles.html">Aktuelles</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="/labore.html">Labore</a>
+								<a class="nav-link" href="/labs.html">Labore</a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link" href="/karte.html">Karte</a>
@@ -426,17 +463,21 @@
 					<h1 class="lab-name">...</h1>
 					<hr class="separator">
 
-
 					<div class="lab-maps-container horiz-flex-container">
-						<p class="lab-adresse">...</p>
-						<div class="lab-maps-link-container">
-							<a class="lab-maps-link" href="..." target="_blank">Google Maps</a>
-						</div>
+						<a class="lab-maps-link" href="..." target="_blank"><p class="lab-adresse">...</p></a>
+						<!-- <div class="lab-maps-link-container">
+							Google Maps
+						</div> -->
 					</div>
 
 					<hr class="separator">
 
-					<div class="horiz-flex-container tag-container">
+					<div class="tag-container">
+						<div id="main-tags"></div>
+						<details>
+  							<summary>Mehr</summary>
+  							<div id="side-tags"></div>
+						</details>
 					</div>
 
 
@@ -445,6 +486,7 @@
 							<table class="lab-tabelle">
 							</table>
 						</div>
+
 
 						<div class="tab-right-column">
 							<div class="tab-right-column-spacer">
@@ -458,5 +500,16 @@
 				</div>
 			</div>
 		</main>
+
+
+		<footer>
+			<center><hr style="width: 90%"></center>
+			<div class="horiz-flex-container" style="justify-content: space-evenly;">
+				<a href="/kontakt.html">Kontakt</a>
+				<a href="/impressum.html">Impressum</a>
+				<a href="/zzz_anmeld_intern.php">Mitgliederbereich</a>
+			</div>
+		</footer>
+
 	</body>
 </html>

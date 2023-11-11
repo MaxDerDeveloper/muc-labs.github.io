@@ -12,7 +12,7 @@ nav {
 }
 
 body {
-	background-color: #eeeeee;
+	background-color: #eee;
 }
 
 
@@ -31,4 +31,21 @@ div.image-container-dont-resize-navbar img {
 img.image-centered-vertically {
 	-ms-transform: translate(0%, -50%);
 		transform: translate(0%, -50%);
+}
+
+
+
+/* Überlappungen verhindern */
+body    { min-height: 100vh; margin:0; }
+nav     { height: var(--navbar-height); }
+footer  {
+	height: var(--footer-height);
+	position: relative;
+	top: -10px;
+}
+body    { display:flex; flex-direction:column; }
+main    {
+	margin-top: 10px;
+	flex:1;
+	margin-bottom: calc(var(--footer-height) + 20px);
 }

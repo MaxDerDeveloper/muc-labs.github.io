@@ -65,15 +65,16 @@
 
 		<script type="text/javascript">
 			function renderTags(lab) {
-				var haupt_tags = ""
+				var main_tags = ""
 				for (var üt of lab.überthema) {
-					haupt_tags += '<div class="flex-item main-lab-tag"><div class="lab-tag">'+üt+'</div></div>';
+
+					main_tags += '<span class="lab-tag badge rounded-pill text-bg-primary">'+üt+'</span>';
 				}
-				var tags = "";
+				var side_tags = "";
 				for (var ut of lab.unterthema) {
-					tags += '<div class="flex-item"><div class="lab-tag">'+ut+'</div></div>';
+					side_tags += '<span class="lab-tag badge rounded-pill text-bg-info">'+ut+'</span>';
 				}
-				return haupt_tags + tags;
+				return [main_tags, side_tags];
 			}
 
 			function main() {
@@ -81,14 +82,18 @@
 				for(var [name, lab] of Object.entries(context)) {
 					if (name === "Muster") { continue; }
 
-					tags = renderTags(lab);
+					var [main, side] = renderTags(lab);
 					cards += `
-						<div class="card lab-card" style="width: 18rem;">
+						<div class="card lab-card" style="width: 18rem; position:relative;">
 							<img class="card-img-top" src="${lab.images[0]}" alt="1. Bild von ${lab.name}">
 							<div class="card-body">
 								<h5 class="card-title lab-card-title">${lab.name}</h5>
-								<div class="horiz-flex-container">${tags}</div>
-								<a style="position:relative;bottom:0px;" href="/lab.html?lab=${name}" class="btn btn-primary">Mehr Informationen</a>
+								<div class="horiz-flex-container">${main}</div>
+								<details style="margin-bottom: 30px">
+  									<summary>Mehr</summary>
+  									<div class="horiz-flex-container">${side}</div>
+								</details>
+								<a style="position:absolute;bottom:5px;left:5px;" href="/lab.html?lab=${name}" class="btn btn-secondary">Aufrufen</a>
 							</div>
 						</div>
 					`;
@@ -127,7 +132,7 @@
 								<a class="nav-link" href="/aktuelles.html">Aktuelles</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="/labore.html">Labore</a>
+								<a class="nav-link" href="/labs.html">Labore</a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link" href="/karte.html">Karte</a>
@@ -164,7 +169,7 @@
 			</div>
 		</nav>
 
-		<main class="no-overlap-with-navbar">
+		<main class="no-overlap-with-navbar" style="height: 1500px;">
 
 			<div class="content-container">
 				<h1>Liste aller Labs</h1>

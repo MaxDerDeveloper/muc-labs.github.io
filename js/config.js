@@ -15,10 +15,11 @@ var context  = {
 		"w-seminare":               "-",
 		"betreuungspersonal":       "Ein Informatiker pro Gruppe",
 		"außerschulisches_angebot": "Ausschließlich außerschulisches Angebot",
-		"beschreibung":             "",
+		"beschreibung":             "Die Farning Programmierschule bietet Freizeitkurse für interessierte Kinder und Jugendliche an.",
 		"buchungsadresse":          "aufnahme@farning.de",
 		"öffnungszeiten":           null,
-		"images":                   ["/bilder/welpe1.jpg","/bilder/welpe2.jpg","/bilder/welpe3.jpg"],
+		"images":                   ["/bilder/farning/1.jpg","/bilder/farning/2.jpg","/bilder/farning/3.jpg",
+									"/bilder/farning/4.jpg","/bilder/farning/5.jpg","/bilder/farning/6.jpg","/bilder/farning/7.jpg"],
 	},
 
 	"maxlab": {
@@ -48,7 +49,7 @@ var context  = {
 		"website_url":              "https://www.deutsches-museum.de/museumsinsel/programm/programm-a-z/experimentier-werkstatt",
 		"adresse":                  "Museumsinsel 1, 80538 München",
 		"google_maps_url":          "https://maps.app.goo.gl/58Jdcq3m3PqZXBmk8",
-		"überthema":                ["Abhängig von Workshop"],
+		"überthema":                ["Verschiedenes"],
 		"unterthema":               ["Sensorik", "Optoelektronik", "Akustik", "Elektronik", "Optik"],
 		"zielgruppe":               2,
 		"altersgruppe":             "Abhängig von Workshop",
@@ -174,3 +175,10 @@ interal_to_displayed_mapping= {
 	"betreuungspersonal":       "Betreuungspersonal",
 	"außerschulisches_angebot": "Außerschulisches Angebot",
 }
+
+tags_to_color_mapping = {
+	"Informatik": "grey",
+	"Mathematik": "blue",
+	"Biologie":   "green",
+	"Chemie":     "yellow",
+};
