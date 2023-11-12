@@ -1,0 +1,19 @@
+{
+  "layout": {
+    "header": {
+      "image": {
+        "src": "BILD.png in aktuelles.js ändern",
+        "alt": "Das Bild konnte nicht geladen werden.",
+        "position": "links oben"
+      },
+      "heading": {
+        "text": "UEBERSCHRIFT in aktuelles.js ändern",
+        "size": "2em"
+      },
+      "paragraph": {
+        "text": "INHALT in aktuelles.js ändern",
+        "size": "1em"
+      } 
+    }
+  }
+}
