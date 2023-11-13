@@ -15,7 +15,7 @@ var context  = {
 		"w-seminare":               "-",
 		"betreuungspersonal":       "Ein Informatiker pro Gruppe",
 		"außerschulisches_angebot": "Ausschließlich außerschulisches Angebot",
-		"beschreibung":             "Die Farning Programmierschule bietet Freizeitkurse für interessierte Kinder und Jugendliche an.",
+		"beschreibung":             "Informatik interessierte 8 – 18 Jährige können bei Farning abseits der Schule in 60 – 90 minütigen Kursen von bis zu 8 Personen lernen zu Programmieren. Diese drehen sich um Künstlicher Intelligenz, Webprogrammierung, Spielprogrammierung, machen die Schüler mit mathematischen Grundlagen vertraut und werden in Deutsch sowie Englisch gehalten. Zudem können Schüler eigene Projekte in Gruppen selbstständig umsetzten. Interessenten können ganzjährig ein Probestunde vereinbaren. Bei gegenseitigen Interesse einer langfristigen Teilnahme wird man meist erst auf eine Warteliste gesetzt, bevor man einer Gruppe beitreten kann, welche zu den Vorkenntnissen des Schülers passt. Neben des Aneignens fachlicher Kompetenzen schafft Farning sozialen Ausgleich zwischen Informatik Begeisterten.",
 		"buchungsadresse":          "aufnahme@farning.de",
 		"öffnungszeiten":           null,
 		"images":                   ["/bilder/farning/1.jpg","/bilder/farning/2.jpg","/bilder/farning/3.jpg",
