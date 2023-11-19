@@ -1,5 +1,6 @@
 :root {
-	--navbar-height: 56.5px;
+	--navbar-height: 55px;
+	--footer-height: 52px;
 }
 
 main.no-overlap-with-navbar {
