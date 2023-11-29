@@ -10,6 +10,7 @@ var context  = {
 		"altersgruppe":             "8-18 Jahre",
 		"teilnehmer_anzahl":        "Maximal 8",
 		"schularten":               ["-"],
+		"dauer":                    "999",
 		"sprachen":                 "Deutsch, Englisch",
 		"praktika":                 ["Schülerpraktika"],
 		"w-seminare":               "-",
@@ -30,6 +31,7 @@ var context  = {
 		"überthema":                ["Biologie"],
 		"unterthema":               ["Molekularbiologie", "Proteinchemie", "Neurobiologie", "Ornithologie", "Biochemie", "Medizin"],
 		"zielgruppe":               2,
+		"dauer":                    "999"
 		"altersgruppe":             "Uneingeschränkt",
 		"teilnehmer_anzahl":        "Maximal 20 Personen",
 		"schularten":               ["Gymnasium", "Realschule"],
