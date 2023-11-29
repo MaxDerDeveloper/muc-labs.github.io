@@ -54,7 +54,7 @@ var context  = {
 		"zielgruppe":               2,
 		"altersgruppe":             "Abhängig von Workshop",
 		"teilnehmer_anzahl":        "Maximal 16",
-		"zielgruppe":               "60 oder 75 Minuten",
+		"dauer":                    "60 oder 75 Minuten",
 		"schularten":               "Abhängig von Workshop",
 		"sprachen":                 "Deutsch<br>Englisch (20€)<br>Französisch (20€)",
 		"praktika":                 "Möglich auf Anfrage",
@@ -77,8 +77,8 @@ var context  = {
 		"zielgruppe":               1,
 		"altersgruppe":             "10.- 12. Klasse<br>Grundlegende Kenntnisse zu Physik und Licht werden vorausgesetzt.",
 		"teilnehmer_anzahl":        "15",
-		"zielgruppe":               "Vormittag",
-		"schularten":               "Gym, FOS, BOS",
+		"dauer":                    "Vormittag",
+		"schularten":               ["Gym", "FOS", "BOS"],
 		"sprachen":                 "Deutsch",
 		"praktika":                 "Ja",
 		"w-seminare":               "Ja",
@@ -97,7 +97,7 @@ var context  = {
 		"google_maps_url":          "https://maps.app.goo.gl/U1rw9Ak8rmkQPpph6",
 		"überthema":                ["Astrophysik"],
 		"unterthema":               ["Sterne", "Palneten", "Teleskope"],
-		"zielgruppe":               "Kinder und Jugendliche mit Interesse am Weltall, Vorkenntnisse nicht nötig",
+		"dauer":                    "#########################################",
 		"altersgruppe":             "4-18 Jahre (je nach Workshop)",
 		"teilnehmer_anzahl":        "Schulklasse (Maximal 30 Schüler)",
 		"zielgruppe":               2, /* ? selbst eingefügt */
@@ -123,7 +123,7 @@ var context  = {
 		"zielgruppe":               "1 (abgesehen von Feroenworkshops)",
 		"altersgruppe":             "12 Jahre - Abitur, vor allem Schüler der Mittel- und Oberstufe an Gymnasien",
 		"teilnehmer_anzahl":        "ca 15, max 25",
-		"zielgruppe":               "abhängig vom Workshop, meistens mehrere Vormittage",
+		"dauer":                    "abhängig vom Workshop, meistens mehrere Vormittage",
 		"schularten":               "Vor allem Gymnasium, auch Real- oder Mittelschule",
 		"sprachen":                 "Deutsch, Englisch",
 		"praktika":                 "Nein (zumindest nicht beim Schülerlabor)",
@@ -146,7 +146,7 @@ var context  = {
 		"zielgruppe":               1,
 		"altersgruppe":             "Uneingeschränkt",
 		"teilnehmer_anzahl":        "Maximal 30",
-		"zielgruppe":               "2 Stunden",
+		"dauer":                    "2 Stunden",
 		"schularten":               "Uneingeschränkt",
 		"sprachen":                 ["Deutsch"],
 		"praktika":                 "Nein",
@@ -169,7 +169,7 @@ var context  = {
 		"zielgruppe":               1,
 		"altersgruppe":             "Schüler",
 		"teilnehmer_anzahl":        "Eine Schulklasse bis 50 je nach Workshop",
-		"zielgruppe":               "Schüler", // Keine Ahnung was hier reinkommt
+		"dauer":                    "################################", // Keine Ahnung was hier reinkommt
 		"schularten":               "Uneingeschränkt",
 		"sprachen":                 ["Deutsch"],
 		"praktika":                 "Nein",
@@ -192,7 +192,7 @@ var context  = {
 		"zielgruppe":               2,
 		"altersgruppe":             "Uneingeschränkt",
 		"teilnehmer_anzahl":        "Eine Klasse",
-		"zielgruppe":               "Alle", // Keine Ahnung was hier reinkommt
+		"dauer":                    "#############################", // Keine Ahnung was hier reinkommt
 		"schularten":               "Uneingeschränkt",
 		"sprachen":                 ["Deutsch"],
 		"praktika":                 "Ja",
@@ -215,7 +215,7 @@ var context  = {
 		"zielgruppe":               1,
 		"altersgruppe":             "Oberstufe",
 		"teilnehmer_anzahl":        "maximal 24",
-		"zielgruppe":               "Oberstufe", // Keine Ahnung was hier reinkommt
+		"dauer":                    "################################", // Keine Ahnung was hier reinkommt
 		"schularten":               "Gymnasium",
 		"sprachen":                 ["Deutsch"],
 		"praktika":                 "Nein",
@@ -242,7 +242,7 @@ var context  = {
 		"zielgruppe":               0,
 		"altersgruppe":             "",
 		"teilnehmer_anzahl":        "",
-		"zielgruppe":               "",
+		"dauer":                    "",
 		"schularten":               [""],
 		"sprachen":                 [""],
 		"praktika":                 [""],
