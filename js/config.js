@@ -42,7 +42,7 @@ var context  = {
 		"beschreibung":             "Das Angebot des Maxlabs richtet sich primär an Schülergruppen aus der Oberstufe. Die Kurse sind kostenfrei und bieten den Teilnehmern die Möglichkeit, sich in verschiedenen Teilgebieten der Biologie zu vertiefen und praktische Erfahrungen zu sammeln. Zu einem festen Termin können Schüler einmal jährlich ein Schülerpraktikum absolvieren. Zusätzlich können Schüler online ein PCR Escape Game, in dem sie zur Abwendung einer Katastrophe Rätsel lösen müssen, absolvieren.<br>Darüber hinaus besteht die Möglichkeit, an virtuellen Unterrichtsstunden zu den Themen 'Faszination Gehirn' und 'Vom genetischen Code zum Proteom' teilzunehmen. Die virtuellen Öffnungszeiten sind flexibel, wobei die regulären Termine mittwochs und donnerstags liegen. Diese bieten Schülern die Gelegenheit, sich in unterschiedlichen biologischen Disziplinen weiterzubilden und ihre Interessen zu vertiefen.",
 		"buchungsadresse":          "ina.peters@bi.mpg.de",
 		"öffnungszeiten":           null,
-		"images":                   ["/bilder/welpe1.jpg","/bilder/welpe2.jpg","/bilder/welpe3.jpg"],
+		"images":                   ["/bilder/welpe1.jpg"],
 	},
 
 	"experimentier-werkstatt": {
@@ -65,7 +65,7 @@ var context  = {
 		"beschreibung":             "Die Experimentier-Werkstatt im Deutschen Museum präsentiert eine umfangreiche Auswahl an Workshops für Schüler verschiedener Altersgruppen, die unterschiedliche Bereiche der MINT-Fächer abdecken.<br>Im 75-minütigen 'Sensor Lab' tauchen Schüler der Klassenstufen 8-12 in das Teilgebiet der Sensorik ein. Für Schüler der Klassenstufen 7-10 bietet der Workshop 'Licht mach Musik' in 75 Minuten einen Einblick in die Optoelektronik. Der 60 Minuten lange Workshop 'Hört! Hört!' fokussiert sich auf das Teilgebiet der Akustik und ist für Schüler der Klassen 4-10 zugänglich. Im Bereich Elektronik ermöglicht der 60-minütige Workshop 'Strom ab!' Schülern der Klassen 3-7 praktische Erfahrungen. Schüler der Klassenstufen 4-12 können am Workshop 'Malen mit Licht' für 60 Minuten teilnehmen, der das Teilgebiet der Optik abdeckt. Für Schüler der Klassen 6-8 steht der 75-minütige Online-Workshop 'Sensorik' zur Verfügung.<br>Die Kosten der Workshops in Euro entsprechen der jeweiligen Workshopdauer in Minuten. Die Öffnungszeiten sind prinzipiell montags bis freitags vormittags, jedoch sind individuelle Abweichungen möglich und können durch Anfragen geklärt werden. Die Experimentier-Werkstatt verfolgt das Ziel, die Neugier für MINT-Fächer zu wecken und zu fördern. Durch verblüffende Experimente sollen Kinder und Jugendliche fasziniert werden. Das Schülerlabor trägt zur Nachwuchsförderung im MINT-Bereich bei und unterstützt die allgemeine Technik- und Wissenschaftsmündigkeit.",
 		"buchungsadresse":          "https://www.deutsches-museum.de/museumsinsel/programm/programm-a-z/experimentier-werkstatt",
 		"öffnungszeiten":           null,
-		"images":                   ["/bilder/welpe1.jpg","/bilder/welpe2.jpg","/bilder/welpe3.jpg"],
+		"images":                   ["/bilder/welpe1.jpg"],
 	},
 
 	"photonlab": {
@@ -88,7 +88,7 @@ var context  = {
 		"beschreibung":             "Das Ziel ist es auch Laien das Thema Licht und Laser näherzubringen, wie Laser funktionieren und wie sie aufgebaut sind. Außerdem wird das Thema Quantenphysik in Ansätzen erklärt, auf Nach-/Anfrage wird auch mehr zu dem Thema erklärt. Der Besuch beginnt mit einem Einführungsvortrag, anschließend darf man 20 spannende Experimente mit Lasern machen mit Einleitungen am IPad, zum Beispiel einen echten Doppelspalt oder Musikübertragung per Laser.  Man bekommt auch die Möglichkeit durch eine Glaswand in das Labor für Attosekundenphysik reinzugucken",
 		"buchungsadresse":          "+49 89 3 29 05 - 197 Dr. Silke Stähler Schöpf, war zu dumm die Email zu entziffern https://www.mpq.mpg.de/person/34870/6533024",
 		"öffnungszeiten":           "Mo-Fr 8-16 Uhr",
-		"images":                   ["/bilder/welpe1.jpg","/bilder/welpe2.jpg","/bilder/welpe3.jpg"],
+		"images":                   ["/bilder/welpe1.jpg"],
 	},
 
 	"eso-supernova": {
@@ -111,13 +111,13 @@ var context  = {
 		"beschreibung":             "Das ESO bietet 6 Workshops an, die die Erforschung des Weltalls näherbringen sollen. Das Ziel ist die Sensibilisierung auf Naturwissenschaften, deswegen, bieten sie Workshops und Weiterildungen für Kinder und Erwachsene an. Dabei werden die Grundlagen der Optik mit alltäglichen Gegenständen erklärt und in einen astronomischen Kontext gebracht.",
 		"buchungsadresse":          "https://supernova.eso.org/germany/visit/",
 		"öffnungszeiten":           "Mi-Fr 9-12 & Sa,So 12-17",
-		"images":                   ["/bilder/welpe1.jpg","/bilder/welpe2.jpg","/bilder/welpe3.jpg"],
+		"images":                   ["/bilder/welpe1.jpg"],
 	},
 
 	"e-conversion": {
 		"name":                     "Exzellenz-Cluster e-conversion", /* ? */
 		"website_url":              "https://www.e-conversion.de/school-program/",
-		"adresse":                  "Lichtenbergstraße 4a, 85748 Garching ; ausweichend Boltzmannstraße 15, 85748 Garching",
+		"adresse":                  "Lichtenbergstraße 4a, 85748 Garching; ausweichend Boltzmannstraße 15, 85748 Garching",
 		"google_maps_url":          "https://maps.app.goo.gl/QyxcuJGySfV18nNe8",
 		"überthema":                ["Physik", "Chemie", "Biologie"],
 		"unterthema":               ["Energieforschung", "Energieumwandlung", "Klimawandel", "Klimawandel", "erneuerbare Energien", "Batterien", "Thermodynamik", "Photosynthese"],
@@ -134,7 +134,7 @@ var context  = {
 		"beschreibung":             "Das Exzellenz-Cluster e-conversion richtet sich an Schulklassen, die in Garching einen Workshop machen wollen, um den Blick zu erweitern, für MINT Fächer zu begeistern und die Art und Weise wissenschaftlicher Forschung zu sehen.",
 		"buchungsadresse":          "silke.mayerl@e-conversion.de",
 		"öffnungszeiten":           "werktags vormittags",
-		"images":                   ["/bilder/welpe1.jpg","/bilder/welpe2.jpg","/bilder/welpe3.jpg"],
+		"images":                   ["/bilder/welpe1.jpg"],
 	},
 
 	"ix-quadrat": {
@@ -157,7 +157,7 @@ var context  = {
 		"beschreibung":             "Die Mitmach-Ausstellung ix-quadrat öffnet die faszinierende Welt der Mathematik für Menschen jeden Alters und unabhängig von ihrem Vorwissen. Hier wird Mathematik erlebbar und begreifbar gemacht. Für Schulklassen bis zu 30 Personen wird die Möglichkeit geboten, sich für einen etwa 2-stündigen Besuch anzumelden. Schüler können in die interaktiven Ausstellungsbereiche eintauchen, Symmetrie entdecken, in die Welt der Zahlen greifen und die Perspektiven des Grafikers und Künstlers M. C. Escher erforschen. Einzelpersonen können zu den Öffnungszeiten die Ausstellung unangemeldet besuchen.",
 		"buchungsadresse":          "ix-quadrat@ma.tum.de ",
 		"öffnungszeiten":           "Eigenen Website",
-		"images":                   [],
+		"images":                   ["/bilder/welpe1.jpg"],
 	},
 
 	"SWM Bildungsangebote": {
@@ -166,7 +166,7 @@ var context  = {
 		"adresse":                  "Emmy-Noether-Straße 2, 80992 München", // Da es verschidenen Standorte gitb ist das die Adresse vom "SWM Service für schulen"
 		"google_maps_url":          "https://maps.app.goo.gl/GZuET8MmjMwvQMq57", // Das gleiche hier
 		"überthema":                ["Physik"],
-		"unterthema":               ["Energie-/Trinkwassergewinnung, Öffentlicher Verkehr"],
+		"unterthema":               ["Energiegewinnung", "Trinkwassergewinnung", "Öffentlicher Verkehr"],
 		"zielgruppe":               1,
 		"altersgruppe":             "Schüler",
 		"teilnehmer_anzahl":        "Eine Schulklasse bis 50 je nach Workshop",
@@ -180,7 +180,7 @@ var context  = {
 		"beschreibung":             "Die SWM Bildungsangebote erstrecken sich über eine Vielfalt an Themenbereichen, von Energiegewinnung über Trinkwassergewinnung, bis hin zu der Funktion der öffentlichen Verkehrsmitteln in München. Es besteht die Möglichekeit, Energiekraftwerke zu besuchen, oder Kurse zum richtigen Busfahren zu buchen.",
 		"buchungsadresse":          "Per Formular auf der Website: https://www.swm.de/schule/besichtigungen-veranstaltungen/anmeldung-neu oder terilweise schulkontakt@swm.de",
 		"öffnungszeiten":           "Variabel",
-		"images":                   [],
+		"images":                   ["/bilder/welpe1.jpg"],
 	},
 
 	"FabLab": {
@@ -203,7 +203,7 @@ var context  = {
 		"beschreibung":             "Das FabLab ist eine Werkstatt, die auch für Schulklassen einführungen in das Handwerkliche Arbeiten anbietet. Neben den schon angesprochenen Workshops für Schulen besteht auch die Möglichkeit gegen einen Mitgliedsbeitrag die umfangreich ausgestatte Werkstatt auch alleine zu nutzen.",
 		"buchungsadresse":          "birgit@fablab-muenchen.de",
 		"öffnungszeiten":           "Schullab Montag & Freitag Vormittag, Werkstatt immer",
-		"images":                   [],
+		"images":                   ["/bilder/welpe1.jpg"],
 	},
 
 	"Genetik macht Schule": {
@@ -226,7 +226,7 @@ var context  = {
 		"beschreibung":             "Genetik macht Schule vereint die Interessen von Schülern und Studierenden, - erstere kriegen eine spannede Unterichtsstunde mit anschliessendem praktischen Teil, letztere hingegen können Erfahrungen im Schüler unterichten sammeln. Die dem prakzischen Teil vorangehende Unterichsstunde wird von einem Studierenden vor, auf welches eine Woche später ein Experiment folgt welches das gelernte nochmal festigt.",
 		"buchungsadresse":          "brachman@lmu.de",
 		"öffnungszeiten":           "Siehe Website",
-		"images":                   [],
+		"images":                   ["/bilder/welpe1.jpg"],
 	},
 
 	/*
@@ -270,8 +270,11 @@ interal_to_displayed_mapping= {
 }
 
 tags_to_color_mapping = {
-	"Informatik": "grey",
-	"Mathematik": "blue",
-	"Biologie":   "green",
-	"Chemie":     "yellow",
+	"Informatik":  "black",
+	"Mathematik":  "blue",
+	"Biologie":    "green",
+	"Chemie":      "yellow",
+	"Astrophysik": "#000435"
+	
+	/* Ggf. Ergänzen */
 };

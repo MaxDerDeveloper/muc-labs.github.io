@@ -49,17 +49,9 @@
 				background-color: #000c66; /*Navy Blau*/
 				padding: 1px 4px 1px 4px;
 				color: white;
-				position: relative;
 				margin-right: 3px;
 				margin-bottom: 2px;
 				border-radius: 7.5px;
-			}
-
-			div.main-lab-tag div.lab-tag {
-				background-color: #333f99;
-				border: 2px solid #7ec8e3;
-				position: relative;
-				top: -2px;
 			}
 		</style>
 
@@ -68,7 +60,10 @@
 				var main_tags = ""
 				for (var üt of lab.überthema) {
 
-					main_tags += '<span class="lab-tag badge rounded-pill text-bg-primary">'+üt+'</span>';
+					var default_bg_color = "rgb(13,110,253)";
+					var text_style = "color: white; mix-blend-mode: difference;"
+					var style = 'style="color:#333; background-color:'+ (tags_to_color_mapping[üt] || default_bg_color)+';"';
+					main_tags += '<span class="lab-tag badge rounded-pill"'+style+'><span style="'+text_style+'">'+üt+'</span></span>';
 				}
 				var side_tags = "";
 				for (var ut of lab.unterthema) {
@@ -84,7 +79,7 @@
 
 					var [main, side] = renderTags(lab);
 					cards += `
-						<a href="/lab.html?lab=${name}">
+						<a href="/lab.html?lab=${name}" style="text-decoration:none; color:black;">
 							<div class="card lab-card" style="width: 18rem; position:relative;">
 								<img class="card-img-top" src="${lab.images[0]}" alt="1. Bild von ${lab.name}">
 								<div class="card-body">
