@@ -229,6 +229,28 @@ var context  = {
 		"images":                   ["/bilder/welpe1.jpg"],
 	},
 
+	"MINT Campus Dachau": {
+		"name":                     "MINT-Campus Dachau",
+		"website_url":              "https://www.mintcampus-dachau.de",
+		"adresse":                  "Steinstraße 3, 85211 Dachau",
+		"google_maps_url":          "maps.app.goo.gl/bLgVA6RBe87PLq196",
+		"überthema":                ["Programmieren", "Handwerk", "Technik"],
+		"unterthema":               ["Arduino", "EV3", "Calliope", "3D-Druck", "Löten", "Holzwerkstatt"],
+		"zielgruppe":               5,
+		"altersgruppe":             "ab Klasse 3, eingige ab Klasse 5 oder 7",
+		"teilnehmer_anzahl":        "12",
+		"dauer":                    "2-3 Stunden",
+		"schularten":               ["alle"],
+		"sprachen":                 ["Deutsch"],
+		"praktika":                 ["unbekannt"],
+		"w-seminare":               "unbekannt",
+		"betreuungspersonal":       "unbekannt",
+		"außerschulisches_angebot": "verschieden Clubs zu den verschiedenen Themen",
+		"beschreibung":             "Der MINT-Campus Dachau ist eine wissenschaftliche Erfahrungswelt für Kinder und Jugendliche, die das Interesse an den MINT-Fächern fördert. Mit einer Vielzahl von Aktivitäten und Workshops bietet der Campus praktische Experimente, Projekte und Teamarbeit, um Kreativität und Innovationsgeist zu stärken. Durch spielerisches Lernen werden die Teilnehmer in den Bereichen Mathematik, Informatik, Naturwissenschaften und Technik unterstützt und ermutigt.",
+		"buchungsadresse":          "",
+		"images":                   [],
+	},
+
 	/*
 	  Die Attribute in diesem Muster dienen der Überprüfung der Datenvollständigkeit bei allen anderen Labs.
 	  Bitte möglichst beibehalten und wenn nötig übergreifend ändern.
