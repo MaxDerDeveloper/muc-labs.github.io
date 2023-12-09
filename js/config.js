@@ -6,7 +6,7 @@ var context  = {
 		"google_maps_url":          "https://maps.app.goo.gl/UbLxghaJKeeeyiFc7",
 		"überthema":                ["Informatik"],
 		"unterthema":               ["KI", "Programmieren", "Web-Entwicklung", "Spiele-Entwicklung", "Technische Informatik"],
-		"zielgruppe":               3,
+		"zielgruppe":               10,
 		"altersgruppe":             "8-18 Jahre",
 		"teilnehmer_anzahl":        "Maximal 8",
 		"schularten":               ["Uneingeschränkt"],
@@ -18,18 +18,29 @@ var context  = {
 		"außerschulisches_angebot": "Ausschließlich außerschulisches Angebot",
 		"beschreibung":             "Informatikinteressierte können bei Farning abseits der Schule in Kursen lernen, zu programmieren und dabei werden ihnen die dazu notwendigen mathematische Grundlagen vermittelt. Zudem können die Schüler eigene Projekte in Gruppen selbstständig umsetzen. Interessenten können ganzjährig eine Probestunde vereinbaren. Bei beidseitigem Interesse an einer langfristigen Teilnahme wird man in der Regel erst auf eine Warteliste gesetzt, bevor man einer Gruppe beitreten kann, die zu den Vorkenntnissen des Schülers passt. Neben dem Erlangen fachlicher Kompetenzen schafft Farning sozialen Ausgleich zwischen Informatikbegeisterten.",
 		"buchungsadresse":          "aufnahme@farning.de",
-		"öffnungszeiten":           null,
+		"öffnungszeiten":           "Während den Schulferien eher Vormittags",
 		"images":                   ["/bilder/farning/1.png","/bilder/farning/2.png"],
+		
+		"öffnungszeiten":           {
+			"Mo": "14:00 - 20:30",
+			"Di": "14:00 - 20:30",
+			"Mi": "14:00 - 20:30",
+			"Do": "14:00 - 20:30",
+			"Fr": "14:00 - 20:30",
+			"Sa": "08:30 - 18:00",
+			"So": "10:00 - 18:00",
+		},
+		"bildquellen": "Eigenaufnahme"
 	},
 
 	"maxlab": {
 		"name":                     "Max Lab",
 		"website_url":              "https://www.bi.mpg.de/maxlab",
 		"adresse":                  "Am Klopferspitz 18, 82152 Planegg-Martinsried",
-		"google_maps_url":          "https://maps.app.goo.gl/yiFJDpRHufFwvw8W9",
+		"google_maps_url":          "https://maps.app.goo.gl/b1kWinBKQJzZu5gW7",
 		"überthema":                ["Biologie"],
 		"unterthema":               ["Molekularbiologie", "Proteinchemie", "Neurobiologie", "Ornithologie", "Biochemie", "Medizin"],
-		"zielgruppe":               2,
+		"zielgruppe":               3,
 		"dauer":                    "5-6 Stunden",
 		"altersgruppe":             "Uneingeschränkt",
 		"teilnehmer_anzahl":        "Maximal 20 Personen",
@@ -41,8 +52,19 @@ var context  = {
 		"außerschulisches_angebot": "Online Escape Room Spiel, Kurse in den Sommerferien, Virtuelle Schulstunden",
 		"beschreibung":             "Das Angebot des Maxlabs richtet sich primär an Schülergruppen aus der Oberstufe. Die Kurse sind kostenfrei und bieten den Teilnehmern die Möglichkeit, sich in verschiedenen Teilgebieten der Biologie zu vertiefen und praktische Erfahrungen zu sammeln. Zu einem festen Termin können Schüler einmal jährlich ein Schülerpraktikum absolvieren. Zusätzlich können Schüler online ein PCR Escape Game, in dem sie zur Abwendung einer Katastrophe Rätsel lösen müssen, absolvieren.<br>Darüber hinaus besteht die Möglichkeit, an virtuellen Unterrichtsstunden zu den Themen 'Faszination Gehirn' und 'Vom genetischen Code zum Proteom' teilzunehmen. Die virtuellen Öffnungszeiten sind flexibel, wobei die regulären Termine mittwochs und donnerstags liegen. Diese bieten Schülern die Gelegenheit, sich in unterschiedlichen biologischen Disziplinen weiterzubilden und ihre Interessen zu vertiefen.",
 		"buchungsadresse":          "ina.peters@bi.mpg.de",
-		"öffnungszeiten":           null,
+		"öffnungszeiten":           "Auf Anfrage sind auch Abweichungen mögliche. Virtuelle Schulstunden sind prinzipiell flexibler.",
 		"images":                   ["/bilder/welpe1.jpg"],
+
+		"öffnungszeiten":           {
+			"Mo": "-",
+			"Di": "-",
+			"Mi": "Anfrage",
+			"Do": "Anfrage",
+			"Fr": "-",
+			"Sa": "-",
+			"So": "-",
+		},
+		"bildquellen": "MaxLab"
 	},
 
 	"experimentier-werkstatt": {
@@ -52,7 +74,7 @@ var context  = {
 		"google_maps_url":          "https://maps.app.goo.gl/58Jdcq3m3PqZXBmk8",
 		"überthema":                ["Verschiedenes"],
 		"unterthema":               ["Sensorik", "Optoelektronik", "Akustik", "Elektronik", "Optik"],
-		"zielgruppe":               2,
+		"zielgruppe":               5,
 		"altersgruppe":             "Abhängig von Workshop",
 		"teilnehmer_anzahl":        "Maximal 16",
 		"dauer":                    "60 oder 75 Minuten",
@@ -64,8 +86,18 @@ var context  = {
 		"außerschulisches_angebot": "Für Museumsbesucher",
 		"beschreibung":             "Die Experimentier-Werkstatt im Deutschen Museum präsentiert eine umfangreiche Auswahl an Workshops für Schüler verschiedener Altersgruppen, die unterschiedliche Bereiche der MINT-Fächer abdecken.<br>Im 75-minütigen 'Sensor Lab' tauchen Schüler der Klassenstufen 8-12 in das Teilgebiet der Sensorik ein. Für Schüler der Klassenstufen 7-10 bietet der Workshop 'Licht mach Musik' in 75 Minuten einen Einblick in die Optoelektronik. Der 60 Minuten lange Workshop 'Hört! Hört!' fokussiert sich auf das Teilgebiet der Akustik und ist für Schüler der Klassen 4-10 zugänglich. Im Bereich Elektronik ermöglicht der 60-minütige Workshop 'Strom ab!' Schülern der Klassen 3-7 praktische Erfahrungen. Schüler der Klassenstufen 4-12 können am Workshop 'Malen mit Licht' für 60 Minuten teilnehmen, der das Teilgebiet der Optik abdeckt. Für Schüler der Klassen 6-8 steht der 75-minütige Online-Workshop 'Sensorik' zur Verfügung.<br>Die Kosten der Workshops in Euro entsprechen der jeweiligen Workshopdauer in Minuten. Die Öffnungszeiten sind prinzipiell montags bis freitags vormittags, jedoch sind individuelle Abweichungen möglich und können durch Anfragen geklärt werden. Die Experimentier-Werkstatt verfolgt das Ziel, die Neugier für MINT-Fächer zu wecken und zu fördern. Durch verblüffende Experimente sollen Kinder und Jugendliche fasziniert werden. Das Schülerlabor trägt zur Nachwuchsförderung im MINT-Bereich bei und unterstützt die allgemeine Technik- und Wissenschaftsmündigkeit.",
 		"buchungsadresse":          "https://www.deutsches-museum.de/museumsinsel/programm/programm-a-z/experimentier-werkstatt",
-		"öffnungszeiten":           null,
+		"öffnungszeiten":           "Auf Anfrage könne Termine variable gelegt werden.",
 		"images":                   ["/bilder/welpe1.jpg"],
+		"öffnungszeiten":           {
+			"Mo": "Vormittags",
+			"Di": "Vormittags",
+			"Mi": "Vormittags",
+			"Do": "Vormittags",
+			"Fr": "Vormittags",
+			"Sa": "-",
+			"So": "-",
+		},
+		"bildquellen": "Deutsches Museum"
 	},
 
 	"photonlab": {
@@ -144,7 +176,7 @@ var context  = {
 		"google_maps_url":          "https://maps.app.goo.gl/ZoaVEZ9SdieEXwZcA",
 		"überthema":                ["Mathematik"],
 		"unterthema":               ["Symmetrie"],
-		"zielgruppe":               1,
+		"zielgruppe":               4,
 		"altersgruppe":             "Uneingeschränkt",
 		"teilnehmer_anzahl":        "Maximal 30",
 		"dauer":                    "2 Stunden",
@@ -156,8 +188,18 @@ var context  = {
 		"außerschulisches_angebot": "Besuch Einzelpersonen",
 		"beschreibung":             "Die Mitmach-Ausstellung ix-quadrat öffnet die faszinierende Welt der Mathematik für Menschen jeden Alters und unabhängig von ihrem Vorwissen. Hier wird Mathematik erlebbar und begreifbar gemacht. Für Schulklassen bis zu 30 Personen wird die Möglichkeit geboten, sich für einen etwa 2-stündigen Besuch anzumelden. Schüler können in die interaktiven Ausstellungsbereiche eintauchen, Symmetrie entdecken, in die Welt der Zahlen greifen und die Perspektiven des Grafikers und Künstlers M. C. Escher erforschen. Einzelpersonen können zu den Öffnungszeiten die Ausstellung unangemeldet besuchen.",
 		"buchungsadresse":          "ix-quadrat@ma.tum.de ",
-		"öffnungszeiten":           "Eigenen Website",
+		"öffnungszeiten":           "Sehr variable - eigenen Website",
 		"images":                   ["/bilder/welpe1.jpg"],
+		"öffnungszeiten":           {
+			"Mo": "-",
+			"Di": "-",
+			"Mi": "-",
+			"Do": "-",
+			"Fr": "-",
+			"Sa": "-",
+			"So": "-",
+		},
+		"bildquellen": "ix-quadrat"
 	},
 
 	"SWM Bildungsangebote": {
