@@ -283,7 +283,10 @@
 					var main_tags = ""
 					for (var üt of lab.überthema) {
 
-						main_tags += '<span class="lab-tag badge rounded-pill text-bg-primary">'+üt+'</span>';
+						var default_bg_color = "rgb(13,110,253)";
+						var text_style = "color: white; mix-blend-mode: difference;"
+						var style = 'style="color:#333; background-color:'+ (tags_to_color_mapping[üt] || default_bg_color)+';"';
+						main_tags += '<span class="lab-tag badge rounded-pill"'+style+'><span style="'+text_style+'">'+üt+'</span></span>';
 					}
 					var side_tags = "";
 					for (var ut of lab.unterthema) {
