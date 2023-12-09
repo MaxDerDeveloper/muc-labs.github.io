@@ -50,3 +50,17 @@ main    {
 	flex:1;
 	margin-bottom: calc(var(--footer-height) + 20px);
 }
+
+div.horiz-flex-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+
+a.link-symbol {
+  background: url("/bilder/externer_link.png") no-repeat 100% 0;
+/*  background-color: var(-moz-hyperlinktext);*/
+  background-size: 16px 16px;
+  padding-right: 19px;
+}

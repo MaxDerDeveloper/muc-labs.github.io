@@ -52,12 +52,6 @@
 				flex-direction: column;
 			}
 
-			div.horiz-flex-container {
-				display: flex;
-				flex-direction: row;
-				flex-wrap: wrap;
-			}
-
 			div.tag-container {
 				margin-bottom: 30px;
 			}
@@ -80,7 +74,6 @@
 			p.lab-adresse {
 				margin-top: 2px;
 				margin-bottom: 0px;
-				margin-right: 10px;
 			}
 
 			div.lab-maps-container {
@@ -225,23 +218,6 @@
 			}
 			summary:focus {
 				outline-style: none;
-			}
-
-
-			body    { min-height: 100vh; margin:0; }
-
-			nav     { height: var(--navbar-height); }
-			footer  {
-				height: var(--footer-height);
-				position: relative;
-				top: -10px;
-			}
-
-			body    { display:flex; flex-direction:column; }
-			main    {
-				margin-top: 10px;
-				flex:1;
-				margin-bottom: calc(var(--footer-height) + 20px);
 			}
 		</style>
 
@@ -462,7 +438,7 @@
 					<hr class="separator">
 
 					<div class="lab-maps-container horiz-flex-container">
-						<a class="lab-maps-link" href="..." target="_blank"><p class="lab-adresse">...</p></a>
+						<a class="lab-maps-link link-symbol" href="..." target="_blank"><p class="lab-adresse">...</p></a>
 						<!-- <div class="lab-maps-link-container">
 							Google Maps
 						</div> -->
@@ -503,11 +479,10 @@
 		<footer>
 			<center><hr style="width: 90%"></center>
 			<div class="horiz-flex-container" style="justify-content: space-evenly;">
-				<a href="/kontakt.html">Kontakt</a>
-				<a href="/impressum.html">Impressum</a>
-				<a href="/zzz_anmeld_intern.php">Mitgliederbereich</a>
+				<a class="link-symbol" href="/kontakt.html">Kontakt</a>
+				<a class="link-symbol" href="/impressum.html">Impressum</a>
+				<a class="link-symbol" href="/zzz_anmeld_intern.php">Mitgliederbereich</a>
 			</div>
 		</footer>
-
 	</body>
 </html>
