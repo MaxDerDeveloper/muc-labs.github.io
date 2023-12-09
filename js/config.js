@@ -252,8 +252,18 @@ var context  = {
 		"außerschulisches_angebot": "",
 		"beschreibung":             "",
 		"buchungsadresse":          "",
-		"öffnungszeiten":           null,
 		"images":                   [],
+
+		"öffnungszeiten":           {
+			"Mo": "-",
+			"Di": "-",
+			"Mi": "-",
+			"Do": "-",
+			"Fr": "-",
+			"Sa": "-",
+			"So": "-",
+		},
+		"bildquellen": ""
 	},
 };
 
