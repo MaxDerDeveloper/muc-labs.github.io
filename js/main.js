@@ -63,13 +63,13 @@ function renderNavbarAndFooter() {
 
 	var options = {
 		logo: "/bilder/logo.png",
-
+		landing: "/index.html",
 	};
 
 	var navbar = `
 	<nav class="navbar bg-body-tertiary fixed-top">
 		<div class="container-fluid">
-			<a class="navbar-brand" href="/">
+			<a class="navbar-brand" href="${options.landing}">
 				<div class="image-container-dont-resize-navbar">
 					<img src="${options.logo}" alt="Muclabs Logo" class="image-centered-vertically" width=240 height=52>
 				</div>
@@ -87,7 +87,7 @@ function renderNavbarAndFooter() {
 				<div class="offcanvas-body">
 					<ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
 						<li class="nav-item">
-							<a class="nav-link" aria-current="page" href="/">Start</a>
+							<a class="nav-link" aria-current="page" href="${options.landing}">Start</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="/aktuelles.html">Aktuelles</a>
@@ -104,9 +104,15 @@ function renderNavbarAndFooter() {
 						<li class="nav-item">
 							<a class="nav-link" href="/ueber-uns.html">Über uns</a>
 						</li>
+						
 						<li class="nav-item">
 							<a class="nav-link" href="/kontakt.html">Kontakt</a>
 						</li>
+
+						<li class="nav-item">
+							<a class="nav-link" href="/impressum.html">Impressum</a>
+						</li>
+
 						<!-- <li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 								Dropdown
@@ -134,9 +140,9 @@ function renderNavbarAndFooter() {
 	var footer = `<footer>
 		<center><hr style="width: 90%"></center>
 		<div class="horiz-flex-container" style="justify-content: space-evenly;">
-			<a class="link-symbol" href="/kontakt.html">Kontakt</a>
-			<a class="link-symbol" href="/impressum.html">Impressum</a>
-			<a class="link-symbol" href="/zzz_anmeld_intern.php">Mitgliederbereich</a>
+			<a href="/kontakt.html">Kontakt</a>
+			<a href="/impressum.html">Impressum</a>
+			<a href="/zzz_anmeld_intern.php">Mitgliederbereich</a>
 		</div>
 	</footer>`;
 

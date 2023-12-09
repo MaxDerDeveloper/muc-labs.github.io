@@ -22,39 +22,41 @@ Dies ist das Repository für die neue Muc-Labs Webseite.
 
 
 
-## Notizen
+## TO DO
 
-Herr Kratzer erinnern: Syntaxüberprüfer für JSON-Datei verwenden.
+In labs.html
 
-Bilder
-Eine umfassende Tabelle
-Zweiteilung der Tabelle
+    alle Labs anzeigenv+vertical/horizontal margin
+    [DONE] Auf Cards drücken --> weiterleiten zu lab.html
+    [DONE] Ganze Karte als Hyperlink (?)
+    [DONE] Schatten um Cards
+    [DONE] Hinter jeden Hyperlink ein Symbol
+    [DONE] Aufrufen Knopf mehr Abstand
+    [DONE ]Für Haupttags verschiedene Farben
 
-Name
-Website-Adresse
-Adresse & Google-Maps Link
-Überthema (Tags)
-Unterthema (Tags)
-Zielgruppe (Fließender Übergang: Freizeit - Schule)
+In lab.html:
+    
+    Bilder anpassen auf PNG, Auflösung 1920x1080 px
+    [DONE] Titel als Hyperlink zur Lab-Webseite mit Link-Symbol
+    [DONE] Link-Symbol hinter google maps
+    Mehr Abstand zum Footer
+    Tabellen Grautöne mehr angleichen
+    Linke Spalte Öffnungszeiten einfügen (siehe Tafelbild vom 15.11)
+    KANN-Anforderung: Preise hinzufügen mit Stand von letzter Aktualisierung
+    [DONE] Schieberegler mit 11 Stufen (0 bis 10) unter Überschrift
 
-Altersgruppe
-Teilnehmerzahl
-Schularten (Klassenstufen)
-Sprachen (Aufpreise)
+Filterfunktion:
 
-Trennlinie in der Tabelle
+    [DONE] auf Tag klicken zeigt alle Labs mit gleichen Tags an.
 
-Möglichkeit von berufsorientierten und/oder studienorientierten Praktika
-Unterstützung zu W-Seminaren (Individuell oder feststehendes Programm)
-Betreuungspersonal (Werkstudenten, Mitarbeiter, Anzahl)
-Außerschulisches Angebot (für Privatpersonen)
+In Navbar:
 
+    Suchfunktion nach Text bzw. Tags, Freizeit oder Schule
+    [DONE] Vereinheitlichung der Links im Hamburgermenu
 
+In ueber-uns.html:
 
-Weiteres:
-Beschreibungstext (Ziel des Labs)
+    [DONE] Die drei Links: "justify-content: spaced-evenly;" oder Stickpunkte
+    [DONE] horizontal line unter Titel hinzufügen
+    [DONE] Text einrücken
 
-Preisauskunft
-Buchungs-Adresse (Url oder Email)
-Öffnungszeiten (eigene Tabelle mit Wochentagen, extra für Ferien)
-Hinweis auf selbstständiges Prüfen der Daten auf Lab-Seite

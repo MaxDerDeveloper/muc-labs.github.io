@@ -23,6 +23,17 @@
 				-ms-transform: translate(0%, -50%);
 				transform: translate(0%, -50%);
 			}
+			div.link-container {
+				position: relative;
+				left: calc(20px + 10px);
+
+				display:flex;
+				flex-direction:row;
+				justify-content: spaced-between;
+			}
+			div.link-container a {
+				margin-right: 15px;
+			}
 		</style>
 		
 		<script type="text/javascript" src="/js/main.js"></script>
@@ -38,7 +49,9 @@
 		<main class="no-overlap-with-navbar">
 			<div style="width: 60%; max-width: 700px; margin-left: 5%;">
                 <h1 style="font-size:2em;">Über uns</h1>
-                <p>
+                <hr>
+
+                <p style="position: relative; left:20px;">
                 	Diese Website will einen Überblick über die Schülerlabore im Münchner Raum bereitstellen. Damit wollen wir, die Verantwortlichen für diese Schülerlabore, Ihnen einen einfachen Zugang zu den Angeboten ermöglichen, so dass Einzelpersonen oder Schulklassen das für sie richtige finden oder Ideen zu einer sinnvollen Kombination der Angebote z.B. im Sinne einer schulischen Profilbildung finden.
 					<br><br>
 					muc-labs e.V. ist der Verein im Großraum München für die im Bereich der außerschulischen Lernorte Engagierten und Interessierten. Wir bemühen uns um ein gemeinsames Auftreten der Lernorte gegenüber der Öffentlichkeit; und organisieren gemeinsame Veranstaltungen.
@@ -46,11 +59,11 @@
 					Natürlich freuen wir uns auch über neue Mitglieder.
 					<br>
 
-					<a href="MUC-Labs_Aufnahmeantrag.pdf">Aufnahmeantrag</a>
-					<br>
-					<a href="MUC-Labs_Beitragsordnung.pdf">Beitragsordnung</a>
-					<br>
-					<a href="MUC-Labs_Satzung.pdf">Satzung</a>
+					<div class="link-container">
+						<a href="MUC-Labs_Aufnahmeantrag.pdf">Aufnahmeantrag</a>
+						<a href="MUC-Labs_Beitragsordnung.pdf">Beitragsordnung</a>
+						<a href="MUC-Labs_Satzung.pdf">Satzung</a>
+					<ul>
 				</p>
 			</div>
 		</main>

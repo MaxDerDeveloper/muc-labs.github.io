@@ -239,42 +239,15 @@
 					throw new Error(msg);
 				}
 				
+				console.log("test")
 				// Insert simple ones.
-				$(".lab-name").html(lab.name);
+				$(".lab-website").attr("href", lab.website_url);
+				$(".lab-name a span").html(lab.name);
+
 				$(".lab-maps-link").attr("href", lab.google_maps_url);
 				$(".lab-adresse").html(lab.adresse);
 				$("div.main-lab-tag div.lab-tag	").html(lab.überthema)
 				$("p.lab-description").html(lab.beschreibung);
-			
-				function renderTags(lab) {
-					var main_tags = ""
-					for (var üt of lab.überthema) {
-
-						var bg_color   = tags_to_color_mapping[üt] || "rgb(13,110,253)";
-						var text_style = 'style="color: white; mix-blend-mode: difference;"';
-						var style      = 'style="color:#333; background-color:'+bg_color+';"';
-
-						main_tags += `
-						<a class="no-link" href="/filter.html?tag=${üt}">
-							<span class="lab-tag badge rounded-pill" ${style}>
-								<span ${text_style}>
-									${üt}
-								</span>
-							</span>
-						</a>`;
-						console.log(main_tags);
-					}
-					var side_tags = "";
-					for (var ut of lab.unterthema) {
-						side_tags += `
-						<a class="no-link" href="/filter.html?tag=${ut}">
-							<span class="lab-tag badge rounded-pill text-bg-info">
-								${ut}
-							</span>
-						</a>`;
-					}
-					return [main_tags, side_tags];
-				}
 
 				var [main_tags, side_tags] = renderTags(lab)
 				$("div#main-tags").html($(main_tags));
@@ -356,7 +329,13 @@
 				</div>
 
 				<div class="right-column">
-					<h1 class="lab-name">...</h1>
+					
+					<h1 class="lab-name">
+						<a class="link-symbol lab-website no-link" target="_blank" href="LAB WEBSITE">
+							<span>LAB NAME</span>
+						</a>
+					</h1>
+					
 					<hr class="separator">
 
 					<div class="lab-maps-container horiz-flex-container">
