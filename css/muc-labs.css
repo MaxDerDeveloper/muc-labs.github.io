@@ -57,6 +57,12 @@ div.horiz-flex-container {
 	flex-wrap: wrap;
 }
 
+div.vert-flex-container {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
 
 a.link-symbol {
   background: url("/bilder/externer_link.png") no-repeat 100% 0;
@@ -68,4 +74,3 @@ a.link-symbol {
   color:inherit;
   text-decoration:none;
 }
-

@@ -11,10 +11,6 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 		<script type="text/javascript" src="/js/config.js"></script>
 		<link href="/css/muc-labs.css" rel="stylesheet">
-
-		<!-- <script src="/js/jquery.min.js"></script>
-		<link href="/js/bootstrap.min.css" rel="stylesheet">
-		<script src="/js/bootstrap.bundle.min.js"></script> -->
 		
 		<style type="text/css">
 			:root {
@@ -221,38 +217,9 @@
 			}
 		</style>
 
+		<script type="text/javascript" src="/js/main.js"></script>
 		<script>
-			function prependToTitle(string) {
-				document.title = string + " | " + document.title;
-			}
-			function initializeCarousel() {
-				$('a#next-btn').click((e) => { $('.carousel').carousel("next"); });
-				$('a#prev-btn').click((e) => { $('.carousel').carousel("prev"); });
-			}
-			function parseUrlQueryString() {
-				// Reference: https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams?retiredLocale=de
-				const query = new URLSearchParams(window.location.search);
 
-				var dictionary = {};
-				for (const [key, value] of query.entries()) {
-					dictionary[key] = value;
-				}
-				return dictionary;
-			}
-			function getLab(query) {
-				if ("lab" in query) {
-					const labname = query["lab"];
-					if (labname in context) {
-						return context[labname];
-					} else {
-						alert("Das Lab '" + labname + "' existiert nicht in der Datenbank. Haben Sie sich vertippt?");
-						window.location.replace("/labs.html");
-					}
-				} else {
-					alert("Es wurde kein Lab in der Url angegeben, bitte hängen Sie ein '?lab=NameDesLabs' an die URL an.");
-					window.location.replace("/labs.html");
-				}
-			}
 			function checkDataValidity(lab) {
 				const muster_lab = context["Muster"];
 				for (const [key, value] of Object.entries(muster_lab)) {
@@ -354,6 +321,7 @@
 			}
 
 			function main() {
+				renderNavbarAndFooter();
 				query = parseUrlQueryString();
 				initializeCarousel();
 				const lab = getLab(query);
@@ -364,69 +332,6 @@
 	</head>
 
 	<body>
-		<nav class="navbar bg-body-tertiary fixed-top">
-			<div class="container-fluid">
-				<a class="navbar-brand" href="/">
-					<div class="image-container-dont-resize-navbar">
-						<img src="logo.png" alt="Muclabs Logo" class="image-centered-vertically" width=240 height=52>
-					</div>
-				</a>
-				<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-					<div class="offcanvas-header">
-						<h5 class="offcanvas-title" id="offcanvasNavbarLabel">
-							<!-- Platzhaltertext -->
-						</h5>
-						<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-					</div>
-					<div class="offcanvas-body">
-						<ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-							<li class="nav-item">
-								<a class="nav-link" aria-current="page" href="/">Start</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="/aktuelles.html">Aktuelles</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="/labs.html">Labore</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="/karte.html">Karte</a>
-							</li>
-
-							<hr>
-
-							<li class="nav-item">
-								<a class="nav-link" href="/ueber-uns.html">Über uns</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="/kontakt.html">Kontakt</a>
-							</li>
-							<!-- <li class="nav-item dropdown">
-								<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-									Dropdown
-								</a>
-								<ul class="dropdown-menu">
-									<li><a class="dropdown-item" href="#">Action</a></li>
-									<li><a class="dropdown-item" href="#">Another action</a></li>
-									<li>
-										<hr class="dropdown-divider">
-									</li>
-									<li><a class="dropdown-item" href="#">Something else here</a></li>
-								</ul>
-							</li> -->
-						</ul>
-						<!-- <form class="d-flex mt-3" role="search">
-							<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-							<button class="btn btn-outline-success" type="submit">Search</button>
-						</form> -->
-					</div>
-				</div>
-			</div>
-		</nav>
-
 		<main class="no-overlap-with-navbar" hidden>
 			<div id="lab-container">
 				<div class="left-column">
@@ -494,15 +399,5 @@
 				</div>
 			</div>
 		</main>
-
-
-		<footer>
-			<center><hr style="width: 90%"></center>
-			<div class="horiz-flex-container" style="justify-content: space-evenly;">
-				<a class="link-symbol" href="/kontakt.html">Kontakt</a>
-				<a class="link-symbol" href="/impressum.html">Impressum</a>
-				<a class="link-symbol" href="/zzz_anmeld_intern.php">Mitgliederbereich</a>
-			</div>
-		</footer>
 	</body>
 </html>

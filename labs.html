@@ -55,59 +55,16 @@
 			}
 		</style>
 
+		<script type="text/javascript" src="/js/main.js"></script>		
 		<script type="text/javascript">
-			function renderTags(lab) {
-				var main_tags = ""
-				for (var üt of lab.überthema) {
-
-					var bg_color   = tags_to_color_mapping[üt] || "rgb(13,110,253)";
-					var text_style = 'style="color: white; mix-blend-mode: difference;"';
-					var style      = 'style="color:#333; background-color:'+bg_color+';"';
-
-					main_tags += `
-					<a class="no-link" href="/filter.html?tag=${üt}">
-						<span class="lab-tag badge rounded-pill" ${style}>
-							<span ${text_style}>
-								${üt}
-							</span>
-						</span>
-					</a>`;
-					console.log(main_tags);
-				}
-				var side_tags = "";
-				for (var ut of lab.unterthema) {
-					side_tags += `
-					<a class="no-link" href="/filter.html?tag=${ut}">
-						<span class="lab-tag badge rounded-pill text-bg-info">
-							${ut}
-						</span>
-					</a>`;
-				}
-				return [main_tags, side_tags];
-			}
-
 			function main() {
+				renderNavbarAndFooter();
+				
 				cards = ""
 				for(var [name, lab] of Object.entries(context)) {
 					if (name === "Muster") { continue; }
 
-					var [main, side] = renderTags(lab);
-					cards += `
-						<a href="/lab.html?lab=${name}" style="text-decoration:none; color:black;">
-							<div class="card lab-card" style="width: 18rem; position:relative;">
-								<img class="card-img-top" src="${lab.images[0]}" alt="1. Bild von ${lab.name}">
-								<div class="card-body">
-									<h5 class="card-title lab-card-title">${lab.name}</h5>
-									<div class="horiz-flex-container">${main}</div>
-									<details style="margin-bottom: 30px">
-	  									<summary>Mehr</summary>
-	  									<div class="horiz-flex-container">${side}</div>
-									</details>
-									<a style="position:absolute;bottom:5px;left:5px;" href="/lab.html?lab=${name}" class="btn btn-secondary">Aufrufen</a>
-								</div>
-							</div>
-						</a>
-					`;
+					cards += renderCard(name, lab);
 				}
 				$(".lab-card-container").append(cards);
 			}
@@ -117,69 +74,6 @@
 	</head>
 
 	<body>
-		<nav class="navbar bg-body-tertiary fixed-top">
-			<div class="container-fluid">
-				<a class="navbar-brand" href="/">
-					<div class="image-container-dont-resize-navbar">
-						<img src="/bilder/logo.png" alt="Muclabs Logo" class="image-centered-vertically" width=240 height=52>
-					</div>
-				</a>
-				<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-					<div class="offcanvas-header">
-						<h5 class="offcanvas-title" id="offcanvasNavbarLabel">
-							<!-- Platzhaltertext -->
-						</h5>
-						<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-					</div>
-					<div class="offcanvas-body">
-						<ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-							<li class="nav-item">
-								<a class="nav-link" aria-current="page" href="/">Start</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="/aktuelles.html">Aktuelles</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="/labs.html">Labore</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="/karte.html">Karte</a>
-							</li>
-
-							<hr>
-
-							<li class="nav-item">
-								<a class="nav-link" href="/ueber-uns.html">Über uns</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="/kontakt.html">Kontakt</a>
-							</li>
-							<!-- <li class="nav-item dropdown">
-								<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-									Dropdown
-								</a>
-								<ul class="dropdown-menu">
-									<li><a class="dropdown-item" href="#">Action</a></li>
-									<li><a class="dropdown-item" href="#">Another action</a></li>
-									<li>
-										<hr class="dropdown-divider">
-									</li>
-									<li><a class="dropdown-item" href="#">Something else here</a></li>
-								</ul>
-							</li> -->
-						</ul>
-						<!-- <form class="d-flex mt-3" role="search">
-							<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-							<button class="btn btn-outline-success" type="submit">Search</button>
-						</form> -->
-					</div>
-				</div>
-			</div>
-		</nav>
-
 		<main class="no-overlap-with-navbar" style="height: 1500px;">
 
 			<div class="content-container">
@@ -188,14 +82,5 @@
 				<div class="lab-card-container"></div>
 			</div>
 		</main>
-
-		<footer>
-			<center><hr style="width: 90%"></center>
-			<div class="horiz-flex-container" style="justify-content: space-evenly;">
-				<a class="link-symbol" href="/kontakt.html">Kontakt</a>
-				<a class="link-symbol" href="/impressum.html">Impressum</a>
-				<a class="link-symbol" href="/zzz_anmeld_intern.php">Mitgliederbereich</a>
-			</div>
-		</footer> 
 	</body>
 </html>
