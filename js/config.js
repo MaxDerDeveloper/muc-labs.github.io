@@ -19,8 +19,7 @@ var context  = {
 		"beschreibung":             "Informatikinteressierte können bei Farning abseits der Schule in Kursen lernen, zu programmieren und dabei werden ihnen die dazu notwendigen mathematische Grundlagen vermittelt. Zudem können die Schüler eigene Projekte in Gruppen selbstständig umsetzen. Interessenten können ganzjährig eine Probestunde vereinbaren. Bei beidseitigem Interesse an einer langfristigen Teilnahme wird man in der Regel erst auf eine Warteliste gesetzt, bevor man einer Gruppe beitreten kann, die zu den Vorkenntnissen des Schülers passt. Neben dem Erlangen fachlicher Kompetenzen schafft Farning sozialen Ausgleich zwischen Informatikbegeisterten.",
 		"buchungsadresse":          "aufnahme@farning.de",
 		"öffnungszeiten":           null,
-		"images":                   ["/bilder/farning/1.jpg","/bilder/farning/2.jpg","/bilder/farning/3.jpg",
-									"/bilder/farning/4.jpg","/bilder/farning/5.jpg","/bilder/farning/6.jpg","/bilder/farning/7.jpg"],
+		"images":                   ["/bilder/farning/1.png","/bilder/farning/2.png"],
 	},
 
 	"maxlab": {
