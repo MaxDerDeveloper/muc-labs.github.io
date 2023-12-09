@@ -84,18 +84,20 @@
 
 					var [main, side] = renderTags(lab);
 					cards += `
-						<div class="card lab-card" style="width: 18rem; position:relative;">
-							<img class="card-img-top" src="${lab.images[0]}" alt="1. Bild von ${lab.name}">
-							<div class="card-body">
-								<h5 class="card-title lab-card-title">${lab.name}</h5>
-								<div class="horiz-flex-container">${main}</div>
-								<details style="margin-bottom: 30px">
-  									<summary>Mehr</summary>
-  									<div class="horiz-flex-container">${side}</div>
-								</details>
-								<a style="position:absolute;bottom:5px;left:5px;" href="/lab.html?lab=${name}" class="btn btn-secondary">Aufrufen</a>
+						<a href="/lab.html?lab=${name}">
+							<div class="card lab-card" style="width: 18rem; position:relative;">
+								<img class="card-img-top" src="${lab.images[0]}" alt="1. Bild von ${lab.name}">
+								<div class="card-body">
+									<h5 class="card-title lab-card-title">${lab.name}</h5>
+									<div class="horiz-flex-container">${main}</div>
+									<details style="margin-bottom: 30px">
+	  									<summary>Mehr</summary>
+	  									<div class="horiz-flex-container">${side}</div>
+									</details>
+									<a style="position:absolute;bottom:5px;left:5px;" href="/lab.html?lab=${name}" class="btn btn-secondary">Aufrufen</a>
+								</div>
 							</div>
-						</div>
+						</a>
 					`;
 				}
 				$(".lab-card-container").append(cards);
