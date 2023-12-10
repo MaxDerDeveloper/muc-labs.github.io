@@ -2,7 +2,7 @@ var template = {
     "layout": {
       "header": {
         "image": {
-          "src": "grosserbelt-Lage.jpg",
+          "src": "/bilder/welpe1.jpg",
           "alt": "Das Bild konnte nicht geladen werden.",
           "position": "links oben"
         },
