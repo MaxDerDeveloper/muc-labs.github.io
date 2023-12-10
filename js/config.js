@@ -183,7 +183,7 @@ const context  = {
 		"w-seminare":               "Nur auf Anfrage",
 		"betreuungspersonal":       "Leitung, Doktoranden, Postdocs",
 		"außerschulisches_angebot": "variiert, aktuelle Infos auf der Website",
-		"beschreibung":             "Das Exzellenz-Cluster e-conversion richtet sich an Schulklassen, die in Garching einen Workshop machen wollen, um den Blick zu erweitern, für MINT Fächer zu begeistern und die Art und Weise wissenschaftlicher Forschung zu sehen.",
+		"beschreibung":             "Das Exzellenz-Cluster e-conversion richtet sich an Schulklassen, die in Garching einen Workshop machen wollen, um den Blick zu erweitern, für MINT Fächer zu begeistern und die Art und Weise wissenschaftlicher Forschung zu kennenzulernen.",
 		"buchungsadresse":          "silke.mayerl@e-conversion.de",
 		"öffnungszeiten":           {
 			"Mo": "vormittags",
