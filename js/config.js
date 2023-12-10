@@ -71,7 +71,7 @@ const context  = {
 		"website_url":              "https://www.deutsches-museum.de/museumsinsel/programm/programm-a-z/experimentier-werkstatt",
 		"adresse":                  "Museumsinsel 1, 80538 München",
 		"google_maps_url":          "https://maps.app.goo.gl/58Jdcq3m3PqZXBmk8",
-		"überthema":                ["Physik"],
+		"überthema":                ["Physik","Technik"],
 		"unterthema":               ["Sensorik", "Optoelektronik", "Akustik", "Elektronik", "Optik"],
 		"zielgruppe":               5,
 		"altersgruppe":             "Abhängig von Workshop",
