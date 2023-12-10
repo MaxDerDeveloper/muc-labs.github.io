@@ -28,7 +28,7 @@ const context  = {
 			"So": "10:00 - 18:00",
 		},
 		"öffnungszeiten_ausnahmen": "Es ist zu beachten, dass die Öffnungszeiten während der Schulferien eher vormittags liegen.",
-		"bildquellen": "",
+		"bildquellen": "Eigenaufnahmen",
 		"images":                   ["/bilder/farning/1.png","/bilder/farning/2.png"],
 	},
 
@@ -62,7 +62,7 @@ const context  = {
 			"So": "-",
 		},
 		"öffnungszeiten_ausnahmen": "Die Öffnungszeiten der virtuellen Schulstunden sind prinzipiell flexibler, und auf Anfrage können möglicherweise auch Termine außerhalb der regulären Öffnungszeiten ausgemacht werden.",
-		"bildquellen": "",
+		"bildquellen": "MaxLab",
 		"images":                   ["/bilder/welpe1.jpg"],
 	},
 
@@ -96,7 +96,7 @@ const context  = {
 			"So": "-",
 		},
 		"öffnungszeiten_ausnahmen": "Auf Anfrage ist es möglich, dass Termine variabel gelegt werden.",
-		"bildquellen": "",
+		"bildquellen": "Eigenaufnahme",
 		"images": ["/bilder/DeutschesMuseum/IMG_5640Berabeitet Kopie.png","/bilder/DeutschesMuseum/IMG_5641 Kopie.png"],
 	},
 
@@ -230,7 +230,7 @@ const context  = {
 			"So": "-",
 		},
 		"öffnungszeiten_ausnahmen": "Termine für angemeldete Gruppenbesuche können auf Anfrage festgelegt werden. Es ist zu beachten, dass ohne Anmeldung die Öffnungszeiten stark begrenzt sind. Für die genauen Termine können Sie die Webseite von ix-quadrat besuchen.",
-		"bildquellen": "",
+		"bildquellen": "ix-quadrat",
 		"images":                   ["/bilder/welpe1.jpg"],
 	},
 
