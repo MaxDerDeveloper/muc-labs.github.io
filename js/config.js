@@ -97,7 +97,7 @@ const context  = {
 		},
 		"öffnungszeiten_ausnahmen": "Auf Anfrage ist es möglich, dass Termine variabel gelegt werden.",
 		"bildquellen": "",
-		"images": ["/bilder/welpe1.jpg"],
+		"images": ["bilder/DeutschesMuseum/IMG_5640Berabeitet Kopie.png","bilder/DeutschesMuseum/IMG_5641 Kopie.png"],
 	},
 
 	"photonlab": {
