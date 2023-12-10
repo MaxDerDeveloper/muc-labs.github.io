@@ -95,7 +95,7 @@ const context  = {
 			"Sa": "-",
 			"So": "-",
 		},
-		"öffnungszeiten_ausnahmen": "Auf Anfrage könne Termine variable gelegt werden.",
+		"öffnungszeiten_ausnahmen": "Auf Anfrage könne Termine variabel gelegt werden.",
 		"bildquellen": "",
 		"images": ["/bilder/welpe1.jpg"],
 	},
@@ -320,7 +320,7 @@ const context  = {
 		"betreuungspersonal":       "Studierende",
 		"außerschulisches_angebot": "-",
 		"beschreibung":             "Genetik macht Schule vereint die Interessen von Schülern und Studierenden, - erstere kriegen eine spannede Unterichtsstunde mit anschliessendem praktischen Teil, letztere hingegen können Erfahrungen im Schüler unterichten sammeln. Die dem prakzischen Teil vorangehende Unterichsstunde wird von einem Studierenden vor, auf welches eine Woche später ein Experiment folgt welches das gelernte nochmal festigt.",
-		"buchungsadresse":          "brachman@lmu.de",
+		"buchungsadresse":          "brachmann@lmu.de",
 		// "öffnungszeiten":           "Siehe Website",
 		"öffnungszeiten":           {
 			"Mo": "-",
