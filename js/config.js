@@ -106,7 +106,7 @@ const context  = {
 		"adresse":                  "Hans-Kopfermann-Straße 1, 85748 Garching bei München",
 		"google_maps_url":          "https://maps.app.goo.gl/NDA3R8FDx5eE2UgWA",
 		"überthema":                ["Physik","Technik"],
-		"unterthema":               ["Optik", "Quantenoptik""Laser", "Doppelspalt", "Michelson-Interferometer"],
+		"unterthema":               ["Optik", "Quantenoptik","Laser", "Doppelspalt", "Michelson-Interferometer"],
 		"zielgruppe":               1,
 		"altersgruppe":             "10.- 12. Klasse<br>Grundlegende Kenntnisse zu Physik und Licht werden vorausgesetzt.",
 		"teilnehmer_anzahl":        "15",
