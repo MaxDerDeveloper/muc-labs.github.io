@@ -231,7 +231,7 @@ const context  = {
 		},
 		"öffnungszeiten_ausnahmen": "Termine für angemeldete Gruppenbesuche können auf Anfrage festgelegt werden. Es ist zu beachten, dass ohne Anmeldung die Öffnungszeiten stark begrenzt sind. Für die genauen Termine können Sie die Webseite von ix-quadrat besuchen.",
 		"bildquellen": "ix-quadrat",
-		"images":                   ["/bilder/welpe1.jpg"],
+		"images": ["/bilder/ix-quadrat/Titelbild/A003_0006 Kopie.png", "/bilder/ix-quadrat/03 Kopie.png", "/bilder/ix-quadrat/07 2 Kopie.png", "/bilder/ix-quadrat/07 Kopie.png", "/bilder/ix-quadrat/09 Kopie.png"],
 	},
 
 	"SWM Bildungsangebote": {
