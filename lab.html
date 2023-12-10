@@ -295,8 +295,6 @@
 					rows += createTableRow(interal_to_displayed_mapping[key], value);
 				}
 				$("table.lab-tabelle").html($(rows));
-				console.log(rows)
-
 
 				// Erstelle linke Tabelle
 				rows = "";
@@ -320,12 +318,39 @@
 				$("main").removeAttr('hidden');
 			}
 
+			function addResizeEvent() {
+				const getDir = () => { return window.getComputedStyle(document.documentElement).getPropertyValue('--flex-dir'); };
+
+
+				var div  = $("div.öff-lab-tabelle-container")
+				var right = $("div.right-column");
+				var left  = $("div.left-column");
+
+				var lastdirec = getDir();
+				addEventListener("resize", (e) => {
+					var direc = getDir();
+					if (direc != lastdirec) {
+						if (direc == "column") {
+							/* Mobile */
+							div.appendTo(right);
+						} else {
+							/* PC/Desktop */
+							div.appendTo(left);
+						}
+
+					}
+					lastdirec = direc;
+				});
+			}
+
 			function main() {
 				renderNavbarAndFooter();
 				query = parseUrlQueryString();
 				initializeCarousel();
 				const lab = getLab(query);
 				renderLab(lab);
+
+				addResizeEvent();
 			}
 			window.onload = main;
 		</script>
