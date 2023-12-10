@@ -235,22 +235,22 @@ const context  = {
 	},
 
 	"SWM Bildungsangebote": {
-		"name":                     "SWM Bildungsangebote", // Von aktueller website übernommen
+		"name":                     "SWM Bildungsangebote",
 		"website_url":              "https://www.swm.de/schule/besichtigungen-veranstaltungen",
-		"adresse":                  "Emmy-Noether-Straße 2, 80992 München", // Da es verschidenen Standorte gitb ist das die Adresse vom "SWM Service für schulen"
-		"google_maps_url":          "https://maps.app.goo.gl/GZuET8MmjMwvQMq57", // Das gleiche hier
+		"adresse":                  "Emmy-Noether-Straße 2, 80992 München",
+		"google_maps_url":          "https://maps.app.goo.gl/GZuET8MmjMwvQMq57",
 		"überthema":                ["Physik"],
 		"unterthema":               ["Energiegewinnung", "Trinkwassergewinnung", "Öffentlicher Verkehr"],
 		"zielgruppe":               1,
 		"altersgruppe":             "Schüler",
 		"teilnehmer_anzahl":        "Eine Schulklasse bis 50 je nach Workshop",
-		"dauer":                    "################################", // Keine Ahnung was hier reinkommt
+		"dauer":                    "1,5 - 2h",
 		"schularten":               "Uneingeschränkt",
 		"sprachen":                 ["Deutsch"],
 		"praktika":                 "Nein",
 		"w-seminare":               "Nein",
-		"betreuungspersonal":       "-",
-		"außerschulisches_angebot": "-",
+		"betreuungspersonal":       "Vorhanden",
+		"außerschulisches_angebot": "Nein",
 		"beschreibung":             "Die SWM Bildungsangebote erstrecken sich über eine Vielfalt an Themenbereichen, von Energiegewinnung über Trinkwassergewinnung, bis hin zu der Funktion der öffentlichen Verkehrsmitteln in München. Es besteht die Möglichekeit, Energiekraftwerke zu besuchen, oder Kurse zum richtigen Busfahren zu buchen.",
 		"buchungsadresse":          "Per Formular auf der Website: https://www.swm.de/schule/besichtigungen-veranstaltungen/anmeldung-neu oder terilweise schulkontakt@swm.de",
 		// "öffnungszeiten":           "Variabel",
@@ -278,12 +278,12 @@ const context  = {
 		"zielgruppe":               2,
 		"altersgruppe":             "Uneingeschränkt",
 		"teilnehmer_anzahl":        "Eine Klasse",
-		"dauer":                    "#############################", // Keine Ahnung was hier reinkommt
+		"dauer":                    "~4h",
 		"schularten":               "Uneingeschränkt",
 		"sprachen":                 ["Deutsch"],
 		"praktika":                 "Ja",
 		"w-seminare":               "Jaein",
-		"betreuungspersonal":       "-",
+		"betreuungspersonal":       "Vorhanden",
 		"außerschulisches_angebot": "Selbstständiges Nutzen der Werkstatt möglich",
 		"beschreibung":             "Das FabLab ist eine Werkstatt, die auch für Schulklassen einführungen in das Handwerkliche Arbeiten anbietet. Neben den schon angesprochenen Workshops für Schulen besteht auch die Möglichkeit gegen einen Mitgliedsbeitrag die umfangreich ausgestatte Werkstatt auch alleine zu nutzen.",
 		"buchungsadresse":          "birgit@fablab-muenchen.de",
@@ -318,7 +318,7 @@ const context  = {
 		"praktika":                 "Nein",
 		"w-seminare":               "Nein",
 		"betreuungspersonal":       "Studierende",
-		"außerschulisches_angebot": "-",
+		"außerschulisches_angebot": "Nein",
 		"beschreibung":             "Genetik macht Schule vereint die Interessen von Schülern und Studierenden, - erstere kriegen eine spannede Unterichtsstunde mit anschliessendem praktischen Teil, letztere hingegen können Erfahrungen im Schüler unterichten sammeln. Die dem prakzischen Teil vorangehende Unterichsstunde wird von einem Studierenden vor, auf welches eine Woche später ein Experiment folgt welches das gelernte nochmal festigt.",
 		"buchungsadresse":          "brachmann@lmu.de",
 		// "öffnungszeiten":           "Siehe Website",
