@@ -275,7 +275,7 @@
 				function createCarouselSlide(i, img_src) {
 					active_or_not = (i==0) ? "active" : "";
 					return `<div class="carousel-item ${active_or_not}">
-								<img class="d-block w-100" src="${img_src}" alt="${i+1}. Bild von '${lab.name}'">
+								<img class="d-block w-100" src="${img_src}" alt="${i+1}. Bild von '${lab.name}'" title="Dieses Bild stammt aus eigenen Aufnahmen.">
 							</div>`;
 				}
 
