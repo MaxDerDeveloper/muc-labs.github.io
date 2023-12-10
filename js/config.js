@@ -1,4 +1,4 @@
-var context  = {
+const context  = {
 	"farning": {
 		"name":                     "Farning Programmierschule",
 		"website_url":              "https://www.farning.de",
@@ -18,7 +18,17 @@ var context  = {
 		"außerschulisches_angebot": "Ausschließlich außerschulisches Angebot",
 		"beschreibung":             "Informatikinteressierte können bei Farning abseits der Schule in Kursen lernen, zu programmieren und dabei werden ihnen die dazu notwendigen mathematische Grundlagen vermittelt. Zudem können die Schüler eigene Projekte in Gruppen selbstständig umsetzen. Interessenten können ganzjährig eine Probestunde vereinbaren. Bei beidseitigem Interesse an einer langfristigen Teilnahme wird man in der Regel erst auf eine Warteliste gesetzt, bevor man einer Gruppe beitreten kann, die zu den Vorkenntnissen des Schülers passt. Neben dem Erlangen fachlicher Kompetenzen schafft Farning sozialen Ausgleich zwischen Informatikbegeisterten.",
 		"buchungsadresse":          "aufnahme@farning.de",
-		"öffnungszeiten":           null,
+		"öffnungszeiten":           {
+			"Mo": "-",
+			"Di": "-",
+			"Mi": "-",
+			"Do": "-",
+			"Fr": "-",
+			"Sa": "-",
+			"So": "-",
+		},
+		"öffnungszeiten_ausnahmen": "",
+		"bildquellen": "",
 		"images":                   ["/bilder/farning/1.png","/bilder/farning/2.png"],
 	},
 
@@ -41,7 +51,18 @@ var context  = {
 		"außerschulisches_angebot": "Online Escape Room Spiel, Kurse in den Sommerferien, Virtuelle Schulstunden",
 		"beschreibung":             "Das Angebot des Maxlabs richtet sich primär an Schülergruppen aus der Oberstufe. Die Kurse sind kostenfrei und bieten den Teilnehmern die Möglichkeit, sich in verschiedenen Teilgebieten der Biologie zu vertiefen und praktische Erfahrungen zu sammeln. Zu einem festen Termin können Schüler einmal jährlich ein Schülerpraktikum absolvieren. Zusätzlich können Schüler online ein PCR Escape Game, in dem sie zur Abwendung einer Katastrophe Rätsel lösen müssen, absolvieren.<br>Darüber hinaus besteht die Möglichkeit, an virtuellen Unterrichtsstunden zu den Themen 'Faszination Gehirn' und 'Vom genetischen Code zum Proteom' teilzunehmen. Die virtuellen Öffnungszeiten sind flexibel, wobei die regulären Termine mittwochs und donnerstags liegen. Diese bieten Schülern die Gelegenheit, sich in unterschiedlichen biologischen Disziplinen weiterzubilden und ihre Interessen zu vertiefen.",
 		"buchungsadresse":          "ina.peters@bi.mpg.de",
-		"öffnungszeiten":           null,
+		// "öffnungszeiten":           null,
+		"öffnungszeiten":           {
+			"Mo": "-",
+			"Di": "-",
+			"Mi": "-",
+			"Do": "-",
+			"Fr": "-",
+			"Sa": "-",
+			"So": "-",
+		},
+		"öffnungszeiten_ausnahmen": "",
+		"bildquellen": "",
 		"images":                   ["/bilder/welpe1.jpg"],
 	},
 
@@ -64,8 +85,19 @@ var context  = {
 		"außerschulisches_angebot": "Für Museumsbesucher",
 		"beschreibung":             "Die Experimentier-Werkstatt im Deutschen Museum präsentiert eine umfangreiche Auswahl an Workshops für Schüler verschiedener Altersgruppen, die unterschiedliche Bereiche der MINT-Fächer abdecken.<br>Im 75-minütigen 'Sensor Lab' tauchen Schüler der Klassenstufen 8-12 in das Teilgebiet der Sensorik ein. Für Schüler der Klassenstufen 7-10 bietet der Workshop 'Licht mach Musik' in 75 Minuten einen Einblick in die Optoelektronik. Der 60 Minuten lange Workshop 'Hört! Hört!' fokussiert sich auf das Teilgebiet der Akustik und ist für Schüler der Klassen 4-10 zugänglich. Im Bereich Elektronik ermöglicht der 60-minütige Workshop 'Strom ab!' Schülern der Klassen 3-7 praktische Erfahrungen. Schüler der Klassenstufen 4-12 können am Workshop 'Malen mit Licht' für 60 Minuten teilnehmen, der das Teilgebiet der Optik abdeckt. Für Schüler der Klassen 6-8 steht der 75-minütige Online-Workshop 'Sensorik' zur Verfügung.<br>Die Kosten der Workshops in Euro entsprechen der jeweiligen Workshopdauer in Minuten. Die Öffnungszeiten sind prinzipiell montags bis freitags vormittags, jedoch sind individuelle Abweichungen möglich und können durch Anfragen geklärt werden. Die Experimentier-Werkstatt verfolgt das Ziel, die Neugier für MINT-Fächer zu wecken und zu fördern. Durch verblüffende Experimente sollen Kinder und Jugendliche fasziniert werden. Das Schülerlabor trägt zur Nachwuchsförderung im MINT-Bereich bei und unterstützt die allgemeine Technik- und Wissenschaftsmündigkeit.",
 		"buchungsadresse":          "https://www.deutsches-museum.de/museumsinsel/programm/programm-a-z/experimentier-werkstatt",
-		"öffnungszeiten":           null,
-		"images":                   ["/bilder/welpe1.jpg"],
+		// "öffnungszeiten":           null,
+		"öffnungszeiten":           {
+			"Mo": "-",
+			"Di": "-",
+			"Mi": "-",
+			"Do": "-",
+			"Fr": "-",
+			"Sa": "-",
+			"So": "-",
+		},
+		"öffnungszeiten_ausnahmen": "",
+		"bildquellen": "",
+		"images": ["/bilder/welpe1.jpg"],
 	},
 
 	"photonlab": {
@@ -87,8 +119,19 @@ var context  = {
 		"außerschulisches_angebot": "Tag der offenen Türen (3.11)<br>Hilfe bei Wettbewerben (Physikolympiade)<br>Lehrerfortbildungeny<br>Campusquiz",
 		"beschreibung":             "Das Ziel ist es auch Laien das Thema Licht und Laser näherzubringen, wie Laser funktionieren und wie sie aufgebaut sind. Außerdem wird das Thema Quantenphysik in Ansätzen erklärt, auf Nach-/Anfrage wird auch mehr zu dem Thema erklärt. Der Besuch beginnt mit einem Einführungsvortrag, anschließend darf man 20 spannende Experimente mit Lasern machen mit Einleitungen am IPad, zum Beispiel einen echten Doppelspalt oder Musikübertragung per Laser.  Man bekommt auch die Möglichkeit durch eine Glaswand in das Labor für Attosekundenphysik reinzugucken",
 		"buchungsadresse":          "+49 89 3 29 05 - 197 Dr. Silke Stähler Schöpf, war zu dumm die Email zu entziffern https://www.mpq.mpg.de/person/34870/6533024",
-		"öffnungszeiten":           "Mo-Fr 8-16 Uhr",
-		"images":                   ["/bilder/welpe1.jpg"],
+		// "öffnungszeiten":           "Mo-Fr 8-16 Uhr",
+		"öffnungszeiten":           {
+			"Mo": "-",
+			"Di": "-",
+			"Mi": "-",
+			"Do": "-",
+			"Fr": "-",
+			"Sa": "-",
+			"So": "-",
+		},
+		"öffnungszeiten_ausnahmen": "",
+		"bildquellen": "",
+		"images": ["/bilder/welpe1.jpg"],
 	},
 
 	"eso-supernova": {
@@ -110,7 +153,18 @@ var context  = {
 		"außerschulisches_angebot": "Girls-Day<br>Führungen auch im Hauptquatier/Berufsorientierung",
 		"beschreibung":             "Das ESO bietet 6 Workshops an, die die Erforschung des Weltalls näherbringen sollen. Das Ziel ist die Sensibilisierung auf Naturwissenschaften, deswegen, bieten sie Workshops und Weiterildungen für Kinder und Erwachsene an. Dabei werden die Grundlagen der Optik mit alltäglichen Gegenständen erklärt und in einen astronomischen Kontext gebracht.",
 		"buchungsadresse":          "https://supernova.eso.org/germany/visit/",
-		"öffnungszeiten":           "Mi-Fr 9-12 & Sa,So 12-17",
+		// "öffnungszeiten":           "Mi-Fr 9-12 & Sa,So 12-17",
+		"öffnungszeiten":           {
+			"Mo": "-",
+			"Di": "-",
+			"Mi": "-",
+			"Do": "-",
+			"Fr": "-",
+			"Sa": "-",
+			"So": "-",
+		},
+		"öffnungszeiten_ausnahmen": "",
+		"bildquellen": "",
 		"images":                   ["/bilder/welpe1.jpg"],
 	},
 
@@ -133,7 +187,18 @@ var context  = {
 		"außerschulisches_angebot": "variiert, aktuelle Infos auf Website",
 		"beschreibung":             "Das Exzellenz-Cluster e-conversion richtet sich an Schulklassen, die in Garching einen Workshop machen wollen, um den Blick zu erweitern, für MINT Fächer zu begeistern und die Art und Weise wissenschaftlicher Forschung zu sehen.",
 		"buchungsadresse":          "silke.mayerl@e-conversion.de",
-		"öffnungszeiten":           "werktags vormittags",
+		// "öffnungszeiten":           "werktags vormittags",
+		"öffnungszeiten":           {
+			"Mo": "-",
+			"Di": "-",
+			"Mi": "-",
+			"Do": "-",
+			"Fr": "-",
+			"Sa": "-",
+			"So": "-",
+		},
+		"öffnungszeiten_ausnahmen": "",
+		"bildquellen": "",
 		"images":                   ["/bilder/welpe1.jpg"],
 	},
 
@@ -156,7 +221,18 @@ var context  = {
 		"außerschulisches_angebot": "Besuch Einzelpersonen",
 		"beschreibung":             "Die Mitmach-Ausstellung ix-quadrat öffnet die faszinierende Welt der Mathematik für Menschen jeden Alters und unabhängig von ihrem Vorwissen. Hier wird Mathematik erlebbar und begreifbar gemacht. Für Schulklassen bis zu 30 Personen wird die Möglichkeit geboten, sich für einen etwa 2-stündigen Besuch anzumelden. Schüler können in die interaktiven Ausstellungsbereiche eintauchen, Symmetrie entdecken, in die Welt der Zahlen greifen und die Perspektiven des Grafikers und Künstlers M. C. Escher erforschen. Einzelpersonen können zu den Öffnungszeiten die Ausstellung unangemeldet besuchen.",
 		"buchungsadresse":          "ix-quadrat@ma.tum.de ",
-		"öffnungszeiten":           "Eigenen Website",
+		// "öffnungszeiten":           "Eigenen Website",
+		"öffnungszeiten":           {
+			"Mo": "-",
+			"Di": "-",
+			"Mi": "-",
+			"Do": "-",
+			"Fr": "-",
+			"Sa": "-",
+			"So": "-",
+		},
+		"öffnungszeiten_ausnahmen": "",
+		"bildquellen": "",
 		"images":                   ["/bilder/welpe1.jpg"],
 	},
 
@@ -179,7 +255,18 @@ var context  = {
 		"außerschulisches_angebot": "-",
 		"beschreibung":             "Die SWM Bildungsangebote erstrecken sich über eine Vielfalt an Themenbereichen, von Energiegewinnung über Trinkwassergewinnung, bis hin zu der Funktion der öffentlichen Verkehrsmitteln in München. Es besteht die Möglichekeit, Energiekraftwerke zu besuchen, oder Kurse zum richtigen Busfahren zu buchen.",
 		"buchungsadresse":          "Per Formular auf der Website: https://www.swm.de/schule/besichtigungen-veranstaltungen/anmeldung-neu oder terilweise schulkontakt@swm.de",
-		"öffnungszeiten":           "Variabel",
+		// "öffnungszeiten":           "Variabel",
+		"öffnungszeiten":           {
+			"Mo": "-",
+			"Di": "-",
+			"Mi": "-",
+			"Do": "-",
+			"Fr": "-",
+			"Sa": "-",
+			"So": "-",
+		},
+		"öffnungszeiten_ausnahmen": "",
+		"bildquellen": "",
 		"images":                   ["/bilder/welpe1.jpg"],
 	},
 
@@ -202,7 +289,18 @@ var context  = {
 		"außerschulisches_angebot": "Selbstständiges Nutzen der Werkstatt möglich",
 		"beschreibung":             "Das FabLab ist eine Werkstatt, die auch für Schulklassen einführungen in das Handwerkliche Arbeiten anbietet. Neben den schon angesprochenen Workshops für Schulen besteht auch die Möglichkeit gegen einen Mitgliedsbeitrag die umfangreich ausgestatte Werkstatt auch alleine zu nutzen.",
 		"buchungsadresse":          "birgit@fablab-muenchen.de",
-		"öffnungszeiten":           "Schullab Montag & Freitag Vormittag, Werkstatt immer",
+		// "öffnungszeiten":           "Schullab Montag & Freitag Vormittag, Werkstatt immer",
+		"öffnungszeiten":           {
+			"Mo": "-",
+			"Di": "-",
+			"Mi": "-",
+			"Do": "-",
+			"Fr": "-",
+			"Sa": "-",
+			"So": "-",
+		},
+		"öffnungszeiten_ausnahmen": "",
+		"bildquellen": "",
 		"images":                   ["/bilder/welpe1.jpg"],
 	},
 
@@ -225,7 +323,18 @@ var context  = {
 		"außerschulisches_angebot": "-",
 		"beschreibung":             "Genetik macht Schule vereint die Interessen von Schülern und Studierenden, - erstere kriegen eine spannede Unterichtsstunde mit anschliessendem praktischen Teil, letztere hingegen können Erfahrungen im Schüler unterichten sammeln. Die dem prakzischen Teil vorangehende Unterichsstunde wird von einem Studierenden vor, auf welches eine Woche später ein Experiment folgt welches das gelernte nochmal festigt.",
 		"buchungsadresse":          "brachman@lmu.de",
-		"öffnungszeiten":           "Siehe Website",
+		// "öffnungszeiten":           "Siehe Website",
+		"öffnungszeiten":           {
+			"Mo": "-",
+			"Di": "-",
+			"Mi": "-",
+			"Do": "-",
+			"Fr": "-",
+			"Sa": "-",
+			"So": "-",
+		},
+		"öffnungszeiten_ausnahmen": "",
+		"bildquellen": "",
 		"images":                   ["/bilder/welpe1.jpg"],
 	},
 
@@ -252,8 +361,6 @@ var context  = {
 		"außerschulisches_angebot": "",
 		"beschreibung":             "",
 		"buchungsadresse":          "",
-		"images":                   [],
-
 		"öffnungszeiten":           {
 			"Mo": "-",
 			"Di": "-",
@@ -263,11 +370,13 @@ var context  = {
 			"Sa": "-",
 			"So": "-",
 		},
-		"bildquellen": ""
+		"öffnungszeiten_ausnahmen": "", // Hier bitte einen ganzen Satz hinschreiben
+		"bildquellen": "",
+		"images":                   [],
 	},
 };
 
-interal_to_displayed_mapping= {
+const interal_to_displayed_mapping= {
 	"zielgruppe":               "Zielgruppe",
 	"altersgruppe":             "Altersgruppe",
 	"teilnehmer_anzahl":        "Teilnehmeranzahl",
@@ -279,7 +388,7 @@ interal_to_displayed_mapping= {
 	"außerschulisches_angebot": "Außerschulisches Angebot",
 }
 
-tags_to_color_mapping = {
+const tags_to_color_mapping = {
 	"Informatik":  "black",
 	"Mathematik":  "blue",
 	"Biologie":    "green",
@@ -287,4 +396,14 @@ tags_to_color_mapping = {
 	"Astrophysik": "#000435"
 	
 	/* Ggf. Ergänzen */
+};
+
+const WochenTageMap = {
+	"Mo": "Montag",
+	"Di": "Dienstag",
+	"Mi": "Mittwoch",
+	"Do": "Donnerstag",
+	"Fr": "Freitag",
+	"Sa": "Samstag",
+	"So": "Sonntag",
 };
