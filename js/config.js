@@ -97,7 +97,7 @@ const context  = {
 		},
 		"öffnungszeiten_ausnahmen": "Auf Anfrage ist es möglich, dass Termine variabel gelegt werden.",
 		"bildquellen": "Eigenaufnahme",
-		"images": ["/bilder/DeutschesMuseum/IMG_5640Berabeitet Kopie.png","/bilder/DeutschesMuseum/IMG_5641 Kopie.png"],
+		"images": ["/bilder/experimentier-werkstatt/Titelbild/IMG_5643 Kopie.png", "/bilder/experimentier-werkstatt/IMG_5640Berabeitet Kopie.png", "/bilder/experimentier-werkstatt/IMG_5641 Kopie.png", "/bilder/experimentier-werkstatt/IMG_5646 Kopie.png", "/bilder/experimentier-werkstatt/IMG_5650 Kopie.png", "/bilder/experimentier-werkstatt/IMG_5651 Kopie.png", "/bilder/experimentier-werkstatt/IMG_5654Berabeitet Kopie.png", "/bilder/experimentier-werkstatt/IMG_5657 Kopie.png", "/bilder/experimentier-werkstatt/IMG_5658 Kopie.png", "/bilder/experimentier-werkstatt/IMG_5660 Kopie.png", "/bilder/experimentier-werkstatt/IMG_5661 Kopie.png", "/bilder/experimentier-werkstatt/IMG_5662 Kopie.png", "/bilder/experimentier-werkstatt/IMG_5663 Kopie.png", "/bilder/experimentier-werkstatt/IMG_5669 Kopie.png", "/bilder/experimentier-werkstatt/IMG_5673 Kopie.png", "/bilder/experimentier-werkstatt/IMG_5674 Kopie.png", "/bilder/experimentier-werkstatt/IMG_5675 Kopie.png", "/bilder/experimentier-werkstatt/IMG_5676 Kopie.png", "/bilder/experimentier-werkstatt/IMG_5677 Kopie.png", "/bilder/experimentier-werkstatt/IMG_5678 Kopie.png"],
 	},
 
 	"photonlab": {
@@ -130,7 +130,7 @@ const context  = {
 		},
 		"öffnungszeiten_ausnahmen": "",
 		"bildquellen": "",
-		"images": ["/bilder/welpe1.jpg"],
+		"images": ["/bilder/photonlab/Titelbild/IMG_5841Berabeitet Kopie.png", "/bilder/photonlab/IMG_5829 Kopie.png", "/bilder/photonlab/IMG_5830 Kopie.png", "/bilder/photonlab/IMG_5831Berabeitet Kopie.png", "/bilder/photonlab/IMG_5833 Kopie.png", "/bilder/photonlab/IMG_5835Berabeitet Kopie.png", "/bilder/photonlab/IMG_5836 Kopie.png", "/bilder/photonlab/IMG_5837 Kopie.png", "/bilder/photonlab/IMG_5838 Kopie.png", "/bilder/photonlab/IMG_5840Berabeitet Kopie.png", "/bilder/photonlab/IMG_5842 Kopie.png", "/bilder/photonlab/IMG_5843 Kopie.png", "/bilder/photonlab/IMG_5844Berabeitet Kopie.png", "/bilder/photonlab/IMG_5845Berabeitet Kopie.png", "/bilder/photonlab/IMG_5846 Kopie.png"],
 	},
 
 	"eso-supernova": {
@@ -197,7 +197,7 @@ const context  = {
 		},
 		"öffnungszeiten_ausnahmen": "",
 		"bildquellen": "",
-		"images":                   ["/bilder/welpe1.jpg"],
+		"images": ["/bilder/e-conversion/Titelbild/IMG_5876 Kopie.png", "/bilder/e-conversion/IMG_5856 Kopie.png", "/bilder/e-conversion/IMG_5857 Kopie.png", "/bilder/e-conversion/IMG_5858 Kopie.png", "/bilder/e-conversion/IMG_5863 Kopie.png", "/bilder/e-conversion/IMG_5864 Kopie.png", "/bilder/e-conversion/IMG_5866 Kopie.png", "/bilder/e-conversion/IMG_5867 Kopie.png", "/bilder/e-conversion/IMG_5869 Kopie.png", "/bilder/e-conversion/IMG_5870 Kopie.png", "/bilder/e-conversion/IMG_5872 Kopie.png", "/bilder/e-conversion/IMG_5873 Kopie.png", "/bilder/e-conversion/IMG_5874 Kopie.png"],
 	},
 
 	"ix-quadrat": {
@@ -299,7 +299,8 @@ const context  = {
 		},
 		"öffnungszeiten_ausnahmen": "",
 		"bildquellen": "",
-		"images":                   ["/bilder/welpe1.jpg"],
+		"images": ["/bilder/FabLab/Titelbild/DSC_0013 Kopie.png", "/bilder/FabLab/DSC_0001 Kopie.png", "/bilder/FabLab/DSC_0002 Kopie.png", "/bilder/FabLab/DSC_0003 Kopie.png", "/bilder/FabLab/DSC_0004 Kopie.png", "/bilder/FabLab/DSC_0005 Kopie.png", "/bilder/FabLab/DSC_0006 Kopie.png", "/bilder/FabLab/DSC_0007 Kopie.png", "/bilder/FabLab/DSC_0008 Kopie.png", "/bilder/FabLab/DSC_0009 Kopie.png", "/bilder/FabLab/DSC_0010 Kopie.png", "/bilder/FabLab/DSC_0011 Kopie.png", "/bilder/FabLab/DSC_0012 Kopie.png", "/bilder/FabLab/DSC_0014 Kopie.png", "/bilder/FabLab/DSC_0015 Kopie.png", "/bilder/FabLab/DSC_0016 Kopie.png", "/bilder/FabLab/DSC_0017 Kopie.png", "/bilder/FabLab/DSC_0018 Kopie.png", "/bilder/FabLab/DSC_0019 Kopie.png", "/bilder/FabLab/DSC_0020 Kopie.png", "/bilder/FabLab/DSC_0021 Kopie.png", "/bilder/FabLab/DSC_0022 Kopie.png", "/bilder/FabLab/DSC_0023 Kopie.png", "/bilder/FabLab/DSC_0024 Kopie.png", "/bilder/FabLab/DSC_0025 Kopie.png", "/bilder/FabLab/DSC_0026 Kopie.png", "/bilder/FabLab/DSC_0027 Kopie.png", "/bilder/FabLab/DSC_0028 Kopie.png"]
+,
 	},
 
 	"Genetik macht Schule": {
@@ -312,7 +313,7 @@ const context  = {
 		"zielgruppe":               1,
 		"altersgruppe":             "Oberstufe",
 		"teilnehmer_anzahl":        "maximal 24",
-		"dauer":                    "variabel" // Keine Ahnung was hier reinkommt <- dann frag bitte
+		"dauer":                    "variabel", // Keine Ahnung was hier reinkommt <- dann frag bitte
 		"schularten":               "Gymnasium",
 		"sprachen":                 ["Deutsch"],
 		"praktika":                 "Nein",
@@ -333,7 +334,7 @@ const context  = {
 		},
 		"öffnungszeiten_ausnahmen": "",
 		"bildquellen": "",
-		"images":                   ["/bilder/welpe1.jpg"],
+		"images": ["/bilder/Genetik macht Schule/Titelbild/IMG_5926Berabeitet Kopie.png", "/bilder/Genetik macht Schule/IMG_5855Berabeitet Kopie.png", "/bilder/Genetik macht Schule/IMG_5882 Kopie.png", "/bilder/Genetik macht Schule/IMG_5883 Kopie.png", "/bilder/Genetik macht Schule/IMG_5885 Kopie.png", "/bilder/Genetik macht Schule/IMG_5886 Kopie.png", "/bilder/Genetik macht Schule/IMG_5888 Kopie.png", "/bilder/Genetik macht Schule/IMG_5890 Kopie.png", "/bilder/Genetik macht Schule/IMG_5892 Kopie.png", "/bilder/Genetik macht Schule/IMG_5895 Kopie.png", "/bilder/Genetik macht Schule/IMG_5896 Kopie.png", "/bilder/Genetik macht Schule/IMG_5899 Kopie.png", "/bilder/Genetik macht Schule/IMG_5901 Kopie.png", "/bilder/Genetik macht Schule/IMG_5905 Kopie.png", "/bilder/Genetik macht Schule/IMG_5906 Kopie.png", "/bilder/Genetik macht Schule/IMG_5907 Kopie.png", "/bilder/Genetik macht Schule/IMG_5909 Kopie.png", "/bilder/Genetik macht Schule/IMG_5910 Kopie.png", "/bilder/Genetik macht Schule/IMG_5913 Kopie.png", "/bilder/Genetik macht Schule/IMG_5917 Kopie.png", "/bilder/Genetik macht Schule/IMG_5923 Kopie.png", "/bilder/Genetik macht Schule/IMG_5924 Kopie.png", "/bilder/Genetik macht Schule/IMG_5925 Kopie.png"],
 	},
 
 	"MINT Campus Dachau": {
