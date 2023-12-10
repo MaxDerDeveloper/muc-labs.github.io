@@ -6,15 +6,6 @@ Dies ist das Repository für die neue Muc-Labs Webseite.
     2. Run.bat ausführen, zum Beispiel durch Doppelklick
     3. Der Standardbrowser sollte sich mit der Website öffnen
 
-### Noch ausstehend (Absprache nötig):
-	* Bildervorschau aller Slides, wie Amazon
-	* Logo kleiner auf Handy
-	* Schatten und Boxen, siehe Video
-	* Schule-Freizeit-Schieber neben Titel
-	* Titel anders hervorheben
-	* Individuelle Farben für Haupttags
-
-
 
 ## TO DO
 
