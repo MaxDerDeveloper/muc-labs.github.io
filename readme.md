@@ -1,16 +1,10 @@
 # Muc-Labs
 Dies ist das Repository für die neue Muc-Labs Webseite.
 
-### Umgesetze Änderungen:
-	* Bilder größer
-	* Tags kleiner
-	* Farben ändern
-	* Google Maps link hinter Adresse, Adresse als Link
-	* Vertikaler Abstand größer bei Tags und Tabelle
-	* Tabelle mehr padding, größerer Text, text zentriet in linker Spalte
-	* Haupttags immer anzeigen, nebentags in collapsable
-	* Beschreibungstext unter Tabelle
-	* 3 Fußzeilenlink unter Trennlinie (nicht ganz bis zum Rand)
+### Aufrufen der Website (Windows)
+	1. Dateien herunterladen
+    2. Run.bat ausführen, zum Beispiel durch Doppelklick
+    3. Der Standardbrowser sollte sich mit der Website öffnen
 
 ### Noch ausstehend (Absprache nötig):
 	* Bildervorschau aller Slides, wie Amazon
@@ -26,7 +20,7 @@ Dies ist das Repository für die neue Muc-Labs Webseite.
 
 In labs.html
 
-    alle Labs anzeigenv+vertical/horizontal margin
+    alle Labs anzeigenv+vertical/horizontal margin (?)
     [DONE] Auf Cards drücken --> weiterleiten zu lab.html
     [DONE] Ganze Karte als Hyperlink (?)
     [DONE] Schatten um Cards
@@ -36,12 +30,12 @@ In labs.html
 
 In lab.html:
     
-    Bilder anpassen auf PNG, Auflösung 1920x1080 px
+    Bilder anpassen auf PNG, Auflösung 1920x1280 px (Mateo)
     [DONE] Titel als Hyperlink zur Lab-Webseite mit Link-Symbol
     [DONE] Link-Symbol hinter google maps
     Mehr Abstand zum Footer
     Tabellen Grautöne mehr angleichen
-    Linke Spalte Öffnungszeiten einfügen (siehe Tafelbild vom 15.11)
+    [DONE] Linke Spalte Öffnungszeiten einfügen (siehe Tafelbild vom 15.11)
     KANN-Anforderung: Preise hinzufügen mit Stand von letzter Aktualisierung
     [DONE] Schieberegler mit 11 Stufen (0 bis 10) unter Überschrift
 
