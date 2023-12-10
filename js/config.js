@@ -62,7 +62,7 @@ const context  = {
 			"So": "auf Anfrage",
 		},
 		"öffnungszeiten_ausnahmen": "Die Öffnungszeiten der virtuellen Schulstunden sind prinzipiell flexibler, und auf Anfrage können möglicherweise auch Termine außerhalb der regulären Öffnungszeiten ausgemacht werden.",
-		"bildquellen": "MaxLab",
+		"bildquellen": "Eigenaufnahmen",
 		"images":                   ["/bilder/welpe1.jpg"],
 	},
 
@@ -129,7 +129,7 @@ const context  = {
 			"So": "geschlossen",
 		},
 		"öffnungszeiten_ausnahmen": "",
-		"bildquellen": "",
+		"bildquellen": "Eigenaufnahmen",
 		"images": ["/bilder/photonlab/Titelbild/IMG_5841Berabeitet Kopie.png", "/bilder/photonlab/IMG_5829 Kopie.png", "/bilder/photonlab/IMG_5830 Kopie.png", "/bilder/photonlab/IMG_5831Berabeitet Kopie.png", "/bilder/photonlab/IMG_5833 Kopie.png", "/bilder/photonlab/IMG_5835Berabeitet Kopie.png", "/bilder/photonlab/IMG_5836 Kopie.png", "/bilder/photonlab/IMG_5837 Kopie.png", "/bilder/photonlab/IMG_5838 Kopie.png", "/bilder/photonlab/IMG_5840Berabeitet Kopie.png", "/bilder/photonlab/IMG_5842 Kopie.png", "/bilder/photonlab/IMG_5843 Kopie.png", "/bilder/photonlab/IMG_5844Berabeitet Kopie.png", "/bilder/photonlab/IMG_5845Berabeitet Kopie.png", "/bilder/photonlab/IMG_5846 Kopie.png"],
 	},
 
@@ -162,7 +162,7 @@ const context  = {
 			"So": "12-17",
 		},
 		"öffnungszeiten_ausnahmen": "",
-		"bildquellen": "",
+		"bildquellen": "Eigenaufnahmen",
 		"images": ["/bilder/eso-supernova/Titelbild/DJI_0780 Kopie.png", "/bilder/eso-supernova/DJI_0779 Kopie.png", "/bilder/eso-supernova/IMG_5730 Kopie.png", "/bilder/eso-supernova/IMG_5733 Kopie.png", "/bilder/eso-supernova/IMG_5736 Kopie.png", "/bilder/eso-supernova/IMG_5737 Kopie.png", "/bilder/eso-supernova/IMG_5738 Kopie.png", "/bilder/eso-supernova/IMG_5740 Kopie.png", "/bilder/eso-supernova/IMG_5741 Kopie.png", "/bilder/eso-supernova/IMG_5742 Kopie.png", "/bilder/eso-supernova/IMG_5745 Kopie.png", "/bilder/eso-supernova/IMG_5746 Kopie.png", "/bilder/eso-supernova/IMG_5747 Kopie.png", "/bilder/eso-supernova/IMG_5755 Kopie.png", "/bilder/eso-supernova/IMG_5756 Kopie.png", "/bilder/eso-supernova/IMG_5757 Kopie.png", "/bilder/eso-supernova/IMG_5758 Kopie.png", "/bilder/eso-supernova/IMG_5759 Kopie.png", "/bilder/eso-supernova/IMG_5760 Kopie.png", "/bilder/eso-supernova/IMG_5764 Kopie.png", "/bilder/eso-supernova/IMG_5767 Kopie.png", "/bilder/eso-supernova/IMG_5771 Kopie.png", "/bilder/eso-supernova/IMG_5775 Kopie.png", "/bilder/eso-supernova/IMG_5777 Kopie.png", "/bilder/eso-supernova/IMG_5778Berabeitet Kopie.png", "/bilder/eso-supernova/IMG_5779 Kopie.png", "/bilder/eso-supernova/IMG_5780 Kopie.png", "/bilder/eso-supernova/IMG_5786 Kopie.png", "/bilder/eso-supernova/IMG_5791 Kopie.png", "/bilder/eso-supernova/IMG_5794Berabeitet Kopie.png", "/bilder/eso-supernova/IMG_5795 Kopie.png", "/bilder/eso-supernova/IMG_5796 Kopie.png", "/bilder/eso-supernova/IMG_5798 Kopie.png", "/bilder/eso-supernova/IMG_5803 Kopie.png", "/bilder/eso-supernova/IMG_5805 Kopie.png", "/bilder/eso-supernova/IMG_5806Berabeitet Kopie.png", "/bilder/eso-supernova/IMG_5810Berabeitet Kopie.png", "/bilder/eso-supernova/IMG_5817 Kopie.png", "/bilder/eso-supernova/IMG_5818 Kopie.png", "/bilder/eso-supernova/IMG_5822 Kopie.png", "/bilder/eso-supernova/IMG_5823 Kopie.png", "/bilder/eso-supernova/IMG_5829Berabeitet Kopie.png"],
 	},
 
@@ -195,7 +195,7 @@ const context  = {
 			"So": "geschlossen",
 		},
 		"öffnungszeiten_ausnahmen": "",
-		"bildquellen": "",
+		"bildquellen": "Eigenaufnahmen",
 		"images": ["/bilder/e-conversion/Titelbild/IMG_5876 Kopie.png", "/bilder/e-conversion/IMG_5856 Kopie.png", "/bilder/e-conversion/IMG_5857 Kopie.png", "/bilder/e-conversion/IMG_5858 Kopie.png", "/bilder/e-conversion/IMG_5863 Kopie.png", "/bilder/e-conversion/IMG_5864 Kopie.png", "/bilder/e-conversion/IMG_5866 Kopie.png", "/bilder/e-conversion/IMG_5867 Kopie.png", "/bilder/e-conversion/IMG_5869 Kopie.png", "/bilder/e-conversion/IMG_5870 Kopie.png", "/bilder/e-conversion/IMG_5872 Kopie.png", "/bilder/e-conversion/IMG_5873 Kopie.png", "/bilder/e-conversion/IMG_5874 Kopie.png"],
 	},
 
@@ -263,7 +263,7 @@ const context  = {
 			"So": "-",
 		},
 		"öffnungszeiten_ausnahmen": "",
-		"bildquellen": "",
+		"bildquellen": "Eigenaufnahmen",
 		"images":                   ["/bilder/welpe1.jpg"],
 	},
 
@@ -297,7 +297,7 @@ const context  = {
 			"So": "geschlossen",
 		},
 		"öffnungszeiten_ausnahmen": "Die Öffnungszeiten beziehen sich auf das Schullab. Die Werkstatt hat dauerhaft offen",
-		"bildquellen": "",
+		"bildquellen": "Eigenaufnahmen",
 		"images": ["/bilder/FabLab/Titelbild/DSC_0013 Kopie.png", "/bilder/FabLab/DSC_0001 Kopie.png", "/bilder/FabLab/DSC_0002 Kopie.png", "/bilder/FabLab/DSC_0003 Kopie.png", "/bilder/FabLab/DSC_0004 Kopie.png", "/bilder/FabLab/DSC_0005 Kopie.png", "/bilder/FabLab/DSC_0006 Kopie.png", "/bilder/FabLab/DSC_0007 Kopie.png", "/bilder/FabLab/DSC_0008 Kopie.png", "/bilder/FabLab/DSC_0009 Kopie.png", "/bilder/FabLab/DSC_0010 Kopie.png", "/bilder/FabLab/DSC_0011 Kopie.png", "/bilder/FabLab/DSC_0012 Kopie.png", "/bilder/FabLab/DSC_0014 Kopie.png", "/bilder/FabLab/DSC_0015 Kopie.png", "/bilder/FabLab/DSC_0016 Kopie.png", "/bilder/FabLab/DSC_0017 Kopie.png", "/bilder/FabLab/DSC_0018 Kopie.png", "/bilder/FabLab/DSC_0019 Kopie.png", "/bilder/FabLab/DSC_0020 Kopie.png", "/bilder/FabLab/DSC_0021 Kopie.png", "/bilder/FabLab/DSC_0022 Kopie.png", "/bilder/FabLab/DSC_0023 Kopie.png", "/bilder/FabLab/DSC_0024 Kopie.png", "/bilder/FabLab/DSC_0025 Kopie.png", "/bilder/FabLab/DSC_0026 Kopie.png", "/bilder/FabLab/DSC_0027 Kopie.png", "/bilder/FabLab/DSC_0028 Kopie.png"]
 ,
 	},
@@ -332,7 +332,7 @@ const context  = {
 			"So": "-",
 		},
 		"öffnungszeiten_ausnahmen": "",
-		"bildquellen": "",
+		"bildquellen": "Eigenaufnahmen",
 		"images": ["/bilder/Genetik macht Schule/Titelbild/IMG_5926Berabeitet Kopie.png", "/bilder/Genetik macht Schule/IMG_5855Berabeitet Kopie.png", "/bilder/Genetik macht Schule/IMG_5882 Kopie.png", "/bilder/Genetik macht Schule/IMG_5883 Kopie.png", "/bilder/Genetik macht Schule/IMG_5885 Kopie.png", "/bilder/Genetik macht Schule/IMG_5886 Kopie.png", "/bilder/Genetik macht Schule/IMG_5888 Kopie.png", "/bilder/Genetik macht Schule/IMG_5890 Kopie.png", "/bilder/Genetik macht Schule/IMG_5892 Kopie.png", "/bilder/Genetik macht Schule/IMG_5895 Kopie.png", "/bilder/Genetik macht Schule/IMG_5896 Kopie.png", "/bilder/Genetik macht Schule/IMG_5899 Kopie.png", "/bilder/Genetik macht Schule/IMG_5901 Kopie.png", "/bilder/Genetik macht Schule/IMG_5905 Kopie.png", "/bilder/Genetik macht Schule/IMG_5906 Kopie.png", "/bilder/Genetik macht Schule/IMG_5907 Kopie.png", "/bilder/Genetik macht Schule/IMG_5909 Kopie.png", "/bilder/Genetik macht Schule/IMG_5910 Kopie.png", "/bilder/Genetik macht Schule/IMG_5913 Kopie.png", "/bilder/Genetik macht Schule/IMG_5917 Kopie.png", "/bilder/Genetik macht Schule/IMG_5923 Kopie.png", "/bilder/Genetik macht Schule/IMG_5924 Kopie.png", "/bilder/Genetik macht Schule/IMG_5925 Kopie.png"],
 	},
 
@@ -365,7 +365,7 @@ const context  = {
 			"So": "geschlossen",
 		},
 		"öffnungszeiten_ausnahmen": "Diese Öffnungszeiten beziehen sich nur auf das Büro. Die einzelnen Termine der Workshops stehen auf der Website.",
-		"bildquellen": "",
+		"bildquellen": "Eigenaufnahmen",
 		"images":                   ["/bilder/welpe1.jpg"],
 	},
 
