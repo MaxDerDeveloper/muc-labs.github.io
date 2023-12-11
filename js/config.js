@@ -63,7 +63,7 @@ const context  = {
 		},
 		"öffnungszeiten_ausnahmen": "Die Öffnungszeiten der virtuellen Schulstunden sind prinzipiell flexibler, und auf Anfrage können möglicherweise auch Termine außerhalb der regulären Öffnungszeiten ausgemacht werden.",
 		"bildquellen": "Eigenaufnahmen",
-		"images":                   ["/bilder/welpe1.jpg"],
+		"images":                   ["/bilder/MaxLab/MaxLab_Bild1 Kopie.png","bilder/MaxLab/MaxLab_Bild2 Kopie.png"],
 	},
 
 	"experimentier-werkstatt": {
