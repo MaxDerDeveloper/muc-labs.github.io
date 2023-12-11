@@ -312,16 +312,15 @@ const context  = {
 		"zielgruppe":               1,
 		"altersgruppe":             "Oberstufe",
 		"teilnehmer_anzahl":        "maximal 24",
-		"dauer":                    "variabel", // Keine Ahnung was hier reinkommt <- dann frag bitte
+		"dauer":                    "variabel", // Keine Ahnung was hier reinkommt <- dann frag bitte <-- Der erste kommentar ist alt, den hab ich vergseen zu löschen
 		"schularten":               "Gymnasium",
 		"sprachen":                 ["Deutsch"],
 		"praktika":                 "Nein",
 		"w-seminare":               "Nein",
 		"betreuungspersonal":       "Studierende",
 		"außerschulisches_angebot": "Nein",
-		"beschreibung":             "Genetik macht Schule vereint die Interessen von Schülern und Studierenden, erstere kriegen eine spannede Unterichtsstunde mit anschliessendem praktischen Teil, letztere hingegen können Erfahrungen im Schüler unterichten sammeln. Auf die theoretische Unterrichtsstunde folgt eine Woche später ein Experiment, um das gelernte zu festigen.",
+		"beschreibung":             "Genetik macht Schule vereint als 'Intergriertes Schülerlabor' die Interessen von Schülern und Studierenden, erstere kriegen eine spannede Unterichtsstunde mit anschliessendem praktischen Teil; letztere können Unterichtserfahrung sammeln. Auf die theoretische Unterrichtsstunde folgt eine Woche später ein experimenteller Teil am Biozentrum der LMU, um das gelernte zu festigen.",
 		"buchungsadresse":          "brachmann@lmu.de",
-		// "öffnungszeiten":           "Siehe Website",
 		"öffnungszeiten":           {
 			"Mo": "-",
 			"Di": "-",
