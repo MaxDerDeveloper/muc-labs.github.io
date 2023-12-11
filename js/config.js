@@ -49,7 +49,7 @@ const context  = {
 		"w-seminare":               "Festes Kursangebot für W-Seminare",
 		"betreuungspersonal":       "Leitung des MaxLabs, Studenten sowie Auszubildende",
 		"außerschulisches_angebot": "Online Escape Room Spiel, Kurse in den Sommerferien, Virtuelle Schulstunden",
-		"beschreibung":             "Das Angebot des Maxlabs richtet sich primär an Schülergruppen aus der Oberstufe. Die Kurse sind kostenfrei und bieten den Teilnehmern die Möglichkeit, sich in verschiedenen Teilgebieten der Biologie zu vertiefen und praktische Erfahrungen zu sammeln. Zu einem festen Termin können Schüler einmal jährlich ein Schülerpraktikum absolvieren. Zusätzlich können Schüler online ein PCR Escape Game, in dem sie zur Abwendung einer Katastrophe Rätsel lösen müssen, spielen.<br>Darüber hinaus besteht die Möglichkeit, an virtuellen Unterrichtsstunden zu den Themen 'Faszination Gehirn' und 'Vom genetischen Code zum Proteom' teilzunehmen.",
+		"beschreibung":             "Das Angebot des MaxLabs richtet sich primär an Schülergruppen aus der Oberstufe. Die Kurse sind kostenfrei und bieten den Teilnehmern die Möglichkeit, sich in verschiedenen Teilgebieten der Biologie zu vertiefen und praktische Erfahrungen zu sammeln. Zu einem festen Termin können Schüler einmal jährlich ein Schülerpraktikum absolvieren. Zusätzlich kann jeder online ein PCR Escape Game spielen, in dem eine Katastrophe durch das Lösen eines Rätsels abzuwenden ist.<br>Darüber hinaus besteht die Möglichkeit, an virtuellen Unterrichtsstunden zu den Themen 'Faszination Gehirn' und 'Vom genetischen Code zum Proteom' teilzunehmen.",
 		"buchungsadresse":          "ina.peters@bi.mpg.de",
 		// "öffnungszeiten":           null,
 		"öffnungszeiten":           {
