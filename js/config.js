@@ -319,8 +319,8 @@ const context  = {
 		"w-seminare":               "Nein",
 		"betreuungspersonal":       "Studierende",
 		"außerschulisches_angebot": "Nein",
-		"beschreibung":             "Genetik macht Schule vereint als 'Intergriertes Schülerlabor' die Interessen von Schülern und Studierenden, erstere kriegen eine spannede Unterichtsstunde mit anschliessendem praktischen Teil; letztere können Unterichtserfahrung sammeln. Auf die theoretische Unterrichtsstunde folgt eine Woche später ein experimenteller Teil am Biozentrum der LMU, um das gelernte zu festigen.",
-		"buchungsadresse":          "brachmann@lmu.de",
+		"beschreibung":             "Genetik macht Schule vereint als \"Intergriertes Schülerlabor\" die Interessen von Schülern und Studierenden, erstere kriegen eine spannede Unterichtsstunde mit anschliessendem praktischen Teil; letztere können Unterichtserfahrung sammeln. Auf die theoretische Unterrichtsstunde folgt eine Woche später ein experimenteller Teil am Biozentrum der LMU, um das gelernte zu festigen.",
+		"buchungsadresse":          "<a href='mailto:brachmann@lmu.de'>brachmann@lmu.de</a>",
 		"öffnungszeiten":           {
 			"Mo": "-",
 			"Di": "-",
