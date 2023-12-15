@@ -347,7 +347,7 @@ const context  = {
 		"schularten":               "Uneingeschränkt",
 		"sprachen":                 ["Deutsch", "Englisch"],
 		"praktika":                 "Ja",
-		"w-seminare":               "Nein?",
+		"w-seminare":               "Nein",
 		"betreuungspersonal":       "Vorhanden",
 		"außerschulisches_angebot": "siehe <a href='foo.bar'>FabLab Muenchen e.V.</a>, außerdem offene Werkstätte mit Kursleiter und Anmeldung",
 		"beschreibung":             "Im Fablab München Kannst Du eine Hightechwerkstatt mit unterschiedlichen computergesteuerten Maschinen hautnah erleben. Wir haben eine 300mz große Werkstatt in der Du als Mitglied verschiedenste 3D Drucker, Lasercutter, Holz-, Metall, sowie Elektronikwerkstatt live erleben kannst. In den 200 Quadratmeter großen Bildungsräumen kannst Du selber lernen mit den Maschinen umzugehen und Modelle zum Drucken oder Cutten erstellen, sowie verschiedenste 3D-Druck-, Minecraft-, Programmier-, Elektronik-, Trickfilm- und Laserkurse mitmachen. Entweder Du kommst mit Deiner Klasse unter der Woche, oder am Wochenende oder in den Ferien zu einem Kurs zu uns.",
