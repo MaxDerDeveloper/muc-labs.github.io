@@ -17,7 +17,7 @@ const context  = {
 		"betreuungspersonal":       "Ein Informatiker pro Gruppe",
 		"außerschulisches_angebot": "Ausschließlich außerschulisches Angebot",
 		"beschreibung":             "Informatikinteressierte können bei Farning abseits der Schule in Kursen lernen zu programmieren. Dabei werden ihnen die dazu notwendigen mathematische Grundlagen vermittelt. Zudem können die Schüler eigene Projekte in Gruppen selbstständig umsetzen. Interessenten können ganzjährig eine Probestunde vereinbaren. Bei beidseitigem Interesse an einer langfristigen Teilnahme wird man in der Regel erst auf eine Warteliste gesetzt, bevor man einer Gruppe beitreten kann, die zu den Vorkenntnissen des Schülers passt. Neben dem Erlangen fachlicher Kompetenzen schafft Farning sozialen Ausgleich zwischen Informatikbegeisterten.",
-		"buchungsadresse":          "aufnahme@farning.de",
+		"buchungsadresse":          "<a href='mailto:aufnahme@farning.de'>aufnahme@farning.de</a>",
 		"öffnungszeiten":           {
 			"Mo": "14:00 - 20:30",
 			"Di": "14:00 - 20:30",
