@@ -96,7 +96,7 @@ const context  = {
 		},
 		"öffnungszeiten_ausnahmen": "",
 		"bildquellen": "Eigenaufnahmen",
-		"images":                   ["/bilder/MaxLab/MaxLab_Bild1 Kopie.png","bilder/MaxLab/MaxLab_Bild2 Kopie.png"],
+		"images":                   ["bilder/MaxLab/MaxLab_Bild2 Kopie.png","/bilder/MaxLab/MaxLab_Bild1 Kopie.png"],
 	},
 
 	"experimentier-werkstatt": {
