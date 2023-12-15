@@ -40,7 +40,7 @@ const context  = {
 		"überthema":                ["Physik"],
 		"unterthema":               ["Raumfahrt", "Luftfahrt", "Roboter", "Klima", "Wetter"],
 		"zielgruppe":               2,
-		"altersgruppe":             "3,4 Klasse bis Studentengruppen",
+		"altersgruppe":             "3. Klasse bis Studentengruppen",
 		"teilnehmer_anzahl":        "Je nach Experiment Variabel ",
 		"dauer":                    "3,5 - 7h",
 		"schularten":               ["Alle"],
@@ -49,7 +49,7 @@ const context  = {
 		"w-seminare":               "Messungen u.ä möglich",
 		"betreuungspersonal":       "Ja",
 		"außerschulisches_angebot": "An speziellen Tagen wie Girlsday",
-		"beschreibung":             "Das DLR_School_Lab bietet eine Vielzahl an interessanten <a href='https://www.dlr.de/schoollab/desktopdefault.aspx/tabid-14243/'>Experimenten</a> an, welche sich über Themen von Satelitennavigation über Robotik bis zu Flugsimulatoren erstrecken. Es kann zwischen einem Ganztagsbesuch, bei dem zwei Experimente oder einem Halbtagsbesuch, bei dem nur ein Esxperiment durchgeführt werden.",
+		"beschreibung":             "Das DLR_School_Lab bietet eine Vielzahl an interessanten <a href='https://www.dlr.de/schoollab/desktopdefault.aspx/tabid-14243/'>Experimenten</a> an, welche sich über Themen von Satelitennavigation über Robotik bis zu Flugsimulatoren erstrecken. Es kann zwischen einem Ganztagsbesuch, bei dem zwei Experimente oder einem Halbtagsbesuch, bei dem nur ein Experiment durchgeführt wird entschieden werden.",
 		"buchungsadresse":          "<a href='https://www.dlr.de/schoollab/desktopdefault.aspx/tabid-15845'>Anmeldeformular</a> auf der Website",
 		"öffnungszeiten":           {
 			"Mo": "-",
