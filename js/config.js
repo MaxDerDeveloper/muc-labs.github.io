@@ -263,7 +263,7 @@ const context  = {
 		},
 		"öffnungszeiten_ausnahmen": "Termine für angemeldete Gruppenbesuche können auf Anfrage festgelegt werden. Öffnungszeiten für Besucher:innen ohne Anmeldung werden regelmäßig auf der Webseite vom ix-quadrat veröffentlicht.",
 		"bildquellen": "ix-quadrat",
-		"images": ["/bilder/ix-quadrat/Titelbild/A003_0006 Kopie.png", "/bilder/ix-quadrat/03 Kopie.png", "/bilder/ix-quadrat/07 2 Kopie.png", "/bilder/ix-quadrat/07 Kopie.png", "/bilder/ix-quadrat/09 Kopie.png"],
+		"images": ["/bilder/ix-quadrat/Titelbild/07 Kopie.png", "/bilder/ix-quadrat/03 Kopie.png", "/bilder/ix-quadrat/07 2 Kopie.png", "/bilder/ix-quadrat/A003_0006 Kopie.png", "/bilder/ix-quadrat/09 Kopie.png"],
 	},
 
 	"SWM Bildungsangebote": {
