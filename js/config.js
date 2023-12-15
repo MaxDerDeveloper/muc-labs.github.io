@@ -330,7 +330,7 @@ const context  = {
 		},
 		"öffnungszeiten_ausnahmen": "Die Werkstatt hat dauerhaft offen",
 		"bildquellen": "",
-		"images": ["bilder/Fablab/fablab1.JGP", "bilder/Fablab/fablab2.JPEG", "bilder/Fablab/fablab3.JPG", "bilder/Fablab/fablab4.JPG", "bilder/Fablab/fablab5.jpg"],
+		"images": ["bilder/Fablab/fablab1.JPG", "bilder/Fablab/fablab2.JPEG", "bilder/Fablab/fablab3.JPG", "bilder/Fablab/fablab4.JPG", "bilder/Fablab/fablab5.jpg"],
 	},
 
 	"FabLab2": {
@@ -363,7 +363,7 @@ const context  = {
 		},
 		"öffnungszeiten_ausnahmen": "FabLab Kids hat keine Öffnungszeiten außerhalb der zu buchenden Kurse",
 		"bildquellen": "",
-		"images": ["bilder/Fablab/fablab1.JGP", "bilder/Fablab/fablab2.JPEG", "bilder/Fablab/fablab3.JPG", "bilder/Fablab/fablab4.JPG", "bilder/Fablab/fablab5.jpg"],
+		"images": ["bilder/Fablab/fablab1.JPG", "bilder/Fablab/fablab2.JPEG", "bilder/Fablab/fablab3.JPG", "bilder/Fablab/fablab4.JPG", "bilder/Fablab/fablab5.jpg"],
 	},
 
 	"Genetik macht Schule": {
