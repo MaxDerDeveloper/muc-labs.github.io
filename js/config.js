@@ -117,7 +117,7 @@ const context  = {
 		"betreuungspersonal":       "Leitung, Werkstudenten",
 		"außerschulisches_angebot": "Für Museumsbesucher",
 		"beschreibung":             "Die Experimentier-Werkstatt im Deutschen Museum präsentiert eine umfangreiche Auswahl an Workshops für Schüler verschiedener Altersgruppen. Jene decken unterschiedliche Bereiche der MINT-Fächer ab.<br>Im 75-minütigen 'Sensor Lab' tauchen Schüler der Klassenstufen 8-12 in das Teilgebiet der Sensorik ein. Für Schüler der Klassenstufen 7-10 bietet der Workshop 'Licht mach Musik' in 75 Minuten einen Einblick in die Optoelektronik. Der 60 Minuten lange Workshop 'Hört! Hört!' fokussiert sich auf das Teilgebiet der Akustik und ist für Schüler der Klassen 4-10 zugänglich. Im Bereich Elektronik ermöglicht der 60-minütige Workshop 'Strom ab!' Schülern der Klassen 3-7 praktische Erfahrungen. Schüler der Klassenstufen 4-12 können am Workshop 'Malen mit Licht' für 60 Minuten teilnehmen. Für Schüler der Klassen 6-8 steht der 75-minütige Online-Workshop 'Sensorik' zur Verfügung.<br>Die Kosten der Workshops in Euro entsprechen der jeweiligen Workshopdauer in Minuten. Die Öffnungszeiten sind grundsätzlich vormittags von Montag bis Freitag. Individuelle Abweichungen sind möglich und können auf Anfrage geklärt werden. Die Experimentier-Werkstatt verfolgt das Ziel, die Neugier für MINT-Fächer zu wecken und zu fördern. Verblüffende Experimente sollen Kinder und Jugendliche faszinieren. Das Schülerlabor trägt zur Nachwuchsförderung im MINT-Bereich bei und unterstützt die allgemeine Technik- und Wissenschaftsmündigkeit.",
-		"buchungsadresse":          "https://www.deutsches-museum.de/museumsinsel/programm/programm-a-z/experimentier-werkstatt#c25480",
+		"buchungsadresse":          "<a href='https://www.deutsches-museum.de/museumsinsel/programm/programm-a-z/experimentier-werkstatt#c25480'>Buchungswebseite</a>",
 		// "öffnungszeiten":           null,
 		"öffnungszeiten":           {
 			"Mo": "Vormittags",
@@ -151,7 +151,7 @@ const context  = {
 		"betreuungspersonal":       "-", /* ? */
 		"außerschulisches_angebot": "Tag der offenen Türen (3.11)<br>Hilfe bei Wettbewerben (Physikolympiade)<br>Lehrerfortbildungeny<br>Campusquiz",
 		"beschreibung":             "Das Ziel ist es auch Laien das Thema Licht und Laser näherzubringen, wie Laser funktionieren und wie sie aufgebaut sind. Außerdem wird das Thema Quantenphysik in Ansätzen erklärt, auf Nach-/Anfrage wird auch mehr zu dem Thema erklärt. Der Besuch beginnt mit einem Einführungsvortrag, anschließend darf man 20 spannende Experimente mit Lasern machen mit Einleitungen am IPad, zum Beispiel einen echten Doppelspalt oder Musikübertragung per Laser.  Man bekommt auch die Möglichkeit durch eine Glaswand in das Labor für Attosekundenphysik reinzugucken",
-		"buchungsadresse":          "+49 89 3 29 05 - 197 Dr. Silke Stähler Schöpf E-Mail: staehler-schoepf@physik.uni-muenchen.de",
+		"buchungsadresse":          "+49 89 3 29 05 - 197 Dr. Silke Stähler Schöpf E-Mail: <a href='mailto:staehler-schoepf@physik.uni-muenchen.de'>staehler-schoepf@physik.uni-muenchen.de</a>",
 		"öffnungszeiten":           {
 			"Mo": "8-16",
 			"Di": "8-16",
@@ -184,7 +184,7 @@ const context  = {
 		"betreuungspersonal":       "Nein",
 		"außerschulisches_angebot": "Girls-Day<br>Führungen auch im Hauptquatier/Berufsorientierung",
 		"beschreibung":             "Das ESO bietet 6 Workshops an, die die Erforschung des Weltalls näherbringen sollen. Das Ziel ist es, Interesse für Naturwissenschaften zu wecken. Dabei werden die Grundlagen der Optik mit alltäglichen Gegenständen erklärt und in einen astronomischen Kontext gebracht.",
-		"buchungsadresse":          "https://supernova.eso.org/germany/visit/",
+		"buchungsadresse":          "<a href='https://supernova.eso.org/germany/visit/'>Buchungswebseite</a>",
 		"öffnungszeiten":           {
 			"Mo": "9-12",
 			"Di": "9-12",
@@ -218,7 +218,7 @@ const context  = {
 		"betreuungspersonal":       "Leitung, Doktoranden, Postdocs",
 		"außerschulisches_angebot": "variiert, aktuelle Infos auf der Website",
 		"beschreibung":             "Das Exzellenz-Cluster e-conversion richtet sich an Schulklassen, die in Garching einen Workshop machen wollen, um den Blick zu erweitern, für MINT Fächer zu begeistern und die Art und Weise wissenschaftlicher Forschung zu kennenzulernen.",
-		"buchungsadresse":          "silke.mayerl@e-conversion.de",
+		"buchungsadresse":          "<a href='mailto:silke.mayerl@e-conversion.de'> silke.mayerl@e-conversion.de</a>",
 		"öffnungszeiten":           {
 			"Mo": "vormittags",
 			"Di": "vormittags",
@@ -286,7 +286,7 @@ const context  = {
 		"betreuungspersonal":       "Vorhanden",
 		"außerschulisches_angebot": "Nein",
 		"beschreibung":             "Die SWM Bildungsangebote erstrecken sich über eine Vielfalt an Themenbereichen, von Energiegewinnung über Trinkwassergewinnung, bis hin zu der Funktion der öffentlichen Verkehrsmitteln in München. Es besteht die Möglichkeit, Energiekraftwerke zu besuchen oder Kurse zum richtigen Busfahren zu buchen.",
-		"buchungsadresse":          "Per Formular auf der Website: https://www.swm.de/schule/besichtigungen-veranstaltungen/anmeldung-neu oder terilweise schulkontakt@swm.de",
+		"buchungsadresse":          "<a href='https://www.swm.de/schule/besichtigungen-veranstaltungen/anmeldung-neu'>Buchungswebseite oder <a href='mailto:schulkontakt@swm.de'>schulkontakt@swm.de</a>",
 		// "öffnungszeiten":           "Variabel",
 		"öffnungszeiten":           {
 			"Mo": "-",
@@ -320,7 +320,7 @@ const context  = {
 		"betreuungspersonal":       "Vorhanden",
 		"außerschulisches_angebot": "Selbstständiges Nutzen der Werkstatt möglich ab 16 nach Einführung oder im Rahmen offener Werkstätte möglich",
 		"beschreibung":             "Im Fablab München Kannst Du eine Hightechwerkstatt mit unterschiedlichen computergesteuerten Maschinen hautnah erleben. Wir haben eine 300mz große Werkstatt in der Du als Mitglied verschiedenste 3D Drucker, Lasercutter, Holz-, Metall, sowie Elektronikwerkstatt live erleben kannst. In den 200 Quadratmeter großen Bildungsräumen kannst Du selber lernen mit den Maschinen umzugehen und Modelle zum Drucken oder Cutten erstellen, sowie verschiedenste 3D-Druck-, Minecraft-, Programmier-, Elektronik-, Trickfilm- und Laserkurse mitmachen. Entweder Du kommst mit Deiner Klasse unter der Woche, oder am Wochenende oder in den Ferien zu einem Kurs zu uns.",
-		"buchungsadresse":          "<a href='https://www.eventbrite.de/o/fablab-kids-im-fablab-munchen-ev-7117094347'>https://www.eventbrite.de/o/fablab-kids-im-fablab-munchen-ev-7117094347</a>",
+		"buchungsadresse":          "<a href='https://www.eventbrite.de/o/fablab-kids-im-fablab-munchen-ev-7117094347'>Buchungswebseite</a>",
 		"öffnungszeiten":           {
 			"Mo": "-",
 			"Di": "-",
@@ -353,7 +353,7 @@ const context  = {
 		"betreuungspersonal":       "Vorhanden",
 		"außerschulisches_angebot": "siehe <a href='foo.bar'>FabLab Muenchen e.V.</a>, außerdem offene Werkstätte mit Kursleiter und Anmeldung",
 		"beschreibung":             "Im Fablab München Kannst Du eine Hightechwerkstatt mit unterschiedlichen computergesteuerten Maschinen hautnah erleben. Wir haben eine 300mz große Werkstatt in der Du als Mitglied verschiedenste 3D Drucker, Lasercutter, Holz-, Metall, sowie Elektronikwerkstatt live erleben kannst. In den 200 Quadratmeter großen Bildungsräumen kannst Du selber lernen mit den Maschinen umzugehen und Modelle zum Drucken oder Cutten erstellen, sowie verschiedenste 3D-Druck-, Minecraft-, Programmier-, Elektronik-, Trickfilm- und Laserkurse mitmachen. Entweder Du kommst mit Deiner Klasse unter der Woche, oder am Wochenende oder in den Ferien zu einem Kurs zu uns.",
-		"buchungsadresse":          "<a href='https://www.eventbrite.de/o/fablab-kids-im-fablab-munchen-ev-7117094347'>https://www.eventbrite.de/o/fablab-kids-im-fablab-munchen-ev-7117094347</a>",
+		"buchungsadresse":          "<a href='https://www.eventbrite.de/o/fablab-kids-im-fablab-munchen-ev-7117094347'>Buchungswebseite</a>",
 		"öffnungszeiten":           {
 			"Mo": "-",
 			"Di": "-",
@@ -419,7 +419,7 @@ const context  = {
 		"betreuungspersonal":       "unbekannt",
 		"außerschulisches_angebot": "verschieden Clubs zu den verschiedenen Themen",
 		"beschreibung":             "Der MINT-Campus Dachau ist eine wissenschaftliche Erfahrungswelt für Kinder und Jugendliche, die das Interesse an den MINT-Fächern fördert. Mit einer Vielzahl von Aktivitäten und Workshops bietet der Campus praktische Experimente, Projekte und Teamarbeit, um Kreativität und Innovationsgeist zu stärken. Durch spielerisches Lernen werden die Teilnehmer in den Bereichen Mathematik, Informatik, Naturwissenschaften und Technik unterstützt und ermutigt.",
-		"buchungsadresse":          "https://www.mintcampus-dachau.de/angebote/kurse-workshops/aktuelle-kurse",
+		"buchungsadresse":          "<a href='https://www.mintcampus-dachau.de/angebote/kurse-workshops/aktuelle-kurse'>Buchungswebseite</a>",
 		"öffnungszeiten":           {
 			"Mo": "geschlossen",
 			"Di": "9-12",
