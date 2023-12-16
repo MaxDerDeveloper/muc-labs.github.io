@@ -286,7 +286,7 @@ const context  = {
 		"betreuungspersonal":       "Vorhanden",
 		"außerschulisches_angebot": "Nein",
 		"beschreibung":             "Die SWM Bildungsangebote erstrecken sich über eine Vielfalt an Themenbereichen, von Energiegewinnung über Trinkwassergewinnung, bis hin zu der Funktion der öffentlichen Verkehrsmitteln in München. Es besteht die Möglichkeit, Energiekraftwerke zu besuchen oder Kurse zum richtigen Busfahren zu buchen.",
-		"buchungsadresse":          "<a href='https://www.swm.de/schule/besichtigungen-veranstaltungen/anmeldung-neu'>Buchungswebseite oder <a href='mailto:schulkontakt@swm.de'>schulkontakt@swm.de</a>",
+		"buchungsadresse":          "<a href='https://www.swm.de/schule/besichtigungen-veranstaltungen/anmeldung-neu'>Buchungswebseite</a> oder <a href='mailto:schulkontakt@swm.de'>schulkontakt@swm.de</a>",
 		// "öffnungszeiten":           "Variabel",
 		"öffnungszeiten":           {
 			"Mo": "-",
