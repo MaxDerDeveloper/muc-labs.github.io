@@ -167,7 +167,7 @@ const context  = {
 	},
 
 	"eso-supernova": {
-		"name":                     "Eso Supernova",
+		"name":                     "ESO Supernova",
 		"website_url":              "https://supernova.eso.org/germany/",
 		"adresse":                  "Karl-Schwarzschild-Straße 2, 85748 Garching bei München",
 		"google_maps_url":          "https://maps.app.goo.gl/U1rw9Ak8rmkQPpph6",
