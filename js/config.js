@@ -163,7 +163,7 @@ const context  = {
 		},
 		"öffnungszeiten_ausnahmen": "",
 		"bildquellen": "Eigenaufnahmen",
-		"images": ["/bilder/photonlab/Titelbild/IMG_5841Berabeitet Kopie.png", "/bilder/photonlab/IMG_5829 Kopie.png", "/bilder/photonlab/IMG_5830 Kopie.png", "/bilder/photonlab/IMG_5831Berabeitet Kopie.png", "/bilder/photonlab/IMG_5833 Kopie.png", "/bilder/photonlab/IMG_5835Berabeitet Kopie.png", "/bilder/photonlab/IMG_5836 Kopie.png", "/bilder/photonlab/IMG_5837 Kopie.png", "/bilder/photonlab/IMG_5838 Kopie.png", "/bilder/photonlab/IMG_5840Berabeitet Kopie.png", "/bilder/photonlab/IMG_5842 Kopie.png", "/bilder/photonlab/IMG_5843 Kopie.png", "/bilder/photonlab/IMG_5844Berabeitet Kopie.png", "/bilder/photonlab/IMG_5845Berabeitet Kopie.png", "/bilder/photonlab/IMG_5846 Kopie.png"],
+		"images": ["bilder/PhotonLab/Titelbild/Holographie PhotonLab.jpeg","/bilder/photonlab/Titelbild/IMG_5841Berabeitet Kopie.png", "/bilder/photonlab/IMG_5829 Kopie.png", "/bilder/photonlab/IMG_5830 Kopie.png", "/bilder/photonlab/IMG_5831Berabeitet Kopie.png", "/bilder/photonlab/IMG_5833 Kopie.png", "/bilder/photonlab/IMG_5835Berabeitet Kopie.png", "/bilder/photonlab/IMG_5836 Kopie.png", "/bilder/photonlab/IMG_5837 Kopie.png", "/bilder/photonlab/IMG_5838 Kopie.png", "/bilder/photonlab/IMG_5840Berabeitet Kopie.png", "/bilder/photonlab/IMG_5842 Kopie.png", "/bilder/photonlab/IMG_5843 Kopie.png", "/bilder/photonlab/IMG_5844Berabeitet Kopie.png", "/bilder/photonlab/IMG_5845Berabeitet Kopie.png", "/bilder/photonlab/IMG_5846 Kopie.png"],
 	},
 
 	"eso-supernova": {
@@ -196,7 +196,7 @@ const context  = {
 		},
 		"öffnungszeiten_ausnahmen": "",
 		"bildquellen": "Eigenaufnahmen",
-		"images": ["/bilder/eso-supernova/Titelbild/DJI_0780 Kopie.png", "/bilder/eso-supernova/DJI_0779 Kopie.png", "/bilder/eso-supernova/IMG_5730 Kopie.png", "/bilder/eso-supernova/IMG_5733 Kopie.png", "/bilder/eso-supernova/IMG_5736 Kopie.png", "/bilder/eso-supernova/IMG_5737 Kopie.png", "/bilder/eso-supernova/IMG_5738 Kopie.png", "/bilder/eso-supernova/IMG_5740 Kopie.png", "/bilder/eso-supernova/IMG_5741 Kopie.png", "/bilder/eso-supernova/IMG_5742 Kopie.png", "/bilder/eso-supernova/IMG_5745 Kopie.png", "/bilder/eso-supernova/IMG_5746 Kopie.png", "/bilder/eso-supernova/IMG_5747 Kopie.png", "/bilder/eso-supernova/IMG_5755 Kopie.png", "/bilder/eso-supernova/IMG_5756 Kopie.png", "/bilder/eso-supernova/IMG_5757 Kopie.png", "/bilder/eso-supernova/IMG_5758 Kopie.png", "/bilder/eso-supernova/IMG_5759 Kopie.png", "/bilder/eso-supernova/IMG_5760 Kopie.png", "/bilder/eso-supernova/IMG_5764 Kopie.png", "/bilder/eso-supernova/IMG_5767 Kopie.png", "/bilder/eso-supernova/IMG_5771 Kopie.png", "/bilder/eso-supernova/IMG_5775 Kopie.png", "/bilder/eso-supernova/IMG_5777 Kopie.png", "/bilder/eso-supernova/IMG_5778Berabeitet Kopie.png", "/bilder/eso-supernova/IMG_5779 Kopie.png", "/bilder/eso-supernova/IMG_5780 Kopie.png", "/bilder/eso-supernova/IMG_5786 Kopie.png", "/bilder/eso-supernova/IMG_5791 Kopie.png", "/bilder/eso-supernova/IMG_5794Berabeitet Kopie.png", "/bilder/eso-supernova/IMG_5795 Kopie.png", "/bilder/eso-supernova/IMG_5796 Kopie.png", "/bilder/eso-supernova/IMG_5798 Kopie.png", "/bilder/eso-supernova/IMG_5803 Kopie.png", "/bilder/eso-supernova/IMG_5805 Kopie.png", "/bilder/eso-supernova/IMG_5806Berabeitet Kopie.png", "/bilder/eso-supernova/IMG_5810Berabeitet Kopie.png", "/bilder/eso-supernova/IMG_5817 Kopie.png", "/bilder/eso-supernova/IMG_5818 Kopie.png", "/bilder/eso-supernova/IMG_5822 Kopie.png", "/bilder/eso-supernova/IMG_5823 Kopie.png", "/bilder/eso-supernova/IMG_5829Berabeitet Kopie.png"],
+		"images": ["bilder/eso-supernova/Titelbild/Eso-Supernova-Titelbild Kopie.png","/bilder/eso-supernova/Titelbild/DJI_0780 Kopie.png", "/bilder/eso-supernova/DJI_0779 Kopie.png", "/bilder/eso-supernova/IMG_5730 Kopie.png", "/bilder/eso-supernova/IMG_5733 Kopie.png", "/bilder/eso-supernova/IMG_5736 Kopie.png", "/bilder/eso-supernova/IMG_5737 Kopie.png", "/bilder/eso-supernova/IMG_5738 Kopie.png", "/bilder/eso-supernova/IMG_5740 Kopie.png", "/bilder/eso-supernova/IMG_5741 Kopie.png", "/bilder/eso-supernova/IMG_5742 Kopie.png", "/bilder/eso-supernova/IMG_5745 Kopie.png", "/bilder/eso-supernova/IMG_5746 Kopie.png", "/bilder/eso-supernova/IMG_5747 Kopie.png", "/bilder/eso-supernova/IMG_5755 Kopie.png", "/bilder/eso-supernova/IMG_5756 Kopie.png", "/bilder/eso-supernova/IMG_5757 Kopie.png", "/bilder/eso-supernova/IMG_5758 Kopie.png", "/bilder/eso-supernova/IMG_5759 Kopie.png", "/bilder/eso-supernova/IMG_5760 Kopie.png", "/bilder/eso-supernova/IMG_5764 Kopie.png", "/bilder/eso-supernova/IMG_5767 Kopie.png", "/bilder/eso-supernova/IMG_5771 Kopie.png", "/bilder/eso-supernova/IMG_5775 Kopie.png", "/bilder/eso-supernova/IMG_5777 Kopie.png", "/bilder/eso-supernova/IMG_5778Berabeitet Kopie.png", "/bilder/eso-supernova/IMG_5779 Kopie.png", "/bilder/eso-supernova/IMG_5780 Kopie.png", "/bilder/eso-supernova/IMG_5786 Kopie.png", "/bilder/eso-supernova/IMG_5791 Kopie.png", "/bilder/eso-supernova/IMG_5794Berabeitet Kopie.png", "/bilder/eso-supernova/IMG_5795 Kopie.png", "/bilder/eso-supernova/IMG_5796 Kopie.png", "/bilder/eso-supernova/IMG_5798 Kopie.png", "/bilder/eso-supernova/IMG_5803 Kopie.png", "/bilder/eso-supernova/IMG_5805 Kopie.png", "/bilder/eso-supernova/IMG_5806Berabeitet Kopie.png", "/bilder/eso-supernova/IMG_5810Berabeitet Kopie.png", "/bilder/eso-supernova/IMG_5817 Kopie.png", "/bilder/eso-supernova/IMG_5818 Kopie.png", "/bilder/eso-supernova/IMG_5822 Kopie.png", "/bilder/eso-supernova/IMG_5823 Kopie.png", "/bilder/eso-supernova/IMG_5829Berabeitet Kopie.png"],
 	},
 
 	"e-conversion": {
@@ -429,6 +429,39 @@ const context  = {
 		},
 		"öffnungszeiten_ausnahmen": "Diese Öffnungszeiten beziehen sich nur auf das Büro. Die einzelnen Termine der Workshops stehen auf der Website.",
 		"bildquellen": "Eigenaufnahmen",
+		"images":                   ["/bilder/welpe1.jpg"],
+	},
+
+	"Vorlage": {
+		"name":                     "Der Name Ihres Labs",
+		"website_url":              "https://www.mintcampus-dachau.de",
+		"adresse":                  "Musterstraße 1, 99999 München",
+		"google_maps_url":          "maps.app.goo.gl/bLgVA6RBe87PLq196",
+		"überthema":                ["Die Haupttags Ihres Labs:","Mathematik", "Technik"],
+		"unterthema":               ["Die Nebentags Ihres Labs:","Symmetrie","Elektronik",""],
+		"zielgruppe":               5,
+		"altersgruppe":             "Mittelstufe und Oberstufe/12-18 Jahre/Vorkenntnis notwendig",
+		"teilnehmer_anzahl":        "Max 12/6-12",
+		"dauer":                    "2-3 Stunden",
+		"schularten":               ["Gymnasium","Realschule"],
+		"sprachen":                 ["Deutsch","Englisch"],
+		"praktika":                 ["Schülerpraktika"],
+		"w-seminare":               "Zusammenarbeit mit Schülern bei Semniararbeit/Festes Kursangebot für W-Seminare",
+		"betreuungspersonal":       "Leitung des Labs/Werkstudenten/Auszubildende",
+		"außerschulisches_angebot": "Besuch auch durch nicht Schulgruppen möglich",
+		"beschreibung":             "Die Mitmach-Ausstellung ix-quadrat öffnet die faszinierende Welt der Mathematik für Menschen jeden Alters, unabhängig von ihrem Vorwissen. Hier wird Mathematik erlebbar und begreifbar gemacht. Für Schulklassen bis zu 30 Personen wird die Möglichkeit geboten, sich für einen etwa 2-stündigen Besuch anzumelden. Schüler*innen können in die interaktiven Ausstellungsbereiche eintauchen, Symmetrie entdecken, in die Welt der Zahlen greifen und die Perspektiven des Grafikers und Künstlers M. C. Escher erforschen. Einzelpersonen können zu den Öffnungszeiten die Ausstellung unangemeldet besuchen.",
+		"buchungsadresse":          "Email/Webseite/Telefonnummer",
+		"öffnungszeiten":           {
+			"Mo": "Auf Anfrage",
+			"Di": "09:00-12:00",
+			"Mi": "09:00-12:00",
+			"Do": "09:00-12:00",
+			"Fr": "Auf Anfrage",
+			"Sa": "geschlossen",
+			"So": "geschlossen",
+		},
+		"öffnungszeiten_ausnahmen": "Was ist bei den Öffnungszeiten noch zu beachten? Beispielsweise in den Schulferien",
+		"bildquellen": "Eigenaufnahme",
 		"images":                   ["/bilder/welpe1.jpg"],
 	},
 
