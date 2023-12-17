@@ -14,7 +14,7 @@
 		<style type="text/css">
 
 			div.content-container {
-				--content-percentage: 0.8;
+				--content-percentage: 0.9;
 				width: calc(100% * var(--content-percentage));
 				margin-left: calc(50% * (1 - var(--content-percentage)));
 			}
@@ -53,16 +53,165 @@
 				margin-bottom: 2px;
 				border-radius: 7.5px;
 			}
+			span.lab-tag {
+				margin-right: 3px; /* Seitenabstand zwischen Tags */
+				margin-bottom: 3px;
+			}
+
+			span.selected-tag, span.selected-tag *{
+				background-color: lightgrey !important;
+				color: white !important;
+			}
+			
+			div.column-container div.right-column div.card {
+				padding: 10px;
+			}
+
+			div.column-container {
+				display: flex;
+				flex-direction: var(--flex-dir);
+			}
+
+
+			/* Mobile */
+			@media (max-width: 900px) {
+				:root {
+					--flex-dir: column;
+				}
+				div.column-container div.left-column {
+					width: 100%;
+				}
+				div.column-container div.right-column {
+					width: 80%;
+					margin: auto;
+					margin-bottom: 15px;
+				}
+			}
+
+			/* PC */
+			@media (min-width: 900px) {
+				:root {
+					--flex-dir: row;
+				}
+				div.column-container div.left-column {
+					width: 80%;
+				}
+				div.column-container div.right-column {
+					width: 20%;
+				}
+				div#tag-container {
+					flex-direction: column;
+					width: 60%;
+					margin: auto;
+				}
+			}
 		</style>
 
 		<script type="text/javascript" src="/js/main.js"></script>		
 		<script type="text/javascript">
+			var click_event;
+			var selected_tags = [];
+
+			function updateDisplayedLabs() {
+				var cards = $("div.lab-card-container div.card");
+
+				for (var card of cards) {
+					var title = $(card).find(" > div:nth-child(2) > h5:nth-child(1)");
+					var labname = $(title).text();
+					
+					var [[key,lab]] = Object.entries(context).filter( ([key,val]) => {
+						return val.name === labname
+					})
+
+					var shown = false;
+					for (var ht of lab.überthema) {
+						if (selected_tags.includes(ht)) {
+							shown = true;
+						}
+					}
+					
+					// console.log(key, shown);
+					$(card).attr("hidden", !shown);
+				}
+			}
+
+			function renderSelector() {
+				click_event = (e) => {
+					var target = e.target;
+
+					if (target.classList.contains('lab-tag')) {
+						target = $(e.target).find(">:first-child");
+					}
+
+
+					var tagname = target.id;
+					var tag = $(target).parent();
+					tag.toggleClass("selected-tag");
+
+					if (selected_tags.includes(tagname)) {
+						var idx = selected_tags.indexOf(tagname);
+						selected_tags.splice(idx, 1);
+					} else {
+						selected_tags.push(tagname);
+					}
+					updateDisplayedLabs();
+				}
+
+				main_tags = "";
+				for (var ht of erlaubte_haupttags) {
+					var bg_color   = tags_to_background_mapping[ht] || "rgb(13,110,253)";
+					var fg_color   = tags_to_foreground_mapping[ht] || "white";
+					var text_style = 'style="color: '+fg_color+';"';
+					var style      = 'style="background-color:'+bg_color+'; cursor:pointer;"';
+
+					main_tags += `
+						<span class="lab-tag badge rounded-pill" onclick="click_event(event);" ${style}>
+							<span id="${ht}"  ${text_style}>
+								${ht}
+							</span>
+						</span>
+					`;
+					selected_tags.push(ht);
+				}
+				$("div#tag-container").html(main_tags);
+			}
+
+			function addResizeEvent() {
+				const getDir = () => { return window.getComputedStyle(document.documentElement).getPropertyValue('--flex-dir'); };
+
+				var left  = $("div.left-column");
+				var right = $("div.right-column");
+
+				var lastdirec;
+				var handler = () => {
+					var direc = getDir();
+					if (direc != lastdirec) {
+						if (direc == "column") {
+							/* Mobile */
+							left.before(right);
+						} else {
+							/* PC/Desktop */
+							right.before(left);
+						}
+
+					}
+					lastdirec = direc;
+				}
+
+				handler(); 
+				addEventListener("resize", handler);
+			}
+
 			function main() {
 				renderNavbarAndFooter();
+				renderSelector()
+				addResizeEvent()
 				
 				cards = ""
 				for(var [name, lab] of Object.entries(context)) {
-					if (name === "Muster") { continue; }
+					if (versteckte_labs.includes(name)) {
+						continue;
+					}
 
 					cards += renderCard(name, lab);
 				}
@@ -74,12 +223,24 @@
 	</head>
 
 	<body>
-		<main class="no-overlap-with-navbar" style="height: 1500px;">
-
+		<main class="no-overlap-with-navbar">
+			
 			<div class="content-container">
 				<h1 style="text-align: center;">Liste aller Labs</h1>
-				
-				<div class="lab-card-container"></div>
+
+				<div class="column-container">
+					<div class="left-column">
+						<div class="lab-card-container"></div>
+					</div>
+
+					<div class="right-column">
+						<div class="card shadow">
+							<h5>Filtern nach Tags:</h5>
+							
+							<div class="horiz-flex-container" id="tag-container"></div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</main>
 	</body>

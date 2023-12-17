@@ -527,6 +527,10 @@ const context  = {
 	},
 };
 
+const versteckte_labs = ["Muster", "Vorlage"];
+
+const erlaubte_haupttags = ["Physik", "Mathematik", "Informatik", "Chemie", "Biologie", "Technik", "Handwerk"];
+
 const interal_to_displayed_mapping= {
 	"zielgruppe":               "Zielgruppe",
 	"altersgruppe":             "Altersgruppe",

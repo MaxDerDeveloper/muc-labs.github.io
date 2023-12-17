@@ -12,8 +12,6 @@ function parseUrlQueryString() {
 function renderTags(lab) {
 	var main_tags = ""
 	for (var üt of lab.überthema) {
-		console.log(üt)
-
 		var bg_color   = tags_to_background_mapping[üt] || "rgb(13,110,253)";
 		var fg_color   = tags_to_foreground_mapping[üt] || "white";
 		var text_style = 'style="color: '+fg_color+'";';
@@ -54,7 +52,7 @@ function renderCard(name, lab) {
 						<summary>Mehr</summary>
 						<div class="horiz-flex-container">${side}</div>
 				</details>
-				<a style="position:absolute;bottom:15px;left:15px;" href="/lab.html?lab=${name}" class="btn btn-secondary">Aufrufen</a>
+				<!-- <a style="position:absolute;bottom:15px;left:15px;" href="/lab.html?lab=${name}" class="btn btn-secondary">Aufrufen</a> -->
 			</div>
 		</div>
 	`;
