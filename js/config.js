@@ -84,7 +84,7 @@ const context  = {
 		"w-seminare":               "Festes Kursangebot für W-Seminare",
 		"betreuungspersonal":       "Leitung des MaxLabs, Studenten sowie Auszubildende",
 		"außerschulisches_angebot": "Forscherwoche für Kinder der 5.-7. Klasse in den Sommerferien, girls-boys-day, Berufsorientierung für Abiturienten (Schnupperkurs Molekuklarbiologie)",
-		"beschreibung":             "Das MaxLab ist das Schüler- und Besucherlabor des Max-Planck-Instituts für biologische Intelligenz und des Max-Planck-Instituts für Biochemie am Campus Martinsried. In verschiedenen Kursen können Schüler*innen die Faszination naturwissenschaftlicher Forschung hautnah erleben. Die Experimente sind biologisch-medizinisch ausgerichtet und spiegeln aktuelle Forschungsprojekte der beiden Institute wider. In unterschiedlichen, ihrem Wissensstand entsprechenden, Programmen können die Schüler*innen praktische Erfahrungen sammeln und so einen Einblick in die Arbeit eines modernen Forschungslabors bekommen.<br>Die &quot;MaxLab Digital&quot; Kurse und Kursmaterialien können Lehrkräfte herunterladen und zusammen mit ihren Schüler*innen bearbeiten oder im Rahmen eines geführten Onlinekurses live in der Klasse erleben.<br>Alle Kurse sind kostenfrei und nur nach vorheriger Anmeldung möglich.<br>Online Angebote: PCR-Escape-Game, virtuelle Schulstunden, online Material zu verschiedenen Themen.",
+		"beschreibung":             "Das MaxLab ist das Schüler- und Besucherlabor des Max-Planck-Instituts für biologische Intelligenz und des Max-Planck-Instituts für Biochemie am Campus Martinsried. In verschiedenen Kursen können Schüler*innen die Faszination naturwissenschaftlicher Forschung hautnah erleben. Die Experimente sind biologisch-medizinisch ausgerichtet und spiegeln aktuelle Forschungsprojekte der beiden Institute wider. In unterschiedlichen, ihrem Wissensstand entsprechenden, Programmen können die Schüler*innen praktische Erfahrungen sammeln und so einen Einblick in die Arbeit eines modernen Forschungslabors bekommen.<br>Die &quot;MaxLab Digital&quot; Kurse und Kursmaterialien können Lehrkräfte herunterladen und zusammen mit ihren Schüler*innen bearbeiten oder im Rahmen eines geführten Onlinekurses live in der Klasse erleben.<br>Alle Kurse sind kostenfrei und nur nach vorheriger Anmeldung möglich.<br>Das Online Angebot des MaxLabs besteht aus einem PCR-Escape-Game, virtuelle Schulstunden und Online Material zu verschiedenen Themen.",
 		"buchungsadresse":          "<a href='mailto:ina.peters@bi.mpg.de'>ina.peters@bi.mpg.de</a>",
 		// "öffnungszeiten":           null,
 		"öffnungszeiten":           {
@@ -99,7 +99,7 @@ const context  = {
 		"öffnungszeiten_ausnahmen": "",
 		"bildquellen": "Eigenaufnahmen",
 		"images":                   ["bilder/MaxLab/MaxLab_Bild2 Kopie.png","/bilder/MaxLab/MaxLab_Bild1 Kopie.png"],
-		"buchungs_disclaimer":      true,
+		"buchungs_disclaimer":      false,
 	},
 
 	"experimentier-werkstatt": {
@@ -273,7 +273,7 @@ const context  = {
 		"öffnungszeiten_ausnahmen": "Termine für angemeldete Gruppenbesuche können auf Anfrage festgelegt werden. Öffnungszeiten für Besucher:innen ohne Anmeldung werden regelmäßig auf der Webseite vom ix-quadrat veröffentlicht.",
 		"bildquellen": "ix-quadrat",
 		"images": ["/bilder/ix-quadrat/Titelbild/07 Kopie.png", "/bilder/ix-quadrat/03 Kopie.png", "/bilder/ix-quadrat/07 2 Kopie.png", "/bilder/ix-quadrat/A003_0006 Kopie.png", "/bilder/ix-quadrat/09 Kopie.png"],
-		"buchungs_disclaimer":      true,
+		"buchungs_disclaimer":      false,
 	},
 
 	"SWM Bildungsangebote": {
