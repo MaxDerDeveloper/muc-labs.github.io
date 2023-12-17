@@ -556,6 +556,7 @@ const interal_to_displayed_mapping= {
 	"w-seminare":               "W-Seminare",
 	"betreuungspersonal":       "Betreuungspersonal",
 	"außerschulisches_angebot": "Außerschulisches Angebot",
+	"dauer":                    "Dauer",
 }
 
 const tags_to_background_mapping = {
