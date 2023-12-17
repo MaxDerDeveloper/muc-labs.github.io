@@ -585,7 +585,7 @@ const WochenTageMap = {
 };
 
 function getLabs() {
-	return labs.filter((lab) => {
-		return versteckte_labs.includes(lab.name)
+	return Object.values(context).filter((lab) => {
+		return !versteckte_labs.includes(lab.name)
 	});
 }
