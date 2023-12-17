@@ -177,9 +177,3 @@ function getLab(query) {
 		window.location.replace("/labs.html");
 	}
 }
-
-function getLabs() {
-	return labs.filter((lab) => {
-		return versteckte_labs.includes(lab.name)
-	});
-}

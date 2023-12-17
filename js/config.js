@@ -541,7 +541,6 @@ const alle_nebentags = (function alleNebentagsFinden(){
 	}
 	return Array.from(menge);
 })()
-console.log(alle_nebentags);
 
 const interal_to_displayed_mapping= {
 	"zielgruppe":               "Zielgruppe",
@@ -584,3 +583,9 @@ const WochenTageMap = {
 	"Sa": "Samstag",
 	"So": "Sonntag",
 };
+
+function getLabs() {
+	return labs.filter((lab) => {
+		return versteckte_labs.includes(lab.name)
+	});
+}
