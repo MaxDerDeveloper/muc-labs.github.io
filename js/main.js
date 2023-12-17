@@ -52,7 +52,7 @@ function renderCard(name, lab) {
 					</a>
 				</h5>
 				<div class="horiz-flex-container">${main}</div>
-				<details style="margin-bottom: 42.5px">
+				<details>
 						<summary>Mehr</summary>
 						<div class="horiz-flex-container">${side}</div>
 				</details>
