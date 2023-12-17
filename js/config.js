@@ -530,6 +530,18 @@ const context  = {
 const versteckte_labs = ["Muster", "Vorlage"];
 
 const erlaubte_haupttags = ["Physik", "Mathematik", "Informatik", "Chemie", "Biologie", "Technik", "Handwerk"];
+const alle_nebentags = (function alleNebentagsFinden(){
+	var menge = new Set()
+
+	for (var [key,lab] of Object.entries(context)) {
+		for (var ut of lab.unterthema) {
+			if (!ut) continue;
+			menge.add(ut);
+		}
+	}
+	return Array.from(menge);
+})()
+console.log(alle_nebentags);
 
 const interal_to_displayed_mapping= {
 	"zielgruppe":               "Zielgruppe",

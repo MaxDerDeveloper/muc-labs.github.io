@@ -46,7 +46,11 @@ function renderCard(name, lab) {
 				<img class="card-img-top" src="${lab.images[0]}" alt="1. Bild von ${lab.name}" width=285 height=190>
 			</a>
 			<div class="card-body">
-				<h5 class="card-title lab-card-title">${lab.name}</h5>
+				<h5 class="card-title lab-card-title">
+					<a class="subtle-link" href="/lab.html?lab=${name}">
+						${lab.name}
+					</a>
+				</h5>
 				<div class="horiz-flex-container">${main}</div>
 				<details style="margin-bottom: 42.5px">
 						<summary>Mehr</summary>
