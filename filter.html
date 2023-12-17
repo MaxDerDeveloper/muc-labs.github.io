@@ -66,7 +66,7 @@
 				$('#page-title').html("Liste aller Labs mit dem Thema "+ziel_tag+":");
 
 				cards = ""
-				for(var [name, lab] of Object.entries(context)) {
+				for(var [name, lab] of Object.entries(getLabs())) {
 					var hasTagInÜberthema  = lab.überthema. includes(ziel_tag);
 					var hasTagInUnterthema = lab.unterthema.includes(ziel_tag);
 					

@@ -154,8 +154,6 @@ function renderNavbarAndFooter() {
 	$(footer).insertAfter("html body main");
 }
 
-
-
 function prependToTitle(string) {
 	document.title = string + " | " + document.title;
 }
@@ -178,4 +176,10 @@ function getLab(query) {
 		alert("Es wurde kein Lab in der Url angegeben, bitte hängen Sie ein '?lab=NameDesLabs' an die URL an.");
 		window.location.replace("/labs.html");
 	}
+}
+
+function getLabs() {
+	return labs.filter((lab) => {
+		return versteckte_labs.includes(lab.name)
+	});
 }

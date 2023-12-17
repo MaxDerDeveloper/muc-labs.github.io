@@ -225,7 +225,7 @@
 				addResizeEvent()
 				
 				cards = ""
-				for(var [name, lab] of Object.entries(context)) {
+				for(var [name, lab] of Object.entries(getLabs())) {
 					if (versteckte_labs.includes(name)) {
 						continue;
 					}

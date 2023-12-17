@@ -533,7 +533,7 @@ const erlaubte_haupttags = ["Physik", "Mathematik", "Informatik", "Chemie", "Bio
 const alle_nebentags = (function alleNebentagsFinden(){
 	var menge = new Set()
 
-	for (var [key,lab] of Object.entries(context)) {
+	for (var [key,lab] of Object.entries(getLabs())) {
 		for (var ut of lab.unterthema) {
 			if (!ut) continue;
 			menge.add(ut);
