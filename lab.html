@@ -125,6 +125,22 @@
 				padding-right: 10px;
 			}
 
+			table.lab-tabelle-style-minimal {
+				margin-bottom: 20px;
+			}
+
+			table.lab-tabelle-style-minimal tr td:first-child {
+				padding-right: 10px;
+			}
+
+			table.lab-tabelle-style-minimal tr td:first-child::after {
+				content: ":";
+			}
+
+			table.lab-tabelle-style-minimal tr td:last-child::after {
+				content: " Uhr";
+			}
+
 			table.öffnungszeiten-tabelle {
 			}
 
@@ -385,7 +401,7 @@
 					<div class="lab-tabelle-container öff-lab-tabelle-container">
 						<div class="tab-left-column">
 							<h5 style="text-decoration: underline;">Öffnungszeiten</h5>
-							<table class="öffnungszeiten-tabelle lab-tabelle-style">
+							<table class="öffnungszeiten-tabelle lab-tabelle-style-minimal">
 							</table>
 							<div hidden>
 								<!-- <h5 style="text-decoration: underline;">Besonderheiten bei den Öffnungszeiten</h5> -->
