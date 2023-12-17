@@ -542,6 +542,10 @@ const alle_nebentags = (function alleNebentagsFinden(){
 	return Array.from(menge);
 })()
 
+// Alphabetisch sortiert
+erlaubte_haupttags.sort();
+alle_nebentags.sort();
+
 const interal_to_displayed_mapping= {
 	"zielgruppe":               "Zielgruppe",
 	"altersgruppe":             "Altersgruppe",
@@ -585,7 +589,12 @@ const WochenTageMap = {
 };
 
 function getLabs() {
-	return Object.values(context).filter((lab) => {
-		return !versteckte_labs.includes(lab.name)
+	var array = Object.entries(context).filter(([key,lab]) => {
+		return !versteckte_labs.includes(key)
 	});
+	var obj = {};
+	for (var [key, val] of array) {
+		obj[key] = val;
+	}
+	return obj;
 }

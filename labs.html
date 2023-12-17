@@ -116,13 +116,13 @@
 				var cards = $("div.lab-card-container div.card");
 
 				for (var card of cards) {
-					var title = $(card).find(" > div:nth-child(2) > h5:nth-child(1)");
-					var labname = $(title).text();
+					var labname = $(card).attr("lab");
 					
-					var [[key,lab]] = Object.entries(context).filter( ([key,val]) => {
-						return val.name === labname
+					var [[key, lab]] = Object.entries(getLabs()).filter( ([key, lab]) => {
+						return key == labname
 					})
 
+					
 					var shown = false;
 					for (var ht of lab.überthema) {
 						if (selected_tags.includes(ht)) {
@@ -130,22 +130,20 @@
 						}
 					}
 					
-					// console.log(key, shown);
 					$(card).attr("hidden", !shown);
 				}
 			}
 
 			function renderSelector() {
 				click_event = (e) => {
-					var target = e.target;
+					var target = $(e.target);
 
-					if (target.classList.contains('lab-tag')) {
+					if (target[0].classList.contains('lab-tag')) {
 						target = $(e.target).find(">:first-child");
 					}
 
-
-					var tagname = target.id;
-					var tag = $(target).parent();
+					var tagname = target.attr("tag");
+					var tag = target.parent();
 					tag.toggleClass("selected-tag");
 
 					if (selected_tags.includes(tagname)) {
@@ -154,6 +152,7 @@
 					} else {
 						selected_tags.push(tagname);
 					}
+
 					updateDisplayedLabs();
 				}
 
@@ -165,8 +164,8 @@
 					var style      = 'style="background-color:'+bg_color+'; cursor:pointer;"';
 
 					main_tags += `
-						<span class="lab-tag badge rounded-pill" onclick="click_event(event);" ${style}>
-							<span id="${ht}"  ${text_style}>
+						<span class="lab-tag badge rounded-pill" onclick="click_event(event);" tag=${ht} ${style}>
+							<span tag=${ht} ${text_style}>
 								${ht}
 							</span>
 						</span>
@@ -226,10 +225,6 @@
 				
 				cards = ""
 				for(var [name, lab] of Object.entries(getLabs())) {
-					if (versteckte_labs.includes(name)) {
-						continue;
-					}
-
 					cards += renderCard(name, lab);
 				}
 				$(".lab-card-container").append(cards);

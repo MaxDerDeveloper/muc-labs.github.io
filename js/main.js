@@ -41,7 +41,7 @@ function renderTags(lab) {
 function renderCard(name, lab) {
 	var [main, side] = renderTags(lab);
 	var card = `
-		<div class="card lab-card shadow" style="width: 18rem; position:relative;">
+		<div class="card lab-card shadow" style="width: 18rem; position:relative;" lab="${name}">
 			<a href="/lab.html?lab=${name}" style="text-decoration:none; color:black;">
 				<img class="card-img-top" src="${lab.images[0]}" alt="1. Bild von ${lab.name}" width=285 height=190>
 			</a>
