@@ -30,6 +30,7 @@ const context  = {
 		"öffnungszeiten_ausnahmen": "Es ist zu beachten, dass die Öffnungszeiten während der Schulferien eher vormittags liegen.",
 		"bildquellen": "Eigenaufnahmen",
 		"images":                   ["/bilder/farning/1.png","/bilder/farning/2.png"],
+		"buchungs_disclaimer":      true,
 	},
 
 	"dlr": {
@@ -63,6 +64,7 @@ const context  = {
 		"öffnungszeiten_ausnahmen": "Termine können bei der Anmeldung vereinbart werden", // Hier bitte einen ganzen Satz hinschreiben
 		"bildquellen": "",
 		"images":                   ["/bilder/dlr/dlr1.jpeg", "/bilder/dlr/dlr3.jpeg", "/bilder/dlr/dlr4.jpeg"],
+		"buchungs_disclaimer":      true,
 	},
 
 	"maxlab": {
@@ -97,6 +99,7 @@ const context  = {
 		"öffnungszeiten_ausnahmen": "",
 		"bildquellen": "Eigenaufnahmen",
 		"images":                   ["bilder/MaxLab/MaxLab_Bild2 Kopie.png","/bilder/MaxLab/MaxLab_Bild1 Kopie.png"],
+		"buchungs_disclaimer":      true,
 	},
 
 	"experimentier-werkstatt": {
@@ -131,6 +134,7 @@ const context  = {
 		"öffnungszeiten_ausnahmen": "Auf Anfrage ist es möglich, dass Termine variabel gelegt werden.",
 		"bildquellen": "Eigenaufnahme",
 		"images": ["/bilder/experimentier-werkstatt/Titelbild/IMG_5643 Kopie.png", "/bilder/experimentier-werkstatt/IMG_5640Berabeitet Kopie.png", "/bilder/experimentier-werkstatt/IMG_5641 Kopie.png", "/bilder/experimentier-werkstatt/IMG_5646 Kopie.png", "/bilder/experimentier-werkstatt/IMG_5650 Kopie.png", "/bilder/experimentier-werkstatt/IMG_5651 Kopie.png", "/bilder/experimentier-werkstatt/IMG_5654Berabeitet Kopie.png", "/bilder/experimentier-werkstatt/IMG_5657 Kopie.png", "/bilder/experimentier-werkstatt/IMG_5658 Kopie.png", "/bilder/experimentier-werkstatt/IMG_5660 Kopie.png", "/bilder/experimentier-werkstatt/IMG_5661 Kopie.png", "/bilder/experimentier-werkstatt/IMG_5662 Kopie.png", "/bilder/experimentier-werkstatt/IMG_5663 Kopie.png", "/bilder/experimentier-werkstatt/IMG_5669 Kopie.png", "/bilder/experimentier-werkstatt/IMG_5673 Kopie.png", "/bilder/experimentier-werkstatt/IMG_5674 Kopie.png", "/bilder/experimentier-werkstatt/IMG_5675 Kopie.png", "/bilder/experimentier-werkstatt/IMG_5676 Kopie.png", "/bilder/experimentier-werkstatt/IMG_5677 Kopie.png", "/bilder/experimentier-werkstatt/IMG_5678 Kopie.png"],
+		"buchungs_disclaimer":      true,
 	},
 
 	"photonlab": {
@@ -164,6 +168,7 @@ const context  = {
 		"öffnungszeiten_ausnahmen": "",
 		"bildquellen": "Eigenaufnahmen",
 		"images": ["bilder/PhotonLab/Titelbild/Holographie PhotonLab.jpeg","/bilder/PhotonLab/IMG_5829 Kopie.png", "/bilder/PhotonLab/IMG_5830 Kopie.png", "/bilder/PhotonLab/IMG_5831Berabeitet Kopie.png", "/bilder/PhotonLab/IMG_5833 Kopie.png", "/bilder/PhotonLab/IMG_5835Berabeitet Kopie.png", "/bilder/PhotonLab/IMG_5836 Kopie.png", "/bilder/PhotonLab/IMG_5837 Kopie.png", "/bilder/PhotonLab/IMG_5838 Kopie.png", "/bilder/PhotonLab/IMG_5840Berabeitet Kopie.png", "/bilder/photonlab/IMG_5840Berabeitet Kopie.png", "/bilder/PhotonLab/IMG_5842 Kopie.png", "/bilder/PhotonLab/IMG_5843 Kopie.png", "/bilder/PhotonLab/IMG_5844Berabeitet Kopie.png", "/bilder/PhotonLab/IMG_5845Berabeitet Kopie.png", "/bilder/PhotonLab/IMG_5846 Kopie.png"],
+		"buchungs_disclaimer":      true,
 	},
 
 	"eso-supernova": {
@@ -198,6 +203,7 @@ const context  = {
 		"bildquellen": "Eigenaufnahmen",
 		"images": ["bilder/eso-supernova/Titelbild/Eso-Supernova-Titelbild Kopie.png","/bilder/eso-supernova/DJI_0779 Kopie.png", "/bilder/eso-supernova/IMG_5730 Kopie.png", "/bilder/eso-supernova/IMG_5733 Kopie.png", "/bilder/eso-supernova/IMG_5736 Kopie.png", "/bilder/eso-supernova/IMG_5737 Kopie.png", "/bilder/eso-supernova/IMG_5738 Kopie.png", "/bilder/eso-supernova/IMG_5740 Kopie.png", "/bilder/eso-supernova/IMG_5741 Kopie.png", "/bilder/eso-supernova/IMG_5742 Kopie.png", "/bilder/eso-supernova/IMG_5745 Kopie.png", "/bilder/eso-supernova/IMG_5746 Kopie.png", "/bilder/eso-supernova/IMG_5747 Kopie.png", "/bilder/eso-supernova/IMG_5755 Kopie.png", "/bilder/eso-supernova/IMG_5756 Kopie.png", "/bilder/eso-supernova/IMG_5757 Kopie.png", "/bilder/eso-supernova/IMG_5758 Kopie.png", "/bilder/eso-supernova/IMG_5759 Kopie.png", "/bilder/eso-supernova/IMG_5760 Kopie.png", "/bilder/eso-supernova/IMG_5764 Kopie.png", "/bilder/eso-supernova/IMG_5767 Kopie.png", "/bilder/eso-supernova/IMG_5771 Kopie.png", "/bilder/eso-supernova/IMG_5775 Kopie.png", "/bilder/eso-supernova/IMG_5777 Kopie.png", "/bilder/eso-supernova/IMG_5778Berabeitet Kopie.png", "/bilder/eso-supernova/IMG_5779 Kopie.png", "/bilder/eso-supernova/IMG_5780 Kopie.png", "/bilder/eso-supernova/IMG_5786 Kopie.png", "/bilder/eso-supernova/IMG_5791 Kopie.png", "/bilder/eso-supernova/IMG_5794Berabeitet Kopie.png", "/bilder/eso-supernova/IMG_5795 Kopie.png", "/bilder/eso-supernova/IMG_5796 Kopie.png", "/bilder/eso-supernova/IMG_5798 Kopie.png", "/bilder/eso-supernova/IMG_5803 Kopie.png", "/bilder/eso-supernova/IMG_5805 Kopie.png", "/bilder/eso-supernova/IMG_5806Berabeitet Kopie.png", "/bilder/eso-supernova/IMG_5810Berabeitet Kopie.png", "/bilder/eso-supernova/IMG_5817 Kopie.png", "/bilder/eso-supernova/IMG_5818 Kopie.png","/bilder/eso-supernova/IMG_5823 Kopie.png", "/bilder/eso-supernova/IMG_5829Berabeitet Kopie.png"],
 		//"/bilder/eso-supernova/Titelbild/DJI_0780 Kopie.png","/bilder/eso-supernova/IMG_5822 Kopie.png",
+		"buchungs_disclaimer":      true,
 	},
 
 	"e-conversion": {
@@ -232,6 +238,7 @@ const context  = {
 		"bildquellen": "Eigenaufnahmen",
 		"images": ["/bilder/e-conversion/Titelbild/IMG_5876 Kopie.png","/bilder/e-conversion/IMG_5856 Kopie.png","/bilder/e-conversion/IMG_5866 Kopie.png","/bilder/e-conversion/IMG_5869 Kopie.png", "/bilder/e-conversion/IMG_5870 Kopie.png", "/bilder/e-conversion/IMG_5872 Kopie.png", "/bilder/e-conversion/IMG_5873 Kopie.png", "/bilder/e-conversion/IMG_5874 Kopie.png"],
 		//"/bilder/e-conversion/IMG_5857 Kopie.png","/bilder/e-conversion/IMG_5858 Kopie.png","/bilder/e-conversion/IMG_5863 Kopie.png","/bilder/e-conversion/IMG_5864 Kopie.png","/bilder/e-conversion/IMG_5867 Kopie.png",
+		"buchungs_disclaimer":      true,
 	},
 
 	"ix-quadrat": {
@@ -266,6 +273,7 @@ const context  = {
 		"öffnungszeiten_ausnahmen": "Termine für angemeldete Gruppenbesuche können auf Anfrage festgelegt werden. Öffnungszeiten für Besucher:innen ohne Anmeldung werden regelmäßig auf der Webseite vom ix-quadrat veröffentlicht.",
 		"bildquellen": "ix-quadrat",
 		"images": ["/bilder/ix-quadrat/Titelbild/07 Kopie.png", "/bilder/ix-quadrat/03 Kopie.png", "/bilder/ix-quadrat/07 2 Kopie.png", "/bilder/ix-quadrat/A003_0006 Kopie.png", "/bilder/ix-quadrat/09 Kopie.png"],
+		"buchungs_disclaimer":      true,
 	},
 
 	"SWM Bildungsangebote": {
@@ -300,6 +308,7 @@ const context  = {
 		"öffnungszeiten_ausnahmen": "",
 		"bildquellen": "Eigenaufnahmen",
 		"images":                   ["/bilder/welpe1.jpg"],
+		"buchungs_disclaimer":      true,
 	},
 
 	"FabLab": {
@@ -333,6 +342,7 @@ const context  = {
 		"öffnungszeiten_ausnahmen": "Die Werkstatt hat dauerhaft offen",
 		"bildquellen": "",
 		"images": ["bilder/Fablab/fablab1.JPG", "bilder/Fablab/fablab2.JPEG", "bilder/Fablab/fablab3.JPG", "bilder/Fablab/fablab4.JPG", "bilder/Fablab/fablab5.jpg"],
+		"buchungs_disclaimer":      true,
 	},
 
 	"FabLab2": {
@@ -366,6 +376,7 @@ const context  = {
 		"öffnungszeiten_ausnahmen": "FabLab Kids hat keine Öffnungszeiten außerhalb der zu buchenden Kurse",
 		"bildquellen": "",
 		"images": ["bilder/Fablab/fablab1.JPG", "bilder/Fablab/fablab2.JPEG", "bilder/Fablab/fablab3.JPG", "bilder/Fablab/fablab4.JPG", "bilder/Fablab/fablab5.jpg"],
+		"buchungs_disclaimer":      true,
 	},
 
 	"Genetik macht Schule": {
@@ -399,6 +410,7 @@ const context  = {
 		"öffnungszeiten_ausnahmen": "",
 		"bildquellen": "Eigenaufnahmen",
 		"images": ["/bilder/Genetik macht Schule/IMG_5882 Kopie.png", "/bilder/Genetik macht Schule/IMG_5855Berabeitet Kopie.png", "/bilder/Genetik macht Schule/IMG_5883 Kopie.png", "/bilder/Genetik macht Schule/IMG_5885 Kopie.png", "/bilder/Genetik macht Schule/IMG_5886 Kopie.png", "/bilder/Genetik macht Schule/IMG_5888 Kopie.png", "/bilder/Genetik macht Schule/IMG_5890 Kopie.png", "/bilder/Genetik macht Schule/IMG_5892 Kopie.png", "/bilder/Genetik macht Schule/IMG_5895 Kopie.png", "/bilder/Genetik macht Schule/IMG_5896 Kopie.png", "/bilder/Genetik macht Schule/IMG_5899 Kopie.png", "/bilder/Genetik macht Schule/IMG_5901 Kopie.png", "/bilder/Genetik macht Schule/IMG_5905 Kopie.png", "/bilder/Genetik macht Schule/IMG_5906 Kopie.png", "/bilder/Genetik macht Schule/IMG_5907 Kopie.png", "/bilder/Genetik macht Schule/IMG_5909 Kopie.png", "/bilder/Genetik macht Schule/IMG_5910 Kopie.png", "/bilder/Genetik macht Schule/IMG_5913 Kopie.png", "/bilder/Genetik macht Schule/IMG_5917 Kopie.png", "/bilder/Genetik macht Schule/IMG_5923 Kopie.png", "/bilder/Genetik macht Schule/IMG_5924 Kopie.png", "/bilder/Genetik macht Schule/IMG_5925 Kopie.png"],
+		"buchungs_disclaimer":      true,
 	},
 
 	"MINT Campus Dachau": {
@@ -432,6 +444,7 @@ const context  = {
 		"öffnungszeiten_ausnahmen": "Diese Öffnungszeiten beziehen sich nur auf das Büro. Die einzelnen Termine der Workshops stehen auf der Website.",
 		"bildquellen": "Eigenaufnahmen",
 		"images":                   ["/bilder/welpe1.jpg"],
+		"buchungs_disclaimer":      true,
 	},
 
 		"Vorlage": {
@@ -472,6 +485,7 @@ const context  = {
 		"öffnungszeiten_ausnahmen": "Was ist bei den Öffnungszeiten noch zu beachten? Beispielsweise in den Schulferien",
 		"bildquellen": "Eigenaufnahme",
 		"images":                   ["/bilder/welpe1.jpg"],
+		"buchungs_disclaimer":      true,
 	},
 
 	/*
@@ -509,6 +523,7 @@ const context  = {
 		"öffnungszeiten_ausnahmen": "", // Hier bitte einen ganzen Satz hinschreiben
 		"bildquellen": "",
 		"images":                   [],
+		"buchungs_disclaimer":      true,
 	},
 };
 
@@ -524,12 +539,22 @@ const interal_to_displayed_mapping= {
 	"außerschulisches_angebot": "Außerschulisches Angebot",
 }
 
-const tags_to_color_mapping = {
+const tags_to_background_mapping = {
 	"Informatik":  "black",
 	"Mathematik":  "blue",
 	"Biologie":    "green",
 	"Chemie":      "yellow",
 	"Astrophysik": "#000435"
+	
+	/* Ggf. Ergänzen */
+};
+
+const tags_to_foreground_mapping = {
+	"Informatik":  "white",
+	"Mathematik":  "white",
+	"Biologie":    "white",
+	"Chemie":      "black",
+	"Astrophysik": "white"
 	
 	/* Ggf. Ergänzen */
 };

@@ -263,6 +263,9 @@
 
 				$("span.buchungsadresse").html(lab.buchungsadresse);
 
+				$("#buchungs-disclaimer").attr("hidden", !lab.buchungs_disclaimer)
+				console.log(!lab.buchungs_disclaimer)
+
 				if (lab.öffnungszeiten_ausnahmen) {
 					$(".öffnungszeiten-ausnahmen").html(lab.öffnungszeiten_ausnahmen);
 					$(".öffnungszeiten-ausnahmen").parent().attr("hidden", false)
@@ -441,7 +444,7 @@
 									<p>Für Buchungen und Anfragen wenden Sie sich an: 
 									<b><span class="buchungsadresse">BUCHUNGS ADRESSE</span></b></p>
 									
-									<p style="hyphens: auto; text-align: justify">Wenden Sie sich vor einer Buchung an die Webseite des Schülerlabors, um sich über aktuelle Preise und gegebenenfalls Änderungen bezüglich der Öffnungszeiten zu informieren.</p>
+									<p id="buchungs-disclaimer" hidden style="hyphens: auto; text-align: justify">Wenden Sie sich vor einer Buchung an die Webseite des Schülerlabors, um sich über aktuelle Preise und gegebenenfalls Änderungen bezüglich der Öffnungszeiten zu informieren.</p>
 								</div>
 							</div>
 						</div>

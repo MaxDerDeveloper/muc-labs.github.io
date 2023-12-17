@@ -12,10 +12,12 @@ function parseUrlQueryString() {
 function renderTags(lab) {
 	var main_tags = ""
 	for (var üt of lab.überthema) {
+		console.log(üt)
 
-		var bg_color   = tags_to_color_mapping[üt] || "rgb(13,110,253)";
-		var text_style = 'style="color: white; mix-blend-mode: difference;"';
-		var style      = 'style="color:#333; background-color:'+bg_color+';"';
+		var bg_color   = tags_to_background_mapping[üt] || "rgb(13,110,253)";
+		var fg_color   = tags_to_foreground_mapping[üt] || "white";
+		var text_style = 'style="color: '+fg_color+'";';
+		var style      = 'style="background-color:'+bg_color+';"';
 
 		main_tags += `
 		<a class="no-link" href="/filter.html?tag=${üt}">
