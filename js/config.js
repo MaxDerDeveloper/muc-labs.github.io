@@ -341,7 +341,7 @@ const context  = {
 		},
 		"öffnungszeiten_ausnahmen": "Die Werkstatt hat dauerhaft offen",
 		"bildquellen": "",
-		"images": ["bilder/Fablab/fablab1.JPG", "bilder/Fablab/fablab2.JPEG", "bilder/Fablab/fablab3.JPG", "bilder/Fablab/fablab4.JPG", "bilder/Fablab/fablab5.jpg"],
+		"images": ["bilder/Fablab/fablab2.JPEG", "bilder/Fablab/fablab1.JPG", "bilder/Fablab/fablab3.JPG", "bilder/Fablab/fablab4.JPG", "bilder/Fablab/fablab5.jpg"],
 		"buchungs_disclaimer":      true,
 	},
 
