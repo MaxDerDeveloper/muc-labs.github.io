@@ -208,8 +208,9 @@
 					position: relative;
 					top: 20px;
 				}
-				div.right-column h1 {
+				h1.lab-name {
 					text-align: center;
+					margin-bottom: 20px;
 				}
 			}
 
@@ -341,25 +342,32 @@
 				const getDir = () => { return window.getComputedStyle(document.documentElement).getPropertyValue('--flex-dir'); };
 
 
-				var div  = $("div.öff-lab-tabelle-container")
+				var div   = $("div.öff-lab-tabelle-container");
+				var title = $("h1.lab-name");
+
 				var right = $("div.right-column");
 				var left  = $("div.left-column");
 
-				var lastdirec = getDir();
-				addEventListener("resize", (e) => {
+				var lastdirec;
+				var handler = () => {
 					var direc = getDir();
 					if (direc != lastdirec) {
 						if (direc == "column") {
 							/* Mobile */
 							div.appendTo(right);
+							title.prependTo(left);
 						} else {
 							/* PC/Desktop */
 							div.appendTo(left);
+							title.prependTo(right);
 						}
 
 					}
 					lastdirec = direc;
-				});
+				}
+
+				handler(); 
+				addEventListener("resize", handler);
 			}
 
 			function main() {
