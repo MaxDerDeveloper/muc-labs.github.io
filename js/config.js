@@ -139,7 +139,7 @@ const context  = {
 
 	"photonlab": {
 		"name":                     "PhotonLab",
-		"website_url":              "https://www.mpq.mpg.de/photonlab", "https://www.photonworld.de/de/photonlab",
+		"website_url":              "https://www.mpq.mpg.de/photonlab" /* Bitte immer nur eine Webseite hier angeben. Kein Support für Arrays. "https://www.photonworld.de/de/photonlab"*/,
 		"adresse":                  "Hans-Kopfermann-Straße 1, 85748 Garching bei München",
 		"google_maps_url":          "https://maps.app.goo.gl/NDA3R8FDx5eE2UgWA",
 		"überthema":                ["Physik","Technik"],
