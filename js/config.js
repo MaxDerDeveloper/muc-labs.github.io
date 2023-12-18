@@ -493,37 +493,38 @@ const context  = {
 	  Bitte möglichst beibehalten und wenn nötig übergreifend ändern.
 	*/
 	"Muster": {
-		"name":                     "",
-		"website_url":              "",
-		"adresse":                  "",
-		"google_maps_url":          "",
-		"überthema":                [""],
-		"unterthema":               [""],
-		"zielgruppe":               0,
-		"altersgruppe":             "",
-		"teilnehmer_anzahl":        "",
-		"dauer":                    "",
-		"schularten":               [""],
-		"sprachen":                 [""],
-		"praktika":                 [""],
-		"w-seminare":               "",
-		"betreuungspersonal":       "",
-		"außerschulisches_angebot": "",
-		"beschreibung":             "",
-		"buchungsadresse":          "",
+		"name":                     "",   // String
+		"website_url":              "",   // String
+		"adresse":                  "",   // String
+		"google_maps_url":          "",   // String, URL: https://...
+		"überthema":                [""], // Array von Strings, siehe Liste von zulässigen Überthemen unten
+		"unterthema":               [""], // Array von Strings
+		"zielgruppe":               0,    // Zahl von 0 bis 10, Integer
+		"altersgruppe":             "",   // String
+		"teilnehmer_anzahl":        "",   // String
+		"dauer":                    "",   // String
+		"schularten":               [""], // Array von String
+		"sprachen":                 [""], // Array von String
+		"praktika":                 [""], // Array von String
+		"w-seminare":               "",   // String
+		"betreuungspersonal":       "",   // String
+		"außerschulisches_angebot": "",   // String
+		"beschreibung":             "",   // String
+		"buchungsadresse":          "",   // String, Webseiten-URL ("http://...") oder E-Mail-Adresse (z.B.: "<a href='mailto:test@example.com'>test@example.com</a>")
 		"öffnungszeiten":           {
-			"Mo": "-",
-			"Di": "-",
-			"Mi": "-",
-			"Do": "-",
-			"Fr": "-",
-			"Sa": "-",
-			"So": "-",
+			/* Hier sind Uhrzeiten oder kurze Beschreibungen passend */
+			"Mo": "-",   // String
+			"Di": "-",   // String
+			"Mi": "-",   // String
+			"Do": "-",   // String
+			"Fr": "-",   // String
+			"Sa": "-",   // String
+			"So": "-",   // String
 		},
-		"öffnungszeiten_ausnahmen": "", // Hier bitte einen ganzen Satz hinschreiben
-		"bildquellen": "",
-		"images":                   [],
-		"buchungs_disclaimer":      true,
+		"öffnungszeiten_ausnahmen": "",   // String, ganzer Satz
+		"bildquellen": "",                // String, kurz, z.B.: "Eigene Aufnahmen"
+		"images":                   [],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
+		"buchungs_disclaimer":      true, // Boolean: true oder false
 	},
 };
 
