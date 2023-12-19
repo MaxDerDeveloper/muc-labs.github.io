@@ -465,7 +465,7 @@ const context  = {
 		"betreuungspersonal":       "Keine Angabe",   // String
 		"außerschulisches_angebot": "Unterschiedliche. Info auf der Webseite",   // String
 		"beschreibung":             "Wir setzen uns dafür ein, um allen Kindern und Jugendlichen Naturwissenschaften, Technik und Informatik in kreativen, lustigen und praktischen Experimenten nahe zu bringen. Bei uns stehen Fantasie, Fragen, Hinterfragen und Prüfen im Vorfeld. Insbesondere kümmern wir uns um Kinder, die aus vielen Gründen einen weiteren Weg zur guten Bildung haben. Unser größter Traum ist es, damit Kinder die MINT-Fächer nicht nur verstehen, sondern auch lieben. ",   // String
-		"buchungsadresse":          "<a href='mailto:info@little-lab.de'>info@little-lab.de</a> oder <a href='www.little-lab.de'>Webseite</a>",   // String, Webseiten-URL ("http://...") oder E-Mail-Adresse (z.B.: "<a href='mailto:test@example.com'>test@example.com</a>")
+		"buchungsadresse":          "<a href='mailto:info@little-lab.de'>info@little-lab.de</a> oder <a href='https://www.little-lab.de'>Webseite</a>",   // String, Webseiten-URL ("http://...") oder E-Mail-Adresse (z.B.: "<a href='mailto:test@example.com'>test@example.com</a>")
 		"öffnungszeiten":           {
 			/* Hier sind Uhrzeiten oder kurze Beschreibungen passend */
 			"Mo": "-",   // String
