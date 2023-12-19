@@ -447,6 +447,42 @@ const context  = {
 		"buchungs_disclaimer":      true,
 	},
 
+	"Little Lab": {
+		"name":                     "Little Lab - Wissenschaft für Kinder e.V.",   // String
+		"website_url":              "https://www.little-lab.de/, https://kreativlabor-freiham.de/",   // String
+		"adresse":                  "KREATIVLABOR, Ute-Strittmatter-Str. 6, 81248 München",   // String
+		"google_maps_url":          "https://maps.app.goo.gl/fnJxxR6GXCa9TsaR6",   // String, URL: https://...
+		"überthema":                ["Informatik","Physik","Chemie","Biologie","Technik","Handwerk","Umwelt"], // Array von Strings, siehe Liste von zulässigen Überthemen unten
+		"unterthema":               ["Making","3D-Druck","Klima"], // Array von Strings
+		"zielgruppe":               5,    // Zahl von 0 bis 10, Integer
+		"altersgruppe":             "4 J.a. (Kindergartenalter) bis ca. 15 J.a. (9. Klasse Mittel- und Realschule)",   // String
+		"teilnehmer_anzahl":        "8-25",   // String
+		"dauer":                    "1-3 St.",   // String
+		"schularten":               ["Grundschule","Mittelschule","Realschule","Gymnasium (Unterstufe)"], // Array von String
+		"sprachen":                 ["Deutsch"], // Array von String
+		"praktika":                 ["Keine"], // Array von String
+		"w-seminare":               "Keine",   // String
+		"betreuungspersonal":       "Keine Angabe",   // String
+		"außerschulisches_angebot": "Unterschiedliche. Info auf der Webseite",   // String
+		"beschreibung":             "Wir setzen uns dafür ein, um allen Kindern und Jugendlichen Naturwissenschaften, Technik und Informatik in kreativen, lustigen und praktischen Experimenten nahe zu bringen. Bei uns stehen Fantasie, Fragen, Hinterfragen und Prüfen im Vorfeld. Insbesondere kümmern wir uns um Kinder, die aus vielen Gründen einen weiteren Weg zur guten Bildung haben. Unser größter Traum ist es, damit Kinder die MINT-Fächer nicht nur verstehen, sondern auch lieben. ",   // String
+		"buchungsadresse":          "info@little-lab.de, www.little-lab.de",   // String, Webseiten-URL ("http://...") oder E-Mail-Adresse (z.B.: "<a href='mailto:test@example.com'>test@example.com</a>")
+		"öffnungszeiten":           {
+			/* Hier sind Uhrzeiten oder kurze Beschreibungen passend */
+			"Mo": "-",   // String
+			"Di": "-",   // String
+			"Mi": "-",   // String
+			"Do": "-",   // String
+			"Fr": "-",   // String
+			"Sa": "-",   // String
+			"So": "-",   // String
+		},
+		"öffnungszeiten_ausnahmen": "Öffnungszeiten orientieren sich an Projektzeiten",   // String, ganzer Satz
+		"bildquellen": "Little Lab ",                // String, kurz, z.B.: "Eigene Aufnahmen"
+		"images":                   [],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
+		"buchungs_disclaimer":      true, // Boolean: true oder false
+	},
+};
+
 		"Vorlage": {
 		"name":                     "Der Name Ihres Labs",
 		"website_url":              "https://www.mintcampus-dachau.de",
