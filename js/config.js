@@ -449,7 +449,7 @@ const context  = {
 
 	"Little Lab": {
 		"name":                     "Little Lab - Wissenschaft für Kinder e.V.",   // String
-		"website_url":              "https://www.little-lab.de/, https://kreativlabor-freiham.de/",   // String
+		"website_url":              "https://www.little-lab.de/", //https://kreativlabor-freiham.de/  // String
 		"adresse":                  "KREATIVLABOR, Ute-Strittmatter-Str. 6, 81248 München",   // String
 		"google_maps_url":          "https://maps.app.goo.gl/fnJxxR6GXCa9TsaR6",   // String, URL: https://...
 		"überthema":                ["Informatik","Physik","Chemie","Biologie","Technik","Handwerk","Umwelt"], // Array von Strings, siehe Liste von zulässigen Überthemen unten
