@@ -481,7 +481,6 @@ const context  = {
 		"images":                   [],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
 		"buchungs_disclaimer":      true, // Boolean: true oder false
 	},
-};
 
 		"Vorlage": {
 		"name":                     "Der Name Ihres Labs",
@@ -604,7 +603,7 @@ const tags_to_background_mapping = {
 	"Biologie":    "green",
 	"Chemie":      "yellow",
 	"Astrophysik": "#000435"
-	
+
 	/* Ggf. Ergänzen */
 };
 
@@ -614,7 +613,7 @@ const tags_to_foreground_mapping = {
 	"Biologie":    "white",
 	"Chemie":      "black",
 	"Astrophysik": "white"
-	
+
 	/* Ggf. Ergänzen */
 };
 
