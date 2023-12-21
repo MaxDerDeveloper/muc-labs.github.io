@@ -478,7 +478,7 @@ const context  = {
 		},
 		"öffnungszeiten_ausnahmen": "Öffnungszeiten orientieren sich an Projektzeiten",   // String, ganzer Satz
 		"bildquellen": "Little Lab ",                // String, kurz, z.B.: "Eigene Aufnahmen"
-		"images":                   ["/bilder/welpe1.jpg"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
+		"images":                   ["/bilder/LittleLab/Titelbild/20220511_142923647_iOS Kopie.png","/bilder/LittleLab/2022_Rosskastanie_Fluoreszenz Kopie.png","/bilder/LittleLab/2023_3D_Druck Kopie.png","/bilder/LittleLab/2023_RWiesner_Stromworkshop Kopie.png","/bilder/LittleLab/2023_Slime Kopie.png","/bilder/LittleLab/2023_Waermebildkamera Kopie.png"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"// Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
 		"buchungs_disclaimer":      true, // Boolean: true oder false
 	},
 
