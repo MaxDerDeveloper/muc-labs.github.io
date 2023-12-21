@@ -153,7 +153,7 @@ const context  = {
 		"praktika":                 "Ja",
 		"w-seminare":               "Ja",
 		"betreuungspersonal":       "-", /* ? */
-		"außerschulisches_angebote": "Tag der offenen Türen (3.10.)<br>Hilfe bei Wettbewerben (Physikolympiade, Deutsche Physikmeisterschaft GYPT, Jugend forscht,...)<br>Lehrerfortbildungeny<br>Campusquiz",
+		"außerschulisches_angebot": "Tag der offenen Türen (3.10.)<br>Hilfe bei Wettbewerben (Physikolympiade, Deutsche Physikmeisterschaft GYPT, Jugend forscht,...)<br>Lehrerfortbildungeny<br>Campusquiz",
 		"beschreibung":             "Das Ziel ist es auch Laien das Thema Licht und Laser näherzubringen, wie Laser funktionieren und wie sie aufgebaut sind. Außerdem wird das Thema Quantenphysik in Ansätzen erklärt, auf Nach-/Anfrage wird auch mehr zu dem Thema erklärt. Der Besuch beginnt mit einem Einführungsvortrag, anschließend darf man 20 spannende Experimente mit Lasern machen mit Einleitungen am IPad, zum Beispiel einen echten Doppelspalt oder Musikübertragung per Laser.  Man bekommt auch die Möglichkeit durch eine Glaswand in das Labor für Attosekundenphysik reinzugucken",
 		"buchungsadresse":          "Dr. Silke Stähler Schöpf E-Mail: <a href='mailto:staehler-schoepf@physik.uni-muenchen.de'>staehler-schoepf@physik.uni-muenchen.de</a>, +49 89 3 29 05 - 197",
 		"öffnungszeiten":           {
