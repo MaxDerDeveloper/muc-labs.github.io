@@ -482,6 +482,41 @@ const context  = {
 		"buchungs_disclaimer":      true, // Boolean: true oder false
 	},
 
+	"Mineralogia": {
+		"name":                     "Museum Mineralgia München",   // String
+		"website_url":              "https://msm.snsb.de/museum/",   // String
+		"adresse":                  "Theresienstr. 41 Eingang vom Marianne-v.-Werefkin-Weg 80333 München",   // String
+		"google_maps_url":          "https://maps.app.goo.gl/pi2du6M8mdYjMXj16",   // String, URL: https://...
+		"überthema":                ["Geologie", "Chemie"], // Array von Strings, siehe Liste von zulässigen Überthemen unten
+		"unterthema":               ["Minerale","Metorite","Edelsteine"], // Array von Strings
+		"zielgruppe":               4,    // Zahl von 0 bis 10, Integer
+		"altersgruppe":             "ab 5 Jahren",   // String
+		"teilnehmer_anzahl":        "maximal 30",   // String
+		"dauer":                    "je nach Führung",   // String
+		"schularten":               ["Grundschule", "Gymnasium", "FOS","BOS"], // Array von String
+		"sprachen":                 ["Deutsch", "Englisch"], // Array von String
+		"praktika":                 ["ja"], // Array von String
+		"w-seminare":               "ja",   // String
+		"betreuungspersonal":       "",   // String
+		"außerschulisches_angebot": "",   // String
+		"beschreibung":             "",   // String
+		"buchungsadresse":          "<a href='mailto:mineralogische.staatssammlung@snsb.de'>mineralogische.staatssammlung@snsb.de</a>",   // String, Webseiten-URL ("http://...") oder E-Mail-Adresse (z.B.: "<a href='mailto:test@example.com'>test@example.com</a>")
+		"öffnungszeiten":           {
+			/* Hier sind Uhrzeiten oder kurze Beschreibungen passend */
+			"Mo": "geschlossen",   // String
+			"Di": "13-17",   // String
+			"Mi": "13-17",   // String
+			"Do": "13-17",   // String
+			"Fr": "13-17",   // String
+			"Sa": "13-17",   // String
+			"So": "13-17",   // String
+		},
+		"öffnungszeiten_ausnahmen": "",   // String, ganzer Satz
+		"bildquellen": "",                // String, kurz, z.B.: "Eigene Aufnahmen"
+		"images":                   [],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
+		"buchungs_disclaimer":      true, // Boolean: true oder false
+	},
+
 		"Vorlage": {
 		"name":                     "Der Name Ihres Labs",
 		"website_url":              "https://www.mintcampus-dachau.de",
