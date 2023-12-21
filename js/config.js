@@ -545,7 +545,7 @@ const context  = {
 		"Sa": "geschlossen",
 		"So": "geschlossen",
 	},
-	"öffnungszeiten_ausnahmen": "Was ist bei den Öffnungszeiten noch zu beachten? Beispielsweise in den Schulferien",
+	"öffnungszeiten_ausnahmen": "",
 	"bildquellen": "Lyzeum 2 e.V.",
 	"images":                   ["/bilder/welpe1.jpg"],
 	"buchungs_disclaimer":      true,
