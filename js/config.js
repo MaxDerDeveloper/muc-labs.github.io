@@ -517,6 +517,40 @@ const context  = {
 		"buchungs_disclaimer":      true, // Boolean: true oder false
 	},
 
+"Lyzeum2": {
+	"name":                     "Lyzeum 2 e.V.",
+	"website_url":              "https://lyzeum-muenchen.de/",
+	"adresse":                  "Trivastr. 13, 80637 München",
+	"google_maps_url":          "https://maps.app.goo.gl/PQgJevNusQzRs2BB6",
+	"überthema":                ["Mathematik", "Informatik", "Physik", "Chemie","Technik","Sprachwissenschaft","Literatur"],//Englisch, Schach
+	"unterthema":               ["Mathezirkel","Mathe-AG","Wissenschaftspropädeutik","Schach","Physik im Alltag","Naturkunde","Programmieren","Science-Fiction","Literatur"],
+	"zielgruppe":               8,
+	"altersgruppe":             "5 Jahre bis 12 Klasse",
+	"teilnehmer_anzahl":        "Max 20",
+	"dauer":                    "1,5 Stunden",
+	"schularten":               ["Gymnasium","Realschule","Grundschule"],
+	"sprachen":                 ["Deutsch","Englisch","Russisch"],
+	"praktika":                 ["Keine"],
+	"w-seminare":               "Forschungsarbeiten möglich",
+	"betreuungspersonal":       "Dozenten",
+	"außerschulisches_angebot": "Mathezirkel, Mathe-AG, Schach-AG, Science-Fiction Literatur, Programmieren, Naturkunde, Wissenschaftspropädeutik, Physik im Alltag",
+	"beschreibung":             "Lyzeum 2 ist ein Zentrum für Schüler, die gerne denken und sich auch Herausforderungen stellen wollen, um viel zu erfahren. Wir engagieren besondere Dozenten, die ihr Fach lieben, inspirierend unterrichten und Universitätsstandards in die Schulbildung bringen. Schüler und Dozenten bilden eine Gemeinschaft, die nach einem tieferen Verständnis der Phänomene strebt.<br>Unsere Schüler nehmen an Olympiaden und Konferenzen teil und werden gut auf die Universität vorbereitet. Im Vordergrund steht aber weniger der äußere Erfolg, sondern vielmehr die eigene Motivation, die Freude am Entdecken und Erforschen sowie die Befähigung, anspruchsvolle Aufgaben zu meistern.",
+	"buchungsadresse":          "+49 151 701 66162",
+	"öffnungszeiten":           {
+		"Mo": "Ab 17:00",
+		"Di": "Ab 17:00",
+		"Mi": "Ab 17:00",
+		"Do": "Ab 17:00",
+		"Fr": "geschlossen",
+		"Sa": "geschlossen",
+		"So": "geschlossen",
+	},
+	"öffnungszeiten_ausnahmen": "Was ist bei den Öffnungszeiten noch zu beachten? Beispielsweise in den Schulferien",
+	"bildquellen": "Lyzeum 2 e.V.",
+	"images":                   ["/bilder/welpe1.jpg"],
+	"buchungs_disclaimer":      true,
+},
+
 		"Vorlage": {
 		"name":                     "Der Name Ihres Labs",
 		"website_url":              "https://www.mintcampus-dachau.de",
@@ -557,7 +591,6 @@ const context  = {
 		"images":                   ["/bilder/welpe1.jpg"],
 		"buchungs_disclaimer":      true,
 	},
-
 	/*
 	  Die Attribute in diesem Muster dienen der Überprüfung der Datenvollständigkeit bei allen anderen Labs.
 	  Bitte möglichst beibehalten und wenn nötig übergreifend ändern.
