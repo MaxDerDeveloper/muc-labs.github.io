@@ -517,41 +517,286 @@ const context  = {
 		"buchungs_disclaimer":      true, // Boolean: true oder false
 	},
 
-"Lyzeum2": {
-	"name":                     "Lyzeum 2 e.V.",
-	"website_url":              "https://lyzeum-muenchen.de/",
-	"adresse":                  "Trivastr. 13, 80637 München",
-	"google_maps_url":          "https://maps.app.goo.gl/PQgJevNusQzRs2BB6",
-	"überthema":                ["Mathematik", "Informatik", "Physik", "Chemie","Technik","Sprachwissenschaft","Literatur"],//Englisch, Schach
-	"unterthema":               ["Mathezirkel","Mathe-AG","Wissenschaftspropädeutik","Schach","Physik im Alltag","Naturkunde","Programmieren","Science-Fiction","Literatur"],
-	"zielgruppe":               8,
-	"altersgruppe":             "5 Jahre bis 12 Klasse",
-	"teilnehmer_anzahl":        "Max 20",
-	"dauer":                    "1,5 Stunden",
-	"schularten":               ["Gymnasium","Realschule","Grundschule"],
-	"sprachen":                 ["Deutsch","Englisch","Russisch"],
-	"praktika":                 ["Keine"],
-	"w-seminare":               "Forschungsarbeiten möglich",
-	"betreuungspersonal":       "Dozenten",
-	"außerschulisches_angebot": "Mathezirkel, Mathe-AG, Schach-AG, Science-Fiction Literatur, Programmieren, Naturkunde, Wissenschaftspropädeutik, Physik im Alltag",
-	"beschreibung":             "Lyzeum 2 ist ein Zentrum für Schüler, die gerne denken und sich auch Herausforderungen stellen wollen, um viel zu erfahren. Wir engagieren besondere Dozenten, die ihr Fach lieben, inspirierend unterrichten und Universitätsstandards in die Schulbildung bringen. Schüler und Dozenten bilden eine Gemeinschaft, die nach einem tieferen Verständnis der Phänomene strebt.<br>Unsere Schüler nehmen an Olympiaden und Konferenzen teil und werden gut auf die Universität vorbereitet. Im Vordergrund steht aber weniger der äußere Erfolg, sondern vielmehr die eigene Motivation, die Freude am Entdecken und Erforschen sowie die Befähigung, anspruchsvolle Aufgaben zu meistern.",
-	"buchungsadresse":          "+49 151 701 66162",
-	"öffnungszeiten":           {
-		"Mo": "Ab 17:00",
-		"Di": "Ab 17:00",
-		"Mi": "Ab 17:00",
-		"Do": "Ab 17:00",
-		"Fr": "geschlossen",
-		"Sa": "geschlossen",
-		"So": "geschlossen",
+	"Lyzeum2": {
+		"name":                     "Lyzeum 2 e.V.",
+		"website_url":              "https://lyzeum-muenchen.de/",
+		"adresse":                  "Trivastr. 13, 80637 München",
+		"google_maps_url":          "https://maps.app.goo.gl/PQgJevNusQzRs2BB6",
+		"überthema":                ["Mathematik", "Informatik", "Physik", "Chemie","Technik","Sprachwissenschaft","Literatur"],//Englisch, Schach
+		"unterthema":               ["Mathezirkel","Mathe-AG","Wissenschaftspropädeutik","Schach","Physik im Alltag","Naturkunde","Programmieren","Science-Fiction","Literatur"],
+		"zielgruppe":               8,
+		"altersgruppe":             "5 Jahre bis 12 Klasse",
+		"teilnehmer_anzahl":        "Max 20",
+		"dauer":                    "1,5 Stunden",
+		"schularten":               ["Gymnasium","Realschule","Grundschule"],
+		"sprachen":                 ["Deutsch","Englisch","Russisch"],
+		"praktika":                 ["Keine"],
+		"w-seminare":               "Forschungsarbeiten möglich",
+		"betreuungspersonal":       "Dozenten",
+		"außerschulisches_angebot": "Mathezirkel, Mathe-AG, Schach-AG, Science-Fiction Literatur, Programmieren, Naturkunde, Wissenschaftspropädeutik, Physik im Alltag",
+		"beschreibung":             "Lyzeum 2 ist ein Zentrum für Schüler, die gerne denken und sich auch Herausforderungen stellen wollen, um viel zu erfahren. Wir engagieren besondere Dozenten, die ihr Fach lieben, inspirierend unterrichten und Universitätsstandards in die Schulbildung bringen. Schüler und Dozenten bilden eine Gemeinschaft, die nach einem tieferen Verständnis der Phänomene strebt.<br>Unsere Schüler nehmen an Olympiaden und Konferenzen teil und werden gut auf die Universität vorbereitet. Im Vordergrund steht aber weniger der äußere Erfolg, sondern vielmehr die eigene Motivation, die Freude am Entdecken und Erforschen sowie die Befähigung, anspruchsvolle Aufgaben zu meistern.",
+		"buchungsadresse":          "+49 151 701 66162",
+		"öffnungszeiten":           {
+			"Mo": "Ab 17:00",
+			"Di": "Ab 17:00",
+			"Mi": "Ab 17:00",
+			"Do": "Ab 17:00",
+			"Fr": "geschlossen",
+			"Sa": "geschlossen",
+			"So": "geschlossen",
+		},
+		"öffnungszeiten_ausnahmen": "",
+		"bildquellen": "Lyzeum 2 e.V.",
+		"images":                   ["/bilder/welpe1.jpg"],
+		"buchungs_disclaimer":      true,
 	},
-	"öffnungszeiten_ausnahmen": "",
-	"bildquellen": "Lyzeum 2 e.V.",
-	"images":                   ["/bilder/welpe1.jpg"],
-	"buchungs_disclaimer":      true,
-},
-
-		"Vorlage": {
+	
+	"Bene": {
+	"name":                     "BenE München e.V.",   // String
+	"website_url":              "https://www.bene-muenchen.de/",   // String
+	"adresse":                  "Lederer Str. 17, 80331 München",   // String
+	"google_maps_url":          "https://maps.app.goo.gl/FbfNWgHHN1kmzc5R8",   // String, URL: https://...
+	"überthema":                ["Nachhaltigkeit"], // Array von Strings, siehe Liste von zulässigen Überthemen unten
+	"unterthema":               [""], // Array von Strings
+	"zielgruppe":               5,    // Zahl von 0 bis 10, Integer
+	"altersgruppe":             "-",   // String
+	"teilnehmer_anzahl":        "-",   // String
+	"dauer":                    "-",   // String
+	"schularten":               ["-"], // Array von String
+	"sprachen":                 ["-"], // Array von String
+	"praktika":                 ["-"], // Array von String
+	"w-seminare":               "-",   // String
+	"betreuungspersonal":       "-",   // String
+	"außerschulisches_angebot": "-",   // String
+	"beschreibung":             "Zweck des Vereins ist die Förderung der Bildung für nachhaltige Entwicklung in München. Das RCE BenE München fungiert in München als Plattform für Bildung für nachhaltige Entwicklung (BNE) mit dem Ziel, BNE in der Münchner Stadtgesellschaft langfristig zu verankern und weiterzuentwickeln. Als Mitglied von MUC-Labs e.V. unterstützt BenE München e.V. speziell Projekte und Vernetzung der Schülerlabore rund um BNE.",   // String
+	"buchungsadresse":          "-",   // String, Webseiten-URL ("http://...") oder E-Mail-Adresse (z.B.: "<a href='mailto:test@example.com'>test@example.com</a>")
+	"öffnungszeiten":           {
+		/* Hier sind Uhrzeiten oder kurze Beschreibungen passend */
+		"Mo": "-",   // String
+		"Di": "-",   // String
+		"Mi": "-",   // String
+		"Do": "-",   // String
+		"Fr": "-",   // String
+		"Sa": "-",   // String
+		"So": "-",   // String
+	},
+	"öffnungszeiten_ausnahmen": "-",   // String, ganzer Satz
+	"bildquellen": "-",                // String, kurz, z.B.: "Eigene Aufnahmen"
+	"images":                   ["/bilder/welpe1.jpg"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
+	"buchungs_disclaimer":      true, // Boolean: true oder false
+	},
+	
+	"Biotopia": {
+		"name":                     "BIOTOPIA Lab",   // String
+		"website_url":              "https://biotopialab.snsb.de/",   // String
+		"adresse":                  "Menzinger Str. 65, 80638 München",   // String
+		"google_maps_url":          "https://maps.app.goo.gl/nNGo2pssXk6sXj8QA",   // String, URL: https://...
+		"überthema":                ["Biologie"], // Array von Strings, siehe Liste von zulässigen Überthemen unten
+		"unterthema":               ["Neurobiologie","Verhaltensbiologie"], // Array von Strings
+		"zielgruppe":               5,    // Zahl von 0 bis 10, Integer
+		"altersgruppe":             "Alle, Schwerpunkt Oberstufe",   // String
+		"teilnehmer_anzahl":        "23",   // String
+		"dauer":                    "-",   // String
+		"schularten":               ["Gymnasium","FOS","BOS"], // Array von String
+		"sprachen":                 ["Deutsch"], // Array von String
+		"praktika":                 ["Berufs- und studienorientierende Praktika auf Anfrage"], // Array von String
+		"w-seminare":               "standardisiertes Angebot",   // String
+		"betreuungspersonal":       "-",   // String
+		"außerschulisches_angebot": "-",   // String
+		"beschreibung":             "Biotopia Lab ist das Schülerlabor von Biotopia - Naturkundemuseum Bayern.<br>Es bietet einen Vorgeschmack auf BIOTOPIA und ist ein dynamischer Ausstellungsraum an der Schnittstelle von Wissenschaften, Kunst, Design und Kultur und gibt zugleich einen Einblick in den Entstehungsprozess des neuen Museums.",   // String
+		"buchungsadresse":          "",   // String, Webseiten-URL ("http://...") oder E-Mail-Adresse (z.B.: "<a href='mailto:test@example.com'>test@example.com</a>")
+		"öffnungszeiten":           {
+			/* Hier sind Uhrzeiten oder kurze Beschreibungen passend */
+			"Mo": "Geschlossen",   // String
+			"Di": "Geschlossen",   // String
+			"Mi": "Geschlossen",   // String
+			"Do": "Geschlossen",   // String
+			"Fr": "13:00-17:00 Uhr",   // String
+			"Sa": "10:00-17:00 Uhr",   // String
+			"So": "10:00-17:00 Uhr",   // String
+		},
+		"öffnungszeiten_ausnahmen": "Die aufgeführten Öffnungszeiten gelten fürd das Sommerhalbjahr. Im Winterhalbjahr schließt das BIOTOPIA Lab bereits um 16:30 Uhr.",   // String, ganzer Satz
+		"bildquellen": "",                // String, kurz, z.B.: "Eigene Aufnahmen"
+		"images":                   ["/bilder/welpe1.jpg"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
+		"buchungs_disclaimer":      true, // Boolean: true oder false
+	},
+	
+	"CampusDiMonaco": {
+		"name":                     "Campus di Monaco",   // String
+		"website_url":              "https://campus-di-monaco.de/",   // String
+		"adresse":                  "Schwanthalerstr. 2, 80336 München",   // String
+		"google_maps_url":          "https://maps.app.goo.gl/gVQjufrNT6KEYG1P8",   // String, URL: https://...
+		"überthema":                ["Natur","Technik","Kunst","Gesundheit"], // Array von Strings, siehe Liste von zulässigen Überthemen unten
+		"unterthema":               ["Inklusion","Bildungsteilhabe","Internationalität"], // Array von Strings
+		"zielgruppe":               5,    // Zahl von 0 bis 10, Integer
+		"altersgruppe":             "ab 8 Jahre bis zur Mittelstufe",   // String
+		"teilnehmer_anzahl":        "Max 16",   // String
+		"dauer":                    "-",   // String
+		"schularten":               ["Alle Schularten"], // Array von String
+		"sprachen":                 ["Deutsch","Englisch","Französisch","andere Sprachen auf Anfrage"], // Array von String
+		"praktika":                 ["Auf Anfrage"], // Array von String
+		"w-seminare":               "Nein",   // String
+		"betreuungspersonal":       "-",   // String
+		"außerschulisches_angebot": "-",   // String
+		"beschreibung":             "In Fortbildungen für Multiplikator*innen geben wir unser Wissen rund um das MINT-Experimentierprogramm Experimento weiter. In Ferien- und Projektangeboten bieten wir Kindern und Jugendlichen Spaß und Anregung durch Experimente, Erlebnisse in der Natur, sowie Kunst und Kultur.",   // String
+		"buchungsadresse":          "-",   // String, Webseiten-URL ("http://...") oder E-Mail-Adresse (z.B.: "<a href='mailto:test@example.com'>test@example.com</a>")
+		"öffnungszeiten":           {
+			/* Hier sind Uhrzeiten oder kurze Beschreibungen passend */
+			"Mo": "-",   // String
+			"Di": "-",   // String
+			"Mi": "-",   // String
+			"Do": "-",   // String
+			"Fr": "-",   // String
+			"Sa": "-",   // String
+			"So": "-",   // String
+		},
+		"öffnungszeiten_ausnahmen": "-",   // String, ganzer Satz
+		"bildquellen": "",                // String, kurz, z.B.: "Eigene Aufnahmen"
+		"images":                   ["/bilder/welpe1.jpg"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
+		"buchungs_disclaimer":      true, // Boolean: true oder false
+	},
+	
+	"Frühes Forschen": {
+		"name":                     "Frühes Forschen",   // String
+		"website_url":              "https://www.fruehes-forschen.de/",   // String
+		"adresse":                  "-",   // String
+		"google_maps_url":          "-",   // String, URL: https://...
+		"überthema":                ["Natur","Technik"], // Array von Strings, siehe Liste von zulässigen Überthemen unten
+		"unterthema":               [""], // Array von Strings
+		"zielgruppe":               5,    // Zahl von 0 bis 10, Integer
+		"altersgruppe":             "-",   // String
+		"teilnehmer_anzahl":        "-",   // String
+		"dauer":                    "-",   // String
+		"schularten":               ["Realschule","Gymnasium","FOS"], // Array von String
+		"sprachen":                 ["Deutsch","Englisch"], // Array von String
+		"praktika":                 ["-"], // Array von String
+		"w-seminare":               "-",   // String
+		"betreuungspersonal":       "-",   // String
+		"außerschulisches_angebot": "-",   // String
+		"beschreibung":             "-",   // String
+		"buchungsadresse":          "-",   // String, Webseiten-URL ("http://...") oder E-Mail-Adresse (z.B.: "<a href='mailto:test@example.com'>test@example.com</a>")
+		"öffnungszeiten":           {
+			/* Hier sind Uhrzeiten oder kurze Beschreibungen passend */
+			"Mo": "-",   // String
+			"Di": "-",   // String
+			"Mi": "-",   // String
+			"Do": "-",   // String
+			"Fr": "-",   // String
+			"Sa": "-",   // String
+			"So": "-",   // String
+		},
+		"öffnungszeiten_ausnahmen": "-",   // String, ganzer Satz
+		"bildquellen": "",                // String, kurz, z.B.: "Eigene Aufnahmen"
+		"images":                   ["/bilder/welpe1.jpg"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
+		"buchungs_disclaimer":      true, // Boolean: true oder false
+	},
+	
+	"LernenmitKick": {
+		"name":                     "Lernen mit Kick",   // String
+		"website_url":              "https://www.awo-muenchen.de/kinder/fanprojekt-muenchen/lernen-mit-kick/unser-projekt",   // String
+		"adresse":                  "Admiralbogen 41, 80939 München",   // String
+		"google_maps_url":          "https://maps.app.goo.gl/bq8zk87dx8ewCXbs7",   // String, URL: https://...
+		"überthema":                ["Gesellschaft","Demokratie","Nachhaltigkeit"], // Array von Strings, siehe Liste von zulässigen Überthemen unten
+		"unterthema":               ["Rassismus","Diskriminierung","Gewalt","Medienpädagogik","Gender Diversity","Geld","Konsum"], // Array von Strings
+		"zielgruppe":               5,    // Zahl von 0 bis 10, Integer
+		"altersgruppe":             "Ab 7. Klasse",   // String
+		"teilnehmer_anzahl":        "bis 30 Personen",   // String
+		"dauer":                    "-",   // String
+		"schularten":               ["Mittelschule","Realschulen","Berufsschulen","Sonderpädagogische Förderzentren"], // Array von String
+		"sprachen":                 ["Deutsch","Englisch"], // Array von String
+		"praktika":                 ["Nein"], // Array von String
+		"w-seminare":               "Nein",   // String
+		"betreuungspersonal":       "-",   // String
+		"außerschulisches_angebot": "-",   // String
+		"beschreibung":             "Lernen mit Kick ist ein kostenloses, außerschulisches Bildungsangebot. Es bietet Schüler*innen unterschiedlicher Klassenstufen in vielfältigen Workshops, ein breites Spektrum an relevanten und aktuellen gesellschaftspolitischen Themen.",   // String
+		"buchungsadresse":          "-",   // String, Webseiten-URL ("http://...") oder E-Mail-Adresse (z.B.: "<a href='mailto:test@example.com'>test@example.com</a>")
+		"öffnungszeiten":           {
+			/* Hier sind Uhrzeiten oder kurze Beschreibungen passend */
+			"Mo": "-",   // String
+			"Di": "-",   // String
+			"Mi": "-",   // String
+			"Do": "-",   // String
+			"Fr": "-",   // String
+			"Sa": "-",   // String
+			"So": "-",   // String
+		},
+		"öffnungszeiten_ausnahmen": "-",   // String, ganzer Satz
+		"bildquellen": "-",                // String, kurz, z.B.: "Eigene Aufnahmen"
+		"images":                   ["/bilder/welpe1.jpg"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
+		"buchungs_disclaimer":      true, // Boolean: true oder false
+	},
+	
+	"TUMScienceLabs": {
+		"name":                     "TUM Science Labs",   // String
+		"website_url":              "https://www.edu.sot.tum.de/edu/schule/angebote-an-der-tum/sciencelabs/",   // String
+		"adresse":                  "Marsstraße 20-2280335 München",   // String
+		"google_maps_url":          "https://maps.app.goo.gl/dZC8sjrvRXg9h7XcA",   // String, URL: https://...
+		"überthema":                ["Physik"], // Array von Strings, siehe Liste von zulässigen Überthemen unten
+		"unterthema":               ["Akustik","Optik","Beugung","Brechung","Interferometrie","Magnetismus","Brennstoffzelle","spezifischen Elektronenladung"], // Array von Strings
+		"zielgruppe":               5,    // Zahl von 0 bis 10, Integer
+		"altersgruppe":             "Ab der 9. Jahrgangsstufe",   // String
+		"teilnehmer_anzahl":        "Ideal: 8; Maximal: 12 pro Versuch",   // String
+		"dauer":                    "-",   // String
+		"schularten":               ["Realschule","Gymnasium","FOS"], // Array von String
+		"sprachen":                 ["Deutsch","Englisch"], // Array von String
+		"praktika":                 ["Berufs- und studienorientierende Praktika in Kooperation mit dem PhotonLab."], // Array von String
+		"w-seminare":               "Ja",   // String
+		"betreuungspersonal":       "-",   // String
+		"außerschulisches_angebot": "-",   // String
+		"beschreibung":             "Die Teilnehmer nutzen Experimente des physikalischen Praktikums für Studierende der Physik und des Maschinenwesens. Damit erhalten sie auch Einblick in den Studienbetrieb. Ein Kombination mit den Angeboten des PhotonLabs (Optik) oder anderen Einrichtungen am Forschungscampus Garching (Supernova, FRM II, IPP) bietet sich an.",   // String
+		"buchungsadresse":          "-",   // String, Webseiten-URL ("http://...") oder E-Mail-Adresse (z.B.: "<a href='mailto:test@example.com'>test@example.com</a>")
+		"öffnungszeiten":           {
+			/* Hier sind Uhrzeiten oder kurze Beschreibungen passend */
+			"Mo": "09:00 - 16:00 Uhr",   // String
+			"Di": "09:00 - 16:00 Uhr",   // String
+			"Mi": "09:00 - 16:00 Uhr",   // String
+			"Do": "09:00 - 16:00 Uhr",   // String
+			"Fr": "09:00 - 16:00 Uhr",   // String
+			"Sa": "Geschlossen",   // String
+			"So": "Geschlossen",   // String
+		},
+		"öffnungszeiten_ausnahmen": "-",   // String, ganzer Satz
+		"bildquellen": "-",                // String, kurz, z.B.: "Eigene Aufnahmen"
+		"images":                   ["/bilder/welpe1.jpg"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
+		"buchungs_disclaimer":      true, // Boolean: true oder false
+	},
+	
+	"TUMLabDM": {
+		"name":                     "TUMlab im Deutschen Museum",   // String
+		"website_url":              "https://www.deutsches-museum.de/museumsinsel/programm/programm-a-z/tumlab",   // String
+		"adresse":                  "Museumsinsel 1, 80538 München",   // String
+		"google_maps_url":          "https://maps.app.goo.gl/Lhp3cs4jKoWKqiar5",   // String, URL: https://...
+		"überthema":                ["Physik","Technik","Chemie"], // Array von Strings, siehe Liste von zulässigen Überthemen unten
+		"unterthema":               ["Robotik","Automatisierung","Programmieren","Optik","Teleskope","Wasserkraftwerk"], // Array von Strings
+		"zielgruppe":               5,    // Zahl von 0 bis 10, Integer
+		"altersgruppe":             "Ab 10 Jahren",   // String
+		"teilnehmer_anzahl":        "",   // String
+		"dauer":                    "3/5 Stunden",   // String
+		"schularten":               ["Realschule","Gymnasium","FOS"], // Array von String
+		"sprachen":                 ["Deutsch","Englisch"], // Array von String
+		"praktika":                 ["-"], // Array von String
+		"w-seminare":               "-",   // String
+		"betreuungspersonal":       "-",   // String
+		"außerschulisches_angebot": "-",   // String
+		"beschreibung":             "Hier dürfen Jugendliche, Studierende und Lehrkräfte selbst konstruieren, bauen, steuern, programmieren – mit anderen Worten: Wissenschaft zum Anfassen erleben. Die Angebote im Bereich Robotik, Automatisierung, Naturwissenschaften sowie Umwelt & Technik richten sich an alle Neugierigen ab 10 Jahren, insbesondere Schulklassen, Lehrkräfte und interessierte Gruppen.",   // String
+		"buchungsadresse":          "-",   // String, Webseiten-URL ("http://...") oder E-Mail-Adresse (z.B.: "<a href='mailto:test@example.com'>test@example.com</a>")
+		"öffnungszeiten":           {
+			/* Hier sind Uhrzeiten oder kurze Beschreibungen passend */
+			"Mo": "-",   // String
+			"Di": "-",   // String
+			"Mi": "-",   // String
+			"Do": "-",   // String
+			"Fr": "-",   // String
+			"Sa": "-",   // String
+			"So": "-",   // String
+		},
+		"öffnungszeiten_ausnahmen": "-",   // String, ganzer Satz
+		"bildquellen": "-",                // String, kurz, z.B.: "Eigene Aufnahmen"
+		"images":                   ["/bilder/welpe1.jpg"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
+		"buchungs_disclaimer":      true, // Boolean: true oder false
+	},
+	
+	"Vorlage": {
 		"name":                     "Der Name Ihres Labs",
 		"website_url":              "https://www.mintcampus-dachau.de",
 		"adresse":                  "Musterstraße 1, 99999 München",
