@@ -556,7 +556,7 @@ const context  = {
 		"website_url":              "https://www.bene-muenchen.de/",   // String
 		"adresse":                  "Lederer Str. 17, 80331 München",   // String
 		"google_maps_url":          "https://maps.app.goo.gl/FbfNWgHHN1kmzc5R8",   // String, URL: https://...
-		"überthema":                ["Nachhaltigkeit"], // Array von Strings, siehe Liste von zulässigen Überthemen unten
+		"überthema":                ["Nachhaltigkeit","Gesellschaft"], // Array von Strings, siehe Liste von zulässigen Überthemen unten
 		"unterthema":               [""], // Array von Strings
 		"zielgruppe":               5,    // Zahl von 0 bis 10, Integer
 		"altersgruppe":             "-",   // String
