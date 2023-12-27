@@ -694,11 +694,11 @@ const context  = {
 	"LernenmitKick": {
 		"name":                     "Lernen mit Kick",   // String
 		"website_url":              "https://www.awo-muenchen.de/kinder/fanprojekt-muenchen/lernen-mit-kick/unser-projekt",   // String
-		"adresse":                  "Admiralbogen 41, 80939 München",   // String
-		"google_maps_url":          "https://maps.app.goo.gl/bq8zk87dx8ewCXbs7",   // String, URL: https://...
+		"adresse":                  "FC Bayern Campus, Ingolstädter Straße 272, 80939 München",   // String
+		"google_maps_url":          "https://maps.app.goo.gl/Pnxo2wJPAGCQJ2DWA",   // String, URL: https://...
 		"überthema":                ["Gesellschaft","Demokratie","Nachhaltigkeit"], // Array von Strings, siehe Liste von zulässigen Überthemen unten
 		"unterthema":               ["Rassismus","Diskriminierung","Gewalt","Medienpädagogik","Gender Diversity","Geld","Konsum"], // Array von Strings
-		"zielgruppe":               5,    // Zahl von 0 bis 10, Integer
+		"zielgruppe":               10,    // Zahl von 0 bis 10, Integer
 		"altersgruppe":             "Ab 7. Klasse",   // String
 		"teilnehmer_anzahl":        "bis 30 Personen",   // String
 		"dauer":                    "-",   // String
@@ -707,44 +707,44 @@ const context  = {
 		"praktika":                 ["Nein"], // Array von String
 		"w-seminare":               "Nein",   // String
 		"betreuungspersonal":       "-",   // String
-		"außerschulisches_angebot": "-",   // String
+		"außerschulisches_angebot": "Ausschließlich außerschulisches Angebot",   // String
 		"beschreibung":             "Lernen mit Kick ist ein kostenloses, außerschulisches Bildungsangebot. Es bietet Schüler*innen unterschiedlicher Klassenstufen in vielfältigen Workshops, ein breites Spektrum an relevanten und aktuellen gesellschaftspolitischen Themen.",   // String
-		"buchungsadresse":          "-",   // String, Webseiten-URL ("http://...") oder E-Mail-Adresse (z.B.: "<a href='mailto:test@example.com'>test@example.com</a>")
+		"buchungsadresse":          "<a href='mailto:lernenmitkick@awo-muenchen.de'>lernenmitkick@awo-muenchen.de</a>",   // String, Webseiten-URL ("http://...") oder E-Mail-Adresse (z.B.: "<a href='mailto:test@example.com'>test@example.com</a>")
 		"öffnungszeiten":           {
 			/* Hier sind Uhrzeiten oder kurze Beschreibungen passend */
-			"Mo": "-",   // String
-			"Di": "-",   // String
-			"Mi": "-",   // String
-			"Do": "-",   // String
-			"Fr": "-",   // String
-			"Sa": "-",   // String
-			"So": "-",   // String
+			"Mo": "Geschlossen",   // String
+			"Di": "Geschlossen",   // String
+			"Mi": "Geschlossen",   // String
+			"Do": "Geöffnet",   // String
+			"Fr": "Geschlossen",   // String
+			"Sa": "Geschlossen",   // String
+			"So": "Geschlossen",   // String
 		},
-		"öffnungszeiten_ausnahmen": "-",   // String, ganzer Satz
+		"öffnungszeiten_ausnahmen": "In Schulferien geschlossen",   // String, ganzer Satz
 		"bildquellen": "-",                // String, kurz, z.B.: "Eigene Aufnahmen"
 		"images":                   ["/bilder/Musterbild.png"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
 		"buchungs_disclaimer":      true, // Boolean: true oder false
 	},
-	
+
 	"TUMScienceLabs": {
 		"name":                     "TUM Science Labs",   // String
 		"website_url":              "https://www.edu.sot.tum.de/edu/schule/angebote-an-der-tum/sciencelabs/",   // String
-		"adresse":                  "Marsstraße 20-2280335 München",   // String
-		"google_maps_url":          "https://maps.app.goo.gl/dZC8sjrvRXg9h7XcA",   // String, URL: https://...
+		"adresse":                  "Boltzmannstraße 15 85748 Garching bei München",   // String
+		"google_maps_url":          "https://maps.app.goo.gl/q51Fz39DGBiq4PFb7",   // String, URL: https://...
 		"überthema":                ["Physik"], // Array von Strings, siehe Liste von zulässigen Überthemen unten
-		"unterthema":               ["Akustik","Optik","Beugung","Brechung","Interferometrie","Magnetismus","Brennstoffzelle","spezifischen Elektronenladung"], // Array von Strings
-		"zielgruppe":               5,    // Zahl von 0 bis 10, Integer
+		"unterthema":               ["Akustik","Optik","Beugung","Brechung","Interferometrie","Magnetismus","Brennstoffzelle","Spezifischen Elektronenladung","E-Feld","B-Feld"], // Array von Strings
+		"zielgruppe":               0,    // Zahl von 0 bis 10, Integer
 		"altersgruppe":             "Ab der 9. Jahrgangsstufe",   // String
 		"teilnehmer_anzahl":        "Ideal: 8; Maximal: 12 pro Versuch",   // String
-		"dauer":                    "-",   // String
+		"dauer":                    "7 Stunden mit Pause",   // String
 		"schularten":               ["Realschule","Gymnasium","FOS"], // Array von String
 		"sprachen":                 ["Deutsch","Englisch"], // Array von String
 		"praktika":                 ["Berufs- und studienorientierende Praktika in Kooperation mit dem PhotonLab."], // Array von String
-		"w-seminare":               "Ja",   // String
-		"betreuungspersonal":       "-",   // String
-		"außerschulisches_angebot": "-",   // String
+		"w-seminare":               "Betreuung und Unterstützung von W-Seminaren durch Lehrkräfte",   // String
+		"betreuungspersonal":       "Lehramtstudenten, Doktoranden",   // String
+		"außerschulisches_angebot": "Ausschließlich schulisches Angebot",   // String
 		"beschreibung":             "Die Teilnehmer nutzen Experimente des physikalischen Praktikums für Studierende der Physik und des Maschinenwesens. Damit erhalten sie auch Einblick in den Studienbetrieb. Ein Kombination mit den Angeboten des PhotonLabs (Optik) oder anderen Einrichtungen am Forschungscampus Garching (Supernova, FRM II, IPP) bietet sich an.",   // String
-		"buchungsadresse":          "-",   // String, Webseiten-URL ("http://...") oder E-Mail-Adresse (z.B.: "<a href='mailto:test@example.com'>test@example.com</a>")
+		"buchungsadresse":          "<a href='mailto:andreas.kratzer@tum.de'>andreas.kratzer@tum.de</a>",   // String, Webseiten-URL ("http://...") oder E-Mail-Adresse (z.B.: "<a href='mailto:test@example.com'>test@example.com</a>")
 		"öffnungszeiten":           {
 			/* Hier sind Uhrzeiten oder kurze Beschreibungen passend */
 			"Mo": "09:00 - 16:00 Uhr",   // String
@@ -755,12 +755,12 @@ const context  = {
 			"Sa": "Geschlossen",   // String
 			"So": "Geschlossen",   // String
 		},
-		"öffnungszeiten_ausnahmen": "-",   // String, ganzer Satz
+		"öffnungszeiten_ausnahmen": "Individuelle Zeiten sind nach Absprache möglich.",   // String, ganzer Satz
 		"bildquellen": "-",                // String, kurz, z.B.: "Eigene Aufnahmen"
 		"images":                   ["/bilder/Musterbild.png"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
 		"buchungs_disclaimer":      true, // Boolean: true oder false
 	},
-	
+
 	"TUMLabDM": {
 		"name":                     "TUMlab im Deutschen Museum",   // String
 		"website_url":              "https://www.deutsches-museum.de/museumsinsel/programm/programm-a-z/tumlab",   // String
@@ -768,10 +768,10 @@ const context  = {
 		"google_maps_url":          "https://maps.app.goo.gl/Lhp3cs4jKoWKqiar5",   // String, URL: https://...
 		"überthema":                ["Physik","Technik","Chemie"], // Array von Strings, siehe Liste von zulässigen Überthemen unten
 		"unterthema":               ["Robotik","Automatisierung","Programmieren","Optik","Teleskope","Wasserkraftwerk"], // Array von Strings
-		"zielgruppe":               5,    // Zahl von 0 bis 10, Integer
+		"zielgruppe":               4,    // Zahl von 0 bis 10, Integer
 		"altersgruppe":             "Ab 10 Jahren",   // String
-		"teilnehmer_anzahl":        "",   // String
-		"dauer":                    "3/5 Stunden",   // String
+		"teilnehmer_anzahl":        "Siehe Dauer",   // String
+		"dauer":                    "3 für Teilnehmeranzahl<16 5 Stunden für Teilnehmeranzahl>16",   // String
 		"schularten":               ["Realschule","Gymnasium","FOS"], // Array von String
 		"sprachen":                 ["Deutsch","Englisch"], // Array von String
 		"praktika":                 ["-"], // Array von String
@@ -779,7 +779,7 @@ const context  = {
 		"betreuungspersonal":       "-",   // String
 		"außerschulisches_angebot": "-",   // String
 		"beschreibung":             "Hier dürfen Jugendliche, Studierende und Lehrkräfte selbst konstruieren, bauen, steuern, programmieren – mit anderen Worten: Wissenschaft zum Anfassen erleben. Die Angebote im Bereich Robotik, Automatisierung, Naturwissenschaften sowie Umwelt & Technik richten sich an alle Neugierigen ab 10 Jahren, insbesondere Schulklassen, Lehrkräfte und interessierte Gruppen.",   // String
-		"buchungsadresse":          "-",   // String, Webseiten-URL ("http://...") oder E-Mail-Adresse (z.B.: "<a href='mailto:test@example.com'>test@example.com</a>")
+		"buchungsadresse":          "<a href='https://www.deutsches-museum.de/museumsinsel/programm/angebot/einstiegskurs-robotik#c28986'>Buchungswebseite</a>",   // String, Webseiten-URL ("http://...") oder E-Mail-Adresse (z.B.: "<a href='mailto:test@example.com'>test@example.com</a>")
 		"öffnungszeiten":           {
 			/* Hier sind Uhrzeiten oder kurze Beschreibungen passend */
 			"Mo": "-",   // String
