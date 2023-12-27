@@ -71,13 +71,14 @@ function renderNavbarAndFooter() {
 	};
 
 	var navbar = `
-	<nav class="navbar bg-body-tertiary fixed-top">
+	<nav class="navbar bg-body-tertiary fixed-top justify-content-between">
 		<div class="container-fluid">
 			<a class="navbar-brand" href="${options.landing}">
 				<div class="image-container-dont-resize-navbar">
 					<img src="${options.logo}" alt="Muclabs Logo" class="image-centered-vertically" width=240 height=52>
 				</div>
 			</a>
+
 			<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 			</button>
@@ -89,7 +90,16 @@ function renderNavbarAndFooter() {
 					<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
 				</div>
 				<div class="offcanvas-body">
-					<ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+					<ul class="navbar-nav justify-content-end flex-grow-1 pe-3">					
+						<form id="navbar-search-form">
+							<div class="form-input-container">
+								<input class="form-control" type="search" placeholder="Suchbegriff">
+								<input class="btn btn-outline-primary" type="submit" value="Suchen">
+							</div>
+						</form>
+
+						<hr>
+
 						<li class="nav-item">
 							<a class="nav-link" aria-current="page" href="${options.landing}">Start</a>
 						</li>
@@ -116,25 +126,7 @@ function renderNavbarAndFooter() {
 						<li class="nav-item">
 							<a class="nav-link" href="/impressum.html">Impressum</a>
 						</li>
-
-						<!-- <li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-								Dropdown
-							</a>
-							<ul class="dropdown-menu">
-								<li><a class="dropdown-item" href="#">Action</a></li>
-								<li><a class="dropdown-item" href="#">Another action</a></li>
-								<li>
-									<hr class="dropdown-divider">
-								</li>
-								<li><a class="dropdown-item" href="#">Something else here</a></li>
-							</ul>
-						</li> -->
 					</ul>
-					<!-- <form class="d-flex mt-3" role="search">
-						<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-						<button class="btn btn-outline-success" type="submit">Search</button>
-					</form> -->
 				</div>
 			</div>
 		</div>
@@ -152,6 +144,31 @@ function renderNavbarAndFooter() {
 
 	$(navbar).insertBefore("html body main");
 	$(footer).insertAfter("html body main");
+
+	implementSearchFunction();
+}
+
+function implementSearchFunction() {
+	// Fügt Event zur Suchleiste im Hamburger-Menu hinzu. Ermöglicht externe Suchfunktion bei Google
+	$("form#navbar-search-form")[0].addEventListener("submit", (e)=>{
+		e.preventDefault();
+
+		const host   = "google.de";   // Der Domainname der Suchmaschine
+		const target = "muc-labs.de"; // Der Domainname der zu durchsuchenden Seite
+
+		var input = $(e.target).find("> div > input[type=search]")[0].value;
+
+		console.log(input);
+		if (input === "") {
+			return;
+		}
+
+		var query = encodeURIComponent(`${input} site:${target}`);
+		var redirect_url = `https://${host}/search?q=${query}`;
+		
+		// Weiterleitung
+		window.location.replace(redirect_url);
+	});
 }
 
 function prependToTitle(string) {

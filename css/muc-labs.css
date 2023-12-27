@@ -83,3 +83,17 @@ a.subtle-link {
 a.subtle-link:hover {
 	color: blue !important;
 }
+
+form#navbar-search-form div.form-input-container {
+	display: flex;
+	flex-direction: row;
+}
+
+form#navbar-search-form input[type=search] {
+	width: 62.5%;
+	margin-right: 2.5%;
+}
+
+form#navbar-search-form button {
+	width: 35%;
+}
