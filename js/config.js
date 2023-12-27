@@ -513,7 +513,7 @@ const context  = {
 		},
 		"öffnungszeiten_ausnahmen": "",   // String, ganzer Satz
 		"bildquellen": "",                // String, kurz, z.B.: "Eigene Aufnahmen"
-		"images":                   [],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
+		"images":                   ["/bilder/welpe1.jpg"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
 		"buchungs_disclaimer":      true, // Boolean: true oder false
 	},
 
