@@ -307,7 +307,7 @@ const context  = {
 		},
 		"öffnungszeiten_ausnahmen": "",
 		"bildquellen": "Eigenaufnahmen",
-		"images":                   ["/bilder/welpe1.jpg"],
+		"images":                   ["/bilder/Musterbild.png"],
 		"buchungs_disclaimer":      true,
 	},
 
@@ -443,7 +443,7 @@ const context  = {
 		},
 		"öffnungszeiten_ausnahmen": "Diese Öffnungszeiten beziehen sich nur auf das Büro. Die einzelnen Termine der Workshops stehen auf der Website.",
 		"bildquellen": "Eigenaufnahmen",
-		"images":                   ["/bilder/welpe1.jpg"],
+		"images":                   ["/bilder/Musterbild.png"],
 		"buchungs_disclaimer":      true,
 	},
 
@@ -513,7 +513,7 @@ const context  = {
 		},
 		"öffnungszeiten_ausnahmen": "",   // String, ganzer Satz
 		"bildquellen": "",                // String, kurz, z.B.: "Eigene Aufnahmen"
-		"images":                   ["/bilder/welpe1.jpg"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
+		"images":                   ["/bilder/Musterbild.png"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
 		"buchungs_disclaimer":      true, // Boolean: true oder false
 	},
 
@@ -547,7 +547,7 @@ const context  = {
 		},
 		"öffnungszeiten_ausnahmen": "",
 		"bildquellen": "Lyzeum 2 e.V.",
-		"images":                   ["/bilder/welpe1.jpg"],
+		"images":                   ["/bilder/Musterbild.png"],
 		"buchungs_disclaimer":      true,
 	},
 	
@@ -582,7 +582,7 @@ const context  = {
 		},
 		"öffnungszeiten_ausnahmen": "-",   // String, ganzer Satz
 		"bildquellen": "-",                // String, kurz, z.B.: "Eigene Aufnahmen"
-		"images":                   ["/bilder/welpe1.jpg"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
+		"images":                   ["/bilder/Musterbild.png"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
 		"buchungs_disclaimer":      true, // Boolean: true oder false
 	},
 	
@@ -617,7 +617,7 @@ const context  = {
 		},
 		"öffnungszeiten_ausnahmen": "Die aufgeführten Öffnungszeiten gelten fürd das Sommerhalbjahr. Im Winterhalbjahr schließt das BIOTOPIA Lab bereits um 16:30 Uhr.",   // String, ganzer Satz
 		"bildquellen": "",                // String, kurz, z.B.: "Eigene Aufnahmen"
-		"images":                   ["/bilder/welpe1.jpg"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
+		"images":                   ["/bilder/Musterbild.png"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
 		"buchungs_disclaimer":      true, // Boolean: true oder false
 	},
 	
@@ -652,7 +652,7 @@ const context  = {
 		},
 		"öffnungszeiten_ausnahmen": "-",   // String, ganzer Satz
 		"bildquellen": "",                // String, kurz, z.B.: "Eigene Aufnahmen"
-		"images":                   ["/bilder/welpe1.jpg"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
+		"images":                   ["/bilder/Musterbild.png"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
 		"buchungs_disclaimer":      true, // Boolean: true oder false
 	},
 	
@@ -687,7 +687,7 @@ const context  = {
 		},
 		"öffnungszeiten_ausnahmen": "-",   // String, ganzer Satz
 		"bildquellen": "",                // String, kurz, z.B.: "Eigene Aufnahmen"
-		"images":                   ["/bilder/welpe1.jpg"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
+		"images":                   ["/bilder/Musterbild.png"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
 		"buchungs_disclaimer":      true, // Boolean: true oder false
 	},
 	
@@ -722,7 +722,7 @@ const context  = {
 		},
 		"öffnungszeiten_ausnahmen": "-",   // String, ganzer Satz
 		"bildquellen": "-",                // String, kurz, z.B.: "Eigene Aufnahmen"
-		"images":                   ["/bilder/welpe1.jpg"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
+		"images":                   ["/bilder/Musterbild.png"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
 		"buchungs_disclaimer":      true, // Boolean: true oder false
 	},
 	
@@ -757,7 +757,7 @@ const context  = {
 		},
 		"öffnungszeiten_ausnahmen": "-",   // String, ganzer Satz
 		"bildquellen": "-",                // String, kurz, z.B.: "Eigene Aufnahmen"
-		"images":                   ["/bilder/welpe1.jpg"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
+		"images":                   ["/bilder/Musterbild.png"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
 		"buchungs_disclaimer":      true, // Boolean: true oder false
 	},
 	
@@ -792,7 +792,7 @@ const context  = {
 		},
 		"öffnungszeiten_ausnahmen": "-",   // String, ganzer Satz
 		"bildquellen": "-",                // String, kurz, z.B.: "Eigene Aufnahmen"
-		"images":                   ["/bilder/welpe1.jpg"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
+		"images":                   ["/bilder/Musterbild.png"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
 		"buchungs_disclaimer":      true, // Boolean: true oder false
 	},
 	
@@ -833,7 +833,7 @@ const context  = {
 		},
 		"öffnungszeiten_ausnahmen": "Was ist bei den Öffnungszeiten noch zu beachten? Beispielsweise in den Schulferien",
 		"bildquellen": "Eigenaufnahme",
-		"images":                   ["/bilder/welpe1.jpg"],
+		"images":                   ["/bilder/Musterbild.png"],
 		"buchungs_disclaimer":      true,
 	},
 	/*
