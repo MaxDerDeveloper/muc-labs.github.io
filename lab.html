@@ -331,6 +331,12 @@
 					var value;
 					if (key != "zielgruppe") {
 						value = lab[key];
+
+						if (key == "schularten") {
+							if (typeof lab[key] === typeof []) {
+								value = lab[key].join(", ");
+							}
+						}
 					} else {
 						// Ausnahme
 						value = `<div class="slider-container">
