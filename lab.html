@@ -242,6 +242,21 @@
 			summary:focus {
 				outline-style: none;
 			}
+
+			div.return-btn-container {
+				position: relative;
+			}
+			div.return-btn-container a {
+				position: absolute;
+				top:   5px;
+				left: 15px;
+
+				z-index: 999; /* In den Vordergrund bringen */
+				opacity: 0.9;
+			}
+			div.return-btn-container a:hover {
+				opacity: 1;
+			}
 		</style>
 
 		<script type="text/javascript" src="/js/main.js"></script>
@@ -385,6 +400,10 @@
 
 	<body>
 		<main class="no-overlap-with-navbar" hidden>
+			<div class="return-btn-container">
+				<a href="/labs.html" class="btn btn-secondary">← Zurück zur Übersicht</a>
+			</div>
+
 			<div id="lab-container">
 				<div class="left-column">
 					<div class="carousel-spacer">
