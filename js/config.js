@@ -552,38 +552,38 @@ const context  = {
 	},
 	
 	"Bene": {
-	"name":                     "BenE München e.V.",   // String
-	"website_url":              "https://www.bene-muenchen.de/",   // String
-	"adresse":                  "Lederer Str. 17, 80331 München",   // String
-	"google_maps_url":          "https://maps.app.goo.gl/FbfNWgHHN1kmzc5R8",   // String, URL: https://...
-	"überthema":                ["Nachhaltigkeit"], // Array von Strings, siehe Liste von zulässigen Überthemen unten
-	"unterthema":               [""], // Array von Strings
-	"zielgruppe":               5,    // Zahl von 0 bis 10, Integer
-	"altersgruppe":             "-",   // String
-	"teilnehmer_anzahl":        "-",   // String
-	"dauer":                    "-",   // String
-	"schularten":               ["-"], // Array von String
-	"sprachen":                 ["-"], // Array von String
-	"praktika":                 ["-"], // Array von String
-	"w-seminare":               "-",   // String
-	"betreuungspersonal":       "-",   // String
-	"außerschulisches_angebot": "-",   // String
-	"beschreibung":             "Zweck des Vereins ist die Förderung der Bildung für nachhaltige Entwicklung in München. Das RCE BenE München fungiert in München als Plattform für Bildung für nachhaltige Entwicklung (BNE) mit dem Ziel, BNE in der Münchner Stadtgesellschaft langfristig zu verankern und weiterzuentwickeln. Als Mitglied von MUC-Labs e.V. unterstützt BenE München e.V. speziell Projekte und Vernetzung der Schülerlabore rund um BNE.",   // String
-	"buchungsadresse":          "-",   // String, Webseiten-URL ("http://...") oder E-Mail-Adresse (z.B.: "<a href='mailto:test@example.com'>test@example.com</a>")
-	"öffnungszeiten":           {
-		/* Hier sind Uhrzeiten oder kurze Beschreibungen passend */
-		"Mo": "-",   // String
-		"Di": "-",   // String
-		"Mi": "-",   // String
-		"Do": "-",   // String
-		"Fr": "-",   // String
-		"Sa": "-",   // String
-		"So": "-",   // String
-	},
-	"öffnungszeiten_ausnahmen": "-",   // String, ganzer Satz
-	"bildquellen": "-",                // String, kurz, z.B.: "Eigene Aufnahmen"
-	"images":                   ["/bilder/welpe1.jpg"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
-	"buchungs_disclaimer":      true, // Boolean: true oder false
+		"name":                     "BenE München e.V.",   // String
+		"website_url":              "https://www.bene-muenchen.de/",   // String
+		"adresse":                  "Lederer Str. 17, 80331 München",   // String
+		"google_maps_url":          "https://maps.app.goo.gl/FbfNWgHHN1kmzc5R8",   // String, URL: https://...
+		"überthema":                ["Nachhaltigkeit"], // Array von Strings, siehe Liste von zulässigen Überthemen unten
+		"unterthema":               [""], // Array von Strings
+		"zielgruppe":               5,    // Zahl von 0 bis 10, Integer
+		"altersgruppe":             "-",   // String
+		"teilnehmer_anzahl":        "-",   // String
+		"dauer":                    "-",   // String
+		"schularten":               ["-"], // Array von String
+		"sprachen":                 ["-"], // Array von String
+		"praktika":                 ["-"], // Array von String
+		"w-seminare":               "-",   // String
+		"betreuungspersonal":       "-",   // String
+		"außerschulisches_angebot": "-",   // String
+		"beschreibung":             "Zweck des Vereins ist die Förderung der Bildung für nachhaltige Entwicklung in München. Das RCE BenE München fungiert in München als Plattform für Bildung für nachhaltige Entwicklung (BNE) mit dem Ziel, BNE in der Münchner Stadtgesellschaft langfristig zu verankern und weiterzuentwickeln. Als Mitglied von MUC-Labs e.V. unterstützt BenE München e.V. speziell Projekte und Vernetzung der Schülerlabore rund um BNE.",   // String
+		"buchungsadresse":          "-",   // String, Webseiten-URL ("http://...") oder E-Mail-Adresse (z.B.: "<a href='mailto:test@example.com'>test@example.com</a>")
+		"öffnungszeiten":           {
+			/* Hier sind Uhrzeiten oder kurze Beschreibungen passend */
+			"Mo": "-",   // String
+			"Di": "-",   // String
+			"Mi": "-",   // String
+			"Do": "-",   // String
+			"Fr": "-",   // String
+			"Sa": "-",   // String
+			"So": "-",   // String
+		},
+		"öffnungszeiten_ausnahmen": "-",   // String, ganzer Satz
+		"bildquellen": "-",                // String, kurz, z.B.: "Eigene Aufnahmen"
+		"images":                   ["/bilder/welpe1.jpg"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
+		"buchungs_disclaimer":      true, // Boolean: true oder false
 	},
 	
 	"Biotopia": {
