@@ -58,7 +58,7 @@
 				margin-bottom: 3px;
 			}
 
-			span.selected-tag, span.selected-tag *{
+			span.selected-tag, span.selected-tag * {
 				background-color: lightgrey !important;
 				color: white !important;
 			}
@@ -105,12 +105,71 @@
 					margin: auto;
 				}
 			}
+			
+			div.button-container {
+				margin-top: 15px;
+				flex-direction: var(--flex-dir);
+			}
+
+			div.button-container button:first-child {
+				margin-bottom: 5px;
+			}
+
+			div.button-container button {
+				width: 80%;
+				padding: 3px;
+				margin-left: 10%;
+			}
 		</style>
 
 		<script type="text/javascript" src="/js/main.js"></script>		
 		<script type="text/javascript">
 			var click_event;
 			var selected_tags = [];
+
+			function setAllTags(shown) {
+				var cards = $("div.lab-card-container div.card");
+				for (var card of cards) {
+					var labname = $(card).attr("lab");
+					
+					var [[key, lab]] = Object.entries(getLabs()).filter( ([key, lab]) => {
+						return key == labname
+					})
+
+					$(card).attr("hidden", !shown);
+				}
+			}
+
+			function hideAllTags() {
+				selected_tags = [];
+				updateTagClasses();
+				updateDisplayedLabs();
+			}
+
+			function showAllTags() {
+				selected_tags = [...alle_haupttags]; // Hier wird eine Kopie von alle_haupttags erstellt, damit keine Änderungen am Original gemacht werden.
+				updateTagClasses();
+				updateDisplayedLabs();
+			}
+
+			function updateTagClasses() {
+				var tag_container = $("div#tag-container");
+				for (var tag of tag_container.find("> span > span")) {
+
+					var tagname = $(tag).attr("tag");
+
+					var parent = $(tag).parent();
+					if (selected_tags.includes(tagname)) {
+						if (parent.hasClass("selected-tag")) {
+							parent.removeClass("selected-tag");
+						}
+					} else {
+						if (!parent.hasClass("selected-tag")) {
+							parent.addClass("selected-tag");
+						}
+					}
+				}
+			}
 
 			function updateDisplayedLabs() {
 				var cards = $("div.lab-card-container div.card");
@@ -122,7 +181,6 @@
 						return key == labname
 					})
 
-					
 					var shown = false;
 					for (var ht of lab.überthema) {
 						if (selected_tags.includes(ht)) {
@@ -250,6 +308,11 @@
 							<h5>Filtern nach Tags:</h5>
 							
 							<div class="horiz-flex-container" id="tag-container"></div>
+
+							<div class="button-container">
+								<button type="button" class="btn btn-outline-secondary" onclick="showAllTags();">Alle einblenden</button>
+								<button type="button" class="btn btn-outline-secondary" onclick="hideAllTags();">Alle ausblenden</button>
+							</div>
 
 							<hr>
 
