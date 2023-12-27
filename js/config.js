@@ -307,7 +307,7 @@ const context  = {
 		},
 		"öffnungszeiten_ausnahmen": "",
 		"bildquellen": "Eigenaufnahmen",
-		"images":                   ["/bilder/welpe1.jpg"],
+		"images":                   ["/bilder/Musterbild.png"],
 		"buchungs_disclaimer":      true,
 	},
 
@@ -443,7 +443,7 @@ const context  = {
 		},
 		"öffnungszeiten_ausnahmen": "Diese Öffnungszeiten beziehen sich nur auf das Büro. Die einzelnen Termine der Workshops stehen auf der Website.",
 		"bildquellen": "Eigenaufnahmen",
-		"images":                   ["/bilder/welpe1.jpg"],
+		"images":                   ["/bilder/Musterbild.png"],
 		"buchungs_disclaimer":      true,
 	},
 
@@ -513,7 +513,7 @@ const context  = {
 		},
 		"öffnungszeiten_ausnahmen": "",   // String, ganzer Satz
 		"bildquellen": "",                // String, kurz, z.B.: "Eigene Aufnahmen"
-		"images":                   ["/bilder/welpe1.jpg"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
+		"images":                   ["/bilder/Musterbild.png"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
 		"buchungs_disclaimer":      true, // Boolean: true oder false
 	},
 
@@ -522,7 +522,7 @@ const context  = {
 		"website_url":              "https://lyzeum-muenchen.de/",
 		"adresse":                  "Trivastr. 13, 80637 München",
 		"google_maps_url":          "https://maps.app.goo.gl/PQgJevNusQzRs2BB6",
-		"überthema":                ["Mathematik", "Informatik", "Physik", "Chemie","Technik","Sprachwissenschaft","Literatur"],//Englisch, Schach
+		"überthema":                ["Mathematik", "Informatik", "Physik", "Chemie","Technik","Sprachen","Literatur"],//Englisch, Schach
 		"unterthema":               ["Mathezirkel","Mathe-AG","Wissenschaftspropädeutik","Schach","Physik im Alltag","Naturkunde","Programmieren","Science-Fiction","Literatur"],
 		"zielgruppe":               8,
 		"altersgruppe":             "5 Jahre bis 12 Klasse",
@@ -547,7 +547,7 @@ const context  = {
 		},
 		"öffnungszeiten_ausnahmen": "",
 		"bildquellen": "Lyzeum 2 e.V.",
-		"images":                   ["/bilder/welpe1.jpg"],
+		"images":                   ["/bilder/Musterbild.png"],
 		"buchungs_disclaimer":      true,
 	},
 	
@@ -556,7 +556,7 @@ const context  = {
 		"website_url":              "https://www.bene-muenchen.de/",   // String
 		"adresse":                  "Lederer Str. 17, 80331 München",   // String
 		"google_maps_url":          "https://maps.app.goo.gl/FbfNWgHHN1kmzc5R8",   // String, URL: https://...
-		"überthema":                ["Nachhaltigkeit"], // Array von Strings, siehe Liste von zulässigen Überthemen unten
+		"überthema":                ["Nachhaltigkeit","Gesellschaft"], // Array von Strings, siehe Liste von zulässigen Überthemen unten
 		"unterthema":               [""], // Array von Strings
 		"zielgruppe":               5,    // Zahl von 0 bis 10, Integer
 		"altersgruppe":             "-",   // String
@@ -582,7 +582,7 @@ const context  = {
 		},
 		"öffnungszeiten_ausnahmen": "-",   // String, ganzer Satz
 		"bildquellen": "-",                // String, kurz, z.B.: "Eigene Aufnahmen"
-		"images":                   ["/bilder/welpe1.jpg"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
+		"images":                   ["/bilder/Musterbild.png"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
 		"buchungs_disclaimer":      true, // Boolean: true oder false
 	},
 	
@@ -617,7 +617,7 @@ const context  = {
 		},
 		"öffnungszeiten_ausnahmen": "Die aufgeführten Öffnungszeiten gelten fürd das Sommerhalbjahr. Im Winterhalbjahr schließt das BIOTOPIA Lab bereits um 16:30 Uhr.",   // String, ganzer Satz
 		"bildquellen": "",                // String, kurz, z.B.: "Eigene Aufnahmen"
-		"images":                   ["/bilder/welpe1.jpg"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
+		"images":                   ["/bilder/Musterbild.png"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
 		"buchungs_disclaimer":      true, // Boolean: true oder false
 	},
 	
@@ -652,7 +652,7 @@ const context  = {
 		},
 		"öffnungszeiten_ausnahmen": "-",   // String, ganzer Satz
 		"bildquellen": "",                // String, kurz, z.B.: "Eigene Aufnahmen"
-		"images":                   ["/bilder/welpe1.jpg"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
+		"images":                   ["/bilder/Musterbild.png"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
 		"buchungs_disclaimer":      true, // Boolean: true oder false
 	},
 	
@@ -687,7 +687,7 @@ const context  = {
 		},
 		"öffnungszeiten_ausnahmen": "-",   // String, ganzer Satz
 		"bildquellen": "",                // String, kurz, z.B.: "Eigene Aufnahmen"
-		"images":                   ["/bilder/welpe1.jpg"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
+		"images":                   ["/bilder/Musterbild.png"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
 		"buchungs_disclaimer":      true, // Boolean: true oder false
 	},
 	
@@ -722,7 +722,7 @@ const context  = {
 		},
 		"öffnungszeiten_ausnahmen": "-",   // String, ganzer Satz
 		"bildquellen": "-",                // String, kurz, z.B.: "Eigene Aufnahmen"
-		"images":                   ["/bilder/welpe1.jpg"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
+		"images":                   ["/bilder/Musterbild.png"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
 		"buchungs_disclaimer":      true, // Boolean: true oder false
 	},
 	
@@ -757,7 +757,7 @@ const context  = {
 		},
 		"öffnungszeiten_ausnahmen": "-",   // String, ganzer Satz
 		"bildquellen": "-",                // String, kurz, z.B.: "Eigene Aufnahmen"
-		"images":                   ["/bilder/welpe1.jpg"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
+		"images":                   ["/bilder/Musterbild.png"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
 		"buchungs_disclaimer":      true, // Boolean: true oder false
 	},
 	
@@ -792,7 +792,7 @@ const context  = {
 		},
 		"öffnungszeiten_ausnahmen": "-",   // String, ganzer Satz
 		"bildquellen": "-",                // String, kurz, z.B.: "Eigene Aufnahmen"
-		"images":                   ["/bilder/welpe1.jpg"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
+		"images":                   ["/bilder/Musterbild.png"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
 		"buchungs_disclaimer":      true, // Boolean: true oder false
 	},
 	
@@ -833,7 +833,7 @@ const context  = {
 		},
 		"öffnungszeiten_ausnahmen": "Was ist bei den Öffnungszeiten noch zu beachten? Beispielsweise in den Schulferien",
 		"bildquellen": "Eigenaufnahme",
-		"images":                   ["/bilder/welpe1.jpg"],
+		"images":                   ["/bilder/Musterbild.png"],
 		"buchungs_disclaimer":      true,
 	},
 	/*
