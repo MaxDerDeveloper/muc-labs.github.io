@@ -28,8 +28,8 @@ const context  = {
 			"So": "10:00 - 18:00",
 		},
 		"öffnungszeiten_ausnahmen": "Es ist zu beachten, dass die Öffnungszeiten während der Schulferien eher vormittags liegen.",
-		"bildquellen": "Eigenaufnahmen",
-		"images":                   ["/bilder/farning/1.png","/bilder/farning/2.png"],
+		"bildquellen": "Eigenaufnahmen", /* Ab jetzt überflüssig :( */
+		"images":                   ["/bilder/farning/1.png;Eigenaufnahmen","/bilder/farning/2.png;Eigenaufnahmen"],
 		"buchungs_disclaimer":      true,
 	},
 
@@ -832,7 +832,6 @@ const context  = {
 			"So": "geschlossen",
 		},
 		"öffnungszeiten_ausnahmen": "Was ist bei den Öffnungszeiten noch zu beachten? Beispielsweise in den Schulferien",
-		"bildquellen": "Eigenaufnahme",
 		"images":                   ["/bilder/Musterbild.png"],
 		"buchungs_disclaimer":      true,
 	},
@@ -870,7 +869,6 @@ const context  = {
 			"So": "-",   // String
 		},
 		"öffnungszeiten_ausnahmen": "",   // String, ganzer Satz
-		"bildquellen": "",                // String, kurz, z.B.: "Eigene Aufnahmen"
 		"images":                   [],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
 		"buchungs_disclaimer":      true, // Boolean: true oder false
 	},

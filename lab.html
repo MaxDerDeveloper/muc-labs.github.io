@@ -308,9 +308,20 @@
 				}
 
 				function createCarouselSlide(i, img_src) {
+					var quellenangabe;
+					
+					// Individuelle Quellenangabe vorhanden
+					if (img_src.includes(";")) {
+						var bildquelle;
+						[img_src, bildquelle] = img_src.split(";");
+						quellenangabe = `title="Bilquelle: ${bildquelle}"`;
+					} else {
+						quellenangabe = "";
+					}
+
 					active_or_not = (i==0) ? "active" : "";
 					return `<div class="carousel-item ${active_or_not}">
-								<img class="d-block w-100" src="${img_src}" alt="${i+1}. Bild von '${lab.name}'" title="Bilquelle: ${lab.bildquellen}">
+								<img class="d-block w-100" src="${img_src}" alt="${i+1}. Bild von '${lab.name}'" ${quellenangabe}>
 							</div>`;
 				}
 
