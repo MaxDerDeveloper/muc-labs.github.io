@@ -29,7 +29,7 @@ var context  = {
 		},
 		"öffnungszeiten_ausnahmen": "Es ist zu beachten, dass die Öffnungszeiten während der Schulferien eher vormittags liegen.",
 		"bildquellen": "Eigenaufnahmen", /* Ab jetzt überflüssig :( */
-		"images":                   ["/bilder/farning/1.png;Eigenaufnahmen","/bilder/farning/2.png;Eigenaufnahmen"],
+		"images":                   ["/bilder/farning/1.png;Eigenaufnahmen Anton Heydenreich","/bilder/farning/2.png;Eigenaufnahmen Anton Heydenreich"],
 		"buchungs_disclaimer":      true,
 	},
 
@@ -98,7 +98,7 @@ var context  = {
 		},
 		"öffnungszeiten_ausnahmen": "",
 		"bildquellen": "Eigenaufnahmen",
-		"images":                   ["bilder/MaxLab/MaxLab_Bild2 Kopie.png","/bilder/MaxLab/MaxLab_Bild1 Kopie.png"],
+		"images":                   ["bilder/MaxLab/MaxLab_Bild2 Kopie.png;MaxLab","/bilder/MaxLab/MaxLab_Bild1 Kopie.png;MaxLab"],
 		"buchungs_disclaimer":      false,
 	},
 
@@ -272,7 +272,7 @@ var context  = {
 		},
 		"öffnungszeiten_ausnahmen": "Termine für angemeldete Gruppenbesuche können auf Anfrage festgelegt werden. Öffnungszeiten für Besucher:innen ohne Anmeldung werden regelmäßig auf der Webseite vom ix-quadrat veröffentlicht.",
 		"bildquellen": "ix-quadrat",
-		"images": ["/bilder/IX-Quadrat/Titelbild/07 Kopie.png", "/bilder/ix-quadrat/03 Kopie.png", "/bilder/IX-Quadrat/07 2 Kopie.png", "/bilder/IX-Quadrat/A003_0006 Kopie.png", "/bilder/IX-Quadrat/09 Kopie.png"],
+		"images": ["/bilder/IX-Quadrat/Titelbild/07 Kopie.png;ix-quadrat", "/bilder/ix-quadrat/03 Kopie.png;ix-quadrat", "/bilder/IX-Quadrat/07 2 Kopie.png;ix-quadrat", "/bilder/IX-Quadrat/A003_0006 Kopie.png;ix-quadrat", "/bilder/IX-Quadrat/09 Kopie.png;ix-quadrat"],
 		"buchungs_disclaimer":      false,
 	},
 
@@ -478,7 +478,7 @@ var context  = {
 		},
 		"öffnungszeiten_ausnahmen": "Öffnungszeiten orientieren sich an Projektzeiten",   // String, ganzer Satz
 		"bildquellen": "Little Lab ",                // String, kurz, z.B.: "Eigene Aufnahmen"
-		"images":                   ["/bilder/LittleLab/Titelbild/20220511_142923647_iOS Kopie.png","/bilder/LittleLab/2022_Rosskastanie_Fluoreszenz Kopie.png","/bilder/LittleLab/2023_3D_Druck Kopie.png","/bilder/LittleLab/2023_RWiesner_Stromworkshop Kopie.png","/bilder/LittleLab/2023_Slime Kopie.png","/bilder/LittleLab/2023_Waermebildkamera Kopie.png"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"// Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
+		"images":                   ["/bilder/LittleLab/Titelbild/20220511_142923647_iOS Kopie.png;Little Lab","/bilder/LittleLab/2022_Rosskastanie_Fluoreszenz Kopie.png;Little Lab","/bilder/LittleLab/2023_3D_Druck Kopie.png;Little Lab","/bilder/LittleLab/2023_RWiesner_Stromworkshop Kopie.png;Little Lab","/bilder/LittleLab/2023_Slime Kopie.png;Little Lab","/bilder/LittleLab/2023_Waermebildkamera Kopie.png;Little Lab"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"// Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
 		"buchungs_disclaimer":      true, // Boolean: true oder false
 	},
 
@@ -687,7 +687,7 @@ var context  = {
 		},
 		"öffnungszeiten_ausnahmen": "",   // String, ganzer Satz
 		"bildquellen": "https://www.fruehes-forschen.de/wp-content/uploads/2023/12/Exp_Wasserbuckel_insta-1-300x268.jpeg",                // String, kurz, z.B.: "Eigene Aufnahmen"
-		"images":                   ["bilder/FrühesForschen/Titelbild/0.jpeg"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
+		"images":                   ["bilder/FrühesForschen/Titelbild/0.jpeg;Frühes Forschen"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
 		"buchungs_disclaimer":      true, // Boolean: true oder false
 	},
 
