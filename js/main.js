@@ -47,7 +47,7 @@ function renderCard(name, lab) {
 	if (img_src.includes(";")) {
 		var bildquelle;
 		[img_src, bildquelle] = img_src.split(";");
-		quellenangabe = `title="Bilquelle: ${bildquelle}"`;
+		quellenangabe = `title="Bildquelle: ${bildquelle}"`;
 	} else {
 		quellenangabe = "";
 	}
