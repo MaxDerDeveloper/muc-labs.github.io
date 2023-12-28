@@ -397,7 +397,7 @@ var context  = {
 		"betreuungspersonal":       "Studierende",
 		"außerschulisches_angebot": "Nein",
 		"beschreibung":            "Genetik macht Schule vereint als \"Integriertes Schülerlabor\" die Interessen von Schülern und Studierenden, erstere kriegen eine spannende Unterichtsstunde mit anschließendem praktischen Teil; letztere können Unterichtserfahrung sammeln. Auf die theoretische Unterrichtsstunde folgt eine Woche später ein experimenteller Teil am Biozentrum der LMU, um das Gelernte zu festigen.",
-		"buchungsadresse":          "<a href='mailto:brachmann@lmu.de'>brachmann@lmu.de</a> </b> Die Schülerlabortage finden in den Wochen nach den Pfingstferien statt. Bitte wenden Sie sich an die <a href='https://teaching.genetik.biologie.uni-muenchen.de/teaching/kurse/genetik-macht-schule'>Webseite des Schülerlabors</a> für die jeweils aktuellen Termine.<b>",
+		"buchungsadresse":          "<a href='mailto:brachmann@lmu.de'>brachmann@lmu.de</a> </b> Die Schülerlabortage finden in den Wochen nach den Pfingstferien statt. Bitte wenden Sie sich an die <a href='https://teaching.genetik.biologie.uni-muenchen.de/teaching/kurse/genetik-macht-schule'>Webseite</a> des Schülerlabors für die jeweils aktuellen Termine.<b>",
 		"öffnungszeiten":           {
 			"Mo": "-",
 			"Di": "-",
