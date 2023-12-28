@@ -40,10 +40,22 @@ function renderTags(lab) {
 
 function renderCard(name, lab) {
 	var [main, side] = renderTags(lab);
+
+	// Individuelle Quellenangabe vorhanden
+	var img_src = lab.images[0];
+	var quellenangabe;
+	if (img_src.includes(";")) {
+		var bildquelle;
+		[img_src, bildquelle] = img_src.split(";");
+		quellenangabe = `title="Bilquelle: ${bildquelle}"`;
+	} else {
+		quellenangabe = "";
+	}
+
 	var card = `
 		<div class="card lab-card shadow" style="width: 18rem; position:relative;" lab="${name}">
 			<a href="/lab.html?lab=${name}" style="text-decoration:none; color:black;">
-				<img class="card-img-top" src="${lab.images[0]}" alt="1. Bild von ${lab.name}" width=285 height=190>
+				<img class="card-img-top" src="${img_src}" alt="1. Bild von ${lab.name}" width=285 height=190>
 			</a>
 			<div class="card-body">
 				<h5 class="card-title lab-card-title">
