@@ -767,7 +767,7 @@ var context  = {
 		"adresse":                  "Museumsinsel 1, 80538 München",   // String
 		"google_maps_url":          "https://maps.app.goo.gl/Lhp3cs4jKoWKqiar5",   // String, URL: https://...
 		"überthema":                ["Physik","Technik","Chemie"], // Array von Strings, siehe Liste von zulässigen Überthemen unten
-		"unterthema":               ["Robotik","Automatisierung","Programmieren","Optik","Teleskope","Wasserkraftwerk"], // Array von Strings
+		"unterthema":               ["Roboter","Automatisierung","Programmieren","Optik","Teleskope","Wasserkraftwerk"], // Array von Strings
 		"zielgruppe":               4,    // Zahl von 0 bis 10, Integer
 		"altersgruppe":             "Ab 10 Jahren",   // String
 		"teilnehmer_anzahl":        "Siehe Dauer",   // String
