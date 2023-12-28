@@ -332,7 +332,7 @@
 					if (key != "zielgruppe") {
 						value = lab[key];
 
-						if (key == "schularten") {
+						if (key == "schularten" || key == "sprachen") {
 							// Nur wenn es mehrere Schularten
 							if (typeof lab[key] === typeof []) {
 								value = lab[key].join(", ");
