@@ -19,13 +19,13 @@ var context  = {
 		"beschreibung":             "Informatikinteressierte können bei Farning abseits der Schule in Kursen lernen zu programmieren. Dabei werden ihnen die dazu notwendigen mathematische Grundlagen vermittelt. Zudem können die Schüler eigene Projekte in Gruppen selbstständig umsetzen. Interessenten können ganzjährig eine Probestunde vereinbaren. Bei beidseitigem Interesse an einer langfristigen Teilnahme wird man in der Regel erst auf eine Warteliste gesetzt, bevor man einer Gruppe beitreten kann, die zu den Vorkenntnissen des Schülers passt. Neben dem Erlangen fachlicher Kompetenzen schafft Farning sozialen Ausgleich zwischen Informatikbegeisterten.",
 		"buchungsadresse":          "<a href='mailto:aufnahme@farning.de'>aufnahme@farning.de</a>",
 		"öffnungszeiten":           {
-			"Mo": "14:00 - 20:30",
-			"Di": "14:00 - 20:30",
-			"Mi": "14:00 - 20:30",
-			"Do": "14:00 - 20:30",
-			"Fr": "14:00 - 20:30",
-			"Sa": "08:30 - 18:00",
-			"So": "10:00 - 18:00",
+			"Mo": "14:00-20:30 Uhr",
+			"Di": "14:00-20:30 Uhr",
+			"Mi": "14:00-20:30 Uhr",
+			"Do": "14:00-20:30 Uhr",
+			"Fr": "14:00-20:30 Uhr",
+			"Sa": "08:30-18:00 Uhr",
+			"So": "10:00-18:00 Uhr",
 		},
 		"öffnungszeiten_ausnahmen": "Es ist zu beachten, dass die Öffnungszeiten während der Schulferien eher vormittags liegen.",
 		"bildquellen": "Eigenaufnahmen", /* Ab jetzt überflüssig :( */
@@ -157,11 +157,11 @@ var context  = {
 		"beschreibung":             "Das Ziel ist es auch Laien das Thema Licht und Laser näherzubringen, wie Laser funktionieren und wie sie aufgebaut sind. Außerdem wird das Thema Quantenphysik in Ansätzen erklärt, auf Nach-/Anfrage wird auch mehr zu dem Thema erklärt. Der Besuch beginnt mit einem Einführungsvortrag, anschließend darf man 20 spannende Experimente mit Lasern machen mit Einleitungen am IPad, zum Beispiel einen echten Doppelspalt oder Musikübertragung per Laser.  Man bekommt auch die Möglichkeit durch eine Glaswand in das Labor für Attosekundenphysik reinzugucken",
 		"buchungsadresse":          "Dr. Silke Stähler Schöpf E-Mail: <a href='mailto:staehler-schoepf@physik.uni-muenchen.de'>staehler-schoepf@physik.uni-muenchen.de</a>, +49 89 3 29 05 - 197",
 		"öffnungszeiten":           {
-			"Mo": "9:30-17:00",
-			"Di": "9:30-17:00",
-			"Mi": "9:30-17:00",
-			"Do": "9:30-17:00",
-			"Fr": "9:30-17:00",
+			"Mo": "9:30-17:00 Uhr",
+			"Di": "9:30-17:00 Uhr",
+			"Mi": "9:30-17:00 Uhr",
+			"Do": "9:30-17:00 Uhr",
+			"Fr": "9:30-17:00 Uhr",
 			"Sa": "geschlossen",
 			"So": "geschlossen",
 		},
@@ -191,13 +191,13 @@ var context  = {
 		"beschreibung":             "Das ESO bietet 6 Workshops an, die die Erforschung des Weltalls näherbringen sollen. Das Ziel ist es, Interesse für Naturwissenschaften zu wecken und das Schulwissen mit modernen Anwendungen in Astronomie und Technik zu kombinieren. Dabei werden die Grundlagen der Optik mit alltäglichen Gegenständen erklärt und in einen astronomischen Kontext gebracht. Das Bildungsprogramm nutzt als Lernkonzept das forschende Lernen und unterstützt das Prinzip der Gleichberechtigung und Chancengleichheit, insbesondere in Bezug auf Bildung und Lernmöglichkeiten - aus diesem Grund ist das Bildungsprogramm für Schulklassen und Kindergartengruppen kostenlos.",
 		"buchungsadresse":          "<a href='https://supernova.eso.org/germany/education/'>Buchungswebseite</a>",
 		"öffnungszeiten":           {
-			"Mo": "geschlossen",
-			"Di": "geschlossen",
-			"Mi": "9-17 Uhr",
-			"Do": "9-17 Uhr",
-			"Fr": "9-17 Uhr",
-			"Sa": "12-17 Uhr",
-			"So": "12-17 Uhr",
+			"Mo": "Geschlossen",
+			"Di": "Geschlossen",
+			"Mi": "09:00-17:00 Uhr",
+			"Do": "09:00-17:00 Uhr",
+			"Fr": "09:00-17:00 Uhr",
+			"Sa": "12:00-17:00 Uhr",
+			"So": "12:00-17:00 Uhr",
 		},
 		"öffnungszeiten_ausnahmen": "",
 		"bildquellen": "Eigenaufnahmen",
@@ -434,12 +434,12 @@ var context  = {
 		"buchungsadresse":          "<a href='https://www.mintcampus-dachau.de/angebote/kurse-workshops/aktuelle-kurse'>Buchungswebseite</a>",
 		"öffnungszeiten":           {
 			"Mo": "geschlossen",
-			"Di": "9-12",
-			"Mi": "9-12",
-			"Do": "9-12",
-			"Fr": "geschlossen",
-			"Sa": "geschlossen",
-			"So": "geschlossen",
+			"Di": "09:00-12:00 Uhr",
+			"Mi": "09:00-12:00 Uhr",
+			"Do": "09:00-12:00 Uhr",
+			"Fr": "Geschlossen",
+			"Sa": "Geschlossen",
+			"So": "Geschlossen",
 		},
 		"öffnungszeiten_ausnahmen": "Diese Öffnungszeiten beziehen sich nur auf das Büro. Die einzelnen Termine der Workshops stehen auf der Website.",
 		"bildquellen": "Eigenaufnahmen",
@@ -503,13 +503,13 @@ var context  = {
 		"buchungsadresse":          "<a href='mailto:mineralogische.staatssammlung@snsb.de'>mineralogische.staatssammlung@snsb.de</a>",   // String, Webseiten-URL ("http://...") oder E-Mail-Adresse (z.B.: "<a href='mailto:test@example.com'>test@example.com</a>")
 		"öffnungszeiten":           {
 			/* Hier sind Uhrzeiten oder kurze Beschreibungen passend */
-			"Mo": "geschlossen",   // String
-			"Di": "13-17",   // String
-			"Mi": "13-17",   // String
-			"Do": "13-17",   // String
-			"Fr": "13-17",   // String
-			"Sa": "13-17",   // String
-			"So": "13-17",   // String
+			"Mo": "Geschlossen",   // String
+			"Di": "13:00-17:00 Uhr",   // String
+			"Mi": "13:00-17:00 Uhr",   // String
+			"Do": "13:00-17:00 Uhr",   // String
+			"Fr": "13:00-17:00 Uhr",   // String
+			"Sa": "13:00-17:00 Uhr",   // String
+			"So": "13:00-17:00 Uhr",   // String
 		},
 		"öffnungszeiten_ausnahmen": "",   // String, ganzer Satz
 		"bildquellen": "",                // String, kurz, z.B.: "Eigene Aufnahmen"
@@ -537,20 +537,20 @@ var context  = {
 		"beschreibung":             "Lyzeum 2 ist ein Zentrum für Schüler, die gerne denken und sich auch Herausforderungen stellen wollen, um viel zu erfahren. Wir engagieren besondere Dozenten, die ihr Fach lieben, inspirierend unterrichten und Universitätsstandards in die Schulbildung bringen. Schüler und Dozenten bilden eine Gemeinschaft, die nach einem tieferen Verständnis der Phänomene strebt.<br>Unsere Schüler nehmen an Olympiaden und Konferenzen teil und werden gut auf die Universität vorbereitet. Im Vordergrund steht aber weniger der äußere Erfolg, sondern vielmehr die eigene Motivation, die Freude am Entdecken und Erforschen sowie die Befähigung, anspruchsvolle Aufgaben zu meistern.",
 		"buchungsadresse":          "+49 151 701 66162",
 		"öffnungszeiten":           {
-			"Mo": "Ab 17:00",
-			"Di": "Ab 17:00",
-			"Mi": "Ab 17:00",
-			"Do": "Ab 17:00",
-			"Fr": "geschlossen",
-			"Sa": "geschlossen",
-			"So": "geschlossen",
+			"Mo": "Ab 17:00 Uhr",
+			"Di": "Ab 17:00 Uhr",
+			"Mi": "Ab 17:00 Uhr",
+			"Do": "Ab 17:00 Uhr",
+			"Fr": "Geschlossen",
+			"Sa": "Geschlossen",
+			"So": "Geschlossen",
 		},
 		"öffnungszeiten_ausnahmen": "",
 		"bildquellen": "Lyzeum 2 e.V.",
 		"images":                   ["/bilder/Musterbild.png"],
 		"buchungs_disclaimer":      true,
 	},
-	
+
 	"Bene": {
 		"name":                     "BenE München e.V.",   // String
 		"website_url":              "https://www.bene-muenchen.de/",   // String
@@ -585,7 +585,7 @@ var context  = {
 		"images":                   ["/bilder/Musterbild.png"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
 		"buchungs_disclaimer":      true, // Boolean: true oder false
 	},
-	
+
 	"Biotopia": {
 		"name":                     "BIOTOPIA Lab",   // String
 		"website_url":              "https://biotopialab.snsb.de/",   // String
@@ -620,7 +620,7 @@ var context  = {
 		"images":                   ["/bilder/Musterbild.png"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
 		"buchungs_disclaimer":      true, // Boolean: true oder false
 	},
-	
+
 	"CampusDiMonaco": {
 		"name":                     "Campus di Monaco",   // String
 		"website_url":              "https://campus-di-monaco.de/",   // String
@@ -655,7 +655,7 @@ var context  = {
 		"images":                   ["/bilder/Musterbild.png"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
 		"buchungs_disclaimer":      true, // Boolean: true oder false
 	},
-	
+
 	"Frühes Forschen": {
 		"name":                     "Frühes Forschen",   // String
 		"website_url":              "https://www.fruehes-forschen.de/",   // String
@@ -690,7 +690,7 @@ var context  = {
 		"images":                   ["/bilder/Musterbild.png"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
 		"buchungs_disclaimer":      true, // Boolean: true oder false
 	},
-	
+
 	"LernenmitKick": {
 		"name":                     "Lernen mit Kick",   // String
 		"website_url":              "https://www.awo-muenchen.de/kinder/fanprojekt-muenchen/lernen-mit-kick/unser-projekt",   // String
@@ -747,11 +747,11 @@ var context  = {
 		"buchungsadresse":          "<a href='mailto:andreas.kratzer@tum.de'>andreas.kratzer@tum.de</a>",   // String, Webseiten-URL ("http://...") oder E-Mail-Adresse (z.B.: "<a href='mailto:test@example.com'>test@example.com</a>")
 		"öffnungszeiten":           {
 			/* Hier sind Uhrzeiten oder kurze Beschreibungen passend */
-			"Mo": "09:00 - 16:00 Uhr",   // String
-			"Di": "09:00 - 16:00 Uhr",   // String
-			"Mi": "09:00 - 16:00 Uhr",   // String
-			"Do": "09:00 - 16:00 Uhr",   // String
-			"Fr": "09:00 - 16:00 Uhr",   // String
+			"Mo": "09:00-16:00 Uhr",   // String
+			"Di": "09:00-16:00 Uhr",   // String
+			"Mi": "09:00-16:00 Uhr",   // String
+			"Do": "09:00-16:00 Uhr",   // String
+			"Fr": "09:00-16:00 Uhr",   // String
 			"Sa": "Geschlossen",   // String
 			"So": "Geschlossen",   // String
 		},
@@ -795,7 +795,7 @@ var context  = {
 		"images":                   ["/bilder/Musterbild.png"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
 		"buchungs_disclaimer":      true, // Boolean: true oder false
 	},
-	
+
 	"Vorlage": {
 		"name":                     "Der Name Ihres Labs",
 		"website_url":              "https://www.mintcampus-dachau.de",
@@ -824,12 +824,12 @@ var context  = {
 		"buchungsadresse":          "Email/Webseite/Telefonnummer",
 		"öffnungszeiten":           {
 			"Mo": "Auf Anfrage",
-			"Di": "09:00-12:00",
-			"Mi": "09:00-12:00",
-			"Do": "09:00-12:00",
-			"Fr": "Auf Anfrage",
-			"Sa": "geschlossen",
-			"So": "geschlossen",
+			"Di": "09:00-12:00 Uhr",
+			"Mi": "09:00-12:00 Uhr",
+			"Do": "09:00-12:00 Uhr",
+			"Fr": "Auf Anfrage Uhr",
+			"Sa": "geschlossen Uhr",
+			"So": "geschlossen Uhr",
 		},
 		"öffnungszeiten_ausnahmen": "Was ist bei den Öffnungszeiten noch zu beachten? Beispielsweise in den Schulferien",
 		"images":                   ["/bilder/Musterbild.png"],
@@ -882,7 +882,7 @@ var context  = {
 	var name2key_map = new Map(Object.entries(context).map(
 		([k,v]) => [v['name'], k]
 	));
-		
+
 	new_context = {}
 	for ( var name of names) {
 		var key = name2key_map.get(name);
