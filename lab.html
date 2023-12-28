@@ -333,6 +333,7 @@
 						value = lab[key];
 
 						if (key == "schularten") {
+							// Nur wenn es mehrere Schularten
 							if (typeof lab[key] === typeof []) {
 								value = lab[key].join(", ");
 							}

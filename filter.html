@@ -63,12 +63,20 @@
 				var params = parseUrlQueryString();
 				var ziel_tag = params["tag"];
 
-				$('#page-title').html("Liste aller Labs mit dem Thema "+ziel_tag+":");
+				// Boolean. Zeigt an, ob gefiltert werden soll
+				var F = ziel_tag !== undefined;
+
+				// Kein Zieltag angegeben, daher keine Filterung
+				if (F) {
+					$('#page-title').html("Liste aller Labs mit dem Thema "+ziel_tag+":");
+				} else {
+					$('#page-title').html("Liste aller Labs:"); // Alle Labs
+				}
 
 				cards = ""
 				for(var [name, lab] of Object.entries(getLabs())) {
-					var hasTagInÜberthema  = lab.überthema. includes(ziel_tag);
-					var hasTagInUnterthema = lab.unterthema.includes(ziel_tag);
+					var hasTagInÜberthema  = F ? lab.überthema. includes(ziel_tag)  : true;
+					var hasTagInUnterthema = F ?  lab.unterthema.includes(ziel_tag) : true ;
 					
 					// Wenn das Ziel-Tag nicht enthalten ist, überspringe das Lab.
 					if (!hasTagInÜberthema && !hasTagInUnterthema) { continue }

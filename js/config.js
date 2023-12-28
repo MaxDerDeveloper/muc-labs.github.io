@@ -1,4 +1,4 @@
-const context  = {
+var context  = {
 	"farning": {
 		"name":                     "Farning Programmierschule",
 		"website_url":              "https://www.farning.de",
@@ -873,6 +873,23 @@ const context  = {
 		"buchungs_disclaimer":      true, // Boolean: true oder false
 	},
 };
+
+(function sortLabsAlphabetically() {
+	var keys = Object.keys(context);
+	var names = keys.map(m => context[m]["name"]);
+	names.sort();
+
+	var name2key_map = new Map(Object.entries(context).map(
+		([k,v]) => [v['name'], k]
+	));
+		
+	new_context = {}
+	for ( var name of names) {
+		var key = name2key_map.get(name);
+		new_context[key] = context[key];
+	}
+	context = new_context; // Copy
+})()
 
 const versteckte_labs = ["Muster", "Vorlage"];
 
