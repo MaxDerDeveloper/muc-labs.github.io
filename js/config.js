@@ -483,7 +483,7 @@ var context  = {
 	},
 
 	"Mineralogia": {
-		"name":                     "Museum Mineralgia München",   // String
+		"name":                     "Museum Mineralogia München",   // String
 		"website_url":              "https://msm.snsb.de/museum/",   // String
 		"adresse":                  "Theresienstr. 41 Eingang vom Marianne-v.-Werefkin-Weg 80333 München",   // String
 		"google_maps_url":          "https://maps.app.goo.gl/pi2du6M8mdYjMXj16",   // String, URL: https://...
