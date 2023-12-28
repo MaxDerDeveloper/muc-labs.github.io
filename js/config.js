@@ -926,12 +926,24 @@ const interal_to_displayed_mapping= {
 }
 
 const tags_to_background_mapping = {
-	"Informatik":  "black",
-	"Mathematik":  "blue",
-	"Biologie":    "green",
-	"Chemie":      "yellow",
-	"Astrophysik": "#000435"
 
+	"Biologie":		"green",
+	"Chemie":      		"yellow",
+	"Demokratie":		"#601151",
+	"Geologie":		"#783213",
+	"Gesellschaft":		"#601151",
+	"Gesundheit":		"green",
+	"Handwerk":		"orange",
+	"Informatik":  		"black",
+	"Kunst":		"cyan",
+	"Literatur":	 	"red",
+	"Mathematik":  		"blue",
+	"Nachhaltigkeit":	"green",
+	"Natur":		"green",
+	"Physik":		"blue",
+	"Sprachen":		"red",
+	"Technik":		"blue",
+	"Umwelt":		"green",
 	/* Ggf. Ergänzen */
 };
 
@@ -940,7 +952,7 @@ const tags_to_foreground_mapping = {
 	"Mathematik":  "white",
 	"Biologie":    "white",
 	"Chemie":      "black",
-	"Astrophysik": "white"
+	"Kunst":	"black",
 
 	/* Ggf. Ergänzen */
 };
