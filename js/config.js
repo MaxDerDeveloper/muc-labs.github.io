@@ -926,25 +926,26 @@ const interal_to_displayed_mapping= {
 }
 
 const tags_to_background_mapping = {
+	"Biologie":		"limegreen",
+	"Chemie":      		"gold",
+	"Demokratie":		"#800080",
+	"Geologie":		"#8B4513",
+	"Gesellschaft":		"#9932CC",
+	"Gesundheit":		"#00FF00",
+	"Handwerk":		"#FFA500",
+	"Informatik":  		"#000000",
+	"Kunst":		"#00FFFF",
+	"Literatur":	 	"#FF0000",
+	"Mathematik":  		"#0000FF",
+	"Nachhaltigkeit":	"#008000",
+	"Natur":		"#228B22",
+	"Physik":		"#0000FF",
+	"Sprachen":		"#FF0000",
+	"Technik":		"#0000FF",
+	"Umwelt":		"#008000",
+	
+/*Ggf. Ergänzen*/
 
-	"Biologie":		"green",
-	"Chemie":      		"yellow",
-	"Demokratie":		"#601151",
-	"Geologie":		"#783213",
-	"Gesellschaft":		"#601151",
-	"Gesundheit":		"green",
-	"Handwerk":		"orange",
-	"Informatik":  		"black",
-	"Kunst":		"cyan",
-	"Literatur":	 	"red",
-	"Mathematik":  		"blue",
-	"Nachhaltigkeit":	"green",
-	"Natur":		"green",
-	"Physik":		"blue",
-	"Sprachen":		"red",
-	"Technik":		"blue",
-	"Umwelt":		"green",
-	/* Ggf. Ergänzen */
 };
 
 const tags_to_foreground_mapping = {
@@ -953,6 +954,7 @@ const tags_to_foreground_mapping = {
 	"Biologie":    "white",
 	"Chemie":      "black",
 	"Kunst":	"black",
+	"Gesundheit":		"black",
 
 	/* Ggf. Ergänzen */
 };
