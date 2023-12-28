@@ -658,36 +658,36 @@ var context  = {
 
 	"Frühes Forschen": {
 		"name":                     "Frühes Forschen",   // String
-		"website_url":              "https://www.fruehes-forschen.de/",   // String
-		"adresse":                  "-",   // String
-		"google_maps_url":          "-",   // String, URL: https://...
-		"überthema":                ["Natur","Technik"], // Array von Strings, siehe Liste von zulässigen Überthemen unten
+		"website_url":              "https://www.fruehes-forschen.de",   // String
+		"adresse":                  "Kravogelstr. 41, 81249 München",   // String
+		"google_maps_url":          "https://maps.app.goo.gl/Ckb2VSp8BKDjshP48",   // String, URL: https://...
+		"überthema":                ["Physik","Chemie","Biologie","Technik"], // Array von Strings, siehe Liste von zulässigen Überthemen unten
 		"unterthema":               [""], // Array von Strings
 		"zielgruppe":               5,    // Zahl von 0 bis 10, Integer
-		"altersgruppe":             "-",   // String
-		"teilnehmer_anzahl":        "-",   // String
-		"dauer":                    "-",   // String
-		"schularten":               ["Realschule","Gymnasium","FOS"], // Array von String
+		"altersgruppe":             "Kindergarten/4-6 Jahre; Grundschule/6-10 Jahre; Mittelstufe/10-12 Jahre",   // String
+		"teilnehmer_anzahl":        "Max 8",   // String
+		"dauer":                    "Einmalige Kurse: 1-3 Stunden, Fortlaufende Kurse, Ferienkurse",   // String
+		"schularten":               ["Kindergarten","Grundschule","Mittelschule","Realschule","Gymnasium"], // Array von String
 		"sprachen":                 ["Deutsch","Englisch"], // Array von String
-		"praktika":                 ["-"], // Array von String
-		"w-seminare":               "-",   // String
-		"betreuungspersonal":       "-",   // String
-		"außerschulisches_angebot": "-",   // String
-		"beschreibung":             "-",   // String
-		"buchungsadresse":          "-",   // String, Webseiten-URL ("http://...") oder E-Mail-Adresse (z.B.: "<a href='mailto:test@example.com'>test@example.com</a>")
+		"praktika":                 ["Schülerpraktikum"], // Array von String
+		"w-seminare":               "Nein",   // String
+		"betreuungspersonal":       "Laborleitung",   // String
+		"außerschulisches_angebot": "Geburtstagfeiern, Fortlaufende Kurse, Ferienangebote",   // String
+		"beschreibung":             "Experimentieren, Ausprobieren, den Spaß am Forschen und Entdecken ausleben und dabei spielerisch und altersgerecht unsere Welt erfahren. Bei FRÜHES FORSCHEN lernen die kleinen Forscher die Welt von Wissenschaft und Technik kennen. Sie erarbeiten sich anhand von spannenden und verblüffenden Experimenten Naturgesetze und erfahren so, wie ihre Umwelt in Biologie, Physik, Chemie und Mathematik funktioniert. Die Kinder experimentieren, forschen, basteln und finden durch ihr eigenes intensives Mitwirken Antworten auf Fragen wie 'Was ist eigentlich Luft?', 'Was hat eine Katzenzunge mit Bionik zu tun?' ect.<br>Damit die Vermittlung des Wissens nachhaltig und kindgerecht ist, steht unser individuelles Lernkonzept im Mittelpunkt. So sprechen die Kurse von FRÜHES FORSCHEN alle Sinne an, d.h. neben den praktischen Versuchen werden die Experimente auch bildlich dargestellt. Hierzu werden die unterschiedlichen Moleküle von z.B. Sauerstoff oder Zucker als kleine prägnante, lebendige Teilchen dargestellt. Diese erzählen die Experimente und die daraus folgenden Reaktionen auf abenteuerliche Art und Weise.",   // String
+		"buchungsadresse":          "<a href='mailto:'kontakt@fruehes-forschen.de'>kontakt@fruehes-forschen.de</a> oder 0172-8263382",   // String, Webseiten-URL ("http://...") oder E-Mail-Adresse (z.B.: "<a href='mailto:test@example.com'>test@example.com</a>")
 		"öffnungszeiten":           {
 			/* Hier sind Uhrzeiten oder kurze Beschreibungen passend */
-			"Mo": "-",   // String
-			"Di": "-",   // String
-			"Mi": "-",   // String
-			"Do": "-",   // String
-			"Fr": "-",   // String
-			"Sa": "-",   // String
-			"So": "-",   // String
+			"Mo": "Auf Anfrage",   // String
+			"Di": "Auf Anfrage",   // String
+			"Mi": "Auf Anfrage",   // String
+			"Do": "Auf Anfrage",   // String
+			"Fr": "Auf Anfrage",   // String
+			"Sa": "Auf Anfrage",   // String
+			"So": "Auf Anfrage",   // String
 		},
-		"öffnungszeiten_ausnahmen": "-",   // String, ganzer Satz
-		"bildquellen": "",                // String, kurz, z.B.: "Eigene Aufnahmen"
-		"images":                   ["/bilder/Musterbild.png"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
+		"öffnungszeiten_ausnahmen": "",   // String, ganzer Satz
+		"bildquellen": "https://www.fruehes-forschen.de/wp-content/uploads/2023/12/Exp_Wasserbuckel_insta-1-300x268.jpeg",                // String, kurz, z.B.: "Eigene Aufnahmen"
+		"images":                   ["bilder/FrühesForschen/Titelbild/0.jpeg"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
 		"buchungs_disclaimer":      true, // Boolean: true oder false
 	},
 
