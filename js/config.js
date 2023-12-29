@@ -615,7 +615,7 @@ var context  = {
 			"Sa": "10:00-17:00 Uhr",   // String
 			"So": "10:00-17:00 Uhr",   // String
 		},
-		"öffnungszeiten_ausnahmen": "Die aufgeführten Öffnungszeiten gelten fürd das Sommerhalbjahr. Im Winterhalbjahr schließt das BIOTOPIA Lab bereits um 16:30 Uhr.",   // String, ganzer Satz
+		"öffnungszeiten_ausnahmen": "Die aufgeführten Öffnungszeiten gelten für das Sommerhalbjahr. Im Winterhalbjahr schließt das BIOTOPIA Lab bereits um 16:30 Uhr.",   // String, ganzer Satz
 		"bildquellen": "",                // String, kurz, z.B.: "Eigene Aufnahmen"
 		"images":                   ["/bilder/Musterbild.png"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
 		"buchungs_disclaimer":      true, // Boolean: true oder false
