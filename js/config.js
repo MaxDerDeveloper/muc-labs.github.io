@@ -270,7 +270,7 @@ var context  = {
 			"Sa": "-",
 			"So": "-",
 		},
-		"öffnungszeiten_ausnahmen": "Termine für angemeldete Gruppenbesuche können auf Anfrage festgelegt werden. Öffnungszeiten für Besucher:innen ohne Anmeldung werden regelmäßig auf der Webseite vom ix-quadrat veröffentlicht.",
+		"öffnungszeiten_ausnahmen": "Termine für angemeldete Gruppenbesuche können auf Anfrage festgelegt werden. Öffnungszeiten für Besucher:innen ohne Anmeldung werden regelmäßig auf der <a href='https://www.ma.tum.de/de/schulportal/ix-quadrat.html'>Webseite</a> vom ix-quadrat veröffentlicht.",
 		"bildquellen": "ix-quadrat",
 		"images": ["/bilder/IX-Quadrat/Titelbild/07 Kopie.png;ix-quadrat", "/bilder/ix-quadrat/03 Kopie.png;ix-quadrat", "/bilder/IX-Quadrat/07 2 Kopie.png;ix-quadrat", "/bilder/IX-Quadrat/A003_0006 Kopie.png;ix-quadrat", "/bilder/IX-Quadrat/09 Kopie.png;ix-quadrat"],
 		"buchungs_disclaimer":      false,
