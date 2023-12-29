@@ -13,7 +13,7 @@ var context  = {
 		"dauer":                    "60/90 Minuten",
 		"sprachen":                 ["Deutsch","Englisch (Nach Absprache)"],
 		"praktika":                 ["Schülerpraktika"],
-		"w-seminare":               "Nein",
+		"w-seminare":               "Kein Angebot",
 		"betreuungspersonal":       "Ein Informatiker pro Gruppe",
 		"außerschulisches_angebot": "Ausschließlich außerschulisches Angebot",
 		"beschreibung":             "Informatikinteressierte können bei Farning abseits der Schule in Kursen lernen zu programmieren. Dabei werden ihnen die dazu notwendigen mathematische Grundlagen vermittelt. Zudem können die Schüler eigene Projekte in Gruppen selbstständig umsetzen. Interessenten können ganzjährig eine Probestunde vereinbaren. Bei beidseitigem Interesse an einer langfristigen Teilnahme wird man in der Regel erst auf eine Warteliste gesetzt, bevor man einer Gruppe beitreten kann, die zu den Vorkenntnissen des Schülers passt. Neben dem Erlangen fachlicher Kompetenzen schafft Farning sozialen Ausgleich zwischen Informatikbegeisterten.",
@@ -116,7 +116,7 @@ var context  = {
 		"schularten":               "Abhängig von Workshop",
 		"sprachen":                 ["Deutsch","Englisch (20€)","Französisch (20€)"],
 		"praktika":                 ["Möglich auf Anfrage"],
-		"w-seminare":               "Nein",
+		"w-seminare":               "Kein Angebot",
 		"betreuungspersonal":       "Leitung, Werkstudenten",
 		"außerschulisches_angebot": "Für Museumsbesucher",
 		"beschreibung":             "Physik und Technik mit Händen begreifen in der Experimentier-Werkstatt, dem Mitmachbereich im Deutschen Museum, München: Die Experimentier-Werkstatt bietet Programme für Schulklassen aller Schularten (3. -13. Jahrgangsstufe), Gruppen und Museumsbesucher.Verblüffende Experimente mit Alltagsbezug, Staunen über HighTech und das Tüfteln an eigenen Projekten machen Physik und Technik zu einem spannenden Erlebnis. Das Schülerlabor trägt zur Nachwuchsförderung im MINT-Bereich bei und unterstützt die allgemeine Technik- und Wissenschaftsmündigkeit.",
@@ -151,7 +151,7 @@ var context  = {
 		"schularten":               ["Gymnasium", "FOS", "BOS"],
 		"sprachen":                 ["Deutsch","Englisch"],
 		"praktika":                 ["Kein Angebot"],
-		"w-seminare":               "Ja",
+		"w-seminare":               "Zusammenarbeit möglich",
 		"betreuungspersonal":       "-", /* ? */
 		"außerschulisches_angebot": "Tag der offenen Türen (3.10.)<br>Hilfe bei Wettbewerben (Physikolympiade, Deutsche Physikmeisterschaft GYPT, Jugend forscht,...)<br>Lehrerfortbildungen<br>Campusquiz",
 		"beschreibung":             "Das Ziel ist es auch Laien das Thema Licht und Laser näherzubringen, wie Laser funktionieren und wie sie aufgebaut sind. Außerdem wird das Thema Quantenphysik in Ansätzen erklärt, auf Nach-/Anfrage wird auch mehr zu dem Thema erklärt. Der Besuch beginnt mit einem Einführungsvortrag, anschließend darf man 20 spannende Experimente mit Lasern machen mit Einleitungen am IPad, zum Beispiel einen echten Doppelspalt oder Musikübertragung per Laser.  Man bekommt auch die Möglichkeit durch eine Glaswand in das Labor für Attosekundenphysik reinzugucken",
@@ -185,7 +185,7 @@ var context  = {
 		"schularten":               "Elementar-, Primar- und Sekundarbereich I & II",
 		"sprachen":                 ["Deutsch","Englisch","Andere Sprachen auf Anfrage"],
 		"praktika":                 ["Kein Angebot"],
-		"w-seminare":               "Nein",
+		"w-seminare":               "Kein Angebot",
 		"betreuungspersonal":       "-",
 		"außerschulisches_angebot": "Girls-Day<br>Führungen auch im Hauptquartier/Berufsorientierung",
 		"beschreibung":             "Das ESO bietet 6 Workshops an, die die Erforschung des Weltalls näherbringen sollen. Das Ziel ist es, Interesse für Naturwissenschaften zu wecken und das Schulwissen mit modernen Anwendungen in Astronomie und Technik zu kombinieren. Dabei werden die Grundlagen der Optik mit alltäglichen Gegenständen erklärt und in einen astronomischen Kontext gebracht. Das Bildungsprogramm nutzt als Lernkonzept das forschende Lernen und unterstützt das Prinzip der Gleichberechtigung und Chancengleichheit, insbesondere in Bezug auf Bildung und Lernmöglichkeiten - aus diesem Grund ist das Bildungsprogramm für Schulklassen und Kindergartengruppen kostenlos.",
@@ -220,7 +220,7 @@ var context  = {
 		"schularten":               "Vor allem Gymnasium, auch Real- oder Mittelschule",
 		"sprachen":                 ["Deutsch", "Englisch"],
 		"praktika":                 ["Kein Angebot"],
-		"w-seminare":               "Nur auf Anfrage",
+		"w-seminare":               "Zusammenarbeit möglich auf Anfrage",
 		"betreuungspersonal":       "Leitung, Doktoranden, Postdocs",
 		"außerschulisches_angebot": "variiert, aktuelle Infos auf der Website",
 		"beschreibung":             "Das Exzellenz-Cluster e-conversion richtet sich an Schulklassen, die in Garching einen Workshop machen wollen, um den Blick zu erweitern, für MINT Fächer zu begeistern und die Art und Weise wissenschaftlicher Forschung zu kennenzulernen.",
@@ -255,7 +255,7 @@ var context  = {
 		"schularten":               "Uneingeschränkt",
 		"sprachen":                 ["Deutsch"],
 		"praktika":                 ["Kein Angebot"],
-		"w-seminare":               "Nein",
+		"w-seminare":               "Kein Angebot",
 		"betreuungspersonal":       "Austellungsführer",
 		"außerschulisches_angebot": "Besuch Einzelpersonen",
 		"beschreibung":             "Die Mitmach-Ausstellung ix-quadrat öffnet die faszinierende Welt der Mathematik für Menschen jeden Alters, unabhängig von ihrem Vorwissen. Hier wird Mathematik erlebbar und begreifbar gemacht. Für Schulklassen bis zu 30 Personen wird die Möglichkeit geboten, sich für einen etwa 2-stündigen Besuch anzumelden. Schüler*innen können in die interaktiven Ausstellungsbereiche eintauchen, Symmetrie entdecken, in die Welt der Zahlen greifen und die Perspektiven des Grafikers und Künstlers M. C. Escher erforschen. Einzelpersonen können zu den Öffnungszeiten die Ausstellung unangemeldet besuchen.",
@@ -290,7 +290,7 @@ var context  = {
 		"schularten":               "Uneingeschränkt",
 		"sprachen":                 ["Deutsch"],
 		"praktika":                 ["Kein Angebot"],
-		"w-seminare":               "Nein",
+		"w-seminare":               "Kein Angebot",
 		"betreuungspersonal":       "Vorhanden",
 		"außerschulisches_angebot": "Nein",
 		"beschreibung":             "Die SWM Bildungsangebote erstrecken sich über eine Vielfalt an Themenbereichen, von Energiegewinnung über Trinkwassergewinnung, bis hin zu der Funktion der öffentlichen Verkehrsmitteln in München. Es besteht die Möglichkeit, Energiekraftwerke zu besuchen oder Kurse zum richtigen Busfahren zu buchen.",
@@ -325,7 +325,7 @@ var context  = {
 		"schularten":               "Uneingeschränkt",
 		"sprachen":                 ["Deutsch", "Englisch"],
 		"praktika":                 ["Möglich"],
-		"w-seminare":               "Nein",
+		"w-seminare":               "Kein Angebot",
 		"betreuungspersonal":       "Vorhanden",
 		"außerschulisches_angebot": "Selbstständiges Nutzen der Werkstatt möglich ab 16 nach Einführung oder im Rahmen offener Werkstätte möglich",
 		"beschreibung":             "Im Fablab München Kannst Du eine Hightechwerkstatt mit unterschiedlichen computergesteuerten Maschinen hautnah erleben. Wir haben eine 300mz große Werkstatt in der Du als Mitglied verschiedenste 3D Drucker, Lasercutter, Holz-, Metall, sowie Elektronikwerkstatt live erleben kannst. In den 200 Quadratmeter großen Bildungsräumen kannst Du selber lernen mit den Maschinen umzugehen und Modelle zum Drucken oder Cutten erstellen, sowie verschiedenste 3D-Druck-, Minecraft-, Programmier-, Elektronik-, Trickfilm- und Laserkurse mitmachen. Entweder Du kommst mit Deiner Klasse unter der Woche, oder am Wochenende oder in den Ferien zu einem Kurs zu uns.",
@@ -359,7 +359,7 @@ var context  = {
 		"schularten":               "Uneingeschränkt",
 		"sprachen":                 ["Deutsch", "Englisch"],
 		"praktika":                 ["Möglich"],
-		"w-seminare":               "Nein",
+		"w-seminare":               "Kein Angebot",
 		"betreuungspersonal":       "Vorhanden",
 		"außerschulisches_angebot": "siehe <a href='/lab.html?lab=FabLab'>FabLab Muenchen e.V.</a>, außerdem offene Werkstätte mit Kursleiter und Anmeldung",
 		"beschreibung":             "Im Fablab München Kannst Du eine Hightechwerkstatt mit unterschiedlichen computergesteuerten Maschinen hautnah erleben. Wir haben eine 300mz große Werkstatt in der Du als Mitglied verschiedenste 3D Drucker, Lasercutter, Holz-, Metall, sowie Elektronikwerkstatt live erleben kannst. In den 200 Quadratmeter großen Bildungsräumen kannst Du selber lernen mit den Maschinen umzugehen und Modelle zum Drucken oder Cutten erstellen, sowie verschiedenste 3D-Druck-, Minecraft-, Programmier-, Elektronik-, Trickfilm- und Laserkurse mitmachen. Entweder Du kommst mit Deiner Klasse unter der Woche, oder am Wochenende oder in den Ferien zu einem Kurs zu uns.",
@@ -393,7 +393,7 @@ var context  = {
 		"schularten":               "Gymnasium",
 		"sprachen":                 ["Deutsch"],
 		"praktika":                 ["Kein Angebot"],
-		"w-seminare":               "Nein",
+		"w-seminare":               "Kein Angebot",
 		"betreuungspersonal":       "Studierende",
 		"außerschulisches_angebot": "Nein",
 		"beschreibung":            "Genetik macht Schule vereint als \"Integriertes Schülerlabor\" die Interessen von Schülern und Studierenden, erstere kriegen eine spannende Unterichtsstunde mit anschließendem praktischen Teil; letztere können Unterichtserfahrung sammeln. Auf die theoretische Unterrichtsstunde folgt eine Woche später ein experimenteller Teil am Biozentrum der LMU, um das Gelernte zu festigen.",
@@ -427,7 +427,7 @@ var context  = {
 		"schularten":               ["alle"],
 		"sprachen":                 ["Deutsch","(Englisch auf Anfrage)"],
 		"praktika":                 ["Möglich"],
-		"w-seminare":               "auf Anfrage ja",
+		"w-seminare":               "Zusammenarbeit möglich auf Anfrage",
 		"betreuungspersonal":       "unbekannt",
 		"außerschulisches_angebot": "verschieden Clubs zu den verschiedenen Themen",
 		"beschreibung":             "Der MINT-Campus Dachau ist eine wissenschaftliche Erfahrungswelt für Kinder und Jugendliche, die das Interesse an den MINT-Fächern fördert. Der Großteil der Arbeit wir durch ehrenamtlichen Einsatz getragen. Mit einer Vielzahl von Aktivitäten und Workshops bietet der Campus praktische Experimente, Projekte und Teamarbeit, um Kreativität und Innovationsgeist zu stärken. Durch spielerisches Lernen werden die Teilnehmer in den Bereichen Mathematik, Informatik, Naturwissenschaften und Technik unterstützt und ermutigt. Die Teilnahme an den Offenen Werkstätten ist gebührenfrei, nur die verbrauchten Materialien werden in Rechnung gestellt. ",
@@ -461,7 +461,7 @@ var context  = {
 		"schularten":               ["Grundschule","Mittelschule","Realschule","Gymnasium (Unterstufe)"], // Array von String
 		"sprachen":                 ["Deutsch"], // Array von String
 		"praktika":                 ["Kein Angebot"], // Array von String
-		"w-seminare":               "Keine",   // String
+		"w-seminare":               "Kein Angebot",   // String
 		"betreuungspersonal":       "Keine Angabe",   // String
 		"außerschulisches_angebot": "Unterschiedliche. Info auf der Webseite",   // String
 		"beschreibung":             "Wir setzen uns dafür ein, um allen Kindern und Jugendlichen Naturwissenschaften, Technik und Informatik in kreativen, lustigen und praktischen Experimenten nahe zu bringen. Bei uns stehen Fantasie, Fragen, Hinterfragen und Prüfen im Vorfeld. Insbesondere kümmern wir uns um Kinder, die aus vielen Gründen einen weiteren Weg zur guten Bildung haben. Unser größter Traum ist es, damit Kinder die MINT-Fächer nicht nur verstehen, sondern auch lieben. ",   // String
@@ -496,7 +496,7 @@ var context  = {
 		"schularten":               ["Grundschule", "Gymnasium", "FOS","BOS"], // Array von String
 		"sprachen":                 ["Deutsch", "Englisch"], // Array von String
 		"praktika":                 ["Möglich"], // Array von String
-		"w-seminare":               "ja",   // String
+		"w-seminare":               "Zusammenarbeit möglich",   // String
 		"betreuungspersonal":       "",   // String
 		"außerschulisches_angebot": "",   // String
 		"beschreibung":             "",   // String
@@ -600,7 +600,7 @@ var context  = {
 		"schularten":               ["Gymnasium","FOS","BOS"], // Array von String
 		"sprachen":                 ["Deutsch"], // Array von String
 		"praktika":                 ["Berufs- und studienorientierende Praktika auf Anfrage"], // Array von String
-		"w-seminare":               "standardisiertes Angebot",   // String
+		"w-seminare":               "Standardisiertes Angebot",   // String
 		"betreuungspersonal":       "-",   // String
 		"außerschulisches_angebot": "-",   // String
 		"beschreibung":             "Biotopia Lab ist das Schülerlabor von Biotopia - Naturkundemuseum Bayern.<br>Es bietet einen Vorgeschmack auf BIOTOPIA und ist ein dynamischer Ausstellungsraum an der Schnittstelle von Wissenschaften, Kunst, Design und Kultur und gibt zugleich einen Einblick in den Entstehungsprozess des neuen Museums.",   // String
@@ -635,7 +635,7 @@ var context  = {
 		"schularten":               ["Alle Schularten"], // Array von String
 		"sprachen":                 ["Deutsch","Englisch","Französisch","andere Sprachen auf Anfrage"], // Array von String
 		"praktika":                 ["Auf Anfrage"], // Array von String
-		"w-seminare":               "Nein",   // String
+		"w-seminare":               "Kein Angebot",   // String
 		"betreuungspersonal":       "-",   // String
 		"außerschulisches_angebot": "-",   // String
 		"beschreibung":             "In Fortbildungen für Multiplikator*innen geben wir unser Wissen rund um das MINT-Experimentierprogramm Experimento weiter. In Ferien- und Projektangeboten bieten wir Kindern und Jugendlichen Spaß und Anregung durch Experimente, Erlebnisse in der Natur, sowie Kunst und Kultur.",   // String
@@ -670,7 +670,7 @@ var context  = {
 		"schularten":               ["Kindergarten","Grundschule","Mittelschule","Realschule","Gymnasium"], // Array von String
 		"sprachen":                 ["Deutsch","Englisch"], // Array von String
 		"praktika":                 ["Schülerpraktikum"], // Array von String
-		"w-seminare":               "Nein",   // String
+		"w-seminare":               "Kein Angebot",   // String
 		"betreuungspersonal":       "Laborleitung",   // String
 		"außerschulisches_angebot": "Geburtstagfeiern, Fortlaufende Kurse, Ferienangebote",   // String
 		"beschreibung":             "Experimentieren, Ausprobieren, den Spaß am Forschen und Entdecken ausleben und dabei spielerisch und altersgerecht unsere Welt erfahren. Bei FRÜHES FORSCHEN lernen die kleinen Forscher die Welt von Wissenschaft und Technik kennen. Sie erarbeiten sich anhand von spannenden und verblüffenden Experimenten Naturgesetze und erfahren so, wie ihre Umwelt in Biologie, Physik, Chemie und Mathematik funktioniert. Die Kinder experimentieren, forschen, basteln und finden durch ihr eigenes intensives Mitwirken Antworten auf Fragen wie 'Was ist eigentlich Luft?', 'Was hat eine Katzenzunge mit Bionik zu tun?' ect.<br>Damit die Vermittlung des Wissens nachhaltig und kindgerecht ist, steht unser individuelles Lernkonzept im Mittelpunkt. So sprechen die Kurse von FRÜHES FORSCHEN alle Sinne an, d.h. neben den praktischen Versuchen werden die Experimente auch bildlich dargestellt. Hierzu werden die unterschiedlichen Moleküle von z.B. Sauerstoff oder Zucker als kleine prägnante, lebendige Teilchen dargestellt. Diese erzählen die Experimente und die daraus folgenden Reaktionen auf abenteuerliche Art und Weise.",   // String
@@ -705,7 +705,7 @@ var context  = {
 		"schularten":               ["Mittelschule","Realschulen","Berufsschulen","Sonderpädagogische Förderzentren"], // Array von String
 		"sprachen":                 ["Deutsch","Englisch"], // Array von String
 		"praktika":                 ["Kein Angebot"], // Array von String
-		"w-seminare":               "Nein",   // String
+		"w-seminare":               "Kein Angebot",   // String
 		"betreuungspersonal":       "-",   // String
 		"außerschulisches_angebot": "Ausschließlich außerschulisches Angebot",   // String
 		"beschreibung":             "Lernen mit Kick ist ein kostenloses, außerschulisches Bildungsangebot. Es bietet Schüler*innen unterschiedlicher Klassenstufen in vielfältigen Workshops, ein breites Spektrum an relevanten und aktuellen gesellschaftspolitischen Themen.",   // String
