@@ -8,7 +8,7 @@ var context  = {
 		"unterthema":               ["KI", "Programmieren", "Web-Entwicklung", "Spiele-Entwicklung", "Technische Informatik"],
 		"zielgruppe":               10,
 		"altersgruppe":             "8-18 Jahre",
-		"teilnehmer_anzahl":        "Maximal 8",
+		"teilnehmer_anzahl":        "Max. 8",
 		"schularten":               ["Uneingeschränkt"],
 		"dauer":                    "60/90 Minuten",
 		"sprachen":                 ["Deutsch","Englisch (Nach Absprache)"],
@@ -77,7 +77,7 @@ var context  = {
 		"zielgruppe":               3,
 		"dauer":                    "5-6 Stunden",
 		"altersgruppe":             "Primär Oberstufe",
-		"teilnehmer_anzahl":        "Maximal 20 Personen",
+		"teilnehmer_anzahl":        "Max. 20",
 		"schularten":               ["Gymnasium","Realschule"],
 		"sprachen":                 ["Deutsch"],
 		"praktika":                 "Betriebspraktika für Mittelstufenschüler einmal im Jahr",
@@ -111,7 +111,7 @@ var context  = {
 		"unterthema":               ["Licht","Datenübertragung","Stromkreise","Sensorik","3D-Druck","Optoelektronik", "Akustik", "Elektronik","Gehör","Optik","Upcycling"],
 		"zielgruppe":               4,
 		"altersgruppe":             "3. -13. Jahrgangsstufe",
-		"teilnehmer_anzahl":        "Maximal 16",
+		"teilnehmer_anzahl":        "Max. 16",
 		"dauer":                    "60/75 Minuten",
 		"schularten":               "Abhängig von Workshop",
 		"sprachen":                 ["Deutsch","Englisch (20€)","Französisch (20€)"],
@@ -180,7 +180,7 @@ var context  = {
 		"unterthema":               ["Astrophysik","Ingenieurswesen","Sterne", "Planeten", "Teleskope"],
 		"dauer":                    "workshops 2h, Führung je nach Fragen",
 		"altersgruppe":             "4-18 Jahre (je nach Workshop)",
-		"teilnehmer_anzahl":        "Schulklasse (Maximal 30 Schüler)",
+		"teilnehmer_anzahl":        "Schulklasse (Max. 30 Schüler)",
 		"zielgruppe":               5,
 		"schularten":               "Elementar-, Primar- und Sekundarbereich I & II",
 		"sprachen":                 ["Deutsch","Englisch","Andere Sprachen auf Anfrage"],
@@ -215,7 +215,7 @@ var context  = {
 		"unterthema":               ["Energieforschung", "Energieumwandlung", "Klimawandel", "Klimawandel", "Erneuerbare Energien", "Batterien", "Thermodynamik", "Photosynthese"],
 		"zielgruppe":               "1 (abgesehen von Ferienworkshops)",
 		"altersgruppe":             "12 Jahre - Abitur, vor allem Schüler der Mittel- und Oberstufe an Gymnasien",
-		"teilnehmer_anzahl":        "ca. 15-25",
+		"teilnehmer_anzahl":        "Ca. 15-25",
 		"dauer":                    "abhängig vom Workshop, meistens mehrere Vormittage",
 		"schularten":               "Vor allem Gymnasium, auch Real- oder Mittelschule",
 		"sprachen":                 ["Deutsch", "Englisch"],
@@ -250,7 +250,7 @@ var context  = {
 		"unterthema":               ["Symmetrie"],
 		"zielgruppe":               5,
 		"altersgruppe":             "Uneingeschränkt",
-		"teilnehmer_anzahl":        "Maximal 30",
+		"teilnehmer_anzahl":        "Max. 30",
 		"dauer":                    "2 Stunden",
 		"schularten":               "Uneingeschränkt",
 		"sprachen":                 ["Deutsch"],
@@ -354,7 +354,7 @@ var context  = {
 		"unterthema":               ["3D-Druck", "Programmieren", "Lasercutter", "CNC Fräse", "Elektronik"],
 		"zielgruppe":               2,
 		"altersgruppe":             "5 - 18 Jahre",
-		"teilnehmer_anzahl":        "Maximal eine Klasse",
+		"teilnehmer_anzahl":        "Max. eine Klasse",
 		"dauer":                    "Variabel",
 		"schularten":               "Uneingeschränkt",
 		"sprachen":                 ["Deutsch", "Englisch"],
@@ -388,7 +388,7 @@ var context  = {
 		"unterthema":               ["Genetik"],
 		"zielgruppe":               1,
 		"altersgruppe":             "Oberstufe",
-		"teilnehmer_anzahl":        "maximal 24",
+		"teilnehmer_anzahl":        "Max. 24",
 		"dauer":                    "variabel", // Keine Ahnung was hier reinkommt <- dann frag bitte <-- Der erste kommentar ist alt, den hab ich vergseen zu löschen
 		"schularten":               "Gymnasium",
 		"sprachen":                 ["Deutsch"],
@@ -491,7 +491,7 @@ var context  = {
 		"unterthema":               ["Minerale","Metorite","Edelsteine"], // Array von Strings
 		"zielgruppe":               4,    // Zahl von 0 bis 10, Integer
 		"altersgruppe":             "ab 5 Jahren",   // String
-		"teilnehmer_anzahl":        "maximal 30",   // String
+		"teilnehmer_anzahl":        "Max. 30",   // String
 		"dauer":                    "je nach Führung",   // String
 		"schularten":               ["Grundschule", "Gymnasium", "FOS","BOS"], // Array von String
 		"sprachen":                 ["Deutsch", "Englisch"], // Array von String
@@ -526,7 +526,7 @@ var context  = {
 		"unterthema":               ["Mathezirkel","Mathe-AG","Wissenschaftspropädeutik","Schach","Physik im Alltag","Naturkunde","Programmieren","Science-Fiction","Literatur"],
 		"zielgruppe":               8,
 		"altersgruppe":             "5 Jahre bis 12 Klasse",
-		"teilnehmer_anzahl":        "Max 20",
+		"teilnehmer_anzahl":        "Max. 20",
 		"dauer":                    "1,5 Stunden",
 		"schularten":               ["Gymnasium","Realschule","Grundschule"],
 		"sprachen":                 ["Deutsch","Englisch","Russisch"],
@@ -630,7 +630,7 @@ var context  = {
 		"unterthema":               ["Inklusion","Bildungsteilhabe","Internationalität"], // Array von Strings
 		"zielgruppe":               5,    // Zahl von 0 bis 10, Integer
 		"altersgruppe":             "ab 8 Jahre bis zur Mittelstufe",   // String
-		"teilnehmer_anzahl":        "Max 16",   // String
+		"teilnehmer_anzahl":        "Max. 16",   // String
 		"dauer":                    "-",   // String
 		"schularten":               ["Alle Schularten"], // Array von String
 		"sprachen":                 ["Deutsch","Englisch","Französisch","andere Sprachen auf Anfrage"], // Array von String
@@ -665,7 +665,7 @@ var context  = {
 		"unterthema":               [""], // Array von Strings
 		"zielgruppe":               5,    // Zahl von 0 bis 10, Integer
 		"altersgruppe":             "Kindergarten/4-6 Jahre; Grundschule/6-10 Jahre; Mittelstufe/10-12 Jahre",   // String
-		"teilnehmer_anzahl":        "Max 8",   // String
+		"teilnehmer_anzahl":        "Max. 8",   // String
 		"dauer":                    "Einmalige Kurse: 1-3 Stunden, Fortlaufende Kurse, Ferienkurse",   // String
 		"schularten":               ["Kindergarten","Grundschule","Mittelschule","Realschule","Gymnasium"], // Array von String
 		"sprachen":                 ["Deutsch","Englisch"], // Array von String
@@ -700,7 +700,7 @@ var context  = {
 		"unterthema":               ["Rassismus","Diskriminierung","Gewalt","Medienpädagogik","Gender Diversity","Geld","Konsum"], // Array von Strings
 		"zielgruppe":               10,    // Zahl von 0 bis 10, Integer
 		"altersgruppe":             "Ab 7. Klasse",   // String
-		"teilnehmer_anzahl":        "bis 30 Personen",   // String
+		"teilnehmer_anzahl":        "Max. 30 Personen",   // String
 		"dauer":                    "-",   // String
 		"schularten":               ["Mittelschule","Realschulen","Berufsschulen","Sonderpädagogische Förderzentren"], // Array von String
 		"sprachen":                 ["Deutsch","Englisch"], // Array von String
@@ -735,7 +735,7 @@ var context  = {
 		"unterthema":               ["Akustik","Optik","Beugung","Brechung","Interferometrie","Magnetismus","Brennstoffzelle","Spezifischen Elektronenladung","E-Feld","B-Feld"], // Array von Strings
 		"zielgruppe":               0,    // Zahl von 0 bis 10, Integer
 		"altersgruppe":             "Ab der 9. Jahrgangsstufe",   // String
-		"teilnehmer_anzahl":        "Ideal: 8; Maximal: 12 pro Versuch",   // String
+		"teilnehmer_anzahl":        "Ideal: 8; Max.: 12 pro Versuch",   // String
 		"dauer":                    "7 Stunden mit Pause",   // String
 		"schularten":               ["Realschule","Gymnasium","FOS"], // Array von String
 		"sprachen":                 ["Deutsch","Englisch"], // Array von String
