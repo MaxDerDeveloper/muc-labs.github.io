@@ -46,7 +46,7 @@ var context  = {
 		"dauer":                    "3,5 - 7h",
 		"schularten":               ["Alle"],
 		"sprachen":                 ["Deutsch","Englisch"],
-		"praktika":                 ["Bei früher Anfrage möglich"],
+		"praktika":                 ["Möglich bei früher Anfrage"],
 		"w-seminare":               "Messungen u.ä möglich",
 		"betreuungspersonal":       "Ja",
 		"außerschulisches_angebot": "An speziellen Tagen wie Girlsday",
@@ -80,7 +80,7 @@ var context  = {
 		"teilnehmer_anzahl":        "Max. 20",
 		"schularten":               ["Gymnasium","Realschule"],
 		"sprachen":                 ["Deutsch"],
-		"praktika":                 "Betriebspraktika für Mittelstufenschüler einmal im Jahr",
+		"praktika":                 ["Betriebspraktika für Mittelstufenschüler einmal im Jahr"],
 		"w-seminare":               "Festes Kursangebot für W-Seminare",
 		"betreuungspersonal":       "Leitung des MaxLabs, Studenten sowie Auszubildende",
 		"außerschulisches_angebot": "Forscherwoche für Kinder der 5.-7. Klasse in den Sommerferien, girls-boys-day, Berufsorientierung für Abiturienten (Schnupperkurs Molekularbiologie)",
@@ -115,7 +115,7 @@ var context  = {
 		"dauer":                    "60/75 Minuten",
 		"schularten":               "Abhängig von Workshop",
 		"sprachen":                 ["Deutsch","Englisch (20€)","Französisch (20€)"],
-		"praktika":                 "Möglich, auf Anfrage",
+		"praktika":                 ["Möglich auf Anfrage"],
 		"w-seminare":               "Nein",
 		"betreuungspersonal":       "Leitung, Werkstudenten",
 		"außerschulisches_angebot": "Für Museumsbesucher",
@@ -150,7 +150,7 @@ var context  = {
 		"dauer":                    "Vormittag",
 		"schularten":               ["Gymnasium", "FOS", "BOS"],
 		"sprachen":                 ["Deutsch","Englisch"],
-		"praktika":                 "Ja",
+		"praktika":                 ["Kein Angebot"],
 		"w-seminare":               "Ja",
 		"betreuungspersonal":       "-", /* ? */
 		"außerschulisches_angebot": "Tag der offenen Türen (3.10.)<br>Hilfe bei Wettbewerben (Physikolympiade, Deutsche Physikmeisterschaft GYPT, Jugend forscht,...)<br>Lehrerfortbildungen<br>Campusquiz",
@@ -184,7 +184,7 @@ var context  = {
 		"zielgruppe":               5,
 		"schularten":               "Elementar-, Primar- und Sekundarbereich I & II",
 		"sprachen":                 ["Deutsch","Englisch","Andere Sprachen auf Anfrage"],
-		"praktika":                 "Nein",
+		"praktika":                 ["Kein Angebot"],
 		"w-seminare":               "Nein",
 		"betreuungspersonal":       "-",
 		"außerschulisches_angebot": "Girls-Day<br>Führungen auch im Hauptquartier/Berufsorientierung",
@@ -219,7 +219,7 @@ var context  = {
 		"dauer":                    "abhängig vom Workshop, meistens mehrere Vormittage",
 		"schularten":               "Vor allem Gymnasium, auch Real- oder Mittelschule",
 		"sprachen":                 ["Deutsch", "Englisch"],
-		"praktika":                 "Nein",
+		"praktika":                 ["Kein Angebot"],
 		"w-seminare":               "Nur auf Anfrage",
 		"betreuungspersonal":       "Leitung, Doktoranden, Postdocs",
 		"außerschulisches_angebot": "variiert, aktuelle Infos auf der Website",
@@ -254,7 +254,7 @@ var context  = {
 		"dauer":                    "2 Stunden",
 		"schularten":               "Uneingeschränkt",
 		"sprachen":                 ["Deutsch"],
-		"praktika":                 "Nein",
+		"praktika":                 ["Kein Angebot"],
 		"w-seminare":               "Nein",
 		"betreuungspersonal":       "Austellungsführer",
 		"außerschulisches_angebot": "Besuch Einzelpersonen",
@@ -289,7 +289,7 @@ var context  = {
 		"dauer":                    "1,5-2h",
 		"schularten":               "Uneingeschränkt",
 		"sprachen":                 ["Deutsch"],
-		"praktika":                 "Nein",
+		"praktika":                 ["Kein Angebot"],
 		"w-seminare":               "Nein",
 		"betreuungspersonal":       "Vorhanden",
 		"außerschulisches_angebot": "Nein",
@@ -324,7 +324,7 @@ var context  = {
 		"dauer":                    "Uneingeschränkt",
 		"schularten":               "Uneingeschränkt",
 		"sprachen":                 ["Deutsch", "Englisch"],
-		"praktika":                 "Ja",
+		"praktika":                 ["Möglich"],
 		"w-seminare":               "Nein",
 		"betreuungspersonal":       "Vorhanden",
 		"außerschulisches_angebot": "Selbstständiges Nutzen der Werkstatt möglich ab 16 nach Einführung oder im Rahmen offener Werkstätte möglich",
@@ -358,7 +358,7 @@ var context  = {
 		"dauer":                    "Variabel",
 		"schularten":               "Uneingeschränkt",
 		"sprachen":                 ["Deutsch", "Englisch"],
-		"praktika":                 "Ja",
+		"praktika":                 ["Möglich"],
 		"w-seminare":               "Nein",
 		"betreuungspersonal":       "Vorhanden",
 		"außerschulisches_angebot": "siehe <a href='/lab.html?lab=FabLab'>FabLab Muenchen e.V.</a>, außerdem offene Werkstätte mit Kursleiter und Anmeldung",
@@ -392,7 +392,7 @@ var context  = {
 		"dauer":                    "variabel", // Keine Ahnung was hier reinkommt <- dann frag bitte <-- Der erste kommentar ist alt, den hab ich vergseen zu löschen
 		"schularten":               "Gymnasium",
 		"sprachen":                 ["Deutsch"],
-		"praktika":                 "Nein",
+		"praktika":                 ["Kein Angebot"],
 		"w-seminare":               "Nein",
 		"betreuungspersonal":       "Studierende",
 		"außerschulisches_angebot": "Nein",
@@ -426,7 +426,7 @@ var context  = {
 		"dauer":                    "2-3 Stunden",
 		"schularten":               ["alle"],
 		"sprachen":                 ["Deutsch","(Englisch auf Anfrage)"],
-		"praktika":                 ["ja"],
+		"praktika":                 ["Möglich"],
 		"w-seminare":               "auf Anfrage ja",
 		"betreuungspersonal":       "unbekannt",
 		"außerschulisches_angebot": "verschieden Clubs zu den verschiedenen Themen",
@@ -460,7 +460,7 @@ var context  = {
 		"dauer":                    "1-3 St.",   // String
 		"schularten":               ["Grundschule","Mittelschule","Realschule","Gymnasium (Unterstufe)"], // Array von String
 		"sprachen":                 ["Deutsch"], // Array von String
-		"praktika":                 ["Keine"], // Array von String
+		"praktika":                 ["Kein Angebot"], // Array von String
 		"w-seminare":               "Keine",   // String
 		"betreuungspersonal":       "Keine Angabe",   // String
 		"außerschulisches_angebot": "Unterschiedliche. Info auf der Webseite",   // String
@@ -495,7 +495,7 @@ var context  = {
 		"dauer":                    "je nach Führung",   // String
 		"schularten":               ["Grundschule", "Gymnasium", "FOS","BOS"], // Array von String
 		"sprachen":                 ["Deutsch", "Englisch"], // Array von String
-		"praktika":                 ["ja"], // Array von String
+		"praktika":                 ["Möglich"], // Array von String
 		"w-seminare":               "ja",   // String
 		"betreuungspersonal":       "",   // String
 		"außerschulisches_angebot": "",   // String
@@ -530,7 +530,7 @@ var context  = {
 		"dauer":                    "1,5 Stunden",
 		"schularten":               ["Gymnasium","Realschule","Grundschule"],
 		"sprachen":                 ["Deutsch","Englisch","Russisch"],
-		"praktika":                 ["Keine"],
+		"praktika":                 ["Kein Angebot"],
 		"w-seminare":               "Forschungsarbeiten möglich",
 		"betreuungspersonal":       "Dozenten",
 		"außerschulisches_angebot": "Mathezirkel, Mathe-AG, Schach-AG, Science-Fiction Literatur, Programmieren, Naturkunde, Wissenschaftspropädeutik, Physik im Alltag",
@@ -704,7 +704,7 @@ var context  = {
 		"dauer":                    "-",   // String
 		"schularten":               ["Mittelschule","Realschulen","Berufsschulen","Sonderpädagogische Förderzentren"], // Array von String
 		"sprachen":                 ["Deutsch","Englisch"], // Array von String
-		"praktika":                 ["Nein"], // Array von String
+		"praktika":                 ["Kein Angebot"], // Array von String
 		"w-seminare":               "Nein",   // String
 		"betreuungspersonal":       "-",   // String
 		"außerschulisches_angebot": "Ausschließlich außerschulisches Angebot",   // String
@@ -943,7 +943,7 @@ const tags_to_background_mapping = {
 	"Sprachen":		"#FF0000",
 	"Technik":		"#0000FF",
 	"Umwelt":		"#008000",
-	
+
 /*Ggf. Ergänzen*/
 
 };
