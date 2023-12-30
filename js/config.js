@@ -513,7 +513,7 @@ var context  = {
 		},
 		"öffnungszeiten_ausnahmen": "",   // String, ganzer Satz
 		"bildquellen": "",                // String, kurz, z.B.: "Eigene Aufnahmen"
-		"images":                   ["/bilder/Musterbild.png"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
+		"images":                   ["/bilder/Mineralogia/Titelbild/DSC_0016 (1).png","/bilder/Mineralogia/DSC_0026 (1).png","/bilder/Mineralogia/DSC_0025 (1).png","/bilder/Mineralogia/DSC_0024 (1).png","/bilder/Mineralogia/DSC_0023 (1).png","/bilder/Mineralogia/DSC_0022 (1).png","/bilder/Mineralogia/DSC_0020 (1).png","/bilder/Mineralogia/DSC_0019 (1).png","/bilder/Mineralogia/DSC_0017 (1).png","/bilder/Mineralogia/DSC_0015 (1).png","/bilder/Mineralogia/DSC_0014 (1).png","/bilder/Mineralogia/DSC_0013 (1).png"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
 		"buchungs_disclaimer":      true, // Boolean: true oder false
 	},
 
@@ -547,7 +547,7 @@ var context  = {
 		},
 		"öffnungszeiten_ausnahmen": "",
 		"bildquellen": "Lyzeum 2 e.V.",
-		"images":                   ["/bilder/Musterbild.png"],
+		"images":                   ["/bilder/Lyzeum/Titelbild/bwz.png;Lyzeum 2 e.V.","/bilder/Lyzeum/20210723-_E206908-6_4MB.png;Lyzeum 2 e.V.","/bilder/Lyzeum/20210723-_E206991-2.png;Lyzeum 2 e.V.","/bilder/Lyzeum/22_SFK_all.png;Lyzeum 2 e.V.","/bilder/Lyzeum/FOTA3558.png;Lyzeum 2 e.V.","/bilder/Lyzeum/ITYM-Prepare_hell.png;Lyzeum 2 e.V.","/bilder/Lyzeum/Kostja-web.png;Lyzeum 2 e.V.","/bilder/Lyzeum/Lamzin_hell.png;Lyzeum 2 e.V.","/bilder/Lyzeum/Prof. Eshelman - Erzählanalyse_hell.png;Lyzeum 2 e.V.","/bilder/Lyzeum/M3.png;Lyzeum 2 e.V.","/bilder/Lyzeum/Olga-Sofia-web.png;Lyzeum 2 e.V.",],
 		"buchungs_disclaimer":      true,
 	},
 
