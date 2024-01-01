@@ -229,7 +229,7 @@ var context  = {
 			"So": "Geschlossen",
 		},
 		"öffnungszeiten_ausnahmen": "",
-		"images": ["/bilder/e-conversion/Titelbild/IMG_5876 Kopie.png","/bilder/e-conversion/IMG_5856 Kopie.png","/bilder/e-conversion/IMG_5866 Kopie.png","/bilder/e-conversion/IMG_5869 Kopie.png", "/bilder/e-conversion/IMG_5870 Kopie.png", "/bilder/e-conversion/IMG_5872 Kopie.png", "/bilder/e-conversion/IMG_5873 Kopie.png", "/bilder/e-conversion/IMG_5874 Kopie.png"],
+		"images": ["/bilder/e-conversion/Titelbild/IMG_5876 Kopie.png;Eigenaufnahme Mateo Trampler","/bilder/e-conversion/IMG_5856 Kopie.png;Eigenaufnahme Mateo Trampler","/bilder/e-conversion/IMG_5866 Kopie.png;Eigenaufnahme Mateo Trampler","/bilder/e-conversion/IMG_5869 Kopie.png;Eigenaufnahme Mateo Trampler", "/bilder/e-conversion/IMG_5870 Kopie.png;Eigenaufnahme Mateo Trampler", "/bilder/e-conversion/IMG_5872 Kopie.png;Eigenaufnahme Mateo Trampler", "/bilder/e-conversion/IMG_5873 Kopie.png;Eigenaufnahme Mateo Trampler", "/bilder/e-conversion/IMG_5874 Kopie.png;Eigenaufnahme Mateo Trampler"],
 		//"/bilder/e-conversion/IMG_5857 Kopie.png","/bilder/e-conversion/IMG_5858 Kopie.png","/bilder/e-conversion/IMG_5863 Kopie.png","/bilder/e-conversion/IMG_5864 Kopie.png","/bilder/e-conversion/IMG_5867 Kopie.png",
 		"buchungs_disclaimer":      true,
 	},
