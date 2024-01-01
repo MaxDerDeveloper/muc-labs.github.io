@@ -28,7 +28,6 @@ var context  = {
 			"So": "10:00-18:00 Uhr",
 		},
 		"öffnungszeiten_ausnahmen": "Es ist zu beachten, dass die Öffnungszeiten während der Schulferien eher vormittags liegen.",
-		"bildquellen": "Eigenaufnahmen", /* Ab jetzt überflüssig :( */
 		"images":                   ["/bilder/farning/1.png;Eigenaufnahmen Anton Heydenreich","/bilder/farning/2.png;Eigenaufnahmen Anton Heydenreich"],
 		"buchungs_disclaimer":      true,
 	},
@@ -62,7 +61,6 @@ var context  = {
 			"So": "-",
 		},
 		"öffnungszeiten_ausnahmen": "Termine können bei der Anmeldung vereinbart werden", // Hier bitte einen ganzen Satz hinschreiben
-		"bildquellen": "",
 		"images":                   ["/bilder/dlr/dlr1.jpeg;Eigenaufnahem Daniel Popovici", "/bilder/dlr/dlr3.png;Eigenaufnahem Daniel Popovici", "/bilder/dlr/dlr4.jpeg;Eigenaufnahem Daniel Popovici"],
 		"buchungs_disclaimer":      true,
 	},
@@ -97,7 +95,6 @@ var context  = {
 			"So": "Geschlossen",
 		},
 		"öffnungszeiten_ausnahmen": "",
-		"bildquellen": "Eigenaufnahmen",
 		"images":                   ["bilder/MaxLab/MaxLab_Bild2 Kopie.png;MaxLab","/bilder/MaxLab/MaxLab_Bild1 Kopie.png;MaxLab"],
 		"buchungs_disclaimer":      false,
 	},
@@ -132,7 +129,6 @@ var context  = {
 			"So": "Teilweise geöffnet",
 		},
 		"öffnungszeiten_ausnahmen": "Je nach Buchungsanfrage können variabel Termine gelegt werden.",
-		"bildquellen": "Eigenaufnahme",
 		"images": ["/bilder/experimentier-werkstatt/Titelbild/IMG_5643 Kopie.png;Eigenaufnahme Mateo Trampler","/bilder/experimentier-werkstatt/20201201 ZEW098 Experimentierwerkstatt Inszenierung02 Kopie.png;Deutsches Museum","/bilder/experimentier-werkstatt/CD_L_6996_077 Kopie.png;Deutsches Museum","/bilder/experimentier-werkstatt/CD_L_7023_23 Kopie.png;Deutsches Museum","/bilder/experimentier-werkstatt/CD_L_7270_163 Kopie.png;Deutsches Museum","/bilder/experimentier-werkstatt/CD_L_7278_075 Kopie.png;Deutsches Museum","bilder/experimentier-werkstatt/CD_L_7278_122 Kopie.png;Deutsches Museum","/bilder/experimentier-werkstatt/CD_L_7894_03 Kopie.png;Deutsches Museum","/bilder/experimentier-werkstatt/CD_L_7909_001 Kopie.png;Deutsches Museum","/bilder/experimentier-werkstatt/CD_L_7909_043 Kopie.png;Deutsches Museum","/bilder/experimentier-werkstatt/IMG_5641 Kopie.png;Eigenaufnahme Mateo Trampler","/bilder/experimentier-werkstatt/IMG_5650 Kopie.png;Eigenaufnahme Mateo Trampler", "/bilder/experimentier-werkstatt/IMG_5651 Kopie.png;Eigenaufnahme Mateo Trampler", "/bilder/experimentier-werkstatt/IMG_5654Berabeitet Kopie.png;Eigenaufnahme Mateo Trampler", "/bilder/experimentier-werkstatt/IMG_5657 Kopie.png;Eigenaufnahme Mateo Trampler", "/bilder/experimentier-werkstatt/IMG_5658 Kopie.png;Eigenaufnahme Mateo Trampler","/bilder/experimentier-werkstatt/IMG_5661 Kopie.png;Eigenaufnahme Mateo Trampler","/bilder/experimentier-werkstatt/IMG_5673 Kopie.png;Eigenaufnahme Mateo Trampler", "/bilder/experimentier-werkstatt/IMG_5674 Kopie.png;Eigenaufnahme Mateo Trampler", "/bilder/experimentier-werkstatt/IMG_5675 Kopie.png;Eigenaufnahme Mateo Trampler", "/bilder/experimentier-werkstatt/IMG_5676 Kopie.png;Eigenaufnahme Mateo Trampler"],
 		"buchungs_disclaimer":      true,
 	},
@@ -166,7 +162,6 @@ var context  = {
 			"So": "Geschlossen",
 		},
 		"öffnungszeiten_ausnahmen": "",
-		"bildquellen": "Eigenaufnahmen",
 		"images": ["bilder/PhotonLab/Titelbild/Holographie PhotonLab.jpeg;PhotonLab","/bilder/PhotonLab/Strahlteiler Nahaufnahme.png;PhotonLab","/bilder/PhotonLab/Quantenkryptografie_02.png;PhotonLab","/bilder/PhotonLab/P1000307.png;PhotonLab","/bilder/PhotonLab/Bildschirmfoto 2021-06-14 um 14.16.37.png;PhotonLab","/bilder/PhotonLab/IMG_5829 Kopie.png;Eigenaufnahme Anton Heydenreich", "/bilder/PhotonLab/IMG_5830 Kopie.png;Eigenaufnahme Anton Heydenreich", "/bilder/PhotonLab/IMG_5831Berabeitet Kopie.png;Eigenaufnahme Anton Heydenreich", "/bilder/PhotonLab/IMG_5833 Kopie.png;Eigenaufnahme Anton Heydenreich", "/bilder/PhotonLab/IMG_5835Berabeitet Kopie.png;Eigenaufnahme Anton Heydenreich", "/bilder/PhotonLab/IMG_5836 Kopie.png;Eigenaufnahme Anton Heydenreich", "/bilder/PhotonLab/IMG_5837 Kopie.png;Eigenaufnahme Anton Heydenreich", "/bilder/PhotonLab/IMG_5838 Kopie.png;Eigenaufnahme Anton Heydenreich", "/bilder/PhotonLab/IMG_5840Berabeitet Kopie.png;Eigenaufnahme Anton Heydenreich","/bilder/PhotonLab/IMG_5842 Kopie.png;Eigenaufnahme Anton Heydenreich", "/bilder/PhotonLab/IMG_5843 Kopie.png;Eigenaufnahme Anton Heydenreich", "/bilder/PhotonLab/IMG_5844Berabeitet Kopie.png;Eigenaufnahme Anton Heydenreich", "/bilder/PhotonLab/IMG_5845Berabeitet Kopie.png;Eigenaufnahme Anton Heydenreich", "/bilder/PhotonLab/IMG_5846 Kopie.png;Eigenaufnahme Anton Heydenreich"],
 		"buchungs_disclaimer":      true,
 	},
@@ -200,7 +195,6 @@ var context  = {
 			"So": "12:00-17:00 Uhr",
 		},
 		"öffnungszeiten_ausnahmen": "",
-		"bildquellen": "Eigenaufnahmen",
 		"images": ["/bilder/eso-supernova/Titelbild/Eso-Supernova-Titelbild Kopie.png;Eigenaufnahme Mateo Trampler","/bilder/eso-supernova/DJI_0781 Kopie.png;Eigenaufnahme Mateo Trampler","/bilder/eso-supernova/DJI_0782 Kopie.png;Eigenaufnahme Mateo Trampler","/bilder/eso-supernova/IMG_5741 Kopie.png;Eigenaufnahme Mateo Trampler","/bilder/eso-supernova/IMG_5745 Kopie.png;Eigenaufnahme Mateo Trampler","/bilder/eso-supernova/IMG_5775 Kopie.png;Eigenaufnahme Mateo Trampler","/bilder/eso-supernova/IMG_5778Berabeitet Kopie.png;Eigenaufnahme Mateo Trampler","/bilder/eso-supernova/IMG_5810Berabeitet Kopie.png;Eigenaufnahme Mateo Trampler","/bilder/eso-supernova/IMG_5780 Kopie.png;Eigenaufnahme Mateo Trampler","/bilder/eso-supernova/IMG_5786 Kopie.png;Eigenaufnahme Mateo Trampler","/bilder/eso-supernova/IMG_5803 Kopie.png;Eigenaufnahme Mateo Trampler","/bilder/eso-supernova/IMG_5806Berabeitet Kopie.png;Eigenaufnahme Mateo Trampler"],
 		//"/bilder/eso-supernova/Titelbild/DJI_0780 Kopie.png","/bilder/eso-supernova/IMG_5822 Kopie.png",
 		"buchungs_disclaimer":      true,
@@ -235,7 +229,6 @@ var context  = {
 			"So": "Geschlossen",
 		},
 		"öffnungszeiten_ausnahmen": "",
-		"bildquellen": "Eigenaufnahmen",
 		"images": ["/bilder/e-conversion/Titelbild/IMG_5876 Kopie.png","/bilder/e-conversion/IMG_5856 Kopie.png","/bilder/e-conversion/IMG_5866 Kopie.png","/bilder/e-conversion/IMG_5869 Kopie.png", "/bilder/e-conversion/IMG_5870 Kopie.png", "/bilder/e-conversion/IMG_5872 Kopie.png", "/bilder/e-conversion/IMG_5873 Kopie.png", "/bilder/e-conversion/IMG_5874 Kopie.png"],
 		//"/bilder/e-conversion/IMG_5857 Kopie.png","/bilder/e-conversion/IMG_5858 Kopie.png","/bilder/e-conversion/IMG_5863 Kopie.png","/bilder/e-conversion/IMG_5864 Kopie.png","/bilder/e-conversion/IMG_5867 Kopie.png",
 		"buchungs_disclaimer":      true,
@@ -271,7 +264,6 @@ var context  = {
 			"So": "-",
 		},
 		"öffnungszeiten_ausnahmen": "Termine für angemeldete Gruppenbesuche können auf Anfrage festgelegt werden. Öffnungszeiten für Besucher:innen ohne Anmeldung werden regelmäßig auf der <a href='https://www.ma.tum.de/de/schulportal/ix-quadrat.html'>Webseite</a> vom ix-quadrat veröffentlicht.",
-		"bildquellen": "ix-quadrat",
 		"images": ["/bilder/IX-Quadrat/Titelbild/07 Kopie.png;ix-quadrat", "/bilder/ix-quadrat/03 Kopie.png;ix-quadrat", "/bilder/IX-Quadrat/07 2 Kopie.png;ix-quadrat", "/bilder/IX-Quadrat/A003_0006 Kopie.png;ix-quadrat", "/bilder/IX-Quadrat/09 Kopie.png;ix-quadrat"],
 		"buchungs_disclaimer":      false,
 	},
@@ -306,7 +298,6 @@ var context  = {
 			"So": "-",
 		},
 		"öffnungszeiten_ausnahmen": "",
-		"bildquellen": "Eigenaufnahmen",
 		"images":                   ["/bilder/Musterbild.png"],
 		"buchungs_disclaimer":      true,
 	},
@@ -340,7 +331,6 @@ var context  = {
 			"So": "-",
 		},
 		"öffnungszeiten_ausnahmen": "Die Werkstatt hat dauerhaft offen",
-		"bildquellen": "",
 		"images": ["bilder/Fablab/fablab2.JPEG;FabLab", "bilder/Fablab/fablab1.JPG;FabLab", "bilder/Fablab/fablab3.JPG;FabLab", "bilder/Fablab/fablab4.JPG;FabLab", "bilder/Fablab/fablab5.jpg;FabLab","/bilder/Fablab/DSC_0001 Kopie.png;Eigenaufnahme Anton Heydenreich","/bilder/Fablab/DSC_0002 Kopie.png;Eigenaufnahme Anton Heydenreich","/bilder/Fablab/DSC_0003 Kopie.png;Eigenaufnahme Anton Heydenreich","/bilder/Fablab/DSC_0004 Kopie.png;Eigenaufnahme Anton Heydenreich","/bilder/Fablab/DSC_0005 Kopie.png;Eigenaufnahme Anton Heydenreich","/bilder/Fablab/DSC_0006 Kopie.png;Eigenaufnahme Anton Heydenreich","/bilder/Fablab/DSC_0007 Kopie.png;Eigenaufnahme Anton Heydenreich","/bilder/Fablab/DSC_0008 Kopie.png;Eigenaufnahme Anton Heydenreich","/bilder/Fablab/DSC_0009 Kopie.png;Eigenaufnahme Anton Heydenreich","/bilder/Fablab/DSC_0010 Kopie.png;Eigenaufnahme Anton Heydenreich","/bilder/Fablab/DSC_0012 Kopie.png;Eigenaufnahme Anton Heydenreich","/bilder/Fablab/DSC_0014 Kopie.png;Eigenaufnahme Anton Heydenreich","/bilder/Fablab/DSC_0015 Kopie.png;Eigenaufnahme Anton Heydenreich","/bilder/Fablab/DSC_0016 Kopie.png;Eigenaufnahme Anton Heydenreich","/bilder/Fablab/DSC_0019 Kopie.png;Eigenaufnahme Anton Heydenreich","/bilder/Fablab/DSC_0020 Kopie.png;Eigenaufnahme Anton Heydenreich","/bilder/Fablab/DSC_0022 Kopie.png;Eigenaufnahme Anton Heydenreich","/bilder/Fablab/DSC_0023 Kopie.png;Eigenaufnahme Anton Heydenreich","/bilder/Fablab/DSC_0025 Kopie.png;Eigenaufnahme Anton Heydenreich","/bilder/Fablab/DSC_0026 Kopie.png;Eigenaufnahme Anton Heydenreich","/bilder/Fablab/DSC_0027 Kopie.png;Eigenaufnahme Anton Heydenreich","/bilder/Fablab/DSC_0028 Kopie.png;Eigenaufnahme Anton Heydenreich"],
 		"buchungs_disclaimer":      true,
 	},
@@ -374,7 +364,6 @@ var context  = {
 			"So": "-",
 		},
 		"öffnungszeiten_ausnahmen": "FabLab Kids hat keine Öffnungszeiten außerhalb der zu buchenden Kurse",
-		"bildquellen": "",
 		"images": ["bilder/Fablab/fablab1.JPG;FabLab", "bilder/Fablab/fablab2.JPEG;FabLab", "bilder/Fablab/fablab3.JPG;FabLab", "bilder/Fablab/fablab4.JPG;FabLab", "bilder/Fablab/fablab5.jpg;FabLab","/bilder/Fablab/DSC_0001 Kopie.png;Eigenaufnahme Anton Heydenreich","/bilder/Fablab/DSC_0002 Kopie.png;Eigenaufnahme Anton Heydenreich","/bilder/Fablab/DSC_0003 Kopie.png;Eigenaufnahme Anton Heydenreich","/bilder/Fablab/DSC_0004 Kopie.png;Eigenaufnahme Anton Heydenreich","/bilder/Fablab/DSC_0005 Kopie.png;Eigenaufnahme Anton Heydenreich","/bilder/Fablab/DSC_0006 Kopie.png;Eigenaufnahme Anton Heydenreich","/bilder/Fablab/DSC_0007 Kopie.png;Eigenaufnahme Anton Heydenreich","/bilder/Fablab/DSC_0008 Kopie.png;Eigenaufnahme Anton Heydenreich","/bilder/Fablab/DSC_0009 Kopie.png;Eigenaufnahme Anton Heydenreich","/bilder/Fablab/DSC_0010 Kopie.png;Eigenaufnahme Anton Heydenreich","/bilder/Fablab/DSC_0012 Kopie.png;Eigenaufnahme Anton Heydenreich","/bilder/Fablab/DSC_0014 Kopie.png;Eigenaufnahme Anton Heydenreich","/bilder/Fablab/DSC_0015 Kopie.png;Eigenaufnahme Anton Heydenreich","/bilder/Fablab/DSC_0016 Kopie.png;Eigenaufnahme Anton Heydenreich","/bilder/Fablab/DSC_0019 Kopie.png;Eigenaufnahme Anton Heydenreich","/bilder/Fablab/DSC_0020 Kopie.png;Eigenaufnahme Anton Heydenreich","/bilder/Fablab/DSC_0022 Kopie.png;Eigenaufnahme Anton Heydenreich","/bilder/Fablab/DSC_0023 Kopie.png;Eigenaufnahme Anton Heydenreich","/bilder/Fablab/DSC_0025 Kopie.png;Eigenaufnahme Anton Heydenreich","/bilder/Fablab/DSC_0026 Kopie.png;Eigenaufnahme Anton Heydenreich","/bilder/Fablab/DSC_0027 Kopie.png;Eigenaufnahme Anton Heydenreich","/bilder/Fablab/DSC_0028 Kopie.png;Eigenaufnahme Anton Heydenreich"],
 		"buchungs_disclaimer":      true,
 	},
@@ -408,7 +397,6 @@ var context  = {
 			"So": "-",
 		},
 		"öffnungszeiten_ausnahmen": "",
-		"bildquellen": "Eigenaufnahmen",
 		"images": ["/bilder/Genetik macht Schule/IMG_5882 Kopie.png;Eigenaufnahme Mateo Trampler", "/bilder/Genetik macht Schule/IMG_5855Berabeitet Kopie.png;Eigenaufnahme Mateo Trampler", "/bilder/Genetik macht Schule/IMG_5883 Kopie.png;Eigenaufnahme Mateo Trampler", "/bilder/Genetik macht Schule/IMG_5885 Kopie.png;Eigenaufnahme Mateo Trampler", "/bilder/Genetik macht Schule/IMG_5886 Kopie.png;Eigenaufnahme Mateo Trampler", "/bilder/Genetik macht Schule/IMG_5888 Kopie.png;Eigenaufnahme Mateo Trampler", "/bilder/Genetik macht Schule/IMG_5890 Kopie.png;Eigenaufnahme Mateo Trampler", "/bilder/Genetik macht Schule/IMG_5892 Kopie.png;Eigenaufnahme Mateo Trampler", "/bilder/Genetik macht Schule/IMG_5895 Kopie.png;Eigenaufnahme Mateo Trampler", "/bilder/Genetik macht Schule/IMG_5896 Kopie.png;Eigenaufnahme Mateo Trampler", "/bilder/Genetik macht Schule/IMG_5899 Kopie.png;Eigenaufnahme Mateo Trampler", "/bilder/Genetik macht Schule/IMG_5901 Kopie.png;Eigenaufnahme Mateo Trampler", "/bilder/Genetik macht Schule/IMG_5905 Kopie.png;Eigenaufnahme Mateo Trampler", "/bilder/Genetik macht Schule/IMG_5906 Kopie.png;Eigenaufnahme Mateo Trampler", "/bilder/Genetik macht Schule/IMG_5907 Kopie.png;Eigenaufnahme Mateo Trampler", "/bilder/Genetik macht Schule/IMG_5909 Kopie.png;Eigenaufnahme Mateo Trampler", "/bilder/Genetik macht Schule/IMG_5910 Kopie.png;Eigenaufnahme Mateo Trampler", "/bilder/Genetik macht Schule/IMG_5913 Kopie.png;Eigenaufnahme Mateo Trampler", "/bilder/Genetik macht Schule/IMG_5917 Kopie.png;Eigenaufnahme Mateo Trampler", "/bilder/Genetik macht Schule/IMG_5923 Kopie.png;Eigenaufnahme Mateo Trampler", "/bilder/Genetik macht Schule/IMG_5924 Kopie.png;Eigenaufnahme Mateo Trampler", "/bilder/Genetik macht Schule/IMG_5925 Kopie.png;Eigenaufnahme Mateo Trampler"],
 		"buchungs_disclaimer":      true,
 	},
@@ -442,7 +430,6 @@ var context  = {
 			"So": "Geschlossen",
 		},
 		"öffnungszeiten_ausnahmen": "Diese Öffnungszeiten beziehen sich nur auf das Büro. Die einzelnen Termine der Workshops stehen auf der Website.",
-		"bildquellen": "Eigenaufnahmen",
 		"images":                   ["/bilder/Musterbild.png"],
 		"buchungs_disclaimer":      true,
 	},
@@ -477,7 +464,6 @@ var context  = {
 			"So": "-",   // String
 		},
 		"öffnungszeiten_ausnahmen": "Öffnungszeiten orientieren sich an Projektzeiten",   // String, ganzer Satz
-		"bildquellen": "Little Lab ",                // String, kurz, z.B.: "Eigene Aufnahmen"
 		"images":                   ["/bilder/LittleLab/Titelbild/20220511_142923647_iOS Kopie.png;Little Lab","/bilder/LittleLab/2022_Rosskastanie_Fluoreszenz Kopie.png;Little Lab","/bilder/LittleLab/2023_3D_Druck Kopie.png;Little Lab","/bilder/LittleLab/2023_RWiesner_Stromworkshop Kopie.png;Little Lab","/bilder/LittleLab/2023_Slime Kopie.png;Little Lab","/bilder/LittleLab/2023_Waermebildkamera Kopie.png;Little Lab"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"// Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
 		"buchungs_disclaimer":      true, // Boolean: true oder false
 	},
@@ -512,7 +498,6 @@ var context  = {
 			"So": "13:00-17:00 Uhr",   // String
 		},
 		"öffnungszeiten_ausnahmen": "",   // String, ganzer Satz
-		"bildquellen": "",                // String, kurz, z.B.: "Eigene Aufnahmen"
 		"images":                   ["/bilder/Mineralogia/Titelbild/DSC_0016 (1).png;Eigenaufnahme Anton Heydenreich","/bilder/Mineralogia/DSC_0026 (1).png;Eigenaufnahme Anton Heydenreich","/bilder/Mineralogia/DSC_0025 (1).png;Eigenaufnahme Anton Heydenreich","/bilder/Mineralogia/DSC_0024 (1).png;Eigenaufnahme Anton Heydenreich","/bilder/Mineralogia/DSC_0023 (1).png;Eigenaufnahme Anton Heydenreich","/bilder/Mineralogia/DSC_0022 (1).png;Eigenaufnahme Anton Heydenreich","/bilder/Mineralogia/DSC_0020 (1).png;Eigenaufnahme Anton Heydenreich","/bilder/Mineralogia/DSC_0019 (1).png;Eigenaufnahme Anton Heydenreich","/bilder/Mineralogia/DSC_0017 (1).png;Eigenaufnahme Anton Heydenreich","/bilder/Mineralogia/DSC_0015 (1).png;Eigenaufnahme Anton Heydenreich","/bilder/Mineralogia/DSC_0014 (1).png;Eigenaufnahme Anton Heydenreich","/bilder/Mineralogia/DSC_0013 (1).png;Eigenaufnahme Anton Heydenreich"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
 		"buchungs_disclaimer":      true, // Boolean: true oder false
 	},
@@ -546,7 +531,6 @@ var context  = {
 			"So": "Geschlossen",
 		},
 		"öffnungszeiten_ausnahmen": "",
-		"bildquellen": "Lyzeum 2 e.V.",
 		"images":                   ["/bilder/Lyzeum/Titelbild/bwz.png;Lyzeum 2 e.V.","/bilder/Lyzeum/20210723-_E206908-6_4MB.png;Lyzeum 2 e.V.","/bilder/Lyzeum/20210723-_E206991-2.png;Lyzeum 2 e.V.","/bilder/Lyzeum/22_SFK_all.png;Lyzeum 2 e.V.","/bilder/Lyzeum/FOTA3558.png;Lyzeum 2 e.V.","/bilder/Lyzeum/ITYM-Prepare_hell.png;Lyzeum 2 e.V.","/bilder/Lyzeum/Kostja-web.png;Lyzeum 2 e.V.","/bilder/Lyzeum/Lamzin_hell.png;Lyzeum 2 e.V.","/bilder/Lyzeum/Prof. Eshelman - Erzählanalyse_hell.png;Lyzeum 2 e.V.","/bilder/Lyzeum/M3.png;Lyzeum 2 e.V.","/bilder/Lyzeum/Olga-Sofia-web.png;Lyzeum 2 e.V.",],
 		"buchungs_disclaimer":      true,
 	},
@@ -581,7 +565,6 @@ var context  = {
 			"So": "-",   // String
 		},
 		"öffnungszeiten_ausnahmen": "-",   // String, ganzer Satz
-		"bildquellen": "-",                // String, kurz, z.B.: "Eigene Aufnahmen"
 		"images":                   ["/bilder/Musterbild.png"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
 		"buchungs_disclaimer":      true, // Boolean: true oder false
 	},
@@ -616,7 +599,6 @@ var context  = {
 			"So": "10:00-17:00 Uhr",   // String
 		},
 		"öffnungszeiten_ausnahmen": "Die aufgeführten Öffnungszeiten gelten für das Sommerhalbjahr. Im Winterhalbjahr schließt das BIOTOPIA Lab bereits um 16:30 Uhr.",   // String, ganzer Satz
-		"bildquellen": "",                // String, kurz, z.B.: "Eigene Aufnahmen"
 		"images":                   ["/bilder/Musterbild.png"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
 		"buchungs_disclaimer":      true, // Boolean: true oder false
 	},
@@ -651,7 +633,6 @@ var context  = {
 			"So": "-",   // String
 		},
 		"öffnungszeiten_ausnahmen": "-",   // String, ganzer Satz
-		"bildquellen": "",                // String, kurz, z.B.: "Eigene Aufnahmen"
 		"images":                   ["/bilder/Musterbild.png"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
 		"buchungs_disclaimer":      true, // Boolean: true oder false
 	},
@@ -686,8 +667,7 @@ var context  = {
 			"So": "Auf Anfrage",   // String
 		},
 		"öffnungszeiten_ausnahmen": "",   // String, ganzer Satz
-		"bildquellen": "https://www.fruehes-forschen.de/wp-content/uploads/2023/12/Exp_Wasserbuckel_insta-1-300x268.jpeg",                // String, kurz, z.B.: "Eigene Aufnahmen"
-		"images":                   ["bilder/FrühesForschen/Titelbild/0.jpeg;Frühes Forschen"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
+		"images":                   ["bilder/FrühesForschen/Titelbild/0.jpeg;Frühes Forschen"], //"https://www.fruehes-forschen.de/wp-content/uploads/2023/12/Exp_Wasserbuckel_insta-1-300x268.jpeg"  // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
 		"buchungs_disclaimer":      true, // Boolean: true oder false
 	},
 
@@ -721,7 +701,6 @@ var context  = {
 			"So": "Geschlossen",   // String
 		},
 		"öffnungszeiten_ausnahmen": "In Schulferien geschlossen",   // String, ganzer Satz
-		"bildquellen": "-",                // String, kurz, z.B.: "Eigene Aufnahmen"
 		"images":                   ["/bilder/Musterbild.png"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
 		"buchungs_disclaimer":      true, // Boolean: true oder false
 	},
@@ -756,7 +735,6 @@ var context  = {
 			"So": "Geschlossen",   // String
 		},
 		"öffnungszeiten_ausnahmen": "Individuelle Zeiten sind nach Absprache möglich.",   // String, ganzer Satz
-		"bildquellen": "-",                // String, kurz, z.B.: "Eigene Aufnahmen"
 		"images":                   ["/bilder/Musterbild.png"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
 		"buchungs_disclaimer":      true, // Boolean: true oder false
 	},
@@ -791,7 +769,6 @@ var context  = {
 			"So": "-",   // String
 		},
 		"öffnungszeiten_ausnahmen": "-",   // String, ganzer Satz
-		"bildquellen": "-",                // String, kurz, z.B.: "Eigene Aufnahmen"
 		"images":                   ["/bilder/Musterbild.png"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
 		"buchungs_disclaimer":      true, // Boolean: true oder false
 	},
