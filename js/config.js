@@ -83,7 +83,7 @@ var context  = {
 		"betreuungspersonal":       "Leitung des MaxLabs, Studenten sowie Auszubildende",
 		"außerschulisches_angebot": "Forscherwoche für Kinder der 5.-7. Klasse in den Sommerferien, girls-boys-day, Berufsorientierung für Abiturienten (Schnupperkurs Molekularbiologie)",
 		"beschreibung":             "Das MaxLab ist das Schüler- und Besucherlabor des Max-Planck-Instituts für biologische Intelligenz und des Max-Planck-Instituts für Biochemie am Campus Martinsried. In verschiedenen Kursen können Schüler*innen die Faszination naturwissenschaftlicher Forschung hautnah erleben. Die Experimente sind biologisch-medizinisch ausgerichtet und spiegeln aktuelle Forschungsprojekte der beiden Institute wider. In unterschiedlichen, ihrem Wissensstand entsprechenden, Programmen können die Schüler*innen praktische Erfahrungen sammeln und so einen Einblick in die Arbeit eines modernen Forschungslabors bekommen.<br>Die &quot;MaxLab Digital&quot; Kurse und Kursmaterialien können Lehrkräfte herunterladen und zusammen mit ihren Schüler*innen bearbeiten oder im Rahmen eines geführten Onlinekurses live in der Klasse erleben.<br>Alle Kurse sind kostenfrei und nur nach vorheriger Anmeldung möglich.<br>Das Online Angebot des MaxLabs besteht aus einem PCR-Escape-Game, virtuelle Schulstunden und Online Material zu verschiedenen Themen.",
-		"buchungsadresse":          "<a href='mailto:ina.peters@bi.mpg.de'>ina.peters@bi.mpg.de</a>",
+		"":          "<a href='mailto:ina.peters@bi.mpg.de'>ina.peters@bi.mpg.de</a>",
 		// "öffnungszeiten":           null,
 		"öffnungszeiten":           {
 			"Mo": "Geschlossen",
@@ -117,7 +117,7 @@ var context  = {
 		"betreuungspersonal":       "Leitung, Werkstudenten",
 		"außerschulisches_angebot": "Für Museumsbesucher",
 		"beschreibung":             "Physik und Technik mit Händen begreifen in der Experimentier-Werkstatt, dem Mitmachbereich im Deutschen Museum, München: Die Experimentier-Werkstatt bietet Programme für Schulklassen aller Schularten (3. -13. Jahrgangsstufe), Gruppen und Museumsbesucher.Verblüffende Experimente mit Alltagsbezug, Staunen über HighTech und das Tüfteln an eigenen Projekten machen Physik und Technik zu einem spannenden Erlebnis. Das Schülerlabor trägt zur Nachwuchsförderung im MINT-Bereich bei und unterstützt die allgemeine Technik- und Wissenschaftsmündigkeit.",
-		"buchungsadresse":          "<a href='https://www.deutsches-museum.de/museumsinsel/programm/programm-a-z/experimentier-werkstatt#c25480'>Buchungswebseite</a>",
+		"":          "<a href='https://www.deutsches-museum.de/museumsinsel/programm/programm-a-z/experimentier-werkstatt#c25480'>Buchungswebseite</a>",
 		// "öffnungszeiten":           null,
 		"öffnungszeiten":           {
 			"Mo": "Vormittags",
@@ -151,7 +151,7 @@ var context  = {
 		"betreuungspersonal":       "-", /* ? */
 		"außerschulisches_angebot": "Tag der offenen Türen (3.10.)<br>Hilfe bei Wettbewerben (Physikolympiade, Deutsche Physikmeisterschaft GYPT, Jugend forscht,...)<br>Lehrerfortbildungen<br>Campusquiz",
 		"beschreibung":             "Das Ziel ist es auch Laien das Thema Licht und Laser näherzubringen, wie Laser funktionieren und wie sie aufgebaut sind. Außerdem wird das Thema Quantenphysik in Ansätzen erklärt, auf Nach-/Anfrage wird auch mehr zu dem Thema erklärt. Der Besuch beginnt mit einem Einführungsvortrag, anschließend darf man 20 spannende Experimente mit Lasern machen mit Einleitungen am IPad, zum Beispiel einen echten Doppelspalt oder Musikübertragung per Laser.  Man bekommt auch die Möglichkeit durch eine Glaswand in das Labor für Attosekundenphysik reinzugucken",
-		"buchungsadresse":          "Dr. Silke Stähler Schöpf E-Mail: <a href='mailto:staehler-schoepf@physik.uni-muenchen.de'>staehler-schoepf@physik.uni-muenchen.de</a>, +49 89 3 29 05 - 197",
+		"buchungsadresse":          "Dr. Silke Stähler Schöpf E-Mail: <a href='mailto:staehler-schoepf@physik.uni-muenchen.de'>staehler-schoepf@physik.uni-muenchen.de</a>, 089 32905-197",
 		"öffnungszeiten":           {
 			"Mo": "9:30-17:00 Uhr",
 			"Di": "9:30-17:00 Uhr",
@@ -520,7 +520,7 @@ var context  = {
 		"betreuungspersonal":       "Dozenten",
 		"außerschulisches_angebot": "Mathezirkel, Mathe-AG, Schach-AG, Science-Fiction Literatur, Programmieren, Naturkunde, Wissenschaftspropädeutik, Physik im Alltag",
 		"beschreibung":             "Lyzeum 2 ist ein Zentrum für Schüler, die gerne denken und sich auch Herausforderungen stellen wollen, um viel zu erfahren. Wir engagieren besondere Dozenten, die ihr Fach lieben, inspirierend unterrichten und Universitätsstandards in die Schulbildung bringen. Schüler und Dozenten bilden eine Gemeinschaft, die nach einem tieferen Verständnis der Phänomene strebt.<br>Unsere Schüler nehmen an Olympiaden und Konferenzen teil und werden gut auf die Universität vorbereitet. Im Vordergrund steht aber weniger der äußere Erfolg, sondern vielmehr die eigene Motivation, die Freude am Entdecken und Erforschen sowie die Befähigung, anspruchsvolle Aufgaben zu meistern.",
-		"buchungsadresse":          "+49 151 701 66162",
+		"buchungsadresse":          "0151 70166162",
 		"öffnungszeiten":           {
 			"Mo": "Ab 17:00 Uhr",
 			"Di": "Ab 17:00 Uhr",
@@ -587,7 +587,7 @@ var context  = {
 		"betreuungspersonal":       "-",   // String
 		"außerschulisches_angebot": "-",   // String
 		"beschreibung":             "Biotopia Lab ist das Schülerlabor von Biotopia - Naturkundemuseum Bayern.<br>Es bietet einen Vorgeschmack auf BIOTOPIA und ist ein dynamischer Ausstellungsraum an der Schnittstelle von Wissenschaften, Kunst, Design und Kultur und gibt zugleich einen Einblick in den Entstehungsprozess des neuen Museums.",   // String
-		"buchungsadresse":          "",   // String, Webseiten-URL ("http://...") oder E-Mail-Adresse (z.B.: "<a href='mailto:test@example.com'>test@example.com</a>")
+		"buchungsadresse":          "-",   // String, Webseiten-URL ("http://...") oder E-Mail-Adresse (z.B.: "<a href='mailto:test@example.com'>test@example.com</a>")
 		"öffnungszeiten":           {
 			/* Hier sind Uhrzeiten oder kurze Beschreibungen passend */
 			"Mo": "Geschlossen",   // String
@@ -655,7 +655,7 @@ var context  = {
 		"betreuungspersonal":       "Laborleitung",   // String
 		"außerschulisches_angebot": "Geburtstagfeiern, Fortlaufende Kurse, Ferienangebote",   // String
 		"beschreibung":             "Experimentieren, Ausprobieren, den Spaß am Forschen und Entdecken ausleben und dabei spielerisch und altersgerecht unsere Welt erfahren. Bei FRÜHES FORSCHEN lernen die kleinen Forscher die Welt von Wissenschaft und Technik kennen. Sie erarbeiten sich anhand von spannenden und verblüffenden Experimenten Naturgesetze und erfahren so, wie ihre Umwelt in Biologie, Physik, Chemie und Mathematik funktioniert. Die Kinder experimentieren, forschen, basteln und finden durch ihr eigenes intensives Mitwirken Antworten auf Fragen wie 'Was ist eigentlich Luft?', 'Was hat eine Katzenzunge mit Bionik zu tun?' ect.<br>Damit die Vermittlung des Wissens nachhaltig und kindgerecht ist, steht unser individuelles Lernkonzept im Mittelpunkt. So sprechen die Kurse von FRÜHES FORSCHEN alle Sinne an, d.h. neben den praktischen Versuchen werden die Experimente auch bildlich dargestellt. Hierzu werden die unterschiedlichen Moleküle von z.B. Sauerstoff oder Zucker als kleine prägnante, lebendige Teilchen dargestellt. Diese erzählen die Experimente und die daraus folgenden Reaktionen auf abenteuerliche Art und Weise.",   // String
-		"buchungsadresse":          "<a href='mailto:'kontakt@fruehes-forschen.de'>kontakt@fruehes-forschen.de</a> oder 0172-8263382",   // String, Webseiten-URL ("http://...") oder E-Mail-Adresse (z.B.: "<a href='mailto:test@example.com'>test@example.com</a>")
+		"buchungsadresse":          "<a href='mailto:'kontakt@fruehes-forschen.de'>kontakt@fruehes-forschen.de</a> oder 0172 8263382",   // String, Webseiten-URL ("http://...") oder E-Mail-Adresse (z.B.: "<a href='mailto:test@example.com'>test@example.com</a>")
 		"öffnungszeiten":           {
 			/* Hier sind Uhrzeiten oder kurze Beschreibungen passend */
 			"Mo": "Auf Anfrage",   // String
