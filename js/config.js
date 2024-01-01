@@ -83,7 +83,7 @@ var context  = {
 		"betreuungspersonal":       "Leitung des MaxLabs, Studenten sowie Auszubildende",
 		"außerschulisches_angebot": "Forscherwoche für Kinder der 5.-7. Klasse in den Sommerferien, girls-boys-day, Berufsorientierung für Abiturienten (Schnupperkurs Molekularbiologie)",
 		"beschreibung":             "Das MaxLab ist das Schüler- und Besucherlabor des Max-Planck-Instituts für biologische Intelligenz und des Max-Planck-Instituts für Biochemie am Campus Martinsried. In verschiedenen Kursen können Schüler*innen die Faszination naturwissenschaftlicher Forschung hautnah erleben. Die Experimente sind biologisch-medizinisch ausgerichtet und spiegeln aktuelle Forschungsprojekte der beiden Institute wider. In unterschiedlichen, ihrem Wissensstand entsprechenden, Programmen können die Schüler*innen praktische Erfahrungen sammeln und so einen Einblick in die Arbeit eines modernen Forschungslabors bekommen.<br>Die &quot;MaxLab Digital&quot; Kurse und Kursmaterialien können Lehrkräfte herunterladen und zusammen mit ihren Schüler*innen bearbeiten oder im Rahmen eines geführten Onlinekurses live in der Klasse erleben.<br>Alle Kurse sind kostenfrei und nur nach vorheriger Anmeldung möglich.<br>Das Online Angebot des MaxLabs besteht aus einem PCR-Escape-Game, virtuelle Schulstunden und Online Material zu verschiedenen Themen.",
-		"":          "<a href='mailto:ina.peters@bi.mpg.de'>ina.peters@bi.mpg.de</a>",
+		"buchungsadresse":          "<a href='mailto:ina.peters@bi.mpg.de'>ina.peters@bi.mpg.de</a>",
 		// "öffnungszeiten":           null,
 		"öffnungszeiten":           {
 			"Mo": "Geschlossen",
@@ -117,7 +117,7 @@ var context  = {
 		"betreuungspersonal":       "Leitung, Werkstudenten",
 		"außerschulisches_angebot": "Für Museumsbesucher",
 		"beschreibung":             "Physik und Technik mit Händen begreifen in der Experimentier-Werkstatt, dem Mitmachbereich im Deutschen Museum, München: Die Experimentier-Werkstatt bietet Programme für Schulklassen aller Schularten (3. -13. Jahrgangsstufe), Gruppen und Museumsbesucher.Verblüffende Experimente mit Alltagsbezug, Staunen über HighTech und das Tüfteln an eigenen Projekten machen Physik und Technik zu einem spannenden Erlebnis. Das Schülerlabor trägt zur Nachwuchsförderung im MINT-Bereich bei und unterstützt die allgemeine Technik- und Wissenschaftsmündigkeit.",
-		"":          "<a href='https://www.deutsches-museum.de/museumsinsel/programm/programm-a-z/experimentier-werkstatt#c25480'>Buchungswebseite</a>",
+		"buchungsadresse":          "<a href='https://www.deutsches-museum.de/museumsinsel/programm/programm-a-z/experimentier-werkstatt#c25480'>Buchungswebseite</a>",
 		// "öffnungszeiten":           null,
 		"öffnungszeiten":           {
 			"Mo": "Vormittags",
