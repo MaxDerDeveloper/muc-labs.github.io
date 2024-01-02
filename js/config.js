@@ -551,7 +551,7 @@ var context  = {
 		"praktika":                 ["Studentische Praktika"], // Array von String
 		"w-seminare":               "Zusammenarbeit möglich",   // String
 		"betreuungspersonal":       "Von Werkstudent*in bis Leitung, 1-2 Personen als Betreuer*in",   // String
-		"außerschulisches_angebot": "-",   // String
+		"außerschulisches_angebot": "Spiele zur Nachhaltigkeit & Systemdenken, Exkursionen zu nachhaltigen Orten in Kooperation mit Dritten",   // String
 		"beschreibung":             "Das RCE BenE München ist das Regionale Kompetenzzentrum BNE. Wir initiieren und unterstützen – zum Teil in Kooperation mit anderen Akteur*innen – Bildungsprojekte im schulischen, außerschulischen und hochschulspezifischen Umfeld. Wir geben Bürger*innen in unseren AGs die Möglichkeit, sich aktiv zu beteiligen. Wir vernetzen BNE-Interessierte, Bildungseinrichtungen und Akteur*innen miteinander.",   // String
 		"buchungsadresse":          "<a href='mailto:info@bene-muenchen.de'>info@bene-muenchen.de</a> oder 089 23002784 oder <a href='https://www.bene-muenchen.de/'>Webseite</a>  ",   // String, Webseiten-URL ("http://...") oder E-Mail-Adresse (z.B.: "<a href='mailto:test@example.com'>test@example.com</a>")
 		"öffnungszeiten":           {
