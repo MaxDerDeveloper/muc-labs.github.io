@@ -105,7 +105,7 @@ function renderNavbarAndFooter() {
 					<ul class="navbar-nav justify-content-end flex-grow-1 pe-3">					
 						<form id="navbar-search-form">
 							<div class="form-input-container">
-								<input class="form-control" type="search" placeholder="Suchbegriff">
+								<input class="form-control" type="search" placeholder="Mit Google suchen">
 								<input class="btn btn-outline-primary" type="submit" value="Suchen">
 							</div>
 						</form>
