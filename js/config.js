@@ -536,24 +536,24 @@ var context  = {
 	},
 
 	"Bene": {
-		"name":                     "BenE München e.V.",   // String
-		"website_url":              "https://www.bene-muenchen.de/",   // String
-		"adresse":                  "Lederer Str. 17, 80331 München",   // String
-		"google_maps_url":          "https://maps.app.goo.gl/FbfNWgHHN1kmzc5R8",   // String, URL: https://...
-		"überthema":                ["Nachhaltigkeit","Gesellschaft"], // Array von Strings, siehe Liste von zulässigen Überthemen unten
-		"unterthema":               [], // Array von Strings
+		"name":                     "RCE BenE München",   // String
+		"website_url":              "https://www.bene-muenchen.de",   // String
+		"adresse":                  "Ledererstraße 17, 80331 München",   // String
+		"google_maps_url":          "https://www.google.de/maps/search/BenE+München+Ledererstraße+17+80331+München/@48.1369754,11.5770244,17z/data=!3m1!4b1?entry=ttu",   // String, URL: https://...
+		"überthema":                ["Nachhaltigkeit"], // Array von Strings, siehe Liste von zulässigen Überthemen unten
+		"unterthema":               ["Bildung für nachhaltige Entwicklung"], // Array von Strings
 		"zielgruppe":               5,    // Zahl von 0 bis 10, Integer
-		"altersgruppe":             "-",   // String
-		"teilnehmer_anzahl":        "-",   // String
-		"dauer":                    "-",   // String
-		"schularten":               ["-"], // Array von String
-		"sprachen":                 ["-"], // Array von String
-		"praktika":                 ["-"], // Array von String
-		"w-seminare":               "-",   // String
-		"betreuungspersonal":       "-",   // String
+		"altersgruppe":             "7.-13. Jahrgangsstufe",   // String
+		"teilnehmer_anzahl":        "Max. eine Klassenstärke",   // String
+		"dauer":                    "Nach Absprache",   // String
+		"schularten":               ["Uneingeschränkt"], // Array von String
+		"sprachen":                 ["Deutsch"], // Array von String
+		"praktika":                 ["Studentische Praktika"], // Array von String
+		"w-seminare":               "Zusammenarbeit möglich",   // String
+		"betreuungspersonal":       "Von Werkstudent*in bis Leitung, 1-2 Personen als Betreuer*in",   // String
 		"außerschulisches_angebot": "-",   // String
-		"beschreibung":             "Zweck des Vereins ist die Förderung der Bildung für nachhaltige Entwicklung in München. Das RCE BenE München fungiert in München als Plattform für Bildung für nachhaltige Entwicklung (BNE) mit dem Ziel, BNE in der Münchner Stadtgesellschaft langfristig zu verankern und weiterzuentwickeln. Als Mitglied von MUC-Labs e.V. unterstützt BenE München e.V. speziell Projekte und Vernetzung der Schülerlabore rund um BNE.",   // String
-		"buchungsadresse":          "-",   // String, Webseiten-URL ("http://...") oder E-Mail-Adresse (z.B.: "<a href='mailto:test@example.com'>test@example.com</a>")
+		"beschreibung":             "Das RCE BenE München ist das Regionale Kompetenzzentrum BNE. Wir initiieren und unterstützen – zum Teil in Kooperation mit anderen Akteur*innen – Bildungsprojekte im schulischen, außerschulischen und hochschulspezifischen Umfeld. Wir geben Bürger*innen in unseren AGs die Möglichkeit, sich aktiv zu beteiligen. Wir vernetzen BNE-Interessierte, Bildungseinrichtungen und Akteur*innen miteinander.",   // String
+		"buchungsadresse":          "<a href='mailto:info@bene-muenchen.de'>info@bene-muenchen.de</a> oder 089 23002784 oder <a href='https://www.bene-muenchen.de/'>Webseite</a>  ",   // String, Webseiten-URL ("http://...") oder E-Mail-Adresse (z.B.: "<a href='mailto:test@example.com'>test@example.com</a>")
 		"öffnungszeiten":           {
 			/* Hier sind Uhrzeiten oder kurze Beschreibungen passend */
 			"Mo": "-",   // String
@@ -564,8 +564,8 @@ var context  = {
 			"Sa": "-",   // String
 			"So": "-",   // String
 		},
-		"öffnungszeiten_ausnahmen": "-",   // String, ganzer Satz
-		"images":                   ["/bilder/Musterbild.png;Manesh Jablonski"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
+		"öffnungszeiten_ausnahmen": "Termine können auf Anfrage festgelegt werden.",   // String, ganzer Satz
+		"images":                   ["/bilder/Musterbild.png;Manesh Jablonski"], //Bildquelle:RCE BenE München   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
 		"buchungs_disclaimer":      true, // Boolean: true oder false
 	},
 
