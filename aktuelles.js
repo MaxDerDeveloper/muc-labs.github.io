@@ -6,9 +6,14 @@ var carouselData = [
       text: 'Text 1'
   },
   {
-      bild: 'bilder/welpe1.jpg',
-      überschrift: 'Überschrift 2',
-      text: 'Text 2'
+      bild: 'bilder/Aktuelles/taube.png',
+      überschrift: 'Online-Unterricht für Kinder in der Ukraine durch LYZEUM 2',
+      text: 'Unser Mitglied Lyzeum 2 engagiert sich mit online-Unterricht für Kinder in der Ukraine. Auch ein (Hilfs-)Angebot für Münchner Schulen ist entstanden.'
+  },
+  {
+      bild: 'bilder/Aktuelles/cdr23.jpg',
+      überschrift: 'CDR Dialog 2023 - München, 10./11. Oktober 2023',
+      text: '<h1>Bildungskonferenz zur Kohlenstoffdioxid-Entnahme</h1><br>Das BMBF-geförderte Projekt CDRterra veranstaltete am 10. und 11. Oktober im Deutschen Museum München eine zweitägige Konferenz. Am ersten Tag ging es um den Stand der Arbeiten zur Kohlenstoffdioxid-Entnahme aus der Atmosphäre (CDR). Am zweiten Tag wurde diskutiert, wie dieses wichtige Thema für die (schulische) Bildung aufbereitet werden kann.'
   },
   // Mehr Slides hinzufügen
 ];
