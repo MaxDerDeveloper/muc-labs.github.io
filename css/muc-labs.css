@@ -97,3 +97,7 @@ form#navbar-search-form input[type=search] {
 form#navbar-search-form button {
 	width: 35%;
 }
+
+.blocksatz {
+	hyphens: auto; text-align: justify;
+}
