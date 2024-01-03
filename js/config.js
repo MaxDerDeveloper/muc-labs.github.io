@@ -643,7 +643,7 @@ var context  = {
 		"adresse":                  "Kravogelstr. 41, 81249 München",   // String
 		"google_maps_url":          "https://maps.app.goo.gl/Ckb2VSp8BKDjshP48",   // String, URL: https://...
 		"überthema":                ["Physik","Chemie","Biologie","Technik"], // Array von Strings, siehe Liste von zulässigen Überthemen unten
-		"unterthema":               [], // Array von Strings
+		"unterthema":               ["Naturwissenschaften","Kinder"], // Array von Strings
 		"zielgruppe":               5,    // Zahl von 0 bis 10, Integer
 		"altersgruppe":             "Kindergarten/4-6 Jahre; Grundschule/6-10 Jahre; Mittelstufe/10-12 Jahre",   // String
 		"teilnehmer_anzahl":        "Max. 8",   // String
