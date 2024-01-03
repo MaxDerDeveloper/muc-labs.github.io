@@ -1,6 +1,11 @@
 // Die neusten Inhalte oben in Inhalte.
 var aktuelleInhalte = [
   {
+      bild: 'bilder/Aktuelles/Gruppenbild.jpg',
+      überschrift: 'Erneuerung der muc-labs Webseite',
+      text: 'Das Physik P-Seminar vom Maria-Theresia Gymnasium hat die muc-labs Webseite inhaltlich sowie designtechnische auf den neusten Stand gebracht.' // Dieser String kann HTML-Code enthalten
+  },
+  {
       bild: 'bilder/welpe1.jpg',
       überschrift: 'Brandneuer Inhalt!',
       text: 'Text 1' // Dieser String kann HTML-Code enthalten
