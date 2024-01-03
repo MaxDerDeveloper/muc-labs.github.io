@@ -127,6 +127,15 @@ function renderNavbarAndFooter() {
 						<li class="nav-item">
 							<a class="nav-link" href="/karte.html">Karte</a>
 						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/archiv.html">Archiv</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/partner.html">Partner</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/materialien.html">Materialien</a>
+						</li>
 
 						<hr>
 
