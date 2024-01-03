@@ -10,3 +10,4 @@ Wenn man auf Haupttag klickt, keine eigene Seite mit „Liste aller Labs mit dem
 Laborübersicht Überschrift zentriert über Laboren nicht ganze Seite
 Groß-/Kleinschreibung bei alphabetischer Sortierung nicht beachten
 Beim Hovern über Laborkachel keine Größenveränderung der anderen Kacheln
+Niedriger Auflösung bei Preview Bildern
