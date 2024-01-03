@@ -17,6 +17,9 @@
 				div.aktueller-inhalt {
 					width: 100%;
 				}
+				div.aktueller-inhalt div.überschrift-container a h5 {
+					font-size: 25px;
+				}
 			}
 
 			/* PC */
@@ -28,6 +31,9 @@
 				div.aktuelles-container h1 {
 					text-align: center;
 				}
+				div.aktueller-inhalt div.überschrift-container a h5 {
+					font-size: 35px;
+				}
 			}
 
 			div.aktueller-inhalt {
@@ -36,6 +42,11 @@
 
 			div.aktuelles-container {
 				margin: 0px 40px;
+				padding: 7.5px;
+			}
+
+			div.aktuelles-container a img {
+				border-radius: 5px;
 			}
 
 			div.aktueller-inhalt div.überschrift-container {
@@ -48,9 +59,10 @@
 				background-color: rgb(0,0,0,0.5);
 				border-radius: 10px;
 			}
-			div.aktueller-inhalt div.überschrift-container h5 {
+			div.aktueller-inhalt div.überschrift-container a h3 {
 				color: white;
-				font-size: 35px;
+				text-overflow: ellipsis;
+				height: 1em;
 			}
 
 			div.aktueller-inhalt div.überschrift-container p {
@@ -64,7 +76,7 @@
 			}
 
 			div#lab-card-container {
-				width: calc(100% - 80px);
+/*				width: calc(100% - 80px);*/
 
 				display: flex;	
 				flex-direction: row;
@@ -87,7 +99,7 @@
 			}
 
 			div#tag-container {
-				width: calc(100% - 80px);
+/*				width: calc(100% - 80px);*/
 				margin-bottom: 20px;
 				padding: 7.5px;
 			}
@@ -98,6 +110,9 @@
 			span.lab-tag {
 				margin-right: 3px; /* Seitenabstand zwischen Tags */
 				margin-bottom: 3px;
+			}
+			main h1 {
+				text-decoration: underline;
 			}
 		</style>
 
@@ -134,12 +149,15 @@
 			}
 
 			function aktuellesDurchlaufen() {
-				setInterval(()=>{
-					console.log("hello")
-					nextSlide();
-				}, 5000);
+				// Erstes Bild
+				currentSlide
 				updateSlide(currentSlide);
-				console.log("hola")
+
+				// Alle 3.0 Sekunden wird das nächste Bild angezeigt.
+				setInterval(
+					()=>{nextSlide();},
+					5000
+				);
 			}
 
 			function main() {
@@ -158,16 +176,16 @@
 	<body>
 		<main class="no-overlap-with-navbar">
 			
-			<div class="aktuelles-container">
+			<div class="aktuelles-container card shadow">
 				<h1>Aktuelles</h1>
 				<div class="aktueller-inhalt">
-					<a href="/aktuelles.html">
+					<a href="/aktuelles.html" target="_blank">
 						<img id="aktuelles-bild" class="d-block w-100" src="" alt="First slide">
 					</a>
 					
 					<div class="überschrift-container">
-						<a href="/aktuelles.html">
-							<h5 id="aktuelles-überschrift"></h5>
+						<a href="/aktuelles.html" class="subtle-link" target="_blank">
+							<h3 id="aktuelles-überschrift"></h3>
 						</a>
 
 						<p id="aktuelles-text" hidden></p>
@@ -177,17 +195,17 @@
 
 			<br>
 
-			<div class="lernorte-container">
+			<div class="lernorte-container card shadow" style="width: calc(100% - 80px); padding: 7.5px;">
 				<h1>Lernorte</h1>
 
-				<div class="horiz-flex-container card shadow" id="tag-container">
+				<div class="horiz-flex-container" id="tag-container">
 					<h4>Kategorien:</h4>
 					<div id="tag-container-inner">
 						
 					</div>
 				</div>
 
-				<div class="horiz-flex-container card shadow" id="lab-card-container">
+				<div class="horiz-flex-container" id="lab-card-container">
 				</div>
 			</div>
 		</main>
