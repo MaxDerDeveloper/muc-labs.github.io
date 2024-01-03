@@ -11,14 +11,145 @@
 		<script type="text/javascript" src="/js/config.js"></script>
 		<link href="/css/muc-labs.css" rel="stylesheet">
 		
-		
+		<style type="text/css">
+			/* Handy */
+			@media (max-width: 900px) {
+				div.aktueller-inhalt {
+					width: 100%;
+				}
+			}
+
+			/* PC */
+			@media (min-width: 900px) {
+				div.aktueller-inhalt {
+					width: 800px;
+					margin: auto;
+				}
+				div.aktuelles-container h1 {
+					text-align: center;
+				}
+			}
+
+			div.aktueller-inhalt {
+				position: relative;
+			}
+
+			div.aktuelles-container {
+				margin: 0px 40px;
+			}
+
+			div.aktueller-inhalt div.überschrift-container {
+				position: absolute;
+				top: 10px;
+				left: 10px;
+				max-width: 400px;
+
+				padding: 0px 10px;
+				background-color: rgb(0,0,0,0.5);
+				border-radius: 10px;
+			}
+			div.aktueller-inhalt div.überschrift-container h5 {
+				color: white;
+				font-size: 35px;
+			}
+
+			div.aktueller-inhalt div.überschrift-container p {
+				color: white;
+				font-size: 18px;
+			}
+
+			div.lernorte-container {
+				width: 100%;
+				margin: 0px 40px;
+			}
+
+			div#lab-card-container {
+				width: calc(100% - 80px);
+
+				display: flex;	
+				flex-direction: row;
+				flex-wrap: nowrap;
+				overflow-x: auto;
+			}
+			div.lab-card {
+				flex-shrink: 0;
+				margin: 4px;
+			}
+			div.lab-card p {
+				width: 100%;
+				text-align: center;
+				text-decoration: underline;
+			}
+			div.lab-card h5.lab-card-title {
+				white-space: nowrap;
+				overflow: hidden;
+				text-overflow: ellipsis;
+			}
+
+			div#tag-container {
+				width: calc(100% - 80px);
+				margin-bottom: 20px;
+				padding: 7.5px;
+			}
+
+			div#lab-card-container {
+				padding: 7.5px;
+			}
+			span.lab-tag {
+				margin-right: 3px; /* Seitenabstand zwischen Tags */
+				margin-bottom: 3px;
+			}
+		</style>
+
+		<script src="js/aktuelles.js"></script>
 		<script type="text/javascript" src="/js/main.js"></script>
 		<script type="text/javascript">
+			function renderÜbertags(übertags) {
+				var main_tags = ""
+				for (var üt of übertags) {
+					var bg_color   = tags_to_background_mapping[üt] || "rgb(13,110,253)";
+					var fg_color   = tags_to_foreground_mapping[üt] || "white";
+					var text_style = 'style="color: '+fg_color+'";';
+					var style      = 'style="background-color:'+bg_color+';"';
+
+					main_tags += `
+					<a class="no-link" href="/filter.html?tag=${üt}">
+						<span class="lab-tag badge rounded-pill" ${style}>
+							<span ${text_style}>
+								${üt}
+							</span>
+						</span>
+					</a>`;
+				}
+				return main_tags;
+			}
+
+			function renderLabCards() {
+				cards = ""
+				for(var [name, lab] of Object.entries(getLabs())) {
+					var [main, side] = renderTags(lab);
+					cards += renderCard(name, lab);
+				}
+				$("#lab-card-container").append(cards);
+			}
+
+			function aktuellesDurchlaufen() {
+				setInterval(()=>{
+					console.log("hello")
+					nextSlide();
+				}, 5000);
+				updateSlide(currentSlide);
+				console.log("hola")
+			}
+
 			function main() {
 				renderNavbarAndFooter();
 
-				// Umleiten zur Übersicht
-				window.location.replace("/labs.html");
+				// Beim Index 0 ist immer der aktuellste Inhalt.
+				aktuellesDurchlaufen()
+				renderLabCards();
+
+				$("div#tag-container-inner").append(renderÜbertags(alle_haupttags));
 			}
 			window.onload = main;
 		</script>
@@ -26,9 +157,39 @@
 
 	<body>
 		<main class="no-overlap-with-navbar">
-			<h1>
-				Lädt...
-			</h1>
+			
+			<div class="aktuelles-container">
+				<h1>Aktuelles</h1>
+				<div class="aktueller-inhalt">
+					<a href="/aktuelles.html">
+						<img id="aktuelles-bild" class="d-block w-100" src="" alt="First slide">
+					</a>
+					
+					<div class="überschrift-container">
+						<a href="/aktuelles.html">
+							<h5 id="aktuelles-überschrift"></h5>
+						</a>
+
+						<p id="aktuelles-text" hidden></p>
+					</div>
+				</div>
+			</div>
+
+			<br>
+
+			<div class="lernorte-container">
+				<h1>Lernorte</h1>
+
+				<div class="horiz-flex-container card shadow" id="tag-container">
+					<h4>Kategorien:</h4>
+					<div id="tag-container-inner">
+						
+					</div>
+				</div>
+
+				<div class="horiz-flex-container card shadow" id="lab-card-container">
+				</div>
+			</div>
 		</main>
 	</body>
 </html>
