@@ -26,7 +26,7 @@ function updateSlide(slideIndex) {
     var slide = aktuelleInhalte[slideIndex];
     document.getElementById('aktuelles-bild').src = slide.bild;
     document.getElementById('aktuelles-überschrift').innerText = slide.überschrift;
-    document.getElementById('aktuelles-text').innerText = slide.text;
+    document.getElementById('aktuelles-text').innerHTML = slide.text;
 }
 
 function nextSlide() {
