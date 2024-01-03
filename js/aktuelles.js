@@ -1,9 +1,9 @@
-
-var carouselData = [
+// Die neusten Inhalte oben in Inhalte.
+var aktuelleInhalte = [
   {
       bild: 'bilder/welpe1.jpg',
-      überschrift: 'Überschrift 1',
-      text: 'Text 1'
+      überschrift: 'Brandneuer Inhalt!',
+      text: 'Text 1' // Dieser String kann HTML-Code enthalten
   },
   {
       bild: 'bilder/Aktuelles/taube.png',
@@ -22,21 +22,24 @@ var carouselData = [
 var currentSlide = 0;
 
 // Function to update the slide
-function updateSlide() {
-    var slide = carouselData[currentSlide];
-    document.getElementById('bild').src = slide.bild;
-    document.getElementById('überschrift').innerText = slide.überschrift;
-    document.getElementById('text').innerText = slide.text;
+function updateSlide(slideIndex) {
+    var slide = aktuelleInhalte[slideIndex];
+    document.getElementById('aktuelles-bild').src = slide.bild;
+    document.getElementById('aktuelles-überschrift').innerText = slide.überschrift;
+    document.getElementById('aktuelles-text').innerText = slide.text;
 }
 
-// Function to go to the next slide
 function nextSlide() {
-    currentSlide = (currentSlide + 1) % carouselData.length; // Wrap around to the first slide
-    updateSlide();
+    currentSlide = (currentSlide + 1) % aktuelleInhalte.length;
+    updateSlide(currentSlide);
 }
 
-// Function to go to the previous slide
 function prevSlide() {
-    currentSlide = (currentSlide - 1 + carouselData.length) % carouselData.length; // Wrap around to the last slide
-    updateSlide();
+    currentSlide = (currentSlide - 1 + aktuelleInhalte.length) % aktuelleInhalte.length;
+    updateSlide(currentSlide);
+}
+
+function aktuellesMain() {
+    document.querySelector('.carousel-control-next').addEventListener('click', nextSlide);
+    document.querySelector('.carousel-control-prev').addEventListener('click', prevSlide);
 }
