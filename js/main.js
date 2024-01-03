@@ -119,6 +119,9 @@ function renderNavbarAndFooter() {
 							<a class="nav-link" href="/aktuelles.html">Aktuelles</a>
 						</li>
 						<li class="nav-item">
+							<a class="nav-link" href="/veranstaltungen.html">Veranstaltungen</a>
+						</li>
+						<li class="nav-item">
 							<a class="nav-link" href="/labs.html">Labore</a>
 						</li>
 						<li class="nav-item">
