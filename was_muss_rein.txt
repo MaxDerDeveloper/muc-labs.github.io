@@ -1,0 +1,7 @@
+Weiterer Separator in Hamburger Menu
+Robots.txt
+Pfeile in aktuelles hoch zum Bild schieben
+besseres skalieren der Bilder, speziell in aktuelles und start
+impressum (Anton fragt Herr Kratzer)
+archiv, einträge aus aktuelles laden und lange liste anzeigen
+aktuelles: mehr dazu, link zur webseite
