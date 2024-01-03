@@ -667,7 +667,7 @@ var context  = {
 			"So": "Auf Anfrage",   // String
 		},
 		"öffnungszeiten_ausnahmen": "",   // String, ganzer Satz
-		"images":                   ["bilder/FrühesForschen/Titelbild/0.jpeg;Frühes Forschen"], //"https://www.fruehes-forschen.de/wp-content/uploads/2023/12/Exp_Wasserbuckel_insta-1-300x268.jpeg"  // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
+		"images":                   ["bilder/FrühesForschen/Titelbild/0.jpeg;https://www.fruehes-forschen.de/wp-content/uploads/2023/12/Exp_Wasserbuckel_insta-1-300x268.jpeg"], //"https://www.fruehes-forschen.de/wp-content/uploads/2023/12/Exp_Wasserbuckel_insta-1-300x268.jpeg"  // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
 		"buchungs_disclaimer":      true, // Boolean: true oder false
 	},
 
