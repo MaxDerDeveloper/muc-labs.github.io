@@ -148,6 +148,7 @@ function renderNavbarAndFooter() {
 	var footer = `<footer>
 		<center><hr style="width: 90%"></center>
 		<div class="horiz-flex-container" style="justify-content: space-evenly;">
+			<a href="/ueber-uns.html">Über uns</a>
 			<a href="/kontakt.html">Kontakt</a>
 			<a href="/impressum.html">Impressum</a>
 			<a href="/zzz_anmeld_intern.php">Mitgliederbereich</a>
