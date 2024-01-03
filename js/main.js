@@ -150,6 +150,10 @@ function renderNavbarAndFooter() {
 						<li class="nav-item">
 							<a class="nav-link" href="/impressum.html">Impressum</a>
 						</li>
+
+						<li class="nav-item">
+							<a class="nav-link" href="/zzz_anmeld_intern.php">Mitgliederbereich</a>
+						</li>
 					</ul>
 				</div>
 			</div>
