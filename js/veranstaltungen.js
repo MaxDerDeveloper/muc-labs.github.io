@@ -2,6 +2,12 @@
 var veranstaltungenInhalte = [
     // Hier mehr Slides hinzufügen
     {
+      bild: 'bilder/Aktuelles/Ersatzbild.jpg',
+      überschrift: 'FORSCHA 5. - 7. Mai 2023',
+      text: '	<a href="https://forscha.de/fo">Forscha</a> und Münchner Wissenschaftstage fanden vom 5. - 7. Mai 2023 auf der Theresienhöhe/Alte Messe statt. Auch heuer waren einige Schülerlabore wieder dabei sein.',
+      datum: '05.05.2023',
+    },
+    {
       bild: 'bilder/Veranstaltungen/Gruppenbild.jpg',
       überschrift: 'Erneuerung der muc-labs Webseite',
       text: 'Das Physik P-Seminar vom Maria-Theresia Gymnasium hat die muc-labs Webseite inhaltlich sowie designtechnische auf den neusten Stand gebracht.', // Dieser String kann HTML-Code enthalten
