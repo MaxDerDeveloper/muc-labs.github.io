@@ -29,8 +29,8 @@ var aktuelleInhalte = [
   
   var currentSlide = 0;
   
-  // Function to update the slide
-  function updateSlide(slideIndex) {
+// Function to update the slide
+function updateSlide(slideIndex) {
     var slide = aktuelleInhalte[slideIndex];
     document.getElementById('aktuelles-bild').src = slide.bild;
     document.getElementById('aktuelles-überschrift').innerText = slide.überschrift;

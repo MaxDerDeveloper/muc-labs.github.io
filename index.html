@@ -38,7 +38,7 @@
 					font-size: 35px;
 				}
 				.ellipsis {
-					max-width : calc(100% + 0px);
+					max-width : 700px;
 				}
 			}
 
@@ -57,7 +57,7 @@
 
 			div.aktueller-inhalt div.überschrift-container {
 				position: absolute;
-				top: 10px;
+				bottom: 13px;
 				left: 10px;
 				max-width: 400px;
 
@@ -76,14 +76,7 @@
 				font-size: 18px;
 			}
 
-			div.lernorte-container {
-				width: 100%;
-				margin: 0px 40px;
-			}
-
 			div#lab-card-container {
-				/* width: calc(100% - 80px);*/
-
 				display: flex;	
 				flex-direction: row;
 				flex-wrap: nowrap;
@@ -105,14 +98,9 @@
 			}
 
 			div#tag-container {
-				/* width: calc(100% - 80px);*/
 				margin-bottom: 20px;
-				padding: 7.5px;
 			}
 
-			div#lernorte-container {
-				padding: 7.5px;
-			}
 			span.lab-tag {
 				margin-right: 3px; /* Seitenabstand zwischen Tags */
 				margin-bottom: 3px;
@@ -125,6 +113,14 @@
 				overflow: hidden;
 				text-overflow: ellipsis;
 				display:block;
+			}
+
+			.box {
+				padding: 7.5px;
+				margin: 0px 40px;
+			}
+			.box:not(:last-child) {
+				margin-bottom: 20px;
 			}
 		</style>
 
@@ -160,6 +156,18 @@
 				$("#lab-card-container").append(cards);
 			}
 
+			function updateSlide(slideIndex) {
+				var slide = aktuelleInhalte[slideIndex];
+				document.getElementById('aktuelles-bild').src = slide.bild;
+				document.getElementById('aktuelles-überschrift').innerText = slide.überschrift;
+				document.getElementById('aktuelles-text').innerHTML = slide.text;
+			}
+
+			function nextSlide() {
+				currentSlide = (currentSlide + 1) % aktuelleInhalte.length;
+				updateSlide(currentSlide);
+			}
+
 			function aktuellesDurchlaufen() {
 				// Erstes Bild
 				currentSlide
@@ -188,8 +196,8 @@
 	<body>
 		<main class="no-overlap-with-navbar">
 			
-			<div class="aktuelles-container card shadow">
-				<h1>Aktuelles</h1>
+			<div class="aktuelles-container card shadow box">
+				<!-- <h1>Aktuelles</h1> -->
 				<div class="aktueller-inhalt">
 					<a href="/aktuelles.html">
 						<img id="aktuelles-bild" class="d-block w-100" src="" alt="First slide">
@@ -205,9 +213,19 @@
 				</div>
 			</div>
 
-			<br>
+			<div class="card shadow box" style="width: calc(100% - 80px);">
+				<h1>Was ist Muc-Labs?</h1>
+					<h4>Das können Sie hier erfahren:</h4>
+					<ul>
+					<li><a href="/ueber-uns.html">Über uns</a></li>
+					<li><a href="/impressum.html">Impressum</a></li>
+					</ul>
+				<div class="">
+					
+				</div>
+			</div>
 
-			<div class="lernorte-container card shadow" style="width: calc(100% - 80px); padding: 7.5px;">
+			<div class="lernorte-container card shadow box" style="width: calc(100% - 80px);">
 				<h1>Lernorte</h1>
 
 				<div class="horiz-flex-container" id="tag-container">
@@ -219,7 +237,10 @@
 
 				<div class="horiz-flex-container" id="lab-card-container">
 				</div>
-			</div>
+
+				<div>
+					<h5>Zur <a href="/labs.html">Übersicht</a>.</h5>
+				</div>
 		</main>
 	</body>
 </html>

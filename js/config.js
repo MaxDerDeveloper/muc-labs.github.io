@@ -851,6 +851,93 @@ var context  = {
 	},
 };
 
+var partner = {
+	"Organisationen": {
+		"lernortlabor": {
+			"name": "LernortLabor e.V.",
+			"text": "Der Bundesverband der Schülerlabore ist die Vertretung aller Schülerlabore im deutschsprachigen Raum. Er veranstaltet unter anderem jährliche Tagungen zum Erfahrungsaustausch.",
+			"images": ["/bilder/partner/lela_logo.png"],
+			"website": "https://www.lernort-labor.de/"
+		},
+
+		"mint-region": {
+			"name": "MINT-Region Münchner Umland",
+			"text": "Die MINT-Region ist eine Initiative der Landkreise Dachau und München. Auf der Website finden sie eine große Übersicht über MINT-Angebote der Region.",
+			"images": ["/bilder/partner/mint-region.png"],
+			"website": "https://www.mintregion.de/"
+		},
+
+		"bene": {
+			"name": "BENE e.V.",
+			"text": "BENE e.V. fungiert als Plattform für BNE (Bildung für nachhaltige Entwicklung) im Raum München. Hier finden Sie auch eine Aufstellung von Angeboten zur BNE.",
+			"images": ["/bilder/partner/bene_logo.png"],
+			"website": "https://www.bene-muenchen.de/"
+		},
+
+		"mcqst": {
+			"name": "MCQST",
+			"text": "Das \"Munich Center for Quantum Science and Technology\" ist ein Exzellenzcluster an dem sieben Forschungsinstitute beteiligt sind. Auf der Website finden Sie auch interessante \"Quanten-Veranstaltungen\".",
+			"images": ["/bilder/partner/MCQST.png"],
+			"website": "https://www.mcqst.de/"
+		},
+
+		"gypt": {
+			"name": "GYPT",
+			"text": "Die Deutsche Physikmeisterschaft GYPT ist eine Initiative der Deutschen Physikalischen Gesellschaft (DPG) zusammen mit der Uni Ulm und der Wilhelm und Else Heraeus Stiftung.",
+			"images": ["/bilder/partner/gypt_logo.png"],
+			"website": "https://www.gypt.org/"
+		},
+	},
+
+	"Astronomie": {
+		"hands-on-universe": {
+			"name": "Hands-on Universe",
+			"text": "Hands-on Universe entstand als \"public outreach\"-Programm der Supernova-Cosmology (Nobelpreis 2011) in Berkeley, USA. Das Ziel ist, Schülern die Bearbeitung realer (und neuer) Daten zu ermöglichen. Eine entsprechende Software wurde entwickelt (heute SalsaJ) und es gibt Lehreinheiten zur Einführung in die Astrophysik-Forschung.",
+			"images": ["/bilder/partner/GHOU.jpg"],
+			"website": "https://handsonuniverse.org/"
+		},
+
+		"salsaj": {
+			"name": "Hands-on Universe - SalsaJ",
+			"text": "Software zum Bearbeiten und Auswerten von Astronomie-Daten. Die Grundlage ist das bekannte Programm ImageJ. Es können Bilder (FITS-Dateien) professioneller Teleskope ausgewertet werden. Diese finden Sie in verschiedenen Archiven.",
+			"images": ["/bilder/partner/salsaj.jpg"],
+			"website": "http://www.euhou.net/index.php/salsaj-software-mainmenu-9"
+		},
+
+		"noirlab": {
+			"name": "NSF's NOIRLab - FITS Liberator",
+			"text": "Professionelle Teleskope machen Aufnahmen in bestimmten Wellenlängenbereichen. Die schönen Farbfotos entstehen durch Kombination (und Einfärben) mehrerer Aufnahmen. Mit dem FITS-Liberator können das auch Schülerinnen und Schüler.",
+			"images": ["/bilder/partner/noirlab.jpg"],
+			"website": "https://noirlab.edu/public/products/fitsliberator/"
+		},
+	},
+
+	"Biologie": {
+		"embl": {
+			"name": "EMBL - European Learning Laboratory for the Life Sciences",
+			"text": "EMBL, das Europäische Laboratorium für Molekularbiologie, ist eines der bekanntesten life science Forschungsinstitute der Welt. Der Standort in Deutschland ist Heidelberg. Es werden verschiedene Materialien für 10 bis 19-Jährige angeboten. Zu bestimmten Terminen finden auch virtuelle LearningLABs für Lehrer statt.",
+			"images": ["/bilder/partner/embl.jpg"],
+			"website": "https://www.embl.org/ells/"
+		},
+
+		"geomar": {
+			"name": "Geomar - Materialien für Schulen",
+			"text": "GEOMAR ist das Helmholtz-Zentrum für Ozeanforschung in Kiel. Eines der Forschungsthemen ist die Rolle der Ozeane beim globalen Klimawandel. Versuchsanleitung, Arbeitsbögen und sogar Bilderbücher zum Thema Meeresforschung sind auf dieser Webseite zu finden. ",
+			"images": ["/bilder/partner/geomar.jpg"],
+			"website": "https://www.geomar.de/entdecken/schule/materialien-fuer-schulen"
+		},
+	},
+
+	"Weitere": {
+		"dlr_next": {
+			"name": "DLR_next - Das Jugendportal",
+			"text": "Viele Materialien aus verschiedenen Bereichen wie Raumfahrt, Energie oder Digitalisierung. ",
+			"images": ["/bilder/partner/dlrnext.jpg"],
+			"website": "https://www.dlr.de/next/"
+		},
+	},
+}
+
 function sortLabsAlphabetically() {
 	var criteria = (lab) => lab['name'].toLowerCase();
 
