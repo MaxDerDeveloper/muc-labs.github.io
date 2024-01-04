@@ -1,6 +1,5 @@
 Materialseite (ähnlich Partnerseite, MAterial einklappbar)
 BUG-FIXES!!!
-fehlende Navbar im Archiv
 impressum (Anton fragt Herr Kratzer)
 mehr verlinkung von/zur Startseite
 "Kosmetische Änderungen":
