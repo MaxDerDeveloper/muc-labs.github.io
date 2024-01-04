@@ -1,0 +1,519 @@
+
+<html>
+
+<head>
+<meta charset=utf-8>
+<meta name="viewport", content="width=device-width, initial-scale=1.0">
+<meta name="viewport", content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Ferienkurs">
+<meta name="keywords" content="Bildung, München, Schülerlabor">
+<meta http-equiv="expires" content="0">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="cache-control" content="no-cache">
+
+<link rel="stylesheet" href="muc-labs.css">
+<style>
+	body{margin: 10px auto;
+		 max-width: 100%;}*
+		{padding: 5px; margin:5px;}
+	header{border: 2px solid #3481cd; border-radius: .3em; background: lightgrey;}
+	/*body	{padding: 7em 0 3em;}
+	body,.wrapper {margin: 50px auto;max-width: 100%;}
+	header {position: fixed; top: 0;left: 0; right: 0;}*/
+	main{border: 2px solid hotpink; border-radius: .3em; background: skyblue;}
+	article{padding: 1px; border:2 px skyblue;}
+	section{border: 2 px solid slateblue;}
+	aside {border: 2px solid tomato;}
+ </style>
+ <title>
+   MUC-labs Aktuelles
+ </title>
+</head>
+
+<body>
+ <header>
+   <img src="images/muc_labs_logo.svg" alt="logo" height="30.em";>
+  <nav> 
+    <ul> 
+	 <li><a href="index.html">Start</a></li> 
+	 <li><a href="muc-labs_aktuelles.html">Aktuelles</a></li> 
+	 <li><a href="Ferienprogramme/Ferienprogramm.html">Ferien</a></li> 
+	 <li><a href="Skonf/Skonf_index.html">MUC-Skonf</a></li> 
+	 <li><a href="muc-labs_karte.html">Karte</a></li> 
+	 <li><a href="muc-labs_liste.html">Liste</a></li> 
+	 <li><a href="muc-labs_videos.html">Videos</a></li> 
+ 	 <li><a href="muc-labs_links.html">Links</a></li> 	
+     <li><a href="muc-labs_ueber_uns.html">Über uns</a></li> 
+	</ul> 
+  </nav>
+ </header>
+ 
+ <main>
+<details>
+	<summary style="background-color:NavajoWhite; color: green; font: bold 18px Arial, sans-serif;">
+	CDR Dialog 2023 - München, 10./11. Oktober 2023
+	</summary>
+	<p>
+	<a href="downloads/CDR_Dialog_2023-Bildungskonferenz.pdf">
+	<img src="images/BNE/cdr23.jpg" alt="CDR" height="150px"></a>
+	</p>
+    <h5>Bildungskonferenz zur Kohlenstoffdioxid-Entnahme</h5>
+	<p>Das BMBF-geförderte Projekt CDRterra veranstaltete am 10. und 11. Oktober im Deutschen Museum München eine zweitägige
+	Konferenz. Am ersten Tag ging es um den Stand der Arbeiten zur Kohlenstoffdioxid-Entnahme aus der Atmosphäre (CDR). 
+	Am zweiten Tag wurde diskutiert, wie dieses wichtige Thema für die (schulische) Bildung aufbereitet werden kann.</p>
+	<p>Mehr dazu  <a href="https://cdrterra.de/news/erste-bildungskonferenz-zur-co%e2%82%82-entnahme">hier</a>.</p> 
+</details>
+<details>
+	<summary style="background-color:NavajoWhite; color: green; font: bold 18px Arial, sans-serif;">
+	Day of Hope - München, 4. Mai 2023
+	</summary>
+	<p>
+	Der 4. Mai 2023 war der Münchner <a href="https://dayofhope-muenchen.de/">"Day of Hope"</a>. 
+	Mit dabei war <em>Jane Goodall</em>, UN-Friedensbotschafterin, Biologin und aktive Naturschützerin. 
+	Auch einige MUC-Labs Labore sind im Werksviertel München (beim Ostbahnhof) dabei. 
+	</p>
+</details>
+<details>
+	<summary style="background-color:NavajoWhite; color: green; font: bold 18px Arial, sans-serif;">
+		FORSCHA 5. - 7. Mai 2023
+	</summary>
+	<p>
+	<a href="https://forscha.de/fo">Forscha</a> und Münchner Wissenschaftstage fanden 
+	vom 5. - 7. Mai 2023 auf der Theresienhöhe/Alte Messe statt. 
+	Auch heuer waren einige Schülerlabore wieder dabei sein.
+	</p>
+</details>
+<details>
+	<summary style="background-color:NavajoWhite; color: green; font: bold 18px Arial, sans-serif;">
+	Münchner Hochschultage 29. März 2023
+	</summary>
+	<p>
+	Die <a href="https://www.bene-muenchen.de/hochschultage-2023-2/">22. Münchner Hochschultage</a> 
+	fanden am 29. März 2023 von 14-18 Uhr im Pyramidensaal, Karlstraße 32 statt. 
+	Es wurden sogenannte Spiele präsentiert, die das sog. <em>systemische Denken</em> schulen. 
+	Dieses ist zum Bewältigen komplexer Probleme notwendig. Es geht also um <em>Bildung für nachhaltige Entwicklung (BNE).</em>
+	</p>
+</details>
+<details>
+	<summary style="background-color:NavajoWhite; color: green; font: bold 18px Arial, sans-serif;">
+		Challenge 125 - März 2023
+	</summary>
+	<p>
+		Zum 125-jährigen Bestehen der Stadtwerke Dachau wurde in Kooperation mit dem <em>MINT Campus Dachau</em> 
+		eine Messkampagne für Umweltdaten ins Leben gerufen. 
+		Alle zwischen 12 und 20 Jahren konnten im Team eine Messtation in Dachau aufbauen. 
+		Infos und Anmeldung (bis 31.3.2023) beim <a href="https://www.mintcampus-dachau.de/aktuelles/challenge-125">MCD</a>.
+	</p>
+</details>
+
+	<details>
+		<summary style="background-color:NavajoWhite; color: green; font: bold 18px Arial, sans-serif;">
+			Schülerkonferenz 2022 
+		</summary>
+		<p>
+		Am 2. Dezember 2022 fand die 2. MUC-Labs Schülerkonferenz statt. 		
+		<a href="Skonf/Skonf_index.html">Mehr Informationen.</a>.
+		</p>
+	</details>
+	<details>
+		<summary style="background-color:NavajoWhite; color: green; font: bold 18px Arial, sans-serif;">
+			BENE München Forum 2022 
+		</summary>
+		<p>
+			Im Bildungsbereich ist BNE (Bildung für nachhaltige Entwicklung) ein zentrales Thema.  
+			Am <font color="red">Freitag, 25. November 2022, 18-21.30 Uhr</font> in der "Evangelischen Stadtakademie" war Gelegenheit tiefer in das Thema einzusteigen.		
+			<a href="https://www.bene-muenchen.de/bene-muenchen-forum-2022/">Mehr Informationen.</a>
+		</p>
+	</details>
+	<details>
+		<summary style="background-color:NavajoWhite; color: green; font: bold 18px Arial, sans-serif;">
+			Deutsche Physikmeisterschaft GYPT 2023 - Vorbereitungstreffen			
+		</summary>
+		<p>
+			Die deutsche Physik-Meisterschaft (<a href="https://www.gypt.org">GYPT</a>) ist jetzt auch in die "Qualitätskriterien für Schülerwettbewerbe" der Kultusministerkonferenz (KMK) aufgenommen. 
+			Sie finden sie <a href="https://www.kmk.org/fileadmin/veroeffentlichungen_beschluesse/2009/2009_09_17-Schuelerwettbewerbe.pdf">hier</a>.
+			Bei der Präsenzmeisterschaft 2020 entstand ein <a href="https://www.youtube.com/watch?v=zdjoeK3sNnw">youtube-Video</a> über den Wettbewerb.
+			Ein sehenswertes <a href="https://www.youtube.com/watch?v=38YRTvaDL-w">Video</a> gibt es auch über die "oberbayerische Meisterschaft" in Garching.
+		</p><p>
+			Am <font color="red">16. November 2022 (Buß- und Bettag)</font> veranstaltete der GYPT Standort Dachau zusammen mit MUC-Labs (speziell PhotonLab) 
+			ein GYPT-Vorbereitungstreffen in Garching (MPQ).
+		</p>
+		<p>	
+			<font color="red">Die oberbayerische Meisterschaft fand Ende Januar 2023 statt. Zwei Teams konnten sich für die 
+			Deutsche Meisterschaft in Bad Honnef qualifizieren.</font>
+		<p>
+		Unser Flyer <a href="GYPT/GYPT_Flyer_MUC_1.pdf">Seite 1</a>/<a href="GYPT/GYPT_Flyer_MUC_2.pdf">Seite 2</a>.
+		</p>
+	</details>
+	<details>
+		<summary style="background-color:NavajoWhite; color: green; font: bold 18px Arial, sans-serif;">
+			Formel 1 in der Schule 2022/2023 
+		</summary>
+		<p>
+		Bis zum 30. November 2022 konnte man sich zu den Meisterschaften der 17. Saison von Formel 1 in der Schule anmelden.
+		</p>
+		<p>
+			<a href="https://www.f1inschools.de">Weitere Informationen.</a>.
+
+		</p>
+	</details>
+	<details>
+		<summary style="background-color:NavajoWhite; color: green; font: bold 18px Arial, sans-serif;">
+			Online-Unterricht für Kinder in der Ukraine durch LYZEUM 2 
+		</summary>
+		<p>
+		Unser Mitglied Lyzeum 2 engagiert sich mit online-Unterricht für Kinder in der Ukraine. Auch ein (Hilfs-)Angebot für Münchner Schulen ist entstanden.
+		</p>
+		<p>
+			<img src="images/taube.png" alt="Picasso" 
+				 height="100px">
+		 <a href="https://lyzeum-muenchen.de">Link zu Lyzeum 2</a></p>
+		</p>
+	</details>
+	<details>
+		<summary style="background-color:NavajoWhite; color: green; font: bold 18px Arial, sans-serif;">
+			Schnuppertage im MINT Campus Dachau im April 2022 
+		</summary>
+		<p>
+		An mehreren Tagen im April hatte der MINT Campus Dachau zum Kennenlernen geöffnet. Das Angebot richtete sich speziell auch an ukrainische Kinder.
+		</p>
+		<p><a href="https://www.mintcampus-dachau.de">Link zum MCD</a>.</p>
+	</details>
+	<details>
+		<summary style="background-color:NavajoWhite; color: green; font: bold 18px Arial, sans-serif;">
+		1.-2. April 2022: 2. Tag der Münchner Schülerlabore
+		</summary>
+		<p>
+		Leider konnten wir am Freitag nur eine online-Veranstaltung anbieten. <br>
+		Es gab am Freitagvormittag eine Lehrerfortbildung zu ease-corona (Aufholen nach Corona) mit Vorstellung der verschiedenen Angebote.<br>
+		Am Freitagnachmittag stellten sich die 22 Labore des Netzwerks kurz vor. Danach konnte man sich an Postern näher informieren und es wurden (ebenfalls online) 
+		Mitmach-Workshops angeboten. <br>
+		Als Ergänzung öffneten am Samstag einige Schülerlabore ganz real ihre Türen.
+		</p>
+		<p>Das Programm sah so aus: <a href="TdSchuelerlabore/muc-Tag_2022.html">Programm</a></p>
+	</details>
+	<details>
+		<summary style="background-color:NavajoWhite; color: green; font: bold 18px Arial, sans-serif;">
+		März 2022: Ausschreibung für Schulen der Deutschen Stiftung Denkmalschutz
+		</summary>
+		<p>
+		Im März 2022 gab es im Rahmen des Schulprogramms <i>denkmal aktiv - Kulturerbe macht Schule</i> der Deutschen Stiftung Denkmalschutz eine 
+		neue Ausschreibung <u>für Schulen</u>. 
+		Es konnte eine finanzielle Unterstützung beantragt werden, um im Verlauf eines Schuljahres Umwelteinflüsse auf Denkmäler in der 
+		Umgebung zu untersuchen. An Gymnasien könnte das z.B. innerhalb eines P- oder W-Seminars geschehen. 
+		Unterstützung werden dabei Schülerlabore anbieten. Auch das MUC-Labs Netzwerk wird sich mit einigen Laboren beteiligen. 
+		</p><p>
+		Die Projekte sollen im Schuljahr 2022/2023 stattfinden.
+		</p>
+		<p>Informationen und Beispiele gibt es bei <a href="https://denkmal-aktiv.de">denkmal-aktiv</a>.</p>
+	</details>
+	<details>
+		<summary style="background-color:NavajoWhite; color: green; font: bold 18px Arial, sans-serif;">
+		14. März 2022: LeLa-Preis geht ans PhotonLab
+		</summary>
+		<p>
+		Auf der online-Jahrestagung von LernortLabor - dem Bundesverband der Schülerlabore e.V. fand am 14. März die diesjährige Verleihung des LeLa-Preises statt. 
+		In der Rubrik "Experiment des Jahres" war das PhotonLab erfolgreich mit dem Projekt: Quanten-Zufallsgenerator. Dieser Kurs wurde von Linda Qerimi entwickelt. 
+		</p>
+		<p>Mehr zum LeLa-Preis: <a href="https://www.lernortlabor.de/LernortLabor/LeLa-Preis">hier</a></p>
+		<p style="text-align:center">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/NnR82jL3XBo" 
+			title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+			allowfullscreen>
+		</iframe>
+		</p>
+
+	</details>
+
+	<details>
+		<summary style="background-color:NavajoWhite; color: green; font: bold 18px Arial, sans-serif;">
+		17.12.2021: Schülerkonferenz 2021 
+		</summary>
+		<p>
+		Nach dem Vorbild der Schülerkonferenz der TUM wurde die Schülerkonferenz MUC-Skonf erstmals von MUC-labs e.V. organisiert. 
+		Schüler präsentierten ihre Forschungsarbeiten (z.B. W-Seminar) als Vortrag oder Poster.
+		Aufgrund der Corona-Einschränkungen war es leider eine online-Veranstaltung. Wir konnten dazu das Tagungsportal MeetAnyway verwenden. 
+		Dies ermöglichte uns das "Munich Center for Quantum Science and Technology" (MCQST). Dafür vielen Dank.  		
+		</p>
+		<p>Alle Beiträge mit kurzen Zusammenfassungen (abstracts) finden Sie <a href="Skonf/anmeldung/data/abstracts/pdfs/211216_2_abstract_booklet.pdf">hier</a>.</p>	
+	</details>
+
+	<details>
+		<summary style="background-color:NavajoWhite; color: green; font: bold 18px Arial, sans-serif;">
+		8.-10. Oktober 2021: FORSCHA und Münchner Wissenschaftstage
+		</summary>
+		<p>
+		Erstmals gemeinsam fanden FORSCHA und Münchner Wissenschaftstage im Verkehrszentrum des Deutschen Museums statt. 
+		<table style="font-family: arial, sans-serif; overflow: hidden;">
+		<tr>
+			<th>
+				<img src="images/KiKS_2021/th_e-conv.jpg" alt="e-conversion" 
+				style="float:left; margin-right:4px; margin-bottom:4px; vertical-align:middle" height="200px">
+			</th>
+			<th>
+				<img src="images/KiKS_2021/th_fablab_5.jpg" alt="FabLab" 
+				style="float:left; margin-right:4px; margin-bottom:4px; vertical-align:middle" height="200px">
+			</th>
+			<th>
+				<img src="images/KiKS_2021/th_fruehes_forschen.jpg" alt="Frühes Forschen" 
+				style="float:left; margin-right:4px; margin-bottom:4px; vertical-align:middle" height="200px">
+			</th>
+			<th>
+				<img src="images/KiKS_2021/th_kristalle.jpg" alt="Mineralogia" 
+				style="float:left; margin-right:4px; margin-bottom:4px; vertical-align:middle" height="200px">
+			</th>
+		</tr>
+		</table>
+		</p>
+	</details>
+
+	<details>
+		<summary style="background-color:NavajoWhite; color: green; font: bold 18px Arial, sans-serif;">
+		16. Juli 2021: 10 Jahre PhotonLab
+		</summary>
+		<p>
+		Das PhotonLab in Garching wurde 10! Am 16. Juli 2021 fand eine Lehrerfortbildung statt 
+		und am 23. Juli 2021 waren alle Interessierten eingeladen. 
+		Mehr dazu auf den <a href="https://www.mpq.mpg.de/6539952/10-jahre-photonlab?c=2337">Webseiten des MPQ</a>. 
+		</p>
+	</details>
+	<details>
+		<summary style="background-color:NavajoWhite; color: green; font: bold 18px Arial, sans-serif;">
+		13. Juni 2021: muc-labs am KiKS-Festival
+		</summary>
+		<p>
+		Am 13. Juni waren Münchner Schülerlabore auch am <a href="https://kiks-muenchen.de/programm/kiks-festival/">KiKS-Festival</a> zu finden.
+		Stände mit Mitmach-Angeboten hatten: e-conversion, FabLab, Frühes Forschen und Mineralogia. 
+		<table style="font-family: arial, sans-serif; overflow: hidden;">
+		<tr>
+			<th>
+				<img src="images/KiKS_2021/th_e-conv.jpg" alt="e-conversion" 
+				style="float:left; margin-right:4px; margin-bottom:4px; vertical-align:middle" height="200px">
+			</th>
+			<th>
+				<img src="images/KiKS_2021/th_fablab_5.jpg" alt="FabLab" 
+				style="float:left; margin-right:4px; margin-bottom:4px; vertical-align:middle" height="200px">
+			</th>
+			<th>
+				<img src="images/KiKS_2021/th_fruehes_forschen.jpg" alt="Frühes Forschen" 
+				style="float:left; margin-right:4px; margin-bottom:4px; vertical-align:middle" height="200px">
+			</th>
+			<th>
+				<img src="images/KiKS_2021/th_kristalle.jpg" alt="Mineralogia" 
+				style="float:left; margin-right:4px; margin-bottom:4px; vertical-align:middle" height="200px">
+			</th>
+		</tr>
+		</table>
+		</p>
+	</details>
+	<details>
+		<summary style="background-color:NavajoWhite; color: green; font: bold 18px Arial, sans-serif;">
+		12. Mai 2021: „gemeinsam.Brücken.bauen." - Aufholen nach Corona in Bayern
+		</summary>
+		<p>
+		Durch zusätzliche Maßnahmen sollen Schülerinnen und Schüler, bei denen Defizite aufgrund der Pandemie entstanden sind, unterstützt werden.
+		Dabei geht es nicht nur um Lernförderung, sondern auch um die Förderung sozialer Kompetenz. Das Kultusministeriem hat dazu ein
+		<a href="https://www.km.bayern.de/allgemein/meldung/7293/foerderprogramm-bietet-vielfaeltige-moeglichkeiten-zur-unterstuetzung.html">Konzept</a> 
+		bekannt gegeben. 
+		</p><p>
+		Die finanzielle Grundlage bilden 20 Mio. Euro an Landesmitteln und 
+		die angekündigten Bundesmittel aus dem "Aktionsprogramm Aufholen nach Corona" (für Bayern voraussichtlich gut 150 Mio. Euro). 
+		</p>
+	</details>
+	<details>
+		<summary style="background-color:NavajoWhite; color: green; font: bold 18px Arial, sans-serif;">
+		5. Mai 2021: Aktionsprogramm Aufholen nach Corona
+		</summary>
+		<p>
+		In der Beschreibung der Säule 3 des Aktionsprogramm werden explizit Schülerlabore und der Bundesverband LernortLabor genannt. 
+		Auch die MUC-Labs werden ein Programm entwickeln und sich um Mittel bewerben. 
+		<a href="https://www.bmbf.de/de/kinder-und-jugendliche-nach-der-corona-pandemie-staerken-14371.html">(Pressemitteilung des BMBF)</a>
+		</p>
+	</details>
+	<details>
+		<summary style="background-color:NavajoWhite; color: green; font: bold 18px Arial, sans-serif;">
+		15. Mai 2021: Virtueller 18. Robotik-Wettbewerb an der Technischen Universität München
+		</summary>
+		<p>
+		Nachdem der Robotics-Wettbewerb 2020 aufgrund der Corona-Pandemie abgesagt werden musste, fand er heuer virtuell statt.
+		Das <a href="pdfs/18_Robotikwettbewerb_TUM2021_VIRTUELL.pdf">Einladungsschreiben</a> erklärt einige Details. Mehr auf der 
+		<a href="https://www.in.tum.de/fuer-studieninteressierte/fuer-schuelerinnen-und-schueler/robotik-wettbewerb/">Webseite des Wettbewerbs</a>.
+		</p>
+	</details>
+	<details>
+		<summary style="background-color:NavajoWhite; color: green; font: bold 18px Arial, sans-serif;">
+		19./20. März 2021: Tag der Münchner Schülerlabore
+		</summary>
+	<p>
+      Siebzehn SchülerLabore bzw. außerschulische Lernorte aus München und Umgebung stellten sich vor. 
+	  Sie alle stehen für eigenständiges Forschen und Entwickeln in einer authentischen Umgebung.
+	  Am Tag der Schülerlabore konnten die Besucher das breite Spektrum an Fach-Themen, Forschungs-Themen und Projekten kennenlernen. 
+	</p>
+	<p> 
+		Der Freitag bot Informationen zu den Schülerlaboren und einen Workshop für Lehrkräfte zum Gedankenaustausch.
+		<a href="pdfs/Programm_19_3_21.pdf" target="_blank">Programm Freitag</a>
+	</p>
+	<p> 
+		Einen Überblick über alle Schülerlabore in Deutschland gibt der
+		<a href="https://www.think-ing.de/materialien/schuelerlabor-atlas-2019" target="_blank">Schülerlaboratlas von LernortLabor</a>
+	<br>
+		Der Link führt zu think.ING, von wo sie den Schülerlaboratlas kostenlos beziehen können. 
+	</p>
+	<p> 
+		Am Samstag konnten die Teilnehmer Informationen zu den Laboren erhalten und vor allem an elf Online-Workshops teilnehmen, sowie
+		zwei interessante Vorträge hören.
+		<a href="pdfs/Programm_20_3_21.pdf" target="_blank">Programm Samstag</a>
+	</p>
+	<p>
+		Der Tag der Münchner Schülerlabore fand in einer meetanyway Umgebung statt: 
+		<a href="https://meetanyway.com/events/muc-labs" target=”_blank”>meetanyway</a>. Die Poster sind noch einige Zeit verfügbar.
+		Wir bedanken uns bei MCQST (Munich Center for Quantum Science and Technology) für die Unterstützung bei der Nutzung dieser Plattform.
+	</p>
+    <p>
+	Beim abschließenden Kahoot-Quiz gab es viele Preise zu gewinnen.
+	</p>
+
+	<details>
+		<summary style="background-color:ivory; color: green; font: bold 16px Arial, sans-serif;">
+		Vorträge
+		</summary>
+	<table style="font-family: arial, sans-serif; overflow: hidden;">
+	<tr>
+		<th>
+		Melanie Kaliwoda<br>Meteorite
+		</th>
+		<th>
+		<img src="images/vortrag_Meteorite_kl.png" alt="DNA-Vortrag" 
+		     style="float:left; margin-right:4px; margin-bottom:4px; vertical-align:middle" height="120px">
+		</th>
+		<th>
+		<img src="images//tds_2021/meteorit_eis.jpg" alt="DNA-Vortrag" 
+		     style="float:left; margin-right:4px; margin-bottom:4px; vertical-align:middle" height="120px">
+		</th>
+		<th>
+		Andreas Brachmann<br>DNA Forensik
+		</th>
+		<th>
+		<img src="images/vortrag_DNA_kl.png" alt="DNA-Vortrag" 
+		     style="float:left; margin-right:4px; margin-bottom:4px; vertical-align:middle" height="120px">
+		</th>
+		<th>
+		<img src="images/tds_2021/augen.jpg" alt="DNA-Vortrag" 
+		     style="float:left; margin-right:4px; margin-bottom:4px; vertical-align:middle" height="120px">
+		</th>
+	</tr>
+	</table>
+	</details>
+	<details>
+		<summary style="background-color:ivory; color: green; font: bold 16px Arial, sans-serif;">
+		Workshops
+		</summary>
+	<table style="font-family: arial, sans-serif; overflow: hidden;">
+	<tr>
+		<th>
+		<img src="images/tds_2021/DNA_1b.jpg" alt="DNA-Workshop" 
+		     style="float:left; margin-right:4px; margin-bottom:4px; vertical-align:middle" height="120px">
+		</th>
+		<th>
+		<img src="images/tds_2021/DNA_2b.jpg" alt="DNA-Workshop" 
+		     style="float:left; margin-right:4px; margin-bottom:4px; vertical-align:middle" height="120px">
+		</th>
+		<th>
+		<img src="images/tds_2021/DNA_3b.jpg" alt="DNA-Workshop" 
+		     style="float:left; margin-right:4px; margin-bottom:4px; vertical-align:middle" height="120px">
+		</th>
+		<th>
+		<img src="images/tds_2021/DNA_4b.jpg" alt="DNA-Workshop" 
+		     style="float:left; margin-right:4px; margin-bottom:4px; vertical-align:middle" height="120px">
+		</th>
+	</tr>
+	<tr>
+		<th>
+		<img src="images/tds_2021/bio_1.jpg" alt="Bio-Workshop" 
+		     style="float:left; margin-right:4px; margin-bottom:4px; vertical-align:middle" height="120px">
+		</th>
+		<th>
+		<img src="images/tds_2021/bio_2.jpg" alt="Bio-Workshop" 
+		     style="float:left; margin-right:4px; margin-bottom:4px; vertical-align:middle" height="120px">
+		</th>
+		<th>
+		<img src="images/tds_2021/bio_3.jpg" alt="Bio-Workshop" 
+		     style="float:left; margin-right:4px; margin-bottom:4px; vertical-align:middle" height="120px">
+		</th>
+		<th>
+		<img src="images/tds_2021/bio_4.jpg" alt="Bio-Workshop" 
+		     style="float:left; margin-right:4px; margin-bottom:4px; vertical-align:middle" height="120px">
+		</th>
+	</tr>
+	<tr>
+		<th>
+		<img src="images/tds_2021/eso_1.jpg" alt="ESO-Workshop" 
+		     style="float:left; margin-right:4px; margin-bottom:4px; vertical-align:middle" height="120px">
+		</th>
+		<th>
+		<img src="images/tds_2021/eso_2.jpg" alt="ESO-Workshop" 
+		     style="float:left; margin-right:4px; margin-bottom:4px; vertical-align:middle" height="120px">
+		</th>
+		<th>
+		<img src="images/tds_2021/eso_3.jpg" alt="ESO-Workshop" 
+		     style="float:left; margin-right:4px; margin-bottom:4px; vertical-align:middle" height="120px">
+		</th>
+	</tr>
+	<tr>
+		<th>
+		<img src="images/tds_2021/fablab_1.jpg" alt="FabLab-Workshop" 
+		     style="float:left; margin-right:4px; margin-bottom:4px; vertical-align:middle" height="120px">
+		</th>
+		<th>
+		<img src="images/tds_2021/fablab_2.jpg" alt="FabLab-Workshop" 
+		     style="float:left; margin-right:4px; margin-bottom:4px; vertical-align:middle" height="120px">
+		</th>
+		<th>
+		<img src="images/tds_2021/fablab_3.jpg" alt="FabLab-Workshop" 
+		     style="float:left; margin-right:4px; margin-bottom:4px; vertical-align:middle" height="120px">
+		</th>
+		<th>
+		<img src="images/tds_2021/fablab_4.jpg" alt="FabLab-Workshop" 
+		     style="float:left; margin-right:4px; margin-bottom:4px; vertical-align:middle" height="120px">
+		</th>
+	</tr>
+	</table>
+	</details>
+	</details>
+	<details>
+		<summary style="background-color:NavajoWhite; color: green; font: bold 18px Arial, sans-serif;">
+		8. März 2021 LeLa-Preis fürs PhotonLab
+		</summary>
+	<p> 
+    <img src="lela_logo.png" alt="lela" style="float:left; margin-right:4px; margin-bottom:4px; vertical-align:middle" height="120px">
+	Der LeLa-Preis, der seit 2020 vergeben wird, stellt eine besondere Anerkennung innovativer Entwicklungen der Schülerlabore dar.
+	Er wird in vier Rubriken vergeben.	
+	</p>
+	<p>
+	Die Preise in den Rubriken <i>Experiment des Jahres</i> und <i>MINT-Bildung von Lehrkräften</i> werden vom 
+	<b>Bundesministerium für Bildung und Forschung (BMBF)</b> gestiftet. 
+	Der <b>Arbeitgeberverband GESAMTMETALL</b> stiftet den Preis in der Rubrik <i>Schülerlabor digital</i> im Rahmen der Initiative <b>think ING</b>.
+	
+	Den Preis für ein besonders gelungenes <i>Schülerprojekt</i>, das mit Unterstützung eines Schülerlabors entstanden ist, stiftet <b>LernortLabor</b>. 
+	</p>
+	<p>
+ 	<img src="images/pokal.png" alt="pokal" style="text-align:center; margin-right:4px; margin-bottom:4px; vertical-align:middle" height="50px">
+	</p><p>
+	Das PhotonLab am Max-Planck-Institut für Quantenoptik in Garching erhielt den 3. Preis in der Rubrik <i>Schülerlabor digital</i>
+	für die Verbindung des Flipped-Classroom-Konzeptes mit dem Angebot eines Schülerlabors. Im Video stellen sie das Projekt vor.
+	</p>
+	<p style="text-align:center">
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/jWIltBj29Zg" 
+	frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+	encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</p>
+	</details>
+
+  </main>
+ <footer>
+  <ul>
+	<li><a href=muc-labs_kontakt.html>Kontakt</a></li>
+	<li><a href=muc-labs_impressum.html> Impressum</a></li>
+  </ul>
+ </footer>
+</body>
