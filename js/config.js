@@ -745,7 +745,7 @@ var context  = {
 		"adresse":                  "TUMlab im Deutschen Museum, Museumsinsel 1, 80538 München",   // String
 		"google_maps_url":          "https://maps.app.goo.gl/7z71HmkCdC6ETCee9",   // String, URL: https://...
 		"überthema":                ["Informatik","Physik","Biologie","Technik","Umwelt"], // Array von Strings, siehe Liste von zulässigen Überthemen unten
-		"unterthema":               ["Roboter", "EV3","Arduino","Programmieren","Sensorik","Automatisierung","Energie","Umwelt","Optik"], // Array von Strings
+		"unterthema":               ["Roboter", "EV3","Arduino","Programmieren","Sensorik","Automatisierung","Energie","Optik"], // Array von Strings
 		"zielgruppe":               4,    // Zahl von 0 bis 10, Integer
 		"altersgruppe":             "Ab 10 Jahren",   // String
 		"teilnehmer_anzahl":        "Max. 32 Teilnehmer mit Aufteilung in zwei Gruppen (pro Workshop 16 Arbeitsplätze für Teilnehmende verfügbar, Schema: 1. Gruppe Workshop, 2. Gruppe Ausstellungsbesuch, Wechsel der Gruppen: 2. Gruppe Workshop, 1. Gruppe Ausstellungsbesuch",   // String
