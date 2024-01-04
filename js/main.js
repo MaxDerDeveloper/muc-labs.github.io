@@ -52,6 +52,11 @@ function renderCard(name, lab) {
 		quellenangabe = "";
 	}
 
+	var parts = img_src.split("/");
+	var n     = parts.length;
+	img_src   = (parts.slice(0, n-1).concat(["preview_" + parts[n-1]])).join("/");
+	console.log(img_src);
+
 	var card = `
 		<div class="card lab-card shadow" style="width: 18rem; position:relative;" lab="${name}">
 			<a href="/lab.html?lab=${name}" style="text-decoration:none; color:black;">
