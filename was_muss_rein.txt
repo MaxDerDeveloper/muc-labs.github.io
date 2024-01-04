@@ -1,4 +1,4 @@
-ARCHIV IST IN ARBEIT, ein Update von aktuelles auch, an beiden bitte nichts ändern, das gilt auch für aktuelles.js!!!
+fehlende Navbar im Archiv
 Weiterer Separator in Hamburger Menu
 Robots.txt
 Pfeile in aktuelles hoch zum Bild schieben
