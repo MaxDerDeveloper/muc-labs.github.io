@@ -4,8 +4,7 @@ Robots.txt
 besseres skalieren der Bilder, speziell in aktuelles und start
 impressum (Anton fragt Herr Kratzer)
 mehr verlinkung von/zur Startseite
-Verschieden Sortiermöglichkeiten: Schule-/Freizeitskala(beide Richtungen), Alphabetisch bei Laborübersicht
-Groß-/Kleinschreibung bei alphabetischer Sortierung nicht beachten
+"Kosmetische Änderungen":
 Wenn man auf Haupttag klickt, keine eigene Seite mit „Liste aller Labs mit dem Thema Physik:“, sondern Laborübersicht mit eingestelltem Haupttag Filter
 Laborübersicht Überschrift zentriert über Laboren nicht ganze Seite
 Beim Hovern über Laborkachel keine Größenveränderung der anderen Kacheln
