@@ -10,7 +10,7 @@ var aktuelleInhalte = [
     {
       bild: 'bilder/Aktuelles/cdr23.jpg',
       überschrift: 'CDR Dialog 2023 - München, 10./11. Oktober 2023',
-      text: '<h5>Bildungskonferenz zur Kohlenstoffdioxid-Entnahme</h5><br>Das BMBF-geförderte Projekt CDRterra veranstaltete am 10. und 11. Oktober im Deutschen Museum München eine zweitägige Konferenz. Am ersten Tag ging es um den Stand der Arbeiten zur Kohlenstoffdioxid-Entnahme aus der Atmosphäre (CDR). Am zweiten Tag wurde diskutiert, wie dieses wichtige Thema für die (schulische) Bildung aufbereitet werden kann.<br> Mehr dazu  <a href="https://cdrterra.de/news/erste-bildungskonferenz-zur-co%e2%82%82-entnahme">hier</a> und <a href="downloads/CDR_Dialog_2023-Bildungskonferenz.pdf">hier</a>',
+      text: '<h5>Bildungskonferenz zur Kohlenstoffdioxid-Entnahme</h5><br>Das BMBF-geförderte Projekt CDRterra veranstaltete am 10. und 11. Oktober im Deutschen Museum München eine zweitägige Konferenz. Am ersten Tag ging es um den Stand der Arbeiten zur Kohlenstoffdioxid-Entnahme aus der Atmosphäre (CDR). Am zweiten Tag wurde diskutiert, wie dieses wichtige Thema für die (schulische) Bildung aufbereitet werden kann.<br> Mehr dazu  <a href="https://cdrterra.de/news/erste-bildungskonferenz-zur-co%e2%82%82-entnahme">hier</a> und <a href="bilder/Aktuelles/CDR_Dialog_2023-Bildungskonferenz.pdf">hier</a>',
       datum: '10.11.2023',
     },
     {
@@ -52,7 +52,7 @@ var aktuelleInhalte = [
     {
       bild: 'bilder/Aktuelles/Ersatzbild.jpg',
       überschrift: 'Deutsche Physikmeisterschaft GYPT 2023 - Vorbereitungstreffen',
-      text: 'Die deutsche Physik-Meisterschaft (<a href="https://www.gypt.org">GYPT</a>) ist jetzt auch in die "Qualitätskriterien für Schülerwettbewerbe" der Kultusministerkonferenz (KMK) aufgenommen. Sie finden sie <a href="https://www.kmk.org/fileadmin/veroeffentlichungen_beschluesse/2009/2009_09_17-Schuelerwettbewerbe.pdf">hier</a>. Bei der Präsenzmeisterschaft 2020 entstand ein <a href="https://www.youtube.com/watch?v=zdjoeK3sNnw">youtube-Video</a> über den Wettbewerb. Ein sehenswertes <a href="https://www.youtube.com/watch?v=38YRTvaDL-w">Video</a> gibt es auch über die "oberbayerische Meisterschaft" in Garching.<br>Am <font color="red">16. November 2022 (Buß- und Bettag)</font> veranstaltete der GYPT Standort Dachau zusammen mit MUC-Labs (speziell PhotonLab) ein GYPT-Vorbereitungstreffen in Garching (MPQ). <font color="red">Die oberbayerische Meisterschaft fand Ende Januar 2023 statt. Zwei Teams konnten sich für die Deutsche Meisterschaft in Bad Honnef qualifizieren.</font><br> Unser Flyer <a href="GYPT/GYPT_Flyer_MUC_1.pdf">Seite 1</a>/<a href="GYPT/GYPT_Flyer_MUC_2.pdf">Seite 2</a>.',
+      text: 'Die deutsche Physik-Meisterschaft (<a href="https://www.gypt.org">GYPT</a>) ist jetzt auch in die "Qualitätskriterien für Schülerwettbewerbe" der Kultusministerkonferenz (KMK) aufgenommen. Sie finden sie <a href="https://www.kmk.org/fileadmin/veroeffentlichungen_beschluesse/2009/2009_09_17-Schuelerwettbewerbe.pdf">hier</a>. Bei der Präsenzmeisterschaft 2020 entstand ein <a href="https://www.youtube.com/watch?v=zdjoeK3sNnw">youtube-Video</a> über den Wettbewerb. Ein sehenswertes <a href="https://www.youtube.com/watch?v=38YRTvaDL-w">Video</a> gibt es auch über die "oberbayerische Meisterschaft" in Garching.<br>Am <font color="red">16. November 2022 (Buß- und Bettag)</font> veranstaltete der GYPT Standort Dachau zusammen mit MUC-Labs (speziell PhotonLab) ein GYPT-Vorbereitungstreffen in Garching (MPQ). <font color="red">Die oberbayerische Meisterschaft fand Ende Januar 2023 statt. Zwei Teams konnten sich für die Deutsche Meisterschaft in Bad Honnef qualifizieren.</font><br> Unser Flyer <a href="bilder/Aktuelles/GYPT_Flyer_MUC_1.pdf">Seite 1</a>/<a href="bilder/Aktuelles/GYPT_Flyer_MUC_2.pdf">Seite 2</a>.',
       datum: '16.11.2022',
     },
     {
@@ -94,7 +94,7 @@ var aktuelleInhalte = [
     {
       bild: 'bilder/Aktuelles/Ersatzbild.jpg',
       überschrift: '17.12.2021: Schülerkonferenz 2021',
-      text: 'Nach dem Vorbild der Schülerkonferenz der TUM wurde die Schülerkonferenz MUC-Skonf erstmals von MUC-labs e.V. organisiert. Schüler präsentierten ihre Forschungsarbeiten (z.B. W-Seminar) als Vortrag oder Poster. Aufgrund der Corona-Einschränkungen war es leider eine online-Veranstaltung. Wir konnten dazu das Tagungsportal MeetAnyway verwenden. Dies ermöglichte uns das "Munich Center for Quantum Science and Technology" (MCQST). Dafür vielen Dank.<br>Alle Beiträge mit kurzen Zusammenfassungen (abstracts) finden Sie <a href="Skonf/anmeldung/data/abstracts/pdfs/211216_2_abstract_booklet.pdf">hier</a>.',
+      text: 'Nach dem Vorbild der Schülerkonferenz der TUM wurde die Schülerkonferenz MUC-Skonf erstmals von MUC-labs e.V. organisiert. Schüler präsentierten ihre Forschungsarbeiten (z.B. W-Seminar) als Vortrag oder Poster. Aufgrund der Corona-Einschränkungen war es leider eine online-Veranstaltung. Wir konnten dazu das Tagungsportal MeetAnyway verwenden. Dies ermöglichte uns das "Munich Center for Quantum Science and Technology" (MCQST). Dafür vielen Dank.<br>Alle Beiträge mit kurzen Zusammenfassungen (abstracts) finden Sie <a href="bilder/Aktuelles/211216_2_abstract_booklet.pdf">hier</a>.',
       datum: '17.12.2021',
     },
     {
@@ -130,7 +130,7 @@ var aktuelleInhalte = [
     {
       bild: 'bilder/Aktuelles/Ersatzbild.jpg',
       überschrift: '15. Mai 2021: Virtueller 18. Robotik-Wettbewerb an der Technischen Universität München',
-      text: 'Nachdem der Robotics-Wettbewerb 2020 aufgrund der Corona-Pandemie abgesagt werden musste, fand er heuer virtuell statt. Das <a href="pdfs/18_Robotikwettbewerb_TUM2021_VIRTUELL.pdf">Einladungsschreiben</a> erklärt einige Details. Mehr auf der <a href="https://www.in.tum.de/fuer-studieninteressierte/fuer-schuelerinnen-und-schueler/robotik-wettbewerb/">Webseite des Wettbewerbs</a>.',
+      text: 'Nachdem der Robotics-Wettbewerb 2020 aufgrund der Corona-Pandemie abgesagt werden musste, fand er heuer virtuell statt. Das <a href="bilder/Aktuelles/18_Robotikwettbewerb_TUM2021_VIRTUELL.pdf">Einladungsschreiben</a> erklärt einige Details. Mehr auf der <a href="https://www.in.tum.de/fuer-studieninteressierte/fuer-schuelerinnen-und-schueler/robotik-wettbewerb/">Webseite des Wettbewerbs</a>.',
       datum: '15.05.2021',
     },
     {
