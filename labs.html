@@ -126,16 +126,17 @@
 				transition: 0.5s;
 			}
 
-			div.lab-card:hover {
+			/*div.lab-card:hover {
 				margin: 7.5px;
 			}
 			div.lab-card:hover a.subtle-link {
 				color: blue;
-			}
+			}*/
 		</style>
 
 		<script type="text/javascript" src="/js/main.js"></script>		
 		<script type="text/javascript">
+			var alle_labs = getLabs();
 			var click_event;
 			var selected_tags = [];
 
@@ -288,16 +289,115 @@
 				addEventListener("resize", handler);
 			}
 
-			function main() {
-				renderNavbarAndFooter();
-				renderSelector()
-				addResizeEvent()
+			function sorted(items, kwargs={}) {
+			    const key = kwargs.key === undefined ? x => x : kwargs.key;
+			    const reverse = kwargs.reverse === undefined ? false : kwargs.reverse;
+			    const sortKeys = items.map((item, pos) => [key(item), pos]);
+			    const comparator =
+			        Array.isArray(sortKeys[0][0])
+			        ? ((left, right) => {
+			            for (var n = 0; n < Math.min(left.length, right.length); n++) {
+			                const vLeft = left[n], vRight = right[n];
+			                const order = vLeft == vRight ? 0 : (vLeft > vRight ? 1 : -1);
+			                if (order != 0) return order;
+			            }
+			            return left.length - right.length;
+			        })
+			        : ((left, right) => {
+			            const vLeft = left[0], vRight = right[0];
+			            const order = vLeft == vRight ? 0 : (vLeft > vRight ? 1 : -1);
+			            return order;
+			        });
+			    sortKeys.sort(comparator);
+			    if (reverse) sortKeys.reverse();
+			    return sortKeys.map((order) => items[order[1]]);
+			}
+
+			function sortiereFreizeit(obj, criteria) {
+				var items = Object.entries(obj);
+				var pairs = items.map(
+					([k,v]) => [k, criteria(v)]
+				);
 				
+				pairs.sort( (aa, bb) => {
+					var [a, b] = [aa[1], bb[1]];
+
+					if (a === b) return 0;
+					return a > b ? 1 : -1;
+				});
+
+				result = {}
+				for ( var pair of pairs) {
+					var [key, param] = pair;
+
+					result[key] = obj[key];
+				}
+				return result
+			};
+
+			function addSelectEvent() {
+				function sortAgain(by) {
+					if (by == "alphabetisch") {
+						alle_labs = sortiereFreizeit(
+							alle_labs,
+							(lab) => lab['name'].toLowerCase()
+							// (lab) => console.log(lab)
+						);
+					} else
+					if (by == "freizeit") {
+						alle_labs = sortiereFreizeit(
+							alle_labs,
+							(lab) => 10 - lab['zielgruppe']
+						);
+					} else
+					if (by == "schule") {
+						alle_labs = sortiereFreizeit(
+							alle_labs,
+							(lab) => lab['zielgruppe']
+						);
+					}
+
+					//  console.log(alle_labs)
+
+					clearLabs(); // Removes all labs.
+					initialLabRender(); // Displays all labs in sorted order.
+					updateDisplayedLabs(); // Hides unwanted labs.
+				}
+
+				var select = $("select#sort-select")[0];
+				select.addEventListener("change", (e)=>{
+					var by = select.value;
+					sortAgain(by);
+				});
+				
+				// Anfangs alphabetisch sortieren.
+				$(select).val("alphabetisch").change();
+				sortAgain("alphabetisch");
+			}
+
+			function clearLabs() {
+				var cards = $("div.lab-card-container div.card");
+
+				for (var card of cards) {
+					$(card).remove();
+				}
+			};
+
+			function initialLabRender() {
 				cards = ""
-				for(var [name, lab] of Object.entries(getLabs())) {
+				for(var [name, lab] of Object.entries(alle_labs)) {
 					cards += renderCard(name, lab);
 				}
 				$(".lab-card-container").append(cards);
+			}
+
+			function main() {
+				renderNavbarAndFooter();
+				renderSelector();
+				addResizeEvent();
+				addSelectEvent();
+				
+				initialLabRender();
 			}
 
 			window.onload = main;
@@ -335,6 +435,16 @@
 									
 								</div>
 							</details>
+
+
+							<hr>
+
+							<h5>Sortieren: </h5>
+							<select class="form-select" id="sort-select">
+								<option selected value="alphabetisch">Alphabetisch</option>
+								<option value="schule">Schule</option>
+								<option value="freizeit">Freizeit</option>
+							</select>
 						</div>
 					</div>
 				</div>

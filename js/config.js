@@ -207,7 +207,7 @@ var context  = {
 		"google_maps_url":          "https://maps.app.goo.gl/QyxcuJGySfV18nNe8",
 		"überthema":                ["Physik", "Chemie", "Biologie"],
 		"unterthema":               ["Energieforschung", "Energieumwandlung", "Klimawandel", "Klimawandel", "Erneuerbare Energien", "Batterien", "Thermodynamik", "Photosynthese"],
-		"zielgruppe":               "1 (abgesehen von Ferienworkshops)",
+		"zielgruppe":               1,
 		"altersgruppe":             "12 Jahre - Abitur, vor allem Schüler der Mittel- und Oberstufe an Gymnasien",
 		"teilnehmer_anzahl":        "Ca. 15-25",
 		"dauer":                    "abhängig vom Workshop, meistens mehrere Vormittage",
@@ -851,13 +851,15 @@ var context  = {
 	},
 };
 
-(function sortLabsAlphabetically() {
+function sortLabsAlphabetically() {
+	var criteria = (lab) => lab['name'].toLowerCase();
+
 	var keys = Object.keys(context);
-	var names = keys.map(m => context[m]["name"]);
+	var names = keys.map(m => criteria(context[m]) );
 	names.sort();
 
 	var name2key_map = new Map(Object.entries(context).map(
-		([k,v]) => [v['name'], k]
+		([k,v]) => [criteria(v), k]
 	));
 
 	new_context = {}
@@ -866,7 +868,8 @@ var context  = {
 		new_context[key] = context[key];
 	}
 	context = new_context; // Copy
-})()
+}
+sortLabsAlphabetically();
 
 const versteckte_labs = ["Muster", "Vorlage"];
 
