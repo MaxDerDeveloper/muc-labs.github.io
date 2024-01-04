@@ -83,7 +83,7 @@ var aktuelleInhalte = [
       bild: 'bilder/Aktuelles/Ersatzbild.jpg',
       überschrift: 'März 2022: Ausschreibung für Schulen der Deutschen Stiftung Denkmalschutz',
       text: 'Im März 2022 gab es im Rahmen des Schulprogramms <i>denkmal aktiv - Kulturerbe macht Schule</i> der Deutschen Stiftung Denkmalschutz eine neue Ausschreibung <u>für Schulen</u>. Es konnte eine finanzielle Unterstützung beantragt werden, um im Verlauf eines Schuljahres Umwelteinflüsse auf Denkmäler in der Umgebung zu untersuchen. An Gymnasien könnte das z.B. innerhalb eines P- oder W-Seminars geschehen. Unterstützung werden dabei Schülerlabore anbieten. Auch das MUC-Labs Netzwerk wird sich mit einigen Laboren beteiligen.<br>Die Projekte sollen im Schuljahr 2022/2023 stattfinden.<br>Informationen und Beispiele gibt es bei <a href="https://denkmal-aktiv.de">denkmal-aktiv</a>.',
-      datum: '##.03.2022',
+      datum: '01.03.2022',//Datum unklar
     },
     {
       bild: 'bilder/Aktuelles/Ersatzbild.jpg',
