@@ -9,3 +9,6 @@ Groß-/Kleinschreibung bei alphabetischer Sortierung nicht beachten
 Wenn man auf Haupttag klickt, keine eigene Seite mit „Liste aller Labs mit dem Thema Physik:“, sondern Laborübersicht mit eingestelltem Haupttag Filter
 Laborübersicht Überschrift zentriert über Laboren nicht ganze Seite
 Beim Hovern über Laborkachel keine Größenveränderung der anderen Kacheln
+
+Aktuelles auf Startseite nur letzte drei Artikel einfügen
+Permanent als erstes erscheinender Artikel
