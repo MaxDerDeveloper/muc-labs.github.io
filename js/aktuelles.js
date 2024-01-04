@@ -34,7 +34,7 @@ var aktuelleInhalte = [
     {
       bild: 'bilder/Aktuelles/Ersatzbild.jpg',
       überschrift: 'Challenge 125 - März 2023',
-      text: 'Zum 125-jährigen Bestehen der Stadtwerke Dachau wurde in Kooperation mit dem <em>MINT Campus Dachau</em> eine Messkampagne für Umweltdaten ins Leben gerufen. Alle zwischen 12 und 20 Jahren konnten im Team eine Messtation in Dachau aufbauen. Infos und Anmeldung (bis 31.3.2023) beim <a href="https://www.mintcampus-dachau.de/Aktuelles/challenge-125">MCD</a>.',
+      text: 'Zum 125-jährigen Bestehen der Stadtwerke Dachau wurde in Kooperation mit dem <em>MINT Campus Dachau</em> eine Messkampagne für Umweltdaten ins Leben gerufen. Alle zwischen 12 und 20 Jahren konnten im Team eine Messtation in Dachau aufbauen. Infos und Anmeldung (bis 31.3.2023) beim <a href="https://www.mintcampus-dachau.de/aktuelles.php/challenge-125">MCD</a>.',
       datum:'01.03.2023',//Datum unklar
     },
     {
