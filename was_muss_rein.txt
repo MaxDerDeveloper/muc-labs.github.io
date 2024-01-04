@@ -1,7 +1,6 @@
 fehlende Navbar im Archiv
 Weiterer Separator in Hamburger Menu
 Robots.txt
-Pfeile in aktuelles hoch zum Bild schieben
 besseres skalieren der Bilder, speziell in aktuelles und start
 impressum (Anton fragt Herr Kratzer)
 mehr verlinkung von/zur Startseite
