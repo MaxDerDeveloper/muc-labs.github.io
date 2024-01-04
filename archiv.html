@@ -4,12 +4,12 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Archiv</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script type="text/javascript" src="/js/config.js"></script>
         <link href="/css/muc-labs.css" rel="stylesheet">
         <script type="text/javascript" src="/js/main.js"></script>
-        
         <style type="text/css">
             /* Reference: https://stackoverflow.com/a/7419891 */
             div.image-container-dont-resize-navbar {
@@ -29,57 +29,99 @@
         </style>
     </head>
     <body>
-		
         <main class="no-overlap-with-navbar">
-            <script type="text/javascript" src="/js/main.js">
-				function main() {
-					renderNavbarAndFooter();                   
-				}
-				window.onload=main;
-				
-			</script>
-			
+            <script type="text/javascript">
+                function main() {
+                    renderNavbarAndFooter();                   
+                }
+                window.onload=main;
+            </script>
+            
             <div style="width:80%; margin-left: 5%;">
-                <h1>Archiv</h1>
-                <p class="blocksatz">
-                    Hier finden Sie alle Artikel aus "Aktuelles" in einer Tabelle. <br>
-                </p>
-                
-                    <div class="container">
-                        <table class="table" id="archivTable">
-                            <thead>
-                                <tr>
-                                    <th scope="col">Datum</th>
-                                    <th scope="col">Überschrift</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <!-- Die Zeilen werden dynamisch hinzugefügt -->
-                            </tbody>
-                        </table>
+                <div class="row">
+                    <div class="col">
+                        <h1>Archiv</h1>
+                        <p class="blocksatz">
+                            Hier finden Sie alle Artikel aus "Aktuelles" in einer Tabelle. <br>
+                        </p>
+                        
+                        <div class="container">
+                            <table class="table" id="archivTable">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Datum</th>
+                                        <th scope="col">Überschrift</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!-- Die Zeilen werden dynamisch hinzugefügt -->
+                                </tbody>
+                            </table>
+                        </div>
+                        <script src="js/aktuelles.js"></script>
+                        <script>
+                            var tableBody = document.querySelector('#archivTable tbody');
+                            aktuelleInhalte.forEach(function(inhalt, index) {
+                                var row = document.createElement('tr');
+                                var datumCell = document.createElement('td');
+                                var datumLink = document.createElement('a');
+                                datumLink.href = 'aktuelles.html#' + index;
+                                datumLink.textContent = inhalt.datum;
+                                datumCell.appendChild(datumLink);
+                                row.appendChild(datumCell);
+                                var überschriftCell = document.createElement('td');
+                                var überschriftLink = document.createElement('a');
+                                überschriftLink.href = 'aktuelles.html#' + index;
+                                überschriftLink.textContent = inhalt.überschrift;
+                                überschriftCell.appendChild(überschriftLink);
+                                row.appendChild(überschriftCell);
+                                tableBody.appendChild(row);
+                            });
+                        </script>
                     </div>
-                    <script src="js/aktuelles.js"></script>
-                    <script>
-                        var tableBody = document.querySelector('#archivTable tbody');
-                        aktuelleInhalte.forEach(function(inhalt, index) {
-                            var row = document.createElement('tr');
-                            var datumCell = document.createElement('td');
-                            var datumLink = document.createElement('a');
-                            datumLink.href = 'aktuelles.html#' + index;
-                            datumLink.textContent = inhalt.datum;
-                            datumCell.appendChild(datumLink);
-                            row.appendChild(datumCell);
-                            var überschriftCell = document.createElement('td');
-                            var überschriftLink = document.createElement('a');
-                            überschriftLink.href = 'aktuelles.html#' + index;
-                            überschriftLink.textContent = inhalt.überschrift;
-                            überschriftCell.appendChild(überschriftLink);
-                            row.appendChild(überschriftCell);
-                            tableBody.appendChild(row);
-                        });
-                    </script>
-                
+                    <div class="col">
+                        <h1>Veranstaltungen</h1>
+                        <p class="blocksatz">
+                            Hier finden Sie alle Artikel aus "Veranstaltungen" in einer Tabelle. <br>
+                        </p>
+                        
+                        <div class="container">
+                            <table class="table" id="veranstaltungenTable">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Datum</th>
+                                        <th scope="col">Überschrift</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!-- Die Zeilen werden dynamisch hinzugefügt -->
+                                </tbody>
+                            </table>
+                        </div>
+                        <script src="js/veranstaltungen.js"></script>
+                        <script>
+                            var tableBody = document.querySelector('#veranstaltungenTable tbody');
+                            veranstaltungenInhalte.forEach(function(inhalt, index) {
+                                var row = document.createElement('tr');
+                                var datumCell = document.createElement('td');
+                                var datumLink = document.createElement('a');
+                                datumLink.href = 'veranstaltungen.html#' + index;
+                                datumLink.textContent = inhalt.datum;
+                                datumCell.appendChild(datumLink);
+                                row.appendChild(datumCell);
+                                var überschriftCell = document.createElement('td');
+                                var überschriftLink = document.createElement('a');
+                                überschriftLink.href = 'veranstaltungen.html#' + index;
+                                überschriftLink.textContent = inhalt.überschrift;
+                                überschriftCell.appendChild(überschriftLink);
+                                row.appendChild(überschriftCell);
+                                tableBody.appendChild(row);
+                            });
+                        </script>
+                    </div>
+                </div>
             </div>
         </main>
+        
     </body>
 </html>
