@@ -741,34 +741,34 @@ var context  = {
 
 	"TUMLabDM": {
 		"name":                     "TUMlab im Deutschen Museum",   // String
-		"website_url":              "https://www.deutsches-museum.de/museumsinsel/programm/programm-a-z/tumlab",   // String
-		"adresse":                  "Museumsinsel 1, 80538 München",   // String
-		"google_maps_url":          "https://maps.app.goo.gl/Lhp3cs4jKoWKqiar5",   // String, URL: https://...
-		"überthema":                ["Physik","Technik","Chemie"], // Array von Strings, siehe Liste von zulässigen Überthemen unten
-		"unterthema":               ["Roboter","Automatisierung","Programmieren","Optik","Teleskope","Wasserkraftwerk"], // Array von Strings
+		"website_url":              "https://www.edu.sot.tum.de/tumlab/startseite",   // String
+		"adresse":                  "TUMlab im Deutschen Museum, Museumsinsel 1, 80538 München",   // String
+		"google_maps_url":          "https://maps.app.goo.gl/7z71HmkCdC6ETCee9",   // String, URL: https://...
+		"überthema":                ["Informatik","Physik","Biologie","Technik","Umwelt"], // Array von Strings, siehe Liste von zulässigen Überthemen unten
+		"unterthema":               ["Roboter", "EV3","Arduino","Programmieren","Sensorik","Automatisierung","Energie","Umwelt","Optik"], // Array von Strings
 		"zielgruppe":               4,    // Zahl von 0 bis 10, Integer
 		"altersgruppe":             "Ab 10 Jahren",   // String
-		"teilnehmer_anzahl":        "Siehe Dauer",   // String
-		"dauer":                    "3 für Teilnehmeranzahl<16 5 Stunden für Teilnehmeranzahl>16",   // String
-		"schularten":               ["Realschule","Gymnasium","FOS"], // Array von String
-		"sprachen":                 ["Deutsch","Englisch"], // Array von String
-		"praktika":                 ["-"], // Array von String
-		"w-seminare":               "-",   // String
-		"betreuungspersonal":       "-",   // String
-		"außerschulisches_angebot": "-",   // String
-		"beschreibung":             "Hier dürfen Jugendliche, Studierende und Lehrkräfte selbst konstruieren, bauen, steuern, programmieren – mit anderen Worten: Wissenschaft zum Anfassen erleben. Die Angebote im Bereich Robotik, Automatisierung, Naturwissenschaften sowie Umwelt & Technik richten sich an alle Neugierigen ab 10 Jahren, insbesondere Schulklassen, Lehrkräfte und interessierte Gruppen.",   // String
-		"buchungsadresse":          "<a href='https://www.deutsches-museum.de/museumsinsel/programm/angebot/einstiegskurs-robotik#c28986'>Buchungswebseite</a>",   // String, Webseiten-URL ("http://...") oder E-Mail-Adresse (z.B.: "<a href='mailto:test@example.com'>test@example.com</a>")
+		"teilnehmer_anzahl":        "Max. 32 Teilnehmer mit Aufteilung in zwei Gruppen (pro Workshop 16 Arbeitsplätze für Teilnehmende verfügbar, Schema: 1. Gruppe Workshop, 2. Gruppe Ausstellungsbesuch, Wechsel der Gruppen: 2. Gruppe Workshop, 1. Gruppe Ausstellungsbesuch",   // String
+		"dauer":                    "Reguläre Workshops pro Gruppe 2,5 -3 h, je nach Thema und Kurs zwischen 2 h und 6 h möglich ",   // String
+		"schularten":               ["Gymnasium","Realschule","berufliche Schulen","Grundschule (4. Klasse)","Mittelschulen"], // Array von String
+		"sprachen":                 ["Deutsch","Englisch(Mit Aufpreis)"], // Array von String
+		"praktika":                 ["Praktika per Anfrage möglich, wenn Betreuungskapazität vorhanden"], // Array von String
+		"w-seminare":               "Per Anfrage möglich, wenn Betreuungskapazität vorhanden",   // String
+		"betreuungspersonal":       "Studierende des Lehramts und verschiedener Fachdisziplinen, Leitung des Labors, Angestellte",   // String
+		"außerschulisches_angebot": "Schnupperkurse Robotik, Experimentierclub Robotik & Technik, private Gruppenbuchungen für Robotik-Kurse (z. B. für Geburtstagskurse), verschiedene Kursthemen in Kooperation mit der jungen VHS München (s. auch <a href='https://www.edu.sot.tum.de/tumlab/anmeldung/kurse-mit-einzelanmeldung'>Kurse mit Einzelanmeldung</a>)",   // String
+		"beschreibung":             "Im TUMlab, dem Experimentier-Labor der Technischen Universität München im Deutschen Museum, dürfen Jugendliche, Studierende und Lehrkräfte selbst konstruieren, bauen, steuern, programmieren – mit anderen Worten: Wissenschaft zum Anfassen erleben.<br>Das Besondere: Das TUMlab befindet sich im Deutschen Museum. So kann ein Kurs im TUMlab in den Ausstellungen vertieft oder aus einem anderen Blickwinkel betrachtet werden.<br>Unser Kursangebot finden Sie auf den Seiten: <a href='https://www.edu.sot.tum.de/tumlab/kursangebot'>Kursangebot</a> und <a href='https://www.edu.sot.tum.de/tumlab/anmeldung/kurse-mit-einzelanmeldung'>Kurse mit Einzelanmeldung</a>. Die Kurskosten sind bei den jeweiligen Kursen angegeben.",   // String
+		"buchungsadresse":          "<a href='mailto:kontakt@tumlab.de'>kontakt@tumlab.de</a>",   // String, Webseiten-URL ("http://...") oder E-Mail-Adresse (z.B.: "<a href='mailto:test@example.com'>test@example.com</a>")
 		"öffnungszeiten":           {
 			/* Hier sind Uhrzeiten oder kurze Beschreibungen passend */
-			"Mo": "-",   // String
-			"Di": "-",   // String
-			"Mi": "-",   // String
-			"Do": "-",   // String
-			"Fr": "-",   // String
-			"Sa": "-",   // String
-			"So": "-",   // String
+			"Mo": "09:00-16:30 Uhr",   // String
+			"Di": "09:00-16:30 Uhr",   // String
+			"Mi": "09:00-16:30 Uhr",   // String
+			"Do": "09:00-16:30 Uhr",   // String
+			"Fr": "09:00-16:30 Uhr",   // String
+			"Sa": "09:00-16:30 Uhr",   // String
+			"So": "09:00-16:30 Uhr",   // String
 		},
-		"öffnungszeiten_ausnahmen": "-",   // String, ganzer Satz
+		"öffnungszeiten_ausnahmen": "Wunschtermine bitte bei uns anfragen, Workshops sind zwischen 9.00 und 16.30 Uhr möglich, angelehnt an die Museumsöffnungszeiten (s. auch <a href='https://www.edu.sot.tum.de/tumlab/haeufige-fragen'>Wann finden Kurse statt</a>)",   // String, ganzer Satz
 		"images":                   ["/bilder/Musterbild.png;Manesh Jablonski"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
 		"buchungs_disclaimer":      true, // Boolean: true oder false
 	},
