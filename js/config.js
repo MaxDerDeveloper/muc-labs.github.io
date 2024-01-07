@@ -148,7 +148,7 @@ var context  = {
 		"sprachen":                 ["Deutsch","Englisch"],
 		"praktika":                 ["Kein Angebot"],
 		"w-seminare":               "Zusammenarbeit möglich",
-		"betreuungspersonal":       "1", /* ? */
+		"betreuungspersonal":       "eins", /* ? */
 		"außerschulisches_angebot": "Tag der offenen Türen (3.10.)<br>Hilfe bei Wettbewerben (Physikolympiade, Deutsche Physikmeisterschaft GYPT, Jugend forscht,...)<br>Lehrerfortbildungen<br>Campusquiz",
 		"beschreibung":             "Das Ziel des Schülerlabors ist es, bei SchülerInnen die Faszination für Laser, Licht und Quanten zu wecken. Dazu gibt es 20 spannende Experimente mit Alltagsbezug, die von den SchülerInnen mit Hilfe von Anleitungen auf iPads durchgeführt werden können. Sie reichen von Musikübertragung mit Licht, Messung der eigenen Haardicke über 3d-Sehen im Kino zu Versuchen zur Quantenphysik wie der Quantenkryptographie oder dem Knaller-Experiment. Teil jedes Besuches ist ein Blick in das wissenschaftliche Labor zur Attosekundenphysik.",
 		"buchungsadresse":          "Dr. Silke Stähler Schöpf E-Mail: <a href='mailto:staehler-schoepf@physik.uni-muenchen.de'>staehler-schoepf@physik.uni-muenchen.de</a>, 089 32905-197",
