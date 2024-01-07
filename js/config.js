@@ -135,7 +135,7 @@ var context  = {
 
 	"photonlab": {
 		"name":                     "PhotonLab",
-		"website_url":              "https://www.mpq.mpg.de/photonlab" /* Bitte immer nur eine Webseite hier angeben. Kein Support für Arrays. "https://www.photonworld.de/de/photonlab"*/,
+		"website_url":              "https://www.photonworld.de/de/photonlab.html" /* Bitte immer nur eine Webseite hier angeben. Kein Support für Arrays. "https://www.photonworld.de/de/photonlab"*/,
 		"adresse":                  "Hans-Kopfermann-Straße 1, 85748 Garching bei München",
 		"google_maps_url":          "https://maps.app.goo.gl/NDA3R8FDx5eE2UgWA",
 		"überthema":                ["Physik","Technik"],
@@ -143,14 +143,14 @@ var context  = {
 		"zielgruppe":               2,
 		"altersgruppe":             "9.- 12. Klasse<br>Grundlegende Kenntnisse zu Physik und Licht werden vorausgesetzt.",
 		"teilnehmer_anzahl":        "15",
-		"dauer":                    "Vormittag",
-		"schularten":               ["Gymnasium", "FOS", "BOS"],
+		"dauer":                    "2 Stunden",
+		"schularten":               ["Realschule","Gymnasium", "FOS", "BOS"],
 		"sprachen":                 ["Deutsch","Englisch"],
 		"praktika":                 ["Kein Angebot"],
 		"w-seminare":               "Zusammenarbeit möglich",
-		"betreuungspersonal":       "-", /* ? */
+		"betreuungspersonal":       "1", /* ? */
 		"außerschulisches_angebot": "Tag der offenen Türen (3.10.)<br>Hilfe bei Wettbewerben (Physikolympiade, Deutsche Physikmeisterschaft GYPT, Jugend forscht,...)<br>Lehrerfortbildungen<br>Campusquiz",
-		"beschreibung":             "Das Ziel ist es auch Laien das Thema Licht und Laser näherzubringen, wie Laser funktionieren und wie sie aufgebaut sind. Außerdem wird das Thema Quantenphysik in Ansätzen erklärt, auf Nach-/Anfrage wird auch mehr zu dem Thema erklärt. Der Besuch beginnt mit einem Einführungsvortrag, anschließend darf man 20 spannende Experimente mit Lasern machen mit Einleitungen am IPad, zum Beispiel einen echten Doppelspalt oder Musikübertragung per Laser.  Man bekommt auch die Möglichkeit durch eine Glaswand in das Labor für Attosekundenphysik reinzugucken",
+		"beschreibung":             "Das Ziel des Schülerlabors ist es, bei SchülerInnen die Faszination für Laser, Licht und Quanten zu wecken. Dazu gibt es 20 spannende Experimente mit Alltagsbezug, die von den SchülerInnen mit Hilfe von Anleitungen auf iPads durchgeführt werden können. Sie reichen von Musikübertragung mit Licht, Messung der eigenen Haardicke über 3d-Sehen im Kino zu Versuchen zur Quantenphysik wie der Quantenkryptographie oder dem Knaller-Experiment. Teil jedes Besuches ist ein Blick in das wissenschaftliche Labor zur Attosekundenphysik.",
 		"buchungsadresse":          "Dr. Silke Stähler Schöpf E-Mail: <a href='mailto:staehler-schoepf@physik.uni-muenchen.de'>staehler-schoepf@physik.uni-muenchen.de</a>, 089 32905-197",
 		"öffnungszeiten":           {
 			"Mo": "9:30-17:00 Uhr",
