@@ -473,31 +473,31 @@ var context  = {
 		"website_url":              "https://msm.snsb.de/museum/",   // String
 		"adresse":                  "Theresienstr. 41 Eingang vom Marianne-v.-Werefkin-Weg 80333 München",   // String
 		"google_maps_url":          "https://maps.app.goo.gl/pi2du6M8mdYjMXj16",   // String, URL: https://...
-		"überthema":                ["Geologie", "Chemie"], // Array von Strings, siehe Liste von zulässigen Überthemen unten
-		"unterthema":               ["Minerale","Metorite","Edelsteine"], // Array von Strings
+		"überthema":                ["Geologie", "Chemie","Mathematik","Physik"], // Array von Strings, siehe Liste von zulässigen Überthemen unten
+		"unterthema":               ["Minerale","Metorite","Edelsteine","Rohstoffe","Vulkane"], // Array von Strings
 		"zielgruppe":               4,    // Zahl von 0 bis 10, Integer
 		"altersgruppe":             "ab 5 Jahren",   // String
 		"teilnehmer_anzahl":        "Max. 30",   // String
 		"dauer":                    "je nach Führung",   // String
-		"schularten":               ["Grundschule", "Gymnasium", "FOS","BOS"], // Array von String
+		"schularten":               ["Kindergarten","Grundschule", "Gymnasium", "FOS","BOS"], // Array von String
 		"sprachen":                 ["Deutsch", "Englisch"], // Array von String
 		"praktika":                 ["Möglich"], // Array von String
 		"w-seminare":               "Zusammenarbeit möglich",   // String
 		"betreuungspersonal":       "",   // String
 		"außerschulisches_angebot": "",   // String
-		"beschreibung":             "",   // String
+		"beschreibung":             "Das Museum Mineralogia München bietet für Kinder (ab 5 Jahren) sowie für Jugendliche, die Möglichkeit, an Führungen und Projekten zu unterschiedlichen geowissenschaftlichen Themen teilzunehmen. So können für ältere Schüler beispielsweise Projekte zum Thema Vulkanismus, Meteorite oder Smartphone und Rohstoffe gebucht werden. Diese beinhalten einen Vortrag mit Einführung zum Thema sowie Anschauung von Handstücken (Minerale, Gesteine). Zudem wird auch mikroskopiert und die jeweilige Museumsausstellung eingebunden. Schulthemenabhängig können auch andere Projekte, wie z. B. Symmetrie und Geometrie in der Natur; Kristalle - Minerale - Edelsteine, und vieles mehr angeboten werden. Falls die Lehrer in die angebotenen Projekte reinschnuppern möchten, können sie dies bei Lehrerführungen tun.",   // String
 		"buchungsadresse":          "<a href='mailto:mineralogische.staatssammlung@snsb.de'>mineralogische.staatssammlung@snsb.de</a>",   // String, Webseiten-URL ("http://...") oder E-Mail-Adresse (z.B.: "<a href='mailto:test@example.com'>test@example.com</a>")
 		"öffnungszeiten":           {
 			/* Hier sind Uhrzeiten oder kurze Beschreibungen passend */
 			"Mo": "Geschlossen",   // String
-			"Di": "13:00-17:00 Uhr",   // String
-			"Mi": "13:00-17:00 Uhr",   // String
-			"Do": "13:00-17:00 Uhr",   // String
-			"Fr": "13:00-17:00 Uhr",   // String
+			"Di": "12:00-16:00 Uhr",   // String
+			"Mi": "12:00-16:00 Uhr",   // String
+			"Do": "12:00-16:00 Uhr",   // String
+			"Fr": "12:00-16:00 Uhr",   // String
 			"Sa": "13:00-17:00 Uhr",   // String
 			"So": "13:00-17:00 Uhr",   // String
 		},
-		"öffnungszeiten_ausnahmen": "",   // String, ganzer Satz
+		"öffnungszeiten_ausnahmen": "Workshops können auch außerhalb der Öffnungszeiten stattfinden kann",   // String, ganzer Satz
 		"images":                   ["/bilder/Mineralogia/Titelbild/DSC_0016 (1).png;Eigenaufnahme Anton Heydenreich","/bilder/Mineralogia/DSC_0026 (1).png;Eigenaufnahme Anton Heydenreich","/bilder/Mineralogia/DSC_0025 (1).png;Eigenaufnahme Anton Heydenreich","/bilder/Mineralogia/DSC_0024 (1).png;Eigenaufnahme Anton Heydenreich","/bilder/Mineralogia/DSC_0023 (1).png;Eigenaufnahme Anton Heydenreich","/bilder/Mineralogia/DSC_0022 (1).png;Eigenaufnahme Anton Heydenreich","/bilder/Mineralogia/DSC_0020 (1).png;Eigenaufnahme Anton Heydenreich","/bilder/Mineralogia/DSC_0019 (1).png;Eigenaufnahme Anton Heydenreich","/bilder/Mineralogia/DSC_0017 (1).png;Eigenaufnahme Anton Heydenreich","/bilder/Mineralogia/DSC_0015 (1).png;Eigenaufnahme Anton Heydenreich","/bilder/Mineralogia/DSC_0014 (1).png;Eigenaufnahme Anton Heydenreich","/bilder/Mineralogia/DSC_0013 (1).png;Eigenaufnahme Anton Heydenreich"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
 		"buchungs_disclaimer":      true, // Boolean: true oder false
 	},
