@@ -100,12 +100,12 @@ var context  = {
 	},
 
 	"experimentier-werkstatt": {
-		"name":                     "Deutsches Museum - Experimentier-Werkstatt",
+		"name":                     "Experimentier-Werkstatt - Deutsches Museum",
 		"website_url":              "https://www.deutsches-museum.de/museumsinsel/programm/programm-a-z/experimentier-werkstatt",
 		"adresse":                  "Museumsinsel 1, 80538 München",
 		"google_maps_url":          "https://maps.app.goo.gl/58Jdcq3m3PqZXBmk8",
-		"überthema":                ["Physik","Technik","Kunst"],
-		"unterthema":               ["Licht","Datenübertragung","Stromkreise","Sensorik","3D-Druck","Optoelektronik", "Akustik", "Elektronik","Gehör","Optik","Upcycling"],
+		"überthema":                ["Physik","Technik","Kunst","Umwelt","Gesundheit"],
+		"unterthema":               ["Licht","Datenübertragung","Stromkreise","Mikroelektronik","Sensorik","3D-Druck","Optoelektronik","Lightpainting","Akustik", "Elektronik","Gehör","Optik","Upcycling"],
 		"zielgruppe":               4,
 		"altersgruppe":             "3. -13. Jahrgangsstufe",
 		"teilnehmer_anzahl":        "Max. 16",
@@ -116,7 +116,7 @@ var context  = {
 		"w-seminare":               "Kein Angebot",
 		"betreuungspersonal":       "Leitung, Werkstudenten",
 		"außerschulisches_angebot": "Für Museumsbesucher",
-		"beschreibung":             "Physik und Technik mit Händen begreifen in der Experimentier-Werkstatt, dem Mitmachbereich im Deutschen Museum, München: Die Experimentier-Werkstatt bietet Programme für Schulklassen aller Schularten (3. -13. Jahrgangsstufe), Gruppen und Museumsbesucher.Verblüffende Experimente mit Alltagsbezug, Staunen über HighTech und das Tüfteln an eigenen Projekten machen Physik und Technik zu einem spannenden Erlebnis. Das Schülerlabor trägt zur Nachwuchsförderung im MINT-Bereich bei und unterstützt die allgemeine Technik- und Wissenschaftsmündigkeit.",
+		"beschreibung":             "Physik und Technik mit Händen begreifen in der Experimentier-Werkstatt, dem Mitmachbereich im Deutschen Museum, München: Die Experimentier-Werkstatt bietet Programme für Schulklassen aller Schularten (3. -13. Jahrgangsstufe), Gruppen und Museumsbesucher. Verblüffende Experimente mit Alltagsbezug, Staunen über HighTech und das Tüfteln an eigenen Projekten machen Physik und Technik zu einem spannenden Erlebnis. Das Schülerlabor trägt zur Nachwuchsförderung im MINT-Bereich bei und unterstützt die allgemeine Technik- und Wissenschaftsmündigkeit.",
 		"buchungsadresse":          "<a href='https://www.deutsches-museum.de/museumsinsel/programm/programm-a-z/experimentier-werkstatt#c25480'>Buchungswebseite</a>",
 		// "öffnungszeiten":           null,
 		"öffnungszeiten":           {
@@ -129,7 +129,7 @@ var context  = {
 			"So": "Teilweise geöffnet",
 		},
 		"öffnungszeiten_ausnahmen": "Je nach Buchungsanfrage können variabel Termine gelegt werden.",
-		"images": ["/bilder/experimentier-werkstatt/Titelbild/IMG_5643 Kopie.png;Eigenaufnahme Mateo Trampler","/bilder/experimentier-werkstatt/20201201 ZEW098 Experimentierwerkstatt Inszenierung02 Kopie.png;Deutsches Museum","/bilder/experimentier-werkstatt/CD_L_6996_077 Kopie.png;Deutsches Museum","/bilder/experimentier-werkstatt/CD_L_7023_23 Kopie.png;Deutsches Museum","/bilder/experimentier-werkstatt/CD_L_7270_163 Kopie.png;Deutsches Museum","/bilder/experimentier-werkstatt/CD_L_7278_075 Kopie.png;Deutsches Museum","bilder/experimentier-werkstatt/CD_L_7278_122 Kopie.png;Deutsches Museum","/bilder/experimentier-werkstatt/CD_L_7894_03 Kopie.png;Deutsches Museum","/bilder/experimentier-werkstatt/CD_L_7909_001 Kopie.png;Deutsches Museum","/bilder/experimentier-werkstatt/CD_L_7909_043 Kopie.png;Deutsches Museum","/bilder/experimentier-werkstatt/IMG_5641 Kopie.png;Eigenaufnahme Mateo Trampler","/bilder/experimentier-werkstatt/IMG_5650 Kopie.png;Eigenaufnahme Mateo Trampler", "/bilder/experimentier-werkstatt/IMG_5651 Kopie.png;Eigenaufnahme Mateo Trampler", "/bilder/experimentier-werkstatt/IMG_5654Berabeitet Kopie.png;Eigenaufnahme Mateo Trampler", "/bilder/experimentier-werkstatt/IMG_5657 Kopie.png;Eigenaufnahme Mateo Trampler", "/bilder/experimentier-werkstatt/IMG_5658 Kopie.png;Eigenaufnahme Mateo Trampler","/bilder/experimentier-werkstatt/IMG_5661 Kopie.png;Eigenaufnahme Mateo Trampler","/bilder/experimentier-werkstatt/IMG_5673 Kopie.png;Eigenaufnahme Mateo Trampler", "/bilder/experimentier-werkstatt/IMG_5674 Kopie.png;Eigenaufnahme Mateo Trampler", "/bilder/experimentier-werkstatt/IMG_5675 Kopie.png;Eigenaufnahme Mateo Trampler", "/bilder/experimentier-werkstatt/IMG_5676 Kopie.png;Eigenaufnahme Mateo Trampler"],
+		"images": ["/bilder/experimentier-werkstatt/CD_L_7894_03 Kopie.png;Deutsches Museum","/bilder/experimentier-werkstatt/Titelbild/IMG_5643 Kopie.png;Eigenaufnahme Mateo Trampler","/bilder/experimentier-werkstatt/20201201 ZEW098 Experimentierwerkstatt Inszenierung02 Kopie.png;Deutsches Museum","/bilder/experimentier-werkstatt/CD_L_6996_077 Kopie.png;Deutsches Museum","/bilder/experimentier-werkstatt/CD_L_7023_23 Kopie.png;Deutsches Museum","/bilder/experimentier-werkstatt/CD_L_7270_163 Kopie.png;Deutsches Museum","/bilder/experimentier-werkstatt/CD_L_7278_075 Kopie.png;Deutsches Museum","bilder/experimentier-werkstatt/CD_L_7278_122 Kopie.png;Deutsches Museum","/bilder/experimentier-werkstatt/CD_L_7909_001 Kopie.png;Deutsches Museum","/bilder/experimentier-werkstatt/CD_L_7909_043 Kopie.png;Deutsches Museum","/bilder/experimentier-werkstatt/IMG_5641 Kopie.png;Eigenaufnahme Mateo Trampler","/bilder/experimentier-werkstatt/IMG_5650 Kopie.png;Eigenaufnahme Mateo Trampler", "/bilder/experimentier-werkstatt/IMG_5651 Kopie.png;Eigenaufnahme Mateo Trampler", "/bilder/experimentier-werkstatt/IMG_5654Berabeitet Kopie.png;Eigenaufnahme Mateo Trampler", "/bilder/experimentier-werkstatt/IMG_5657 Kopie.png;Eigenaufnahme Mateo Trampler", "/bilder/experimentier-werkstatt/IMG_5658 Kopie.png;Eigenaufnahme Mateo Trampler","/bilder/experimentier-werkstatt/IMG_5661 Kopie.png;Eigenaufnahme Mateo Trampler","/bilder/experimentier-werkstatt/IMG_5673 Kopie.png;Eigenaufnahme Mateo Trampler", "/bilder/experimentier-werkstatt/IMG_5674 Kopie.png;Eigenaufnahme Mateo Trampler", "/bilder/experimentier-werkstatt/IMG_5675 Kopie.png;Eigenaufnahme Mateo Trampler", "/bilder/experimentier-werkstatt/IMG_5676 Kopie.png;Eigenaufnahme Mateo Trampler"],
 		"buchungs_disclaimer":      true,
 	},
 
