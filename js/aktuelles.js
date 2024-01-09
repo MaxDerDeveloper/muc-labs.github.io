@@ -4,7 +4,7 @@ var aktuelleInhalte = [
     {
       bild: 'bilder/Aktuelles/Gruppenbild.jpg',
       überschrift: 'Erneuerung der muc-labs Webseite',
-      text: 'Das Physik P-Seminar vom Maria-Theresia Gymnasium hat die muc-labs Webseite inhaltlich sowie designtechnische auf den neusten Stand gebracht.', // Dieser String kann HTML-Code enthalten
+      text: 'Das Physik P-Seminar vom Maria-Theresia Gymnasium hat die muc-labs Webseite inhaltlich sowie designtechnisch auf den neusten Stand gebracht.', // Dieser String kann HTML-Code enthalten
       datum: '04.01.2024',
     },
     {
