@@ -507,8 +507,8 @@ var context  = {
 		"website_url":              "https://lyzeum-muenchen.de/",
 		"adresse":                  "Trivastr. 13, 80637 München",
 		"google_maps_url":          "https://maps.app.goo.gl/PQgJevNusQzRs2BB6",
-		"überthema":                ["Mathematik", "Informatik", "Physik", "Chemie","Technik","Sprachen","Literatur"],//Englisch, Schach
-		"unterthema":               ["Mathezirkel","Mathe-AG","Wissenschaftspropädeutik","Schach","Physik im Alltag","Naturkunde","Programmieren","Science-Fiction","Literatur"],
+		"überthema":                ["Mathematik", "Informatik", "Physik", "Chemie","Technik","Sprachen","Literatur","Naturkunde"],//Englisch, Schach
+		"unterthema":               ["Mathezirkel","Mathe-AG","Wissenschaftspropädeutik","Schach","Physik im Alltag","Programmieren","Science-Fiction","Literatur"],
 		"zielgruppe":               8,
 		"altersgruppe":             "5 Jahre bis 12 Klasse",
 		"teilnehmer_anzahl":        "Max. 20",
