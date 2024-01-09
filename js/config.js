@@ -608,7 +608,7 @@ var context  = {
 		"website_url":              "https://campus-di-monaco.de/",   // String
 		"adresse":                  "Schwanthalerstr. 2, 80336 München",   // String
 		"google_maps_url":          "https://maps.app.goo.gl/gVQjufrNT6KEYG1P8",   // String, URL: https://...
-		"überthema":                ["Natur","Technik","Kunst","Gesundheit"], // Array von Strings, siehe Liste von zulässigen Überthemen unten
+		"überthema":                ["Naturkunde","Technik","Kunst","Gesundheit"], // Array von Strings, siehe Liste von zulässigen Überthemen unten
 		"unterthema":               ["Inklusion","Bildungsteilhabe","Internationalität"], // Array von Strings
 		"zielgruppe":               5,    // Zahl von 0 bis 10, Integer
 		"altersgruppe":             "ab 8 Jahre bis zur Mittelstufe",   // String
@@ -1005,7 +1005,7 @@ const tags_to_background_mapping = {
 	"Literatur":	 	"#FF0000",
 	"Mathematik":  		"#0000FF",
 	"Nachhaltigkeit":	"#008000",
-	"Natur":		"#228B22",
+	"Naturkunde":		"#228B22",
 	"Physik":		"#0000FF",
 	"Sprachen":		"#FF0000",
 	"Technik":		"#0000FF",
