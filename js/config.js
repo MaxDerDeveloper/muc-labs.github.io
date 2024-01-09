@@ -570,36 +570,36 @@ var context  = {
 	},
 
 	"Biotopia": {
-		"name":                     "BIOTOPIA Lab",   // String
+		"name":                     "Biotopia Lab",   // String
 		"website_url":              "https://biotopialab.snsb.de/",   // String
-		"adresse":                  "Menzinger Str. 65, 80638 München",   // String
-		"google_maps_url":          "https://maps.app.goo.gl/nNGo2pssXk6sXj8QA",   // String, URL: https://...
-		"überthema":                ["Biologie"], // Array von Strings, siehe Liste von zulässigen Überthemen unten
-		"unterthema":               ["Neurobiologie","Verhaltensbiologie"], // Array von Strings
-		"zielgruppe":               5,    // Zahl von 0 bis 10, Integer
-		"altersgruppe":             "Alle, Schwerpunkt Oberstufe",   // String
-		"teilnehmer_anzahl":        "23",   // String
-		"dauer":                    "-",   // String
-		"schularten":               ["Gymnasium","FOS","BOS"], // Array von String
-		"sprachen":                 ["Deutsch"], // Array von String
-		"praktika":                 ["Berufs- und studienorientierende Praktika auf Anfrage"], // Array von String
-		"w-seminare":               "Standardisiertes Angebot",   // String
-		"betreuungspersonal":       "-",   // String
-		"außerschulisches_angebot": "-",   // String
-		"beschreibung":             "Biotopia Lab ist das Schülerlabor von Biotopia - Naturkundemuseum Bayern.<br>Es bietet einen Vorgeschmack auf BIOTOPIA und ist ein dynamischer Ausstellungsraum an der Schnittstelle von Wissenschaften, Kunst, Design und Kultur und gibt zugleich einen Einblick in den Entstehungsprozess des neuen Museums.",   // String
-		"buchungsadresse":          "-",   // String, Webseiten-URL ("http://...") oder E-Mail-Adresse (z.B.: "<a href='mailto:test@example.com'>test@example.com</a>")
+		"adresse":                  "Menzinger Str. 67 80638 München",   // String
+		"google_maps_url":          "https://maps.app.goo.gl/bFJv6dkJxJ349S7VA",   // String, URL: https://...
+		"überthema":                ["Physik","Chemie","Biologie","Umwelt","Naturkunde"], // Array von Strings, siehe Liste von zulässigen Überthemen unten
+		"unterthema":               ["Klimawandel","Biodiversität","Ökosystem","Stoffkreislauf","Biodesign","Mikroskopieren","Symbiosen","Mikrobiologie","Bodenökologie"], // Array von Strings
+		"zielgruppe":               4,    // Zahl von 0 bis 10, Integer
+		"altersgruppe":             "Kindergarten bis Gymnasium Oberstufe",   // String
+		"teilnehmer_anzahl":        "Max. 30",   // String
+		"dauer":                    "1,5 h, 2 h oder 3 h",   // String
+		"schularten":               ["Uneingeschränkt"], // Array von String
+		"sprachen":                 ["Deutsch","Englisch"], // Array von String
+		"praktika":                 ["Kein Angebot"], // Array von String
+		"w-seminare":               "Kein Angebot",   // String
+		"betreuungspersonal":       "ca. 7 freiberufliche Museumspädagog:innen, 9 studentische Hilfskräfte, eine Angestellte",   // String
+		"außerschulisches_angebot": "Pop-Up Ausstellung, VR-Flugsimulator Birdly, unterschiedliche Mini-Workshops für die Allgemeinheit",   // String
+		"beschreibung":             "Direkt im Botanischen Garten München-Nymphenburg gelegen, eröffnet das BIOTOPIA Lab den Besucher:innen vielfältige Erlebnisse: Durch kostenlose Experimentier-Workshops für Jung und Alt, interaktive Schulklassenprogramme und Pop-Up-Ausstellungen zu lebensnahen Themen wird Wissenschaft lebendig. ",   // String
+		"buchungsadresse":          "<a href='https://biotopialab.snsb.de/besucherinfo'>Besucherinfo</a>",   // String, Webseiten-URL ("http://...") oder E-Mail-Adresse (z.B.: "<a href='mailto:test@example.com'>test@example.com</a>")
 		"öffnungszeiten":           {
 			/* Hier sind Uhrzeiten oder kurze Beschreibungen passend */
-			"Mo": "Geschlossen",   // String
-			"Di": "Geschlossen",   // String
-			"Mi": "Geschlossen",   // String
-			"Do": "Geschlossen",   // String
-			"Fr": "13:00-17:00 Uhr",   // String
-			"Sa": "10:00-17:00 Uhr",   // String
-			"So": "10:00-17:00 Uhr",   // String
+			"Mo": "09:00-17:00 Uhr (Geschlossen; Geschlossen)",   // String
+			"Di": "09:00-17:00 Uhr (Geschlossen; Geschlossen)",   // String
+			"Mi": "09:00-17:00 Uhr (Geschlossen; Geschlossen)",   // String
+			"Do": "09:00-17:00 Uhr (Geschlossen; Geschlossen)",   // String
+			"Fr": "09:00-12:00 Uhr (13:00-16:30 Uhr; 13:00-17:00 Uhr)",   // String
+			"Sa": "Geschlossen (10:00-16:30 Uhr; 10:00-17:00 Uhr)",   // String
+			"So": "Geschlossen (10:00-16:30 Uhr; 10:00-17:00 Uhr)",   // String
 		},
-		"öffnungszeiten_ausnahmen": "Die aufgeführten Öffnungszeiten gelten für das Sommerhalbjahr. Im Winterhalbjahr schließt das BIOTOPIA Lab bereits um 16:30 Uhr.",   // String, ganzer Satz
-		"images":                   ["/bilder/Musterbild.png;Manesh Jablonski"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
+		"öffnungszeiten_ausnahmen": "Öffnungszeiten: Für gebuchte Gruppenbesuche (Für allgemeine Öffentlichkeit im Winterhalbjahr;... im Sommerhalbjahr)<br>Es gibt in den Schulferien manchmal auch unter der Woche Öffnung mit Programm für die Allgemeinheit - falls dies der Fall ist, wird es unter Aktuelles auf der Website kommuniziert.",   // String, ganzer Satz
+		"images":                   ["/bilder/Musterbild.png;Biotopia Lab Foto: Andreas Heddergott"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
 		"buchungs_disclaimer":      true, // Boolean: true oder false
 	},
 
