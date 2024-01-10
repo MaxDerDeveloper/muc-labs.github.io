@@ -706,36 +706,36 @@ var context  = {
 	},
 
 	"TUMScienceLabs": {
-		"name":                     "TUM Science Labs",   // String
+		"name":                     "TUM ScienceLabs",   // String
 		"website_url":              "https://www.edu.sot.tum.de/edu/schule/angebote-an-der-tum/sciencelabs/",   // String
-		"adresse":                  "Boltzmannstraße 15 85748 Garching bei München",   // String
+		"adresse":                  "TUM Campus Garching  Boltzmannstraße  85748 Garching bei München",   // String
 		"google_maps_url":          "https://maps.app.goo.gl/q51Fz39DGBiq4PFb7",   // String, URL: https://...
 		"überthema":                ["Physik"], // Array von Strings, siehe Liste von zulässigen Überthemen unten
-		"unterthema":               ["Akustik","Optik","Beugung","Brechung","Interferometrie","Magnetismus","Brennstoffzelle","Spezifischen Elektronenladung","E-Feld","B-Feld"], // Array von Strings
-		"zielgruppe":               0,    // Zahl von 0 bis 10, Integer
-		"altersgruppe":             "Ab der 9. Jahrgangsstufe",   // String
-		"teilnehmer_anzahl":        "Ideal: 8; Max.: 12 pro Versuch",   // String
-		"dauer":                    "7 Stunden mit Pause",   // String
-		"schularten":               ["Realschule","Gymnasium","FOS"], // Array von String
+		"unterthema":               ["Akustik","Erneuerbare Energien","Optik","Elektrische Ladung","Schwingungen","Magnetismus"], // Array von Strings
+		"zielgruppe":               1,    // Zahl von 0 bis 10, Integer
+		"altersgruppe":             "Klassenstufen 10-13",   // String
+		"teilnehmer_anzahl":        "15",   // String
+		"dauer":                    "2-4 Stunden",   // String
+		"schularten":               ["Realschule","Gymnasium"], // Array von String
 		"sprachen":                 ["Deutsch","Englisch"], // Array von String
-		"praktika":                 ["Berufs- und studienorientierende Praktika in Kooperation mit dem PhotonLab."], // Array von String
-		"w-seminare":               "Betreuung und Unterstützung von W-Seminaren durch Lehrkräfte",   // String
-		"betreuungspersonal":       "Lehramtstudenten, Doktoranden",   // String
-		"außerschulisches_angebot": "Ausschließlich schulisches Angebot",   // String
-		"beschreibung":             "Die Teilnehmer nutzen Experimente des physikalischen Praktikums für Studierende der Physik und des Maschinenwesens. Damit erhalten sie auch Einblick in den Studienbetrieb. Ein Kombination mit den Angeboten des PhotonLabs (Optik) oder anderen Einrichtungen am Forschungscampus Garching (Supernova, FRM II, IPP) bietet sich an.",   // String
-		"buchungsadresse":          "<a href='mailto:andreas.kratzer@tum.de'>andreas.kratzer@tum.de</a>",   // String, Webseiten-URL ("http://...") oder E-Mail-Adresse (z.B.: "<a href='mailto:test@example.com'>test@example.com</a>")
+		"praktika":                 ["Kein Angebot"], // Array von String
+		"w-seminare":               "Zusammenarbeit möglich",   // String
+		"betreuungspersonal":       "Ein(e) Wissenschaftler(in)",   // String
+		"außerschulisches_angebot": "Praktikumsexperimente",   // String
+		"beschreibung":             "Die TUM ScienceLabs bieten verschiendene Experimente des physikalischen Grund-Praktikums, wie es z.B. für das Physikstudium verpflichtend ist,  an. Die Versuchsbeschreibungen sind natürlich angepasst.<br>Aufgrund dieser Besonderheit muss natürlich der Stundenplan der Studierenden beim  Terminangebot berücksichtigt werden. Natürlich ist aber damit auch ein authentischer Einblick in das Studium möglich.<br>Hinweis: Das Angebot steht aufgrund personeller Umstrukturierungen derzeit nicht zur Verfügung.",   // String
+		"buchungsadresse":          "<a href='mailto:vorstand@muc-labs.de'>vorstand@muc-labs.de</a>",   // String, Webseiten-URL ("http://...") oder E-Mail-Adresse (z.B.: "<a href='mailto:test@example.com'>test@example.com</a>")
 		"öffnungszeiten":           {
 			/* Hier sind Uhrzeiten oder kurze Beschreibungen passend */
-			"Mo": "09:00-16:00 Uhr",   // String
-			"Di": "09:00-16:00 Uhr",   // String
-			"Mi": "09:00-16:00 Uhr",   // String
-			"Do": "09:00-16:00 Uhr",   // String
-			"Fr": "09:00-16:00 Uhr",   // String
-			"Sa": "Geschlossen",   // String
-			"So": "Geschlossen",   // String
+			"Mo": "Auf Anfrage",   // String
+			"Di": "Auf Anfrage",   // String
+			"Mi": "Auf Anfrage",   // String
+			"Do": "Auf Anfrage",   // String
+			"Fr": "Auf Anfrage",   // String
+			"Sa": "Auf Anfrage",   // String
+			"So": "Auf Anfrage",   // String
 		},
-		"öffnungszeiten_ausnahmen": "Individuelle Zeiten sind nach Absprache möglich.",   // String, ganzer Satz
-		"images":                   ["/bilder/Musterbild.png;Manesh Jablonski"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
+		"öffnungszeiten_ausnahmen": "Öffnungszeiten sind abhängig von der Nutzung durch Studierende.",   // String, ganzer Satz
+		"images":                   ["/bilder/Musterbild.png;TUM"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
 		"buchungs_disclaimer":      true, // Boolean: true oder false
 	},
 
