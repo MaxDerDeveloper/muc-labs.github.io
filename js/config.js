@@ -61,7 +61,7 @@ var context  = {
 			"So": "-",
 		},
 		"öffnungszeiten_ausnahmen": "Termine können bei der Anmeldung vereinbart werden", // Hier bitte einen ganzen Satz hinschreiben
-		"images":                   ["/bilder/dlr/dlr1.png;Eigenaufnahem Daniel Popovici", "/bilder/dlr/dlr3.png;Eigenaufnahem Daniel Popovici", "/bilder/dlr/dlr4.png;Eigenaufnahem Daniel Popovici"],
+		"images":                   ["/bilder/dlr/Titelbild/dlr2.JPG;DLR_School_Lab","/bilder/dlr/dlr1.JPG;DLR_School_Lab","/bilder/dlr/dlr3.png;Eigenaufnahem Daniel Popovici"],
 		"buchungs_disclaimer":      true,
 	},
 
