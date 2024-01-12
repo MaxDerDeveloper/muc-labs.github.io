@@ -726,13 +726,13 @@ var context  = {
 		"buchungsadresse":          "<a href='mailto:kontakt@tumlab.de'>kontakt@tumlab.de</a>",   // String, Webseiten-URL ("http://...") oder E-Mail-Adresse (z.B.: "<a href='mailto:test@example.com'>test@example.com</a>")
 		"öffnungszeiten":           {
 			/* Hier sind Uhrzeiten oder kurze Beschreibungen passend */
-			"Mo": "09:00-16:30 Uhr",   // String
-			"Di": "09:00-16:30 Uhr",   // String
-			"Mi": "09:00-16:30 Uhr",   // String
-			"Do": "09:00-16:30 Uhr",   // String
-			"Fr": "09:00-16:30 Uhr",   // String
-			"Sa": "09:00-16:30 Uhr",   // String
-			"So": "09:00-16:30 Uhr",   // String
+			"Mo": "Buchung möglich: 09:00-16:30 Uhr",   // String
+			"Di": "Buchung möglich: 09:00-16:30 Uhr",   // String
+			"Mi": "Buchung möglich: 09:00-16:30 Uhr",   // String
+			"Do": "Buchung möglich: 09:00-16:30 Uhr",   // String
+			"Fr": "Buchung möglich: 09:00-16:30 Uhr",   // String
+			"Sa": "Buchung möglich: 09:00-16:30 Uhr",   // String
+			"So": "Buchung möglich: 09:00-16:30 Uhr",   // String
 		},
 		"öffnungszeiten_ausnahmen": "Wunschtermine bitte bei uns anfragen, Workshops sind zwischen 9.00 und 16.30 Uhr möglich, angelehnt an die Museumsöffnungszeiten (s. auch <a href='https://www.edu.sot.tum.de/tumlab/haeufige-fragen'>Wann finden Kurse statt</a>)",   // String, ganzer Satz
 		"images":                   ["/bilder/Musterbild.png;Manesh Jablonski"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
