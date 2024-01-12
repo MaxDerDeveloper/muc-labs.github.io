@@ -982,12 +982,22 @@ const tags_to_background_mapping = {
 };
 
 const tags_to_foreground_mapping = {
-	"Informatik":  "white",
-	"Mathematik":  "white",
-	"Biologie":    "white",
-	"Chemie":      "black",
-	"Kunst":	"black",
+	"Chemie":      		"black",
+	"Demokratie":		"black",
+	"Geologie":		"black",
+	"Gesellschaft":		"black4",
 	"Gesundheit":		"black",
+	"Handwerk":		"black",
+	"Informatik":  		"white",
+	"Kunst":		"black",
+	"Literatur":	 	"black",
+	"Mathematik":  		"black",
+	"Nachhaltigkeit":	"black",
+	"Naturkunde":		"black",
+	"Physik":		"black",
+	"Sprachen":		"black",
+	"Technik":		"black",
+	"Umwelt":		"black",
 
 	/* Ggf. Ergänzen */
 };
