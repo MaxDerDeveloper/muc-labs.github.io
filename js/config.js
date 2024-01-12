@@ -688,7 +688,7 @@ var context  = {
 		"w-seminare":               "Zusammenarbeit möglich",   // String
 		"betreuungspersonal":       "Ein(e) Wissenschaftler(in)",   // String
 		"außerschulisches_angebot": "Praktikumsexperimente",   // String
-		"beschreibung":             "Die TUM ScienceLabs bieten verschiendene Experimente des physikalischen Grund-Praktikums, wie es z.B. für das Physikstudium verpflichtend ist,  an. Die Versuchsbeschreibungen sind natürlich angepasst.<br>Aufgrund dieser Besonderheit muss natürlich der Stundenplan der Studierenden beim  Terminangebot berücksichtigt werden. Natürlich ist aber damit auch ein authentischer Einblick in das Studium möglich.<br>Hinweis: Das Angebot steht aufgrund personeller Umstrukturierungen derzeit nicht zur Verfügung.",   // String
+		"beschreibung":             "Die TUM ScienceLabs bieten verschiendene Experimente des physikalischen Grund-Praktikums, wie es z.B. für das Physikstudium verpflichtend ist,  an. Die Versuchsbeschreibungen sind natürlich angepasst.<br>Aufgrund dieser Besonderheit muss natürlich der Stundenplan der Studierenden beim  Terminangebot berücksichtigt werden. Natürlich ist aber damit auch ein authentischer Einblick in das Studium möglich.<br><b><span style='color: red;'>Hinweis: Das Angebot steht aufgrund personeller Umstrukturierungen derzeit nicht zur Verfügung.</span></b>",   // String
 		"buchungsadresse":          "<a href='mailto:vorstand@muc-labs.de'>vorstand@muc-labs.de</a>",   // String, Webseiten-URL ("http://...") oder E-Mail-Adresse (z.B.: "<a href='mailto:test@example.com'>test@example.com</a>")
 		"öffnungszeiten":           {
 			/* Hier sind Uhrzeiten oder kurze Beschreibungen passend */
