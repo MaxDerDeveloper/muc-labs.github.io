@@ -967,7 +967,7 @@ const tags_to_background_mapping = {
 	"Gesundheit":		"#00FF00",
 	"Handwerk":		"#FFA500",
 	"Informatik":  		"#000000",
-	"Kunst":		"#C9B1D8",
+	"Kunst":		"00FFFF",
 	"Literatur":	 	"#FF0000",
 	"Mathematik":  		"#0000FF",
 	"Nachhaltigkeit":	"#008000",
