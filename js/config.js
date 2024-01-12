@@ -982,10 +982,11 @@ const tags_to_background_mapping = {
 };
 
 const tags_to_foreground_mapping = {
+	"Biologie":		"black",
 	"Chemie":      		"black",
 	"Demokratie":		"black",
 	"Geologie":		"black",
-	"Gesellschaft":		"black4",
+	"Gesellschaft":		"black",
 	"Gesundheit":		"black",
 	"Handwerk":		"black",
 	"Informatik":  		"white",
