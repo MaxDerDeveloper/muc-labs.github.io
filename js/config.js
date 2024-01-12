@@ -603,40 +603,6 @@ var context  = {
 		"buchungs_disclaimer":      true, // Boolean: true oder false
 	},
 
-	"CampusDiMonaco": {
-		"name":                     "Campus di Monaco",   // String
-		"website_url":              "https://campus-di-monaco.de/",   // String
-		"adresse":                  "Schwanthalerstr. 2, 80336 München",   // String
-		"google_maps_url":          "https://maps.app.goo.gl/gVQjufrNT6KEYG1P8",   // String, URL: https://...
-		"überthema":                ["Naturkunde","Technik","Kunst","Gesundheit"], // Array von Strings, siehe Liste von zulässigen Überthemen unten
-		"unterthema":               ["Inklusion","Bildungsteilhabe","Internationalität"], // Array von Strings
-		"zielgruppe":               5,    // Zahl von 0 bis 10, Integer
-		"altersgruppe":             "ab 8 Jahre bis zur Mittelstufe",   // String
-		"teilnehmer_anzahl":        "Max. 16",   // String
-		"dauer":                    "-",   // String
-		"schularten":               ["Alle Schularten"], // Array von String
-		"sprachen":                 ["Deutsch","Englisch","Französisch","andere Sprachen auf Anfrage"], // Array von String
-		"praktika":                 ["Auf Anfrage"], // Array von String
-		"w-seminare":               "Kein Angebot",   // String
-		"betreuungspersonal":       "-",   // String
-		"außerschulisches_angebot": "-",   // String
-		"beschreibung":             "In Fortbildungen für Multiplikator*innen geben wir unser Wissen rund um das MINT-Experimentierprogramm Experimento weiter. In Ferien- und Projektangeboten bieten wir Kindern und Jugendlichen Spaß und Anregung durch Experimente, Erlebnisse in der Natur, sowie Kunst und Kultur.",   // String
-		"buchungsadresse":          "-",   // String, Webseiten-URL ("http://...") oder E-Mail-Adresse (z.B.: "<a href='mailto:test@example.com'>test@example.com</a>")
-		"öffnungszeiten":           {
-			/* Hier sind Uhrzeiten oder kurze Beschreibungen passend */
-			"Mo": "-",   // String
-			"Di": "-",   // String
-			"Mi": "-",   // String
-			"Do": "-",   // String
-			"Fr": "-",   // String
-			"Sa": "-",   // String
-			"So": "-",   // String
-		},
-		"öffnungszeiten_ausnahmen": "-",   // String, ganzer Satz
-		"images":                   ["/bilder/Musterbild.png;Manesh Jablonski"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
-		"buchungs_disclaimer":      true, // Boolean: true oder false
-	},
-
 	"Frühes Forschen": {
 		"name":                     "Frühes Forschen",   // String
 		"website_url":              "https://www.fruehes-forschen.de",   // String
