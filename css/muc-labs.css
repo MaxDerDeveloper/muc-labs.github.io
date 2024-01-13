@@ -1,6 +1,7 @@
 :root {
 	--navbar-height: 55px;
 	--footer-height: 52px;
+	--brand-img-width: 240px;
 }
 
 main.no-overlap-with-navbar {
@@ -100,4 +101,42 @@ form#navbar-search-form button {
 
 .blocksatz {
 	hyphens: auto; text-align: justify;
+}
+
+ul.quick-nav-links {
+	position: relative;
+	left: calc(-50% + var(--brand-img-width));
+	transform: translate(50%, 30%);
+	list-style: none;
+
+	display:flex;
+	flex-direction:row;
+}
+
+ul.quick-nav-links li:not(:last-child) {
+	margin-right: 15px;
+}
+
+ul.quick-nav-links li {
+	font-size: 1.2em;
+}
+
+a.nav-link:hover {
+	text-decoration: underline;
+	color: #006CC2;
+}
+
+
+/* Show quick navigation links */
+@media (min-width: 655px) {
+	ul.quick-nav-links {
+		opacity: 1;
+	}
+}
+
+/* Hide quick navigation links */
+@media (max-width: 655px) {
+	ul.quick-nav-links {
+		opacity: 0;
+	}
 }
