@@ -29,7 +29,7 @@ function renderTags(lab) {
 	var side_tags = "";
 	for (var ut of lab.unterthema) {
 		side_tags += `
-		<a class="no-link" href="/labs.html?tag=${ut}">
+		<a class="no-link" href="/filter.html?tag=${ut}">
 			<span class="lab-tag badge rounded-pill text-bg-info">
 				${ut}
 			</span>
@@ -69,7 +69,7 @@ function renderCard(name, lab) {
 				</h5>
 				<div class="horiz-flex-container">${main}</div>
 				<details>
-						<summary>Mehr</summary>
+						<summary>Weitere Tags</summary>
 						<div class="horiz-flex-container">${side}</div>
 				</details>
 				<!-- <a style="position:absolute;bottom:15px;left:15px;" href="/lab.html?lab=${name}" class="btn btn-secondary">Aufrufen</a> -->
