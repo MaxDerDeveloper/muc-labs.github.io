@@ -1,13 +1,13 @@
 Materialseite (ähnlich Partnerseite, MAterial einklappbar)
 BUG-FIXES!!!
 impressum (Anton fragt Herr Kratzer)
-mehr verlinkung von/zur Startseite
+[DONE] mehr verlinkung von/zur Startseite
 "Kosmetische Änderungen":
-Aktuelles auf Startseite nur letzte drei Artikel einfügen
-Permanent als erstes erscheinender Artikel
+[DONE] Aktuelles auf Startseite nur letzte drei Artikel einfügen
+[DONE] Permanent als erstes erscheinender Artikel
 
 to-do:
 
-Wenn man auf Haupttag klickt, keine eigene Seite mit „Liste aller Labs mit dem Thema Physik:“, sondern Laborübersicht mit eingestelltem Haupttag Filter
+[DONE] Wenn man auf Haupttag klickt, keine eigene Seite mit „Liste aller Labs mit dem Thema Physik:“, sondern Laborübersicht mit eingestelltem Haupttag Filter
 Laborübersicht Überschrift zentriert über Laboren nicht ganze Seite
-Beim Hovern über Laborkachel keine Größenveränderung der anderen Kacheln
+[DONE] Beim Hovern über Laborkachel keine Größenveränderung der anderen Kacheln
