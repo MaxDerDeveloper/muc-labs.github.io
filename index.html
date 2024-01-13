@@ -42,6 +42,18 @@
 				}
 			}
 
+			@media (max-width: 980px) {
+				:root {
+					--img-display: dyn;
+				}
+			}
+
+			@media (min-width: 980px) {
+				:root {
+					--img-display: stat;
+				}
+			}
+
 			div.aktueller-inhalt {
 				position: relative;
 			}
@@ -122,6 +134,10 @@
 			.box:not(:last-child) {
 				margin-bottom: 20px;
 			}
+			img.aktuelles-bild {
+				max-height:450px;
+				width:auto
+			}
 		</style>
 
 		<script src="js/aktuelles.js"></script>
@@ -181,6 +197,27 @@
 				updateSlide(currentSlide);
 			}
 
+			function addResizeEvent() {
+				const getDir = () => { return window.getComputedStyle(document.documentElement).getPropertyValue('--img-display'); };
+
+				var handler = () => {
+					var direc = getDir();
+					var img = $("img#aktuelles-bild")
+
+					if (direc == "stat") {
+						img.height(450);
+					} else {
+						var ratio = img[0].naturalHeight / img[0].naturalWidth;
+						var w = window.innerWidth - 180;
+						var h = w * ratio;
+						img.width(w).height(h);
+					}
+				}
+
+				handler(); 
+				addEventListener("resize", handler);
+			}
+
 			function aktuellesDurchlaufen() {
 				// Erstes Bild
 				currentSlide
@@ -189,12 +226,13 @@
 				// Alle 3.0 Sekunden wird das nächste Bild angezeigt.
 				setInterval(
 					()=>{nextSlide();},
-					5000
+					200
 				);
 			}
 
 			function main() {
 				renderNavbarAndFooter();
+				addResizeEvent();
 
 				initInhalte();
 
@@ -215,7 +253,7 @@
 				<!-- <h1>Aktuelles</h1> -->
 				<div class="aktueller-inhalt">
 					<a href='aktuelles.html#'+index>
-						<img id="aktuelles-bild" class="d-block w-100" height=450 src="" alt="First slide">
+						<img id="aktuelles-bild" class="d-block w-100" src="" alt="First slide">
 					</a>
 					
 					<div class="überschrift-container">
@@ -229,11 +267,11 @@
 			</div>
 
 			<div class="lernorte-container card shadow box" style="width: calc(100% - 80px);">
-				<h1><a class="subtle-link link-symbol" href="/labs.html">Lernorte</a></h1>
+				<center><h1><a class="subtle-link link-symbol" href="/labs.html">Lernorte</a></h1></center>
 
-				<div class="horiz-flex-container" id="tag-container">
-					<h4 style="width: 100%;">Kategorien:</h4>
-					<div id="tag-container-inner">
+				<div id="tag-container">
+					<!-- <h4 style="width: 100%;">Kategorien:</h4> -->
+					<div id="tag-container-inner" style="display:flex; justify-content: space-around; flex-wrap: wrap;">
 						
 					</div>
 				</div>
