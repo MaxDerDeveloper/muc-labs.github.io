@@ -1,4 +1,6 @@
 // Die neusten Inhalte oben in aktuelleInhalte.
+
+var vorschauArtikelIndex = 0; // Index des Vorschau-Artikels
 var aktuelleInhalte = [
     // Hier mehr Slides hinzufügen
     {
