@@ -86,21 +86,7 @@ var partner = {
 }
 
 
-function getLab(query) {
-	if ("lab" in query) {
-		const labname = query["lab"];
-		if (labname in context) {
-			return context[labname];
-		} else {
-			alert("Das Lab '" + labname + "' existiert nicht in der Datenbank. Haben Sie sich vertippt?");
-			window.location.replace("/labs.html");
-		}
-	} else {
-		alert("Es wurde kein Lab in der Url angegeben, bitte hängen Sie ein '?lab=NameDesLabs' an die URL an.");
-		window.location.replace("/labs.html");
-	}
-}
-	
+
 function renderCard(name, lab) {
 	var [main, side] = renderTags(lab);
 
@@ -291,3 +277,18 @@ function initializeCarousel() {
 	$('a#next-btn').click((e) => { $('.carousel').carousel("next"); });
 	$('a#prev-btn').click((e) => { $('.carousel').carousel("prev"); });
 }
+function getLab(query) {
+	if ("lab" in query) {
+		const labname = query["lab"];
+		if (labname in context) {
+			return context[labname];
+		} else {
+			alert("Das Lab '" + labname + "' existiert nicht in der Datenbank. Haben Sie sich vertippt?");
+			window.location.replace("/labs.html");
+		}
+	} else {
+		alert("Es wurde kein Lab in der Url angegeben, bitte hängen Sie ein '?lab=NameDesLabs' an die URL an.");
+		window.location.replace("/labs.html");
+	}
+}
+	
