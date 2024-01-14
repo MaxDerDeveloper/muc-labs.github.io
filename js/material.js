@@ -1,4 +1,4 @@
-var material = {
+var partner = {
 	"Organisationen": {
 		"FabLab Laborrundgang": {
 			"name": "FabLab Laborrundgang",
