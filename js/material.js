@@ -41,7 +41,7 @@ var partner = {
 
 	"Mitmach-Experimente": {
 		"Wie kommt das Gelbe ins Ei?": {
-			"name": "Wie kommt das Gelbe ins Ei?,
+			"name": "Wie kommt das Gelbe ins Ei?",
 			"text": "Hier in Zukunft zu sehen: In einem Experiment vorgestellt von Biotopia könnt ihr das herausfinden.",
 			"images": ["/material/fablab_1.jpg"],
 			"website": "/materialien.html"
