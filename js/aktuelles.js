@@ -99,6 +99,5 @@ function aktuellesMain() {
     }
     document.querySelector('.carousel-control-next').addEventListener('click', nextSlide);
     document.querySelector('.carousel-control-prev').addEventListener('click', prevSlide);
+    updateSlide(currentSlide);
 }
-
-window.onload = aktuellesMain;

@@ -126,5 +126,3 @@ function veranstaltungenMain() {
     document.querySelector('.carousel-control-prev').addEventListener('click', prevSlide);
     updateSlide(currentSlide);
 }
-
-window.onload = veranstaltungenMain;
