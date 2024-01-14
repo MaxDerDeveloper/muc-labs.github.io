@@ -298,7 +298,7 @@ var context  = {
 			"So": "-",
 		},
 		"öffnungszeiten_ausnahmen": "",
-		"images":                   ["/bilder/Musterbild.png;Manesh Jablonski"],
+		"images":                   ["/bilder/SWM/Titelbild/Energiewende_078.png;SWM","/bilder/SWM/Besichtigung_Mangfalltal_2014_Steffen Leiprecht_08.png;SWM","/bilder/SWM/HB Forstenrieder Park_2012_Rainer Viertlböck_06.png;SWM","/bilder/SWM/Mangfall_2019_Andreas_Leder_01.png;SWM","/bilder/SWM/SWM_Isar-2_2012_Stefan Obermeier_50.png;SWM","/bilder/SWM/SWM_Mangfall_2011_Gerald Wick.png;SWM"],
 		"buchungs_disclaimer":      true,
 	},
 
