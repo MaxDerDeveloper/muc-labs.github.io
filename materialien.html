@@ -34,6 +34,13 @@
 				overflow: hidden;
 				background-color: #f1f1f1;
 			}
+			.indicator::before {
+				content: "▼";
+				float: right;
+			}
+			.collapsible.active .indicator::before {
+				content: "▲";
+			}
 		</style>
 		
 		<script type="text/javascript" src="/js/main.js"></script>
@@ -81,9 +88,9 @@
 
 			function main() {
 				renderNavbarAndFooter();
-				renderLabCards("Organisationen", "#orgs-container" );
-				renderLabCards("Astronomie",     "#astro-container");
-				renderLabCards("Biologie",       "#bio-container"  );
+				renderLabCards("Organisationen", "#erklär-container" );
+				renderLabCards("Astronomie",     "#Mitmach-container");
+				renderLabCards("Biologie",       "#Highlights-container"  );
 				renderLabCards("Weitere",        "#weitere-container");
 
 				var coll = document.getElementsByClassName("collapsible");
@@ -108,28 +115,28 @@
 	<body>
 		<main class="no-overlap-with-navbar">
 			<div style="width:100%; margin-left: 5%;">
-				<h1>Materialien</h1>
+				<h1>Lernorte</h1>
 				<br>
 
-				<h3 class="collapsible">Erklärvideos</h3>
+				<h3 class="collapsible">Erklärvideos<i class="indicator"></i></h3>
 				<div class="content">
-					<div class="horiz-flex-container" id="orgs-container"></div>
+					<div class="horiz-flex-container" id="erklär-container"></div>
 				</div>
 				<br>
 
-				<h3 class="collapsible">Mitmach-Experimente</h3>
+				<h3 class="collapsible">Mitmach-Experimente<i class="indicator"></i></h3>
 				<div class="content">
-					<div class="horiz-flex-container" id="astro-container"></div>
+					<div class="horiz-flex-container" id="Mitmach-container"></div>
 				</div>
 				<br>
 
-				<h3 class="collapsible">Weiter Highlights</h3>
+				<h3 class="collapsible">Weiter Highlights<i class="indicator"></i></h3>
 				<div class="content">
-					<div class="horiz-flex-container" id="bio-container"></div>
+					<div class="horiz-flex-container" id="Highlights-container"></div>
 				</div>
 				<br>
 
-				<h3 class="collapsible">Weitere Links:</h3>
+				<h3 class="collapsible">Weitere Links:<i class="indicator"></i></h3>
 				<div class="content">
 					<div class="horiz-flex-container" id="weitere-container"></div>
 				</div>
