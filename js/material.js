@@ -53,7 +53,7 @@ var partner = {
 			"name": "Ein nues Konzept im Photonlab",
 			"text": "Flipped Classroom: Die Selbstlernphase ist komplett ausgearbeitet, aber natürlich durch die Lehrkräfte an das eigene Profil anpassbar. Die Präsenzphase findet im Schülerlabor statt und nutzt dessen Vorteile.",
 			"images": ["/material/flipped_titel.jpg"],
-			"website": "https://youtu.be/jWIltBj29Zg"
+			"website": "/materialien.html"
 		},
 	},
 }
