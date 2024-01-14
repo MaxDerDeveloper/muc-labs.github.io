@@ -38,3 +38,122 @@ function renderCard(name, lab) {
 	`;
 	return card
 }
+
+function renderNavbarAndFooter() {
+
+	var options = {
+		logo: "/bilder/logo.png",
+		landing: "/index.html",
+	};
+
+	var navbar = `
+	<nav class="navbar bg-body-tertiary fixed-top justify-content-between">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="${options.landing}">
+				<div class="image-container-dont-resize-navbar">
+					<img src="${options.logo}" alt="Muclabs Logo" class="image-centered-vertically" width=240 height=52>
+				</div>
+			</a>
+
+			<ul class="quick-nav-links">
+				<li><a class="nav-link" href="/labs.html">Labore</a></li>
+				<li><a class="nav-link" href="/veranstaltungen.html">Veranstaltungen</a></li>
+				<li><a class="nav-link" href="/aktuelles.html">Aktuelles</a></li>
+			</ul>
+
+			<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+				<div class="offcanvas-header">
+					<h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+						<!-- Platzhaltertext -->
+					</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+				</div>
+				<div class="offcanvas-body">
+					<ul class="navbar-nav justify-content-end flex-grow-1 pe-3">					
+						<form id="navbar-search-form">
+							<div class="form-input-container">
+								<input class="form-control" type="search" placeholder="Mit Google suchen">
+								<input class="btn btn-outline-primary" type="submit" value="Suchen">
+							</div>
+						</form>
+
+						<hr>
+
+						<li class="nav-item">
+							<a class="nav-link" aria-current="page" href="${options.landing}">Start</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/aktuelles.html">Aktuelles</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/veranstaltungen.html">Veranstaltungen</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/labs.html">Labore</a>
+						</li>
+
+						<hr>
+
+						<li class="nav-item">
+							<a class="nav-link" href="/karte.html">Karte</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/archiv.html">Archiv</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/partner.html">Partner</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/materialien.html">Materialien</a>
+						</li>
+
+						<hr>
+
+						<li class="nav-item">
+							<a class="nav-link" href="/ueber-uns.html">Über uns</a>
+						</li>
+						
+						<li class="nav-item">
+							<a class="nav-link" href="/kontakt.html">Kontakt</a>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link" href="/impressum.html">Impressum</a>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link" href="/zzz_anmeld_intern.php">Mitgliederbereich</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</nav>
+	`;
+
+	var footer = `<footer>
+		<center><hr style="width: 90%"></center>
+		<div class="horiz-flex-container" style="justify-content: space-evenly;">
+			<a href="/ueber-uns.html">Über uns</a>
+			<a href="/kontakt.html">Kontakt</a>
+			<a href="/impressum.html">Impressum</a>
+			<a href="/zzz_anmeld_intern.php">Mitgliederbereich</a>
+		</div>
+	</footer>`;
+
+	$(navbar).insertBefore("html body main");
+	$(footer).insertAfter("html body main");
+
+	implementSearchFunction();
+
+	// Quicknav highlighting on current site
+	for (var a of document.querySelectorAll("ul.quick-nav-links > li > a.nav-link")) {
+		var href = a.getAttribute("href")
+		if (href == window.location.pathname) {
+			a.style.textDecoration = "underline";
+		}
+	}
+}
