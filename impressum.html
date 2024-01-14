@@ -10,7 +10,25 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 		<script type="text/javascript" src="/js/config.js"></script>
 		<link href="/css/muc-labs.css" rel="stylesheet">
-		
+		<style type="text/css">
+			/* Mobile */
+			@media (max-width: 900px) {
+				div.impressum-container {
+					width: calc(100% - 2*5%);
+				}
+			}
+
+			/* PC */
+			@media (min-width: 900px) {
+				div.impressum-container {
+					width: 60%;
+				}
+			}
+
+			div.impressum-container {
+				margin-left: 5%;
+			}
+		</style>
 		
 		<script type="text/javascript" src="/js/main.js"></script>
 		<script type="text/javascript">
@@ -23,7 +41,7 @@
 
 	<body>
 		<main class="no-overlap-with-navbar">
-			<div style="width:60%; margin-left: 5%;">
+			<div class="impressum-container">
 				<h1>Impressum</h1>
 
 				<p class="blocksatz">
