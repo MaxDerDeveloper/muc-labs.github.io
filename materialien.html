@@ -3,19 +3,68 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Veranstaltungen | Muc-Labs</title>
+		<title>Materialien | Muc-Labs</title>
 		
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 		<script type="text/javascript" src="/js/config.js"></script>
 		<link href="/css/muc-labs.css" rel="stylesheet">
-		
+		<style>
+			div.lab-card {
+				margin: 4px;
+			}
+		</style>
 		
 		<script type="text/javascript" src="/js/main.js"></script>
 		<script type="text/javascript">
+			function renderCard(name, info) {
+				// Individuelle Quellenangabe vorhanden
+				var img_src = info.images[0];
+				var quellenangabe;
+				if (img_src.includes(";")) {
+					var bildquelle;
+					[img_src, bildquelle] = img_src.split(";");
+					quellenangabe = `title="Bildquelle: ${bildquelle}"`;
+				} else {
+					quellenangabe = "";
+				}
+				
+				var card = `
+					<div class="card lab-card shadow" style="width: 18rem; position:relative;" lab="${name}">
+						<a href="${info.website}" style="text-decoration:none; color:black;">
+							<div style="height: 170px;">
+								<img class="card-img-top" src="${img_src}" alt="1. Bild von ${info.name}" width=180 style="padding: 10px;">
+							</div>
+						</a>
+						<div class="card-body">
+							<h5 class="card-title lab-card-title">
+								<a class="subtle-link link-symbol" href="${info.website}">
+									${info.name}
+								</a>
+							</h5>
+
+							<p>${info.text}</p>
+						</div>
+					</div>
+				`;
+				return card
+			}
+
+			function renderLabCards(key, target) {
+				cards = ""
+				for(var [name, lab] of Object.entries(partner[key])) {
+					cards += renderCard(name, lab);
+				}
+				$(target).append(cards);
+			}
+
 			function main() {
 				renderNavbarAndFooter();
+				renderLabCards("Organisationen", "#orgs-container" );
+				renderLabCards("Astronomie",     "#astro-container");
+				renderLabCards("Biologie",       "#bio-container"  );
+				renderLabCards("Weitere",        "#weitere-container");
 			}
 			window.onload = main;
 		</script>
@@ -23,12 +72,26 @@
 
 	<body>
 		<main class="no-overlap-with-navbar">
-			<div style="width:60%; margin-left: 5%;">
-				<h1>Materialien</h1>
+			<div style="width:100%; margin-left: 5%;">
+				<h1>Lernorte</h1>
+				<br>
 
-				<p class="blocksatz">
-					Lorem Ipsum...<br>
-				</p>
+				<h3>Erklärvideos</h3>
+				<div class="horiz-flex-container" id="orgs-container"></div>
+				<br>
+
+
+				<h3>Mitmach-Experimente</h3>
+				<div class="horiz-flex-container" id="astro-container"></div>
+				<br>
+
+
+				<h3>Weiter Highlights</h3>
+				<div class="horiz-flex-container" id="bio-container"></div>
+				<br>
+
+				<h3>Weitere Links:</h3>
+				<div class="horiz-flex-container" id="weitere-container"></div>
 			</div>
 		</main>
 	</body>
