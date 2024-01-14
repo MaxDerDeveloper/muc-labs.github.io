@@ -87,17 +87,16 @@ var veranstaltungenInhalte = [
     },
   ];
 
-  var currentSlide = 0;
-
-  // Function to update the slide
-  function updateSlide(slideIndex) {
-    var slide = veranstaltungenInhalte[slideIndex];
-    document.getElementById('veranstaltungen-bild').src = slide.bild;
-    document.getElementById('veranstaltungen-überschrift').innerText = slide.überschrift;
-    document.getElementById('veranstaltungen-text').innerHTML = slide.text;
-    document.querySelector('.carousel-control-prev').href = "#carouselExample" + ((slideIndex - 1 + veranstaltungenInhalte.length) % veranstaltungenInhalte.length);
-    document.querySelector('.carousel-control-next').href = "#carouselExample" + ((slideIndex + 1) % veranstaltungenInhalte.length);
+// Function to update the slide
+function updateSlide(slideIndex) {
+  var slide = aktuelleInhalte[slideIndex];
+  $('#veranstaltungen-bild').attr("src", slide.bild);
+  $('#veranstaltungen-überschrift').html(slide.überschrift);
+  $('#veranstaltungen-text').html(slide.text);
+  $('.carousel-control-prev').attr("href", "#"+slideIndex);
+  $('.carousel-control-next').attr("href", "#"+slideIndex);
 }
+
 
 function nextSlide() {
     currentSlide = (currentSlide + 1) % veranstaltungenInhalte.length;
@@ -105,10 +104,14 @@ function nextSlide() {
 }
 
 function prevSlide() {
-    currentSlide = (currentSlide - 1 + veranstaltungenInhalte.length) % veranstaltungenInhalte.length;
+    currentSlide -= 1;
+    if (currentSlide < 0) {
+      currentSlide = veranstaltungenInhalte.length - 1;
+    }
     updateSlide(currentSlide);
 }
 
+var currentSlide = 0;
 function veranstaltungenMain() {
     // Get the hash value from the URL
     var hash = window.location.hash.substring(1);
