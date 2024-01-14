@@ -155,8 +155,8 @@
 			}
 
 			function updateDisclaimer() {
-				var opacity = +(selected_tags.length == 0);
-				$("#disclaimer").css({"opacity": opacity});
+				var state = selected_tags.length != 0;
+				$("#disclaimer").attr("hidden", state);
 			}
 
 			function setAllTags(shown) {
