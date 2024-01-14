@@ -44,7 +44,7 @@ var partner = {
 			"name": "Wie kommt das Gelbe ins Ei?",
 			"text": "Hier in Zukunft zu sehen: In einem Experiment vorgestellt von Biotopia könnt ihr das herausfinden.",
 			"images": ["/material/fablab_1.jpg"],
-			"website": "/materialien.html"
+			"website": "https://www.youtube.com/watch?v=THREczNaz8M"
 		},
 	},
 
@@ -53,7 +53,7 @@ var partner = {
 			"name": "Ein nues Konzept im Photonlab",
 			"text": "Flipped Classroom: Die Selbstlernphase ist komplett ausgearbeitet, aber natürlich durch die Lehrkräfte an das eigene Profil anpassbar. Die Präsenzphase findet im Schülerlabor statt und nutzt dessen Vorteile.",
 			"images": ["/material/flipped_titel.jpg"],
-			"website": "/materialien.html"
+			"website": "https://www.youtube.com/watch?v=THREczNaz8M"
 		},
 	},
 }
