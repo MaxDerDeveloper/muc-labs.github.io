@@ -1,39 +1,26 @@
 var material = {
 	"Organisationen": {
-		"lernortlabor": {
-			"name": "LernortLabor e.V.",
-			"text": "Der Bundesverband der Schülerlabore ist die Vertretung aller Schülerlabore im deutschsprachigen Raum. Er veranstaltet unter anderem jährliche Tagungen zum Erfahrungsaustausch.",
+		"FabLab Laborrundgang": {
+			"name": "FabLab Laborrundgang",
+			"text": "Stephanie Legeleux zeigt das FabLab. Das Video ist ein Workshop-Mitschnitt (via Zoom) am virtuellen Schülerlabortag 2021.",
 			"images": ["/bilder/partner/lela_logo.png"],
-			"website": "https://www.lernort-labor.de/"
+			"website": "https://youtu.be/THREczNaz8M"
 		},
 
-		"mint-region": {
-			"name": "MINT-Region Münchner Umland",
-			"text": "Die MINT-Region ist eine Initiative der Landkreise Dachau und München. Auf der Website finden sie eine große Übersicht über MINT-Angebote der Region.",
+		"FabLab Impressionen": {
+			"name": "FabLab Impressionen",
+			"text": "Dieses Video zeigt viele Beispiele aus dem FabLab München.",
 			"images": ["/bilder/partner/mint-region.png"],
-			"website": "https://www.mintregion.de/"
+			"website": "https://www.youtube.com/watch?v=yxgcpD1w9uI"
 		},
 
-		"bene": {
-			"name": "BENE e.V.",
-			"text": "BENE e.V. fungiert als Plattform für BNE (Bildung für nachhaltige Entwicklung) im Raum München. Hier finden Sie auch eine Aufstellung von Angeboten zur BNE.",
+		"Photonlab": {
+			"name": "Photonlab",
+			"text": "Dr. Silke Stähler-Schöpf zeigt das Photonlab.",
 			"images": ["/bilder/partner/bene_logo.png"],
-			"website": "https://www.bene-muenchen.de/"
+			"website": "https://www.youtube.com/watch?v=bjs7x_iNwLc
 		},
 
-		"mcqst": {
-			"name": "MCQST",
-			"text": "Das \"Munich Center for Quantum Science and Technology\" ist ein Exzellenzcluster an dem sieben Forschungsinstitute beteiligt sind. Auf der Website finden Sie auch interessante \"Quanten-Veranstaltungen\".",
-			"images": ["/bilder/partner/MCQST.png"],
-			"website": "https://www.mcqst.de/"
-		},
-
-		"gypt": {
-			"name": "GYPT",
-			"text": "Die Deutsche Physikmeisterschaft GYPT ist eine Initiative der Deutschen Physikalischen Gesellschaft (DPG) zusammen mit der Uni Ulm und der Wilhelm und Else Heraeus Stiftung.",
-			"images": ["/bilder/partner/gypt_logo.png"],
-			"website": "https://www.gypt.org/"
-		},
 	},
 
 	"Astronomie": {
