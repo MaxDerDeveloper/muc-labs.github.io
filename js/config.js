@@ -565,7 +565,7 @@ var context  = {
 			"So": "-",   // String
 		},
 		"öffnungszeiten_ausnahmen": "Termine können auf Anfrage festgelegt werden.",   // String, ganzer Satz
-		"images":                   ["/bilder/Musterbild.png;Manesh Jablonski"], //Bildquelle:RCE BenE München   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
+		"images":                   ["/bilder/Bene/Titelbild/Keep the Balance 6.png;RCE BenE","/bilder/Bene/Pandemie die Heilung 4.png;RCE BenE","/bilder/Bene/Spieleworkshop Reiner Ecogon(1).png;RCE BenE","/bilder/Bene/bene_logo_rce_kompakt.png;RCE BenE"], //Bildquelle:RCE BenE München   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
 		"buchungs_disclaimer":      true, // Boolean: true oder false
 	},
 
