@@ -30,17 +30,17 @@
 			}
 			.content {
 				padding: 0 18px;
-				display: block;
+				display: block; /* Alle Menüs sind standardmäßig ausgeklappt */
 				overflow: hidden;
 				background-color: #f1f1f1;
 			}
 			.indicator::before {
-				content: "▼";
+				content: "▲"; /* Pfeil zeigt standardmäßig nach oben */
 				float: left;
 				margin-right: 10px;
 			}
 			.collapsible.active .indicator::before {
-				content: "▲";
+				content: "▼"; /* Pfeil zeigt nach unten, wenn das Menü eingeklappt ist */
 			}
 		</style>
 		
