@@ -86,6 +86,45 @@ var partner = {
 }
 
 
+function parseUrlQueryString() {
+	// Reference: https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams?retiredLocale=de
+	const query = new URLSearchParams(window.location.search);
+
+	var dictionary = {};
+	for (const [key, value] of query.entries()) {
+		dictionary[key] = value;
+	}
+	return dictionary;
+}
+
+function renderTags(lab) {
+	var main_tags = ""
+	for (var üt of lab.überthema) {
+		var bg_color   = tags_to_background_mapping[üt] || "rgb(13,110,253)";
+		var fg_color   = tags_to_foreground_mapping[üt] || "white";
+		var text_style = 'style="color: '+fg_color+'";';
+		var style      = 'style="background-color:'+bg_color+';"';
+
+		main_tags += `
+		<a class="no-link" href="/labs.html?tag=${üt}">
+			<span class="lab-tag badge rounded-pill" ${style}>
+				<span ${text_style}>
+					${üt}
+				</span>
+			</span>
+		</a>`;
+	}
+	var side_tags = "";
+	for (var ut of lab.unterthema) {
+		side_tags += `
+		<a class="no-link" href="/filter.html?tag=${ut}">
+			<span class="lab-tag badge rounded-pill text-bg-info">
+				${ut}
+			</span>
+		</a>`;
+	}
+	return [main_tags, side_tags];
+}
 
 function renderCard(name, lab) {
 	var [main, side] = renderTags(lab);
@@ -246,6 +285,7 @@ function renderNavbarAndFooter() {
 		}
 	}
 }
+
 function implementSearchFunction() {
 	// Fügt Event zur Suchleiste im Hamburger-Menu hinzu. Ermöglicht externe Suchfunktion bei Google
 	$("form#navbar-search-form")[0].addEventListener("submit", (e)=>{
@@ -277,6 +317,7 @@ function initializeCarousel() {
 	$('a#next-btn').click((e) => { $('.carousel').carousel("next"); });
 	$('a#prev-btn').click((e) => { $('.carousel').carousel("prev"); });
 }
+
 function getLab(query) {
 	if ("lab" in query) {
 		const labname = query["lab"];
@@ -291,4 +332,3 @@ function getLab(query) {
 		window.location.replace("/labs.html");
 	}
 }
-	
