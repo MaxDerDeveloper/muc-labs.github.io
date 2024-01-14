@@ -33,16 +33,14 @@ var veranstaltungenInhalte = [
     },
   ];
   
-  var currentSlide = 0;
-  
-  // Function to update the slide
-  function updateSlide(slideIndex) {
-    var slide = veranstaltungenInhalte[slideIndex];
-    document.getElementById('veranstaltungen-bild').src = slide.bild;
-    document.getElementById('veranstaltungen-überschrift').innerText = slide.überschrift;
-    document.getElementById('veranstaltungen-text').innerHTML = slide.text;
-    document.querySelector('.carousel-control-prev').href = "#carouselExample" + ((slideIndex - 1 + veranstaltungenInhalte.length) % veranstaltungenInhalte.length);
-    document.querySelector('.carousel-control-next').href = "#carouselExample" + ((slideIndex + 1) % veranstaltungenInhalte.length);
+// Function to update the slide
+function updateSlide(slideIndex) {
+  var slide = veranstaltungenInhalte[slideIndex];
+  $('#veranstaltungen-bild').attr("src", slide.bild);
+  $('#veranstaltungen-überschrift').html(slide.überschrift);
+  $('#veranstaltungen-text').html(slide.text);
+  $('.carousel-control-prev').attr("href", "#"+slideIndex);
+  $('.carousel-control-next').attr("href", "#"+slideIndex);
 }
 
 function nextSlide() {
@@ -56,17 +54,26 @@ function prevSlide() {
 }
 
 function veranstaltungenMain() {
-    // Get the hash value from the URL
     var hash = window.location.hash.substring(1);
-    // Convert the hash value to an integer
     var slideIndex = parseInt(hash);
-    // If the hash value is a number, use it as the current slide index
+    
     if (!isNaN(slideIndex)) {
         currentSlide = slideIndex;
     }
     // Add event listeners and update the slide
     document.querySelector('.carousel-control-next').addEventListener('click', nextSlide);
     document.querySelector('.carousel-control-prev').addEventListener('click', prevSlide);
+    updateSlide(currentSlide);
+}
+
+var currentSlide = 0;
+function aktuellesMain() {
+    var hash = window.location.hash.substring(1);
+    var slideIndex = parseInt(hash);
+
+    if (!isNaN(slideIndex)) {
+        currentSlide = slideIndex;
+    }
     updateSlide(currentSlide);
 }
 

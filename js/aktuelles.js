@@ -66,8 +66,6 @@ var aktuelleInhalte = [
 
   ];
 
-var currentSlide = 0;
-
 // Function to update the slide
 function updateSlide(slideIndex) {
   var slide = aktuelleInhalte[slideIndex];
@@ -91,6 +89,7 @@ function prevSlide() {
     updateSlide(currentSlide);
 }
 
+var currentSlide = 0;
 function aktuellesMain() {
     var hash = window.location.hash.substring(1);
     var slideIndex = parseInt(hash);
@@ -98,12 +97,8 @@ function aktuellesMain() {
     if (!isNaN(slideIndex)) {
         currentSlide = slideIndex;
     }
-    console.log(hash, slideIndex, currentSlide)
-
     document.querySelector('.carousel-control-next').addEventListener('click', nextSlide);
     document.querySelector('.carousel-control-prev').addEventListener('click', prevSlide);
-
-    updateSlide(currentSlide);
 }
 
 window.onload = aktuellesMain;
