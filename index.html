@@ -250,21 +250,21 @@
 		<main class="no-overlap-with-navbar">
 			
 			<div class="aktuelles-container card shadow box">
-				<!-- <h1>Aktuelles</h1> -->
-				<div class="aktueller-inhalt">
-					<a href='aktuelles.html#'+index>
-						<img id="aktuelles-bild" class="d-block w-100" src="" alt="First slide">
-					</a>
-					
-					<div class="überschrift-container">
-						<a href='aktuelles.html#'+index>
-							<h3 id="aktuelles-überschrift" class="ellipsis"></h3>
-						</a>
+    <div class="aktueller-inhalt">
+        <a id="bild-link" href='aktuelles.html#' onclick="this.href='aktuelles.html#' + window.currentSlide">
+            <img id="aktuelles-bild" class="d-block w-100" src="" alt="First slide">
+        </a>
+        
+        <div class="überschrift-container">
+            <a id="überschrift-link" href='aktuelles.html#' onclick="this.href='aktuelles.html#' + window.currentSlide">
+                <h3 id="aktuelles-überschrift" class="ellipsis"></h3>
+            </a>
 
-						<p id="aktuelles-text" hidden></p>
-					</div>
-				</div>
-			</div>
+            <p id="aktuelles-text" hidden></p>
+        </div>
+    </div>
+</div>
+
 
 			<div class="lernorte-container card shadow box" style="width: calc(100% - 80px);">
 				<center><h1><a class="subtle-link link-symbol" href="/labs.html">Lernorte</a></h1></center>
