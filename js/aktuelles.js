@@ -6,7 +6,7 @@ var aktuelleInhalte = [
     {
       bild: 'bilder/Aktuelles/Gruppenbild.jpg',
       überschrift: 'Erneuerung der muc-labs Webseite',
-      text: 'Das Physik P-Seminar vom Maria-Theresia Gymnasium hat die muc-labs Webseite inhaltlich sowie designtechnisch auf den neusten Stand gebracht.', // Dieser String kann HTML-Code enthalten
+      text: 'Das Physik P-Seminar vom Maria-Theresia Gymnasium hat die muc-labs Webseite inhaltlich sowie designtechnisch auf den neusten Stand gebracht.<br> Unsere Konzepte:<br><br><img src=bilder/Aktuelles/muclabs_konzepte_1.jpg><br><img src=bilder/Aktuelles/muclabs_konzepte_2.jpg><br><img src=bilder/Aktuelles/muclabs_konzepte_3.jpg><br><img src=bilder/Aktuelles/muclabs_konzepte_4.jpg><br><img src=bilder/Aktuelles/muclabs_konzepte_5.jpg><br><img src=bilder/Aktuelles/muclabs_konzepte_6.jpg><br><img src=bilder/Aktuelles/muclabs_konzepte_7.jpg><br><img src=bilder/Aktuelles/muclabs_konzepte_8.jpg><br><img src=bilder/Aktuelles/muclabs_konzepte_9.jpg><br><img src=bilder/Aktuelles/muclabs_konzepte_10.jpg><br><img src=bilder/Aktuelles/muclabs_konzepte_11.jpg><br><img src=bilder/Aktuelles/muclabs_konzepte_12.jpg>',
       datum: '04.01.2024',
     },
     {
