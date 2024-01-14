@@ -4,7 +4,7 @@ var veranstaltungenInhalte = [
     {
       bild: 'bilder/Aktuelles/Ersatzbild.jpg',
       überschrift: 'FORSCHA 5. - 7. Mai 2023',
-      text: '	<a href="https://forscha.de/fo">Forscha</a> und Münchner Wissenschaftstage fanden vom 5. - 7. Mai 2023 auf der Theresienhöhe/Alte Messe statt. Auch heuer waren einige Schülerlabore wieder dabei sein.',
+      text: '<a href="https://forscha.de/fo">Forscha</a> und Münchner Wissenschaftstage fanden vom 5. - 7. Mai 2023 auf der Theresienhöhe/Alte Messe statt. Auch heuer waren einige Schülerlabore wieder dabei sein.',
       datum: '05.05.2023',
     },
     {
