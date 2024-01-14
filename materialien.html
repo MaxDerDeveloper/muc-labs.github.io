@@ -91,10 +91,10 @@
 			
 			function main() {
 				renderNavbarAndFooter();
-				renderLabCards("Organisationen", "#erklär-container" );
-				renderLabCards("Astronomie",     "#Mitmach-container");
-				renderLabCards("Biologie",       "#Highlights-container"  );
-				renderLabCards("Weitere",        "#weitere-container");
+				renderLabCards("Lernorte", "#Lernorte-container" );
+				renderLabCards("Erklärvideos",     "#Erklär-container");
+				renderLabCards("Mitmach-Experimente",       "#Mitmach-container"  );
+				renderLabCards("Weitere Highlights",        "#Weitere-container");
 
 				var coll = document.getElementsByClassName("collapsible");
 				var i;
@@ -123,27 +123,27 @@
 				<h1>Materialien</h1>
 				<br>
 
+				<h3 class="collapsible"><i class="indicator"></i> Lernorte</h3>
+				<div class="content">
+					<div class="horiz-flex-container" id="Lernorte-container"></div>
+				</div>
+				<br>
+
 				<h3 class="collapsible"><i class="indicator"></i> Erklärvideos</h3>
 				<div class="content">
-					<div class="horiz-flex-container" id="erklär-container"></div>
+					<div class="horiz-flex-container" id="Erklärvideos-container"></div>
 				</div>
 				<br>
 
 				<h3 class="collapsible"><i class="indicator"></i> Mitmach-Experimente</h3>
 				<div class="content">
-					<div class="horiz-flex-container" id="Mitmach-container"></div>
+					<div class="horiz-flex-container" id="Mitmach-Experimente-container"></div>
 				</div>
 				<br>
 
-				<h3 class="collapsible"><i class="indicator"></i> Weiter Highlights</h3>
+				<h3 class="collapsible"><i class="indicator"></i> Weitere Highlights</h3>
 				<div class="content">
-					<div class="horiz-flex-container" id="Highlights-container"></div>
-				</div>
-				<br>
-
-				<h3 class="collapsible"><i class="indicator"></i> Weitere Links</h3>
-				<div class="content">
-					<div class="horiz-flex-container" id="weitere-container"></div>
+					<div class="horiz-flex-container" id="Weiter Highlights-container"></div>
 				</div>
 			</div>
 		</main>
