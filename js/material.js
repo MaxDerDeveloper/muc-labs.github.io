@@ -4,7 +4,7 @@ var material = {
 			"name": "FabLab Laborrundgang",
 			"text": "Stephanie Legeleux zeigt das FabLab. Das Video ist ein Workshop-Mitschnitt (via Zoom) am virtuellen Schülerlabortag 2021.",
 			"images": ["/material/fablab_1.jpg"],
-			"website": "https://youtu.be/THREczNaz8M"
+			"website": "https://www.youtube.com/watch?v=THREczNaz8M"
 		},
 
 		"FabLab Impressionen": {
