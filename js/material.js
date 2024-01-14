@@ -18,7 +18,7 @@ var material = {
 			"name": "Photonlab",
 			"text": "Dr. Silke Stähler-Schöpf zeigt das Photonlab.",
 			"images": ["/material/laser_titel.jpg"],
-			"website": "https://www.youtube.com/watch?v=bjs7x_iNwLc
+			"website": "https://www.youtube.com/watch?v=bjs7x_iNwLc"
 		},
 
 	},
