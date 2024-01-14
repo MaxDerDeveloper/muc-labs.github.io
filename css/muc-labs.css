@@ -139,4 +139,7 @@ a.nav-link:hover {
 	ul.quick-nav-links {
 		opacity: 0;
 	}
+	ul.quick-nav-links a {
+		display: none
+	}
 }

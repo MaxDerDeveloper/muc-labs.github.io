@@ -20,9 +20,6 @@
 				div.aktueller-inhalt div.überschrift-container a h5 {
 					font-size: 25px;
 				}
-				.ellipsis {
-					max-width: 200px;
-				}
 			}
 
 			/* PC */
@@ -37,18 +34,16 @@
 				div.aktueller-inhalt div.überschrift-container a h5 {
 					font-size: 35px;
 				}
-				.ellipsis {
-					max-width : 700px;
-				}
+				
 			}
 
-			@media (max-width: 980px) {
+			@media (max-width: 940px) {
 				:root {
 					--img-display: dyn;
 				}
 			}
 
-			@media (min-width: 980px) {
+			@media (min-width: 940px) {
 				:root {
 					--img-display: stat;
 				}
@@ -65,27 +60,6 @@
 
 			div.aktuelles-container a img {
 				border-radius: 5px;
-			}
-
-			div.aktueller-inhalt div.überschrift-container {
-				position: absolute;
-				bottom: 13px;
-				left: 10px;
-				max-width: 400px;
-
-				padding: 0px 10px;
-				background-color: rgb(0,0,0,0.5);
-				border-radius: 10px;
-			}
-			div.aktueller-inhalt div.überschrift-container a h3 {
-				color: white;
-				white-space: nowrap;
-				height: 1em;
-			}
-
-			div.aktueller-inhalt div.überschrift-container p {
-				color: white;
-				font-size: 18px;
 			}
 
 			div#lab-card-container {
@@ -110,7 +84,7 @@
 			}
 
 			div#tag-container {
-				margin-bottom: 20px;
+				margin: 15px 5px;
 			}
 
 			span.lab-tag {
@@ -120,13 +94,6 @@
 			main h1 {
 				text-decoration: underline;
 			}
-			.ellipsis {
-				white-space: nowrap;
-				overflow: hidden;
-				text-overflow: ellipsis;
-				display:block;
-			}
-
 			.box {
 				padding: 7.5px;
 				margin: 0px 40px;
@@ -138,21 +105,60 @@
 				max-height:450px;
 				width:auto
 			}
+
+			div.aktueller-inhalt div.überschrift-container {
+				position: absolute;
+				bottom: 13px;
+				left: 10px;
+				
+				padding: 0px 10px;
+				background-color: rgb(0,0,0,0.5);
+				border-radius: 10px;
+				overflow-y: show;
+
+				height: 2.0em;
+			}
+			div.aktueller-inhalt div.überschrift-container a {
+				text-decoration: none;
+			}
+			div.aktueller-inhalt div.überschrift-container a h3 {
+				color: white;
+				white-space: nowrap;
+				height: 1.25em;
+				z-index: 10;
+			}
+
+			div.aktueller-inhalt div.überschrift-container p {
+				color: white;
+				font-size: 18px;
+			}
+			.ellipsis {
+				white-space: nowrap;
+				overflow-x: hidden;
+				text-overflow: ellipsis;
+				display:block;
+			}
 		</style>
 
 		<script src="js/aktuelles.js"></script>
 		<script type="text/javascript" src="/js/main.js"></script>
 		<script type="text/javascript">
+			var anzahlInhalte = 3;
 			var inhalte;
+			var inhaltIndexMap = {};
 
 			function initInhalte() {
 				inhalte = [];
 				inhalte.push( aktuelleInhalte[vorschauArtikelIndex] ); // Vorschau-Artikel
+				inhaltIndexMap[0] = vorschauArtikelIndex;
 
-				var anzahl = 3;
-				aktuellsteArtikel = aktuelleInhalte.slice(Math.max(aktuelleInhalte.length - anzahl, 1));
-				for (var art of aktuellsteArtikel) {
+				var offset = Math.max(aktuelleInhalte.length - anzahlInhalte, 1);
+				for (var i=0; i<anzahlInhalte; i+=1) {
+					var j = offset+i;
+					var art = aktuelleInhalte[j];
+
 					inhalte.push(art);
+					inhaltIndexMap[i+1] = j;
 				}
 			}
 
@@ -187,9 +193,15 @@
 
 			function updateSlide(slideIndex) {
 				var slide = inhalte[slideIndex];
-				document.getElementById('aktuelles-bild').src              = slide.bild;
-				document.getElementById('aktuelles-überschrift').innerText = slide.überschrift;
-				document.getElementById('aktuelles-text').innerHTML        = slide.text;
+				$('#aktuelles-bild').attr("src", slide.bild);
+				$('#aktuelles-überschrift').html(slide.überschrift);
+
+				var index = inhaltIndexMap[slideIndex];
+				var href = `/aktuelles.html#${index}`;
+				$("a.aktuelles-link").attr("href", href);
+
+				// To update dimensions for new image.
+				$('#aktuelles-bild').one("load", resizeHandler);
 			}
 
 			function nextSlide() {
@@ -200,22 +212,46 @@
 			function addResizeEvent() {
 				const getDir = () => { return window.getComputedStyle(document.documentElement).getPropertyValue('--img-display'); };
 
-				var handler = () => {
+				var lastdirec  = getDir();
+				var orig_scr_w = 940;
+
+				// Ensure no overlapping title after image load.
+				$("img#aktuelles-bild").one("load", () => {
+					var img = $("img#aktuelles-bild")[0];
+					$("div.überschrift-container").css(
+						"max-width",
+						img.clientWidth-2*10
+					);
+					resizeHandler();
+				});
+
+				window.resizeHandler = () => {
 					var direc = getDir();
-					var img = $("img#aktuelles-bild")
+					var img = $("img#aktuelles-bild");
+					var title = $("div.überschrift-container");
+
+					var orig_img_w = img[0].naturalWidth;
+					var orig_img_h = img[0].naturalHeight;
 
 					if (direc == "stat") {
 						img.height(450);
-					} else {
-						var ratio = img[0].naturalHeight / img[0].naturalWidth;
-						var w = window.innerWidth - 180;
-						var h = w * ratio;
+					} else
+					if (direc == "dyn") {
+						// var scaling_factor = img[0].clientWidth / orig_img_w;
+						var scaling_factor = window.innerWidth / 940;
+
+						var ratio = orig_img_w / orig_img_h;
+						var h = 450 * scaling_factor;
+						var w = h * ratio;
 						img.width(w).height(h);
+						console.log(scaling_factor)
 					}
+					title.css("max-width", img[0].clientWidth-2*10);
+
+					lastdirec = direc;
 				}
 
-				handler(); 
-				addEventListener("resize", handler);
+				addEventListener("resize", resizeHandler);
 			}
 
 			function aktuellesDurchlaufen() {
@@ -226,7 +262,7 @@
 				// Alle 3.0 Sekunden wird das nächste Bild angezeigt.
 				setInterval(
 					()=>{nextSlide();},
-					200
+					3000
 				);
 			}
 
@@ -250,18 +286,15 @@
 		<main class="no-overlap-with-navbar">
 			
 			<div class="aktuelles-container card shadow box">
-				<!-- <h1>Aktuelles</h1> -->
 				<div class="aktueller-inhalt">
-					<a href='aktuelles.html#'+index>
+					<a href='aktuelles.html' class="aktuelles-link">
 						<img id="aktuelles-bild" class="d-block w-100" src="" alt="First slide">
 					</a>
 					
 					<div class="überschrift-container">
-						<a href='aktuelles.html#'+index>
+						<a href='aktuelles.html' class="aktuelles-link">
 							<h3 id="aktuelles-überschrift" class="ellipsis"></h3>
 						</a>
-
-						<p id="aktuelles-text" hidden></p>
 					</div>
 				</div>
 			</div>

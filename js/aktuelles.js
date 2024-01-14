@@ -150,16 +150,16 @@ var aktuelleInhalte = [
 
   ];
 
-  var currentSlide = 0;
+var currentSlide = 0;
 
-  // Function to update the slide
-  function updateSlide(slideIndex) {
-    var slide = aktuelleInhalte[slideIndex];
-    document.getElementById('aktuelles-bild').src = slide.bild;
-    document.getElementById('aktuelles-überschrift').innerText = slide.überschrift;
-    document.getElementById('aktuelles-text').innerHTML = slide.text;
-    document.querySelector('.carousel-control-prev').href = "#carouselExample" + ((slideIndex - 1 + aktuelleInhalte.length) % aktuelleInhalte.length);
-    document.querySelector('.carousel-control-next').href = "#carouselExample" + ((slideIndex + 1) % aktuelleInhalte.length);
+// Function to update the slide
+function updateSlide(slideIndex) {
+  var slide = aktuelleInhalte[slideIndex];
+  $('#aktuelles-bild').attr("src", slide.bild);
+  $('#aktuelles-überschrift').html(slide.überschrift);
+  $('#aktuelles-text').html(slide.text);
+  $('.carousel-control-prev').attr("href", "#"+slideIndex);
+  $('.carousel-control-next').attr("href", "#"+slideIndex);
 }
 
 function nextSlide() {
@@ -168,22 +168,25 @@ function nextSlide() {
 }
 
 function prevSlide() {
-    currentSlide = (currentSlide - 1 + aktuelleInhalte.length) % aktuelleInhalte.length;
+    currentSlide -= 1;
+    if (currentSlide < 0) {
+      currentSlide = aktuelleInhalte.length - 1;
+    }
     updateSlide(currentSlide);
 }
 
 function aktuellesMain() {
-    // Get the hash value from the URL
     var hash = window.location.hash.substring(1);
-    // Convert the hash value to an integer
     var slideIndex = parseInt(hash);
-    // If the hash value is a number, use it as the current slide index
+
     if (!isNaN(slideIndex)) {
         currentSlide = slideIndex;
     }
-    // Add event listeners and update the slide
+    console.log(hash, slideIndex, currentSlide)
+
     document.querySelector('.carousel-control-next').addEventListener('click', nextSlide);
     document.querySelector('.carousel-control-prev').addEventListener('click', prevSlide);
+    
     updateSlide(currentSlide);
 }
 
