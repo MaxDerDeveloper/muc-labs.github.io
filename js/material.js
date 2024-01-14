@@ -37,7 +37,7 @@ var partner = {
 			"images": ["material/laser_titel.jpg"],
 			"website": "https://www.youtube.com/watch?v=_wdOQ9u2f7A"
 		},
-
+	},
 
 	"Mitmach-Experimente": {
 		"Wie kommt das Gelbe ins Ei?": {
@@ -46,7 +46,7 @@ var partner = {
 			"images": ["/material/fablab_1.jpg"],
 			"website": "/materialien.html"
 		},
-
+	},
 
 	"Weitere Higlights": {
 		"Ein neues Konzept im Photonlab": {
