@@ -155,8 +155,8 @@
 			}
 
 			function updateDisclaimer() {
-				var state = selected_tags.length != 0;
-				$("#disclaimer").attr("hidden", state);
+				var opacity = +(selected_tags.length == 0);
+				$("#disclaimer").css("opacity", opacity);
 			}
 
 			function setAllTags(shown) {
@@ -275,7 +275,7 @@
 				for (var nt of alle_nebentags) {
 					var style      = 'style="background-color:grey;cursor:pointer;"';
 					nebentags += `
-						<a class="no-link" href="/labs.html?tag=${nt}">
+						<a class="no-link" href="/filter.html?tag=${nt}">
 							<span class="lab-tag badge rounded-pill" ${style}>
 								<span id="$">
 									${nt}
@@ -436,7 +436,7 @@
 		<main class="no-overlap-with-navbar">
 			
 			<div class="content-container">
-				<h1 style="text-align: center;">Muc-Labs Lernorte</h1>
+				<h1 style="text-align: center; margin-top:15px">Muc-Labs Lernorte</h1>
 
 				<div id="disclaimer" class="alert alert-info" role="alert" style="display: inline-block; margin-left:calc(50%); transform:translate(-50%, 0%);">
 					Keine Kategorien wuden ausgewählt. Alle Labs werden angezeigt.

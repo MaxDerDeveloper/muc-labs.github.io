@@ -188,6 +188,14 @@ function renderNavbarAndFooter() {
 	$(footer).insertAfter("html body main");
 
 	implementSearchFunction();
+
+	// Quicknav highlighting on current site
+	for (var a of document.querySelectorAll("ul.quick-nav-links > li > a.nav-link")) {
+		var href = a.getAttribute("href")
+		if (href == window.location.pathname) {
+			a.style.textDecoration = "underline";
+		}
+	}
 }
 
 function implementSearchFunction() {
