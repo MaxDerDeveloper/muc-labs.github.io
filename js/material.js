@@ -3,21 +3,21 @@ var material = {
 		"FabLab Laborrundgang": {
 			"name": "FabLab Laborrundgang",
 			"text": "Stephanie Legeleux zeigt das FabLab. Das Video ist ein Workshop-Mitschnitt (via Zoom) am virtuellen Schülerlabortag 2021.",
-			"images": ["/material/fablab_1.jpeg"],
+			"images": ["/material/fablab_1.jpg"],
 			"website": "https://youtu.be/THREczNaz8M"
 		},
 
 		"FabLab Impressionen": {
 			"name": "FabLab Impressionen",
 			"text": "Dieses Video zeigt viele Beispiele aus dem FabLab München.",
-			"images": ["/material/fablab_2.jpeg"],
+			"images": ["/material/fablab_2.jpg"],
 			"website": "https://www.youtube.com/watch?v=yxgcpD1w9uI"
 		},
 
 		"Photonlab": {
 			"name": "Photonlab",
 			"text": "Dr. Silke Stähler-Schöpf zeigt das Photonlab.",
-			"images": ["/bilder/partner/bene_logo.png"],
+			"images": ["/material/laser_titel.jpg"],
 			"website": "https://www.youtube.com/watch?v=bjs7x_iNwLc
 		},
 
