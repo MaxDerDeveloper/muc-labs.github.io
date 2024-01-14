@@ -203,8 +203,8 @@ var context  = {
 	"e-conversion": {
 		"name":                     "Schülerlabor Exzellenzcluster e-conversion", /* ? */
 		"website_url":              "https://www.e-conversion.de/school-program/",
-		"adresse":                  "Lichtenbergstraße 4a, 85748 Garching; ausweichend Boltzmannstraße 15, 85748 Garching",
-		"google_maps_url":          "https://maps.app.goo.gl/QyxcuJGySfV18nNe8",
+		"adresse":                  "Boltzmannstraße 15, 85748 Garching",
+		"google_maps_url":          "https://maps.app.goo.gl/GUHJfZAiTnUJwQGDA",
 		"überthema":                ["Physik", "Chemie", "Biologie"],
 		"unterthema":               ["Energieforschung", "Energieumwandlung", "Klimawandel", "Klimawandel", "Erneuerbare Energien", "Batterien", "Thermodynamik", "Photosynthese"],
 		"zielgruppe":               4,
