@@ -599,7 +599,7 @@ var context  = {
 			"So": "Geschlossen (10:00-16:30 Uhr; 10:00-17:00 Uhr)",   // String
 		},
 		"öffnungszeiten_ausnahmen": "Öffnungszeiten: Für gebuchte Gruppenbesuche (Für allgemeine Öffentlichkeit im Winterhalbjahr;... im Sommerhalbjahr)<br>Es gibt in den Schulferien manchmal auch unter der Woche Öffnung mit Programm für die Allgemeinheit - falls dies der Fall ist, wird es unter Aktuelles auf der Website kommuniziert.",   // String, ganzer Satz
-		"images":                   ["/bilder/Musterbild.png;Biotopia Lab Foto: Andreas Heddergott"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
+		"images":                   ["/bilder/Biotopia/Titelbild/20201023_Biotopia_Lab_AH_615952.png;Biotopia Lab Foto: Andreas Heddergott","/bilder/Biotopia/20201023_Biotopia_Lab_AH_616490.png;Biotopia Lab Foto: Andreas Heddergott","/bilder/Biotopia/20201023_Biotopia_Lab_AH_615946.png;Biotopia Lab Foto: Andreas Heddergott"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
 		"buchungs_disclaimer":      true, // Boolean: true oder false
 	},
 
