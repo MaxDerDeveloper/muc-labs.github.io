@@ -215,6 +215,9 @@
 				var lastdirec  = getDir();
 				var orig_scr_w = 940;
 
+				// Hide, until image is loaded.
+				$("div.überschrift-container").css("max-width", 0)
+
 				// Ensure no overlapping title after image load.
 				$("img#aktuelles-bild").one("load", () => {
 					var img = $("img#aktuelles-bild")[0];
