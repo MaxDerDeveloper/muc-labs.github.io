@@ -1,5 +1,5 @@
 var partner = {
-	"Organisationen": {
+	"Lernorte": {
 		"FabLab Laborrundgang": {
 			"name": "FabLab Laborrundgang",
 			"text": "Stephanie Legeleux zeigt das FabLab. Das Video ist ein Workshop-Mitschnitt (via Zoom) am virtuellen Schülerlabortag 2021.",
@@ -23,7 +23,7 @@ var partner = {
 
 	},
 
-	"Astronomie": {
+	"Erklärvideos": {
 		"hands-on-universe": {
 			"name": "Hands-on Universe",
 			"text": "Hands-on Universe entstand als \"public outreach\"-Programm der Supernova-Cosmology (Nobelpreis 2011) in Berkeley, USA. Das Ziel ist, Schülern die Bearbeitung realer (und neuer) Daten zu ermöglichen. Eine entsprechende Software wurde entwickelt (heute SalsaJ) und es gibt Lehreinheiten zur Einführung in die Astrophysik-Forschung.",
@@ -46,7 +46,7 @@ var partner = {
 		},
 	},
 
-	"Biologie": {
+	"Mitmach-Experimente": {
 		"embl": {
 			"name": "EMBL - European Learning Laboratory for the Life Sciences",
 			"text": "EMBL, das Europäische Laboratorium für Molekularbiologie, ist eines der bekanntesten life science Forschungsinstitute der Welt. Der Standort in Deutschland ist Heidelberg. Es werden verschiedene Materialien für 10 bis 19-Jährige angeboten. Zu bestimmten Terminen finden auch virtuelle LearningLABs für Lehrer statt.",
@@ -62,7 +62,7 @@ var partner = {
 		},
 	},
 
-	"Weitere": {
+	"Weitere Higlights": {
 		"dlr_next": {
 			"name": "DLR_next - Das Jugendportal",
 			"text": "Viele Materialien aus verschiedenen Bereichen wie Raumfahrt, Energie oder Digitalisierung. ",
