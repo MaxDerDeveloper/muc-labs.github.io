@@ -89,7 +89,7 @@ var veranstaltungenInhalte = [
 
 // Function to update the slide
 function updateSlide(slideIndex) {
-  var slide = aktuelleInhalte[slideIndex];
+  var slide = veranstaltungenInhalte[slideIndex];
   $('#veranstaltungen-bild').attr("src", slide.bild);
   $('#veranstaltungen-überschrift').html(slide.überschrift);
   $('#veranstaltungen-text').html(slide.text);
