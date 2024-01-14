@@ -1,4 +1,4 @@
-var partner = {
+var material = {
 	"Organisationen": {
 		"lernortlabor": {
 			"name": "LernortLabor e.V.",
