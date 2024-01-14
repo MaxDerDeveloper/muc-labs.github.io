@@ -430,7 +430,7 @@ var context  = {
 			"So": "-",
 		},
 		"öffnungszeiten_ausnahmen": "Öffnungen siehe Webseite - zu angegebenen Offenen Werkstattzeiten und Kurszeiten geöffnet.",
-		"images":                   ["/bilder/Musterbild.png;Manesh Jablonski"],
+		"images":                   ["/bilder/Dachau/Titelbild/image001.jpg","/bilder/Dachau/IT Starter Kurs 1.jpg;MINT-Campus Dachau","/bilder/Dachau/IT Starter Kurs 2.jpg;MINT-Campus Dachau","/bilder/Dachau/IT Starter Kurs.jpg;MINT-Campus Dachau"],
 		"buchungs_disclaimer":      true,
 	},
 
