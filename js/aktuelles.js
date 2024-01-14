@@ -4,10 +4,11 @@ var vorschauArtikelIndex = 0; // Index des Vorschau-Artikels
 var aktuelleInhalte = [
     // Hier mehr Slides hinzufügen
     {
-      bild: 'bilder/Aktuelles/Gruppenbild.jpg',
-      überschrift: 'Erneuerung der muc-labs Webseite',
-      text: 'Das Physik P-Seminar vom Maria-Theresia Gymnasium hat die muc-labs Webseite inhaltlich sowie designtechnisch auf den neusten Stand gebracht.<br> Unsere Konzepte:<br><br><img src=bilder/Aktuelles/muclabs_konzepte_1.jpg><br><img src=bilder/Aktuelles/muclabs_konzepte_2.jpg><br><img src=bilder/Aktuelles/muclabs_konzepte_3.jpg><br><img src=bilder/Aktuelles/muclabs_konzepte_4.jpg><br><img src=bilder/Aktuelles/muclabs_konzepte_5.jpg><br><img src=bilder/Aktuelles/muclabs_konzepte_6.jpg><br><img src=bilder/Aktuelles/muclabs_konzepte_7.jpg><br><img src=bilder/Aktuelles/muclabs_konzepte_8.jpg><br><img src=bilder/Aktuelles/muclabs_konzepte_9.jpg><br><img src=bilder/Aktuelles/muclabs_konzepte_10.jpg><br><img src=bilder/Aktuelles/muclabs_konzepte_11.jpg><br><img src=bilder/Aktuelles/muclabs_konzepte_12.jpg>',
-      datum: '04.01.2024',
+        bild: 'bilder/Aktuelles/Gruppenbild.jpg',
+        überschrift: 'Erneuerung der muc-labs Webseite',
+        text: 'Das Physik P-Seminar vom Maria-Theresia Gymnasium hat die muc-labs Webseite inhaltlich sowie designtechnisch auf den neusten Stand gebracht.<br> Unsere Konzepte:<br><br><img src=bilder/Aktuelles/muclabs_konzepte_1.jpg style="width: 100vw;"><br><img src=bilder/Aktuelles/muclabs_konzepte_2.jpg style="width: 100vw;"><br><img src=bilder/Aktuelles/muclabs_konzepte_3.jpg style="width: 100vw;"><br><img src=bilder/Aktuelles/muclabs_konzepte_4.jpg style="width: 100vw;"><br><img src=bilder/Aktuelles/muclabs_konzepte_5.jpg style="width: 100vw;"><br><img src=bilder/Aktuelles/muclabs_konzepte_6.jpg style="width: 100vw;"><br><img src=bilder/Aktuelles/muclabs_konzepte_7.jpg style="width: 100vw;"><br><img src=bilder/Aktuelles/muclabs_konzepte_8.jpg style="width: 100vw;"><br><img src=bilder/Aktuelles/muclabs_konzepte_9.jpg style="width: 100vw;"><br><img src=bilder/Aktuelles/muclabs_konzepte_10.jpg style="width: 100vw;"><br><img src=bilder/Aktuelles/muclabs_konzepte_11.jpg style="width: 100vw;"><br><img src=bilder/Aktuelles/muclabs_konzepte_12.jpg style="width: 100vw;">',
+        datum: '04.01.2024',
+
     },
     {
       bild: 'bilder/Aktuelles/Musterbild.png',
