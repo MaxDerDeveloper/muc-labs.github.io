@@ -207,7 +207,7 @@ var context  = {
 		"google_maps_url":          "https://maps.app.goo.gl/GUHJfZAiTnUJwQGDA",
 		"überthema":                ["Physik", "Chemie", "Biologie"],
 		"unterthema":               ["Energieforschung", "Energieumwandlung", "Klimawandel", "Klimawandel", "Erneuerbare Energien", "Batterien", "Thermodynamik", "Photosynthese"],
-		"zielgruppe":               4,
+		"zielgruppe":               3,
 		"altersgruppe":             "12 Jahre - Abitur, vor allem Schüler der Mittel- und Oberstufe an Gymnasien",
 		"teilnehmer_anzahl":        "Ca. 15-25",
 		"dauer":                    "abhängig vom Workshop, meistens mehrere Vormittage",
