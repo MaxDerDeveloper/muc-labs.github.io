@@ -84,37 +84,7 @@ var partner = {
 		},
 	},
 }
-function implementSearchFunction() {
-	// Fügt Event zur Suchleiste im Hamburger-Menu hinzu. Ermöglicht externe Suchfunktion bei Google
-	$("form#navbar-search-form")[0].addEventListener("submit", (e)=>{
-		e.preventDefault();
 
-		const host   = "google.de";   // Der Domainname der Suchmaschine
-		const target = "muc-labs.de"; // Der Domainname der zu durchsuchenden Seite
-
-		var input = $(e.target).find("> div > input[type=search]")[0].value;
-
-		console.log(input);
-		if (input === "") {
-			return;
-		}
-
-		var query = encodeURIComponent(`${input} site:${target}`);
-		var redirect_url = `https://${host}/search?q=${query}`;
-		
-		// Weiterleitung
-		window.location.replace(redirect_url);
-	});
-}
-
-function prependToTitle(string) {
-	document.title = string + " | " + document.title;
-}
-
-function initializeCarousel() {
-	$('a#next-btn').click((e) => { $('.carousel').carousel("next"); });
-	$('a#prev-btn').click((e) => { $('.carousel').carousel("prev"); });
-}
 
 function getLab(query) {
 	if ("lab" in query) {
@@ -289,4 +259,35 @@ function renderNavbarAndFooter() {
 			a.style.textDecoration = "underline";
 		}
 	}
+}
+function implementSearchFunction() {
+	// Fügt Event zur Suchleiste im Hamburger-Menu hinzu. Ermöglicht externe Suchfunktion bei Google
+	$("form#navbar-search-form")[0].addEventListener("submit", (e)=>{
+		e.preventDefault();
+
+		const host   = "google.de";   // Der Domainname der Suchmaschine
+		const target = "muc-labs.de"; // Der Domainname der zu durchsuchenden Seite
+
+		var input = $(e.target).find("> div > input[type=search]")[0].value;
+
+		console.log(input);
+		if (input === "") {
+			return;
+		}
+
+		var query = encodeURIComponent(`${input} site:${target}`);
+		var redirect_url = `https://${host}/search?q=${query}`;
+		
+		// Weiterleitung
+		window.location.replace(redirect_url);
+	});
+}
+
+function prependToTitle(string) {
+	document.title = string + " | " + document.title;
+}
+
+function initializeCarousel() {
+	$('a#next-btn').click((e) => { $('.carousel').carousel("next"); });
+	$('a#prev-btn').click((e) => { $('.carousel').carousel("prev"); });
 }
