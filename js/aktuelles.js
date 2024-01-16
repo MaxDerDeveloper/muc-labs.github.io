@@ -102,8 +102,6 @@ function aktuellesMain() {
     document.querySelector('.carousel-control-next').addEventListener('click', nextSlide);
     document.querySelector('.carousel-control-prev').addEventListener('click', prevSlide);
     updateSlide(currentSlide);
-    var überschrift = document.getElementById('aktuelles-überschrift').textContent;
-    var datum = document.getElementById('datum-überschrift').textContent;  
-    document.getElementById('aktuelles-überschrift').textContent = überschrift + " (" + datum + ")";
+    
 }
 }
