@@ -73,6 +73,7 @@ function updateSlide(slideIndex) {
   $('#aktuelles-bild').attr("src", slide.bild);
   $('#aktuelles-überschrift').html(slide.überschrift);
   $('#aktuelles-text').html(slide.text);
+  $('#aktuelles-datum').html(slide.datum);
   $('.carousel-control-prev').attr("href", "#"+slideIndex);
   $('.carousel-control-next').attr("href", "#"+slideIndex);
 }
