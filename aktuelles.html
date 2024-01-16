@@ -90,16 +90,16 @@
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 </a>
             </div>
-        </main>
-        <script type="text/javascript">
+            <script type="text/javascript">
         document.addEventListener("DOMContentLoaded", function() {
             
-            var überschrift = document.getElementById('aktuelles-überschrift');
-            var datum = document.getElementById('aktuelles-datum');
+            var überschrift = document.getElementById('aktuelles-überschrift').textContent;
+            var datum = document.getElementById('aktuelles-datum').textContent;
 
             
             document.getElementById('aktuelles-überschrift').textContent = überschrift + " (" + datum + ")";
         });
     </script>
+        </main>
     </body>  
 </html>
