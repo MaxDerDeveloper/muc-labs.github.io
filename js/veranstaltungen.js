@@ -94,6 +94,7 @@ function updateSlide(slideIndex) {
   $('#veranstaltungen-bild').attr("src", slide.bild);
   $('#veranstaltungen-überschrift').html(slide.überschrift);
   $('#veranstaltungen-text').html(slide.text);
+  $('#veranstaltungen-datum').html(slide.datum);
   $('.carousel-control-prev').attr("href", "#"+slideIndex);
   $('.carousel-control-next').attr("href", "#"+slideIndex);
 }
