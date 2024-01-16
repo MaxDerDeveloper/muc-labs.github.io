@@ -85,39 +85,6 @@
           
         </main>
     </body>  
-    <body onload="startEggRain()">
-  <div id="eggContainer"></div>
-</body>
+    
 
-// CSS
-<style>
-  .egg {
-    position: fixed;
-    width: 20px;
-    height: 30px;
-    background: url('/bilder/easteregg.png');
-    animation: fall 5s linear;
-  }
-
-  @keyframes fall {
-    0% { top: -50px; opacity: 1; }
-    100% { top: 100vh; opacity: 0; }
-  }
-</style>
-
-// JavaScript
-<script>
-  function startEggRain() {
-    const container = document.getElementById('eggContainer');
-    for (let i = 0; i < 100; i++) {
-      const egg = document.createElement('div');
-      egg.className = 'egg';
-      egg.style.left = `${Math.random() * 100}vw`;
-      container.appendChild(egg);
-    }
-    setTimeout(() => {
-      container.innerHTML = '';
-    }, 5000);
-  }
-</script>
 </html>
