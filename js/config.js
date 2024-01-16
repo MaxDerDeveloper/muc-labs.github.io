@@ -700,7 +700,7 @@ var context  = {
 			"So": "Auf Anfrage",   // String
 		},
 		"öffnungszeiten_ausnahmen": "Öffnungszeiten sind abhängig von der Nutzung durch Studierende.",   // String, ganzer Satz
-		"images":                   ["/bilder/Musterbild.png;TUM"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
+		"images":                   ["/bilder/TUMscienceLab/Titelbild/csm_MAG_2_184bd71679.png;TUM","/bilder/TUMscienceLab/csm_IMG_4596_ba86358f7c.png;TUM","/bilder/TUMscienceLab/csm_P1000297_533a2a0a1b.png;TUM","/bilder/TUMscienceLab/csm_P1000301_a8c274731e.png;TUM","/bilder/TUMscienceLab/e-m.png;TUM"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
 		"buchungs_disclaimer":      true, // Boolean: true oder false
 	},
 
