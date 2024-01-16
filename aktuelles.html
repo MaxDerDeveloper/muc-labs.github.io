@@ -91,5 +91,15 @@
                 </a>
             </div>
         </main>
+        <script type="text/javascript">
+        document.addEventListener("DOMContentLoaded", function() {
+            
+            var überschrift = document.getElementById('aktuelles-überschrift').textContent;
+            var datum = document.getElementById('aktuelles-datum').textContent;
+
+            
+            document.getElementById('aktuelles-überschrift').textContent = überschrift + " (" + datum + ")";
+        });
+    </script>
     </body>  
 </html>
