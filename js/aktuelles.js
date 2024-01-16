@@ -104,4 +104,4 @@ function aktuellesMain() {
     updateSlide(currentSlide);
     
 }
-}
+
