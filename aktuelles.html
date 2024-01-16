@@ -55,15 +55,22 @@
     <body>
         <main class="no-overlap-with-navbar">
             <script type="text/javascript">
-                function main() {
-                    renderNavbarAndFooter();
-                    aktuellesMain();
-                    var überschrift = document.getElementById('aktuelles-überschrift').textContent;
-                    var datum = document.getElementById('aktuelles-datum').textContent;
-                                document.getElementById('aktuelles-überschrift').textContent = überschrift + " (" + datum + ")";
-                }
-                window.onload = main;
-            </script>
+               function main() {
+                renderNavbarAndFooter();
+                aktuellesMain();
+                updateÜberschriftMitDatum();
+            }
+            window.onload = main;
+
+            function updateÜberschriftMitDatum() {
+                // Get the überschrift and datum
+                var überschrift = document.getElementById('aktuelles-überschrift').textContent;
+                var datum = document.getElementById('aktuelles-datum').textContent;
+
+                // Combine überschrift and datum and update the überschrift element
+                document.getElementById('aktuelles-überschrift').textContent = überschrift + " (" + datum + ")";
+            }
+        </script>
             <div id="carousel" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
