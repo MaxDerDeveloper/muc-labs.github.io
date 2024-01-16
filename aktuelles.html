@@ -58,6 +58,9 @@
                 function main() {
                     renderNavbarAndFooter();
                     aktuellesMain();
+                    var überschrift = document.getElementById('aktuelles-überschrift').textContent;
+                    var datum = document.getElementById('aktuelles-datum').textContent;
+                                document.getElementById('aktuelles-überschrift').textContent = überschrift + " (" + datum + ")";
                 }
                 window.onload = main;
             </script>
