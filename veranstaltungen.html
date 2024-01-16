@@ -12,73 +12,73 @@
         <script type="text/javascript" src="/js/main.js"></script>
         <script type="text/javascript" src="/js/veranstaltungen.js"></script>
         <style type="text/css">
-            /* Reference: https://stackoverflow.com/a/7419891 */
-            div.image-container-dont-resize-navbar {
-                position: relative;
+    /* Reference: https://stackoverflow.com/a/7419891 */
+    div.image-container-dont-resize-navbar {
+        position: relative;
+    }
+    div.image-container-dont-resize-navbar img {
+        position: absolute;
+    }
+    img.image-centered-vertically {
+        -ms-transform: translate(0%, -50%);
+        transform: translate(0%, -50%);
+    }
+    main.no-overlap-with-navbar {
+        position: relative;
+        top: 60px;
+    }
+    .carousel-item {
+      height: 60vh;
+    }
+    #veranstaltungen-bild {
+      height: 100%;
+      width: auto;
+      object-fit: contain;
+    }
+    .carousel-control-prev, .carousel-control-next {
+      position: absolute;
+      top: 35vh;
+      transform: translateY(-50%);
+    }
+    .carousel-control-prev-icon {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+    }
+    .carousel-control-next-icon {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+    }
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        filter: invert(100%) drop-shadow(3px 3px 8px #555);
+    }
+</style>
+</head>
+<body>
+    <main class="no-overlap-with-navbar">
+        <script type="text/javascript">
+            function main() {
+                renderNavbarAndFooter();
+                veranstaltungenMain();
             }
-            div.image-container-dont-resize-navbar img {
-                position: absolute;
-            }
-            img.image-centered-vertically {
-                -ms-transform: translate(0%, -50%);
-                transform: translate(0%, -50%);
-            }
-            main.no-overlap-with-navbar {
-                position: relative;
-                top: 60px;
-            }
-            .carousel-item {
-              height: 60vh;
-            }
-            #aktuelles-bild {
-              height: 100%;
-              width: auto;
-              object-fit: contain;
-            }
-            .carousel-control-prev, .carousel-control-next {
-              position: absolute;
-              top: 35vh; /*verschieben, wenn gewollt, bleibt immer auf der gleichen höhe */
-              transform: translateY(-50%);
-            }
-            .carousel-control-prev-icon {
-              background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
-            }
-            .carousel-control-next-icon {
-              background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
-            }
-            .carousel-control-prev-icon, .carousel-control-next-icon {
-                filter: invert(100%) drop-shadow(3px 3px 8px #555);
-            }
-        </style>
-    </head>
-    <body>
-        <main class="no-overlap-with-navbar">
-            <script type="text/javascript">
-                function main() {
-                    renderNavbarAndFooter();
-                    veranstaltungenMain();
-                }
-                window.onload = main;
-            </script>
-            <div id="carousel" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img id="veranstaltungen-bild" class="d-block w-100" src="" alt="Das Bild konnte nicht geladen werde.">
-                    </div>
+            window.onload = main;
+        </script>
+        <div id="carousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img id="veranstaltungen-bild" class="d-block w-100" src="" alt="Das Bild konnte nicht geladen werde.">
                 </div>
-                <div class="d-flex flex-column justify-content-center align-items-center mt-4"> <!-- Flexbox utilities for centering -->
-                    <div style="width:80%; margin-left: 5%;">
-                        <h5 id="veranstaltungen-überschrift"></h5>
-                        <p id="veranstaltungen-text"></p>
-                    </div>
-                </div>
-                <a class="carousel-control-prev" href="#" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                </a>
-                <a class="carousel-control-next" href="#" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                </a>
             </div>
-        </main>
-    </body>  
+            <div class="d-flex flex-column justify-content-center align-items-center mt-4"> <!-- Flexbox utilities for centering -->
+                <div style="width:80%; margin-left: 5%;">
+                    <h5 id="veranstaltungen-überschrift"></h5>
+                    <p id="veranstaltungen-text"></p>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </a>
+            <a class="carousel-control-next" href="#" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </a>
+        </div>
+    </main>
+</body>  
 </html>
