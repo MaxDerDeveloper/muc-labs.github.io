@@ -62,14 +62,6 @@
             }
             window.onload = main;
 
-            function updateÜberschriftMitDatum() {
-                // Get the überschrift and datum
-                var überschrift = document.getElementById('aktuelles-überschrift').textContent;
-                var datum = document.getElementById('aktuelles-datum').textContent;
-
-                // Combine überschrift and datum and update the überschrift element
-                document.getElementById('aktuelles-überschrift').textContent = überschrift + " (" + datum + ")";
-            }
         </script>
             <div id="carousel" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
@@ -80,6 +72,7 @@
                 <div class="d-flex flex-column justify-content-center align-items-center mt-4"> <!-- Flexbox utilities for centering -->
                     <div style="width:80%; margin-left: 5%;">
                         <h5 id="aktuelles-überschrift"></h5>
+                        <h6 id"aktuelles-datum"></h6>
                         <p id="aktuelles-text"></p>
                     </div>
                 </div>
@@ -90,16 +83,7 @@
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 </a>
             </div>
-            <script type="text/javascript">
-        document.addEventListener("DOMContentLoaded", function() {
-            
-            var überschrift = document.getElementById('aktuelles-überschrift').textContent;
-            var datum = document.getElementById('aktuelles-datum').textContent;
-
-            
-            document.getElementById('aktuelles-überschrift').textContent = überschrift + " (" + datum + ")";
-        });
-    </script>
+          
         </main>
     </body>  
 </html>
