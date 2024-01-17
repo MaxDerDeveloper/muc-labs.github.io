@@ -11,22 +11,46 @@
 		<script type="text/javascript" src="/js/config.js"></script>
 		<link href="/css/muc-labs.css" rel="stylesheet">
 		<style type="text/css">
+
 			/* Mobile */
 			@media (max-width: 900px) {
-				div.impressum-container {
+				div.über-uns-container {
 					width: calc(100% - 2*5%);
 				}
 			}
 
 			/* PC */
 			@media (min-width: 900px) {
-				div.impressum-container {
+				div.über-uns-container {
 					width: 60%;
 				}
 			}
 
-			div.impressum-container {
+			div.über-uns-container {
 				margin-left: 5%;
+			}
+
+			/* Reference: https://stackoverflow.com/a/7419891 */
+			div.image-container-dont-resize-navbar {
+				position: relative;
+			}
+			div.image-container-dont-resize-navbar img {
+				position: absolute;
+			}
+			img.image-centered-vertically {
+				-ms-transform: translate(0%, -50%);
+				transform: translate(0%, -50%);
+			}
+			div.link-container {
+				position: relative;
+				left: calc(20px + 10px);
+
+				display:flex;
+				flex-direction:row;
+				justify-content: spaced-between;
+			}
+			div.link-container a {
+				margin-right: 15px;
 			}
 		</style>
 		
@@ -42,7 +66,7 @@
 	<body>
 		<main class="no-overlap-with-navbar">
 			<div class="impressum-container">
-				<h1>Impressum</h1>
+				<h1>Impressum <br></h1>
 
 				<p class="blocksatz">
 					muc-labs ist eine private Initiative der Leiter von Schülerlabore, um Interessierten einen detaillierten Überblick über die Schülerlabore im Münchner Raum zur Verfügung zu stellen.
@@ -53,7 +77,7 @@
 					<br> muc-labs ist unter der Nummer 208688 im Vereinsregister registriert.
 			</p>
 
-				<h2>Haftungshinweis:</h2>
+				<h4>Haftungshinweis:</h4>
 
 				<p class="blocksatz">
 					Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte externer Links, dazu zählz auch die Suchfunktion auf dieser Webseite. Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich.<br>
