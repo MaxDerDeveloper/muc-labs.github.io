@@ -168,20 +168,16 @@
 			var inhaltUrlMap = {};
 
 			function initInhalte() {
+				// Vorschauartikel wird in js/aktuelles.js definiert.
 				var result      = [aktuelleInhalte[vorschauArtikelIndex]];
 				inhaltUrlMap[0] = `/aktuelles.html#${vorschauArtikelIndex}`;
 
 				function letzteInhalteAus(array, n, result, path) {
-					var offset = Math.max(array.length - n, 1);
 					for (var i=0; i<n; i+=1) {
-						var j   = offset+i;
-						var art = array[j];
-
-						inhaltUrlMap[result.length] = path + j.toString();
+						var art = array[i];
+						inhaltUrlMap[result.length] = path + i.toString();
 						result.push(art);
 					}
-
-
 				}
 
 				letzteInhalteAus(aktuelleInhalte,        anzahlInhalte, result, "/aktuelles.html#");
