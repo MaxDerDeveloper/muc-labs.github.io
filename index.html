@@ -145,29 +145,49 @@
 				flex-direction: row;
 				justify-content: space-around;
 				flex-wrap: wrap;
+				height: 281px;
+				overflow-y: hidden;
+			}
+
+			div#labs-preview div.lab-card {
+				margin-bottom: 50px;
+			}
+
+			div.wrapped {
+				background-color: red;
 			}
 		</style>
 
 		<script src="js/aktuelles.js"></script>
+		<script src="js/veranstaltungen.js"></script>
+
 		<script type="text/javascript" src="/js/main.js"></script>
 		<script type="text/javascript">
 			var anzahlInhalte = 3;
 			var inhalte;
-			var inhaltIndexMap = {};
+			var inhaltUrlMap = {};
 
 			function initInhalte() {
-				inhalte = [];
-				inhalte.push( aktuelleInhalte[vorschauArtikelIndex] ); // Vorschau-Artikel
-				inhaltIndexMap[0] = vorschauArtikelIndex;
+				var result      = [aktuelleInhalte[vorschauArtikelIndex]];
+				inhaltUrlMap[0] = `/aktuelles.html#${vorschauArtikelIndex}`;
 
-				var offset = Math.max(aktuelleInhalte.length - anzahlInhalte, 1);
-				for (var i=0; i<anzahlInhalte; i+=1) {
-					var j = offset+i;
-					var art = aktuelleInhalte[j];
+				function letzteInhalteAus(array, n, result, path) {
+					var offset = Math.max(array.length - n, 1);
+					for (var i=0; i<n; i+=1) {
+						var j   = offset+i;
+						var art = array[j];
 
-					inhalte.push(art);
-					inhaltIndexMap[i+1] = j;
+						inhaltUrlMap[result.length] = path + j.toString();
+						result.push(art);
+					}
+
+
 				}
+
+				letzteInhalteAus(aktuelleInhalte,        anzahlInhalte, result, "/aktuelles.html#");
+				letzteInhalteAus(veranstaltungenInhalte, anzahlInhalte, result, "/veranstaltungen.html#");
+
+				inhalte = result;
 			}
 
 			function renderÜbertags(übertags) {
@@ -204,8 +224,7 @@
 				$('#aktuelles-bild').attr("src", slide.bild);
 				$('#aktuelles-überschrift').html(slide.überschrift);
 
-				var index = inhaltIndexMap[slideIndex];
-				var href = `/aktuelles.html#${index}`;
+				var href = inhaltUrlMap[slideIndex];
 				$("a.aktuelles-link").attr("href", href);
 
 				// To update dimensions for new image.
@@ -257,7 +276,6 @@
 						img.width(w).height(h);
 					}
 					title.css("max-width", img[0].clientWidth-2*10);
-
 					lastdirec = direc;
 				}
 
@@ -266,7 +284,6 @@
 
 			function aktuellesDurchlaufen() {
 				// Erstes Bild
-				currentSlide
 				updateSlide(currentSlide);
 
 				// Alle 3.0 Sekunden wird das nächste Bild angezeigt.
@@ -343,6 +360,7 @@
 				var html = "";
 				var n = mobileCheck() ? 1 : 5;
 				// Handy:1, PC:5
+				// Es wird immer nur eine Zeile angezeigt
 
 				var labs = getLabs();
 				var keys = Object.keys(labs);
@@ -403,7 +421,7 @@
 				</div>
 			</div>
 
-			<div class="card shadow box" style="width: calc(100% - 80px);">
+			<div id="labs-preview-container" class="card shadow box" style="width: calc(100% - 80px);">
 				<div id="labs-preview">
 					
 				</div>
