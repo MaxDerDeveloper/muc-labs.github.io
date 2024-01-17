@@ -11,6 +11,49 @@
 		<script type="text/javascript" src="/js/config.js"></script>
 		<link href="/css/muc-labs.css" rel="stylesheet">
 		
+		<style type="text/css">
+
+			/* Mobile */
+			@media (max-width: 900px) {
+				div.über-uns-container {
+					width: calc(100% - 2*5%);
+				}
+			}
+
+			/* PC */
+			@media (min-width: 900px) {
+				div.über-uns-container {
+					width: 60%;
+				}
+			}
+
+			div.über-uns-container {
+				margin-left: 5%;
+			}
+
+			/* Reference: https://stackoverflow.com/a/7419891 */
+			div.image-container-dont-resize-navbar {
+				position: relative;
+			}
+			div.image-container-dont-resize-navbar img {
+				position: absolute;
+			}
+			img.image-centered-vertically {
+				-ms-transform: translate(0%, -50%);
+				transform: translate(0%, -50%);
+			}
+			div.link-container {
+				position: relative;
+				left: calc(20px + 10px);
+
+				display:flex;
+				flex-direction:row;
+				justify-content: spaced-between;
+			}
+			div.link-container a {
+				margin-right: 15px;
+			}
+		</style>
 		
 		<script type="text/javascript" src="/js/main.js"></script>
 		<script type="text/javascript">
