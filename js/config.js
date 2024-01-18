@@ -318,7 +318,7 @@ var context  = {
 		"w-seminare":               "Kein Angebot",
 		"betreuungspersonal":       "Vorhanden",
 		"außerschulisches_angebot": "Selbstständiges Nutzen der Werkstatt möglich ab 16 nach Einführung",
-		"beschreibung":             "Im Fablab München kannst Du eine Hightechwerkstatt mit unterschiedlichen computergesteuerten Maschinen hautnah erleben. Wir haben eine 300m² große Werkstatt, in der Du als Mitglied verschiedenste 3D Drucker, Lasercutter, Holz-, Metall, sowie Elektronikwerkstatt nach Einführungskursen 7/24/365 nutzen kannst.",
+		"beschreibung":             "Im Fablab München kannst Du eine Hightechwerkstatt mit unterschiedlichen computergesteuerten Maschinen hautnah erleben. Wir haben eine 300m² große Werkstatt, in der Du als Mitglied verschiedenste 3D Drucker, Lasercutter, Holz-, Metall, sowie Elektronikwerkstatt nach Einführungskursen 7/24/365 nutzen kannst. <br> <br> Ein Besichtigung der Räume ist in einem <a href='https://www.fablab-muenchen.de/unser-lab/unsere-raeume/'>virtuellen Rundgang</a> möglich.",
 		"buchungsadresse":          "<a href='https://www.eventbrite.de/o/fablab-munchen-ev-7227151391'>Buchungswebseite</a>",
 		"öffnungszeiten":           {
 			"Mo": "-",
@@ -351,7 +351,7 @@ var context  = {
 		"w-seminare":               "Kein Angebot",
 		"betreuungspersonal":       "Vorhanden",
 		"außerschulisches_angebot": "siehe <a href='/lab.html?lab=FabLab'>FabLab Muenchen e.V.</a>, außerdem offene Werkstätte mit Kursleiter und Anmeldung",
-		"beschreibung":             "In den 200 Quadratmeter großen Bildungsräumen des FabLab München e.V. kannst Du selber lernen mit Maschinen wie 3D Drucker, Lasercutter, Roboter, Schneideplotter, Löten umzugehen und Modelle zum Drucken oder Cutten erstellen, sowie verschiedenste 3D-Druck-, Minecraft-, Programmier-, Elektronik-, Trickfilm- und Laserkurse mitmachen. Entweder Du kommst mit Deiner Klasse unter der Woche, oder am Wochenende oder in den Ferien zu einem Kurs zu uns.",
+		"beschreibung":             "In den 200 Quadratmeter großen Bildungsräumen des FabLab München e.V. kannst Du selber lernen mit Maschinen wie 3D Drucker, Lasercutter, Roboter, Schneideplotter, Löten umzugehen und Modelle zum Drucken oder Cutten erstellen, sowie verschiedenste 3D-Druck-, Minecraft-, Programmier-, Elektronik-, Trickfilm- und Laserkurse mitmachen. Entweder Du kommst mit Deiner Klasse unter der Woche, oder am Wochenende oder in den Ferien zu einem Kurs zu uns. <br> <br> Ein Besichtigung der Räume ist in einem <a href='https://www.fablab-muenchen.de/unser-lab/unsere-raeume/'>virtuellen Rundgang</a> möglich.",
 		"buchungsadresse":          "<a href='https://www.eventbrite.de/o/fablab-kids-im-fablab-munchen-ev-7117094347'>Buchungswebseite</a>",
 		"öffnungszeiten":           {
 			"Mo": "-",
