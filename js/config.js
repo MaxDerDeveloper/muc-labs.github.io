@@ -636,40 +636,6 @@ var context  = {
 		"buchungs_disclaimer":      true, // Boolean: true oder false
 	},
 
-	"LernenmitKick": {
-		"name":                     "Lernen mit Kick",   // String
-		"website_url":              "https://www.awo-muenchen.de/kinder/fanprojekt-muenchen/lernen-mit-kick/unser-projekt",   // String
-		"adresse":                  "FC Bayern Campus, Ingolstädter Straße 272, 80939 München",   // String
-		"google_maps_url":          "https://maps.app.goo.gl/Pnxo2wJPAGCQJ2DWA",   // String, URL: https://...
-		"überthema":                ["Gesellschaft","Demokratie","Nachhaltigkeit"], // Array von Strings, siehe Liste von zulässigen Überthemen unten
-		"unterthema":               ["Rassismus","Diskriminierung","Gewalt","Medienpädagogik","Gender Diversity","Geld","Konsum"], // Array von Strings
-		"zielgruppe":               10,    // Zahl von 0 bis 10, Integer
-		"altersgruppe":             "Ab 7. Klasse",   // String
-		"teilnehmer_anzahl":        "Max. 30 Personen",   // String
-		"dauer":                    "-",   // String
-		"schularten":               ["Mittelschule","Realschulen","Berufsschulen","Sonderpädagogische Förderzentren"], // Array von String
-		"sprachen":                 ["Deutsch","Englisch"], // Array von String
-		"praktika":                 ["Kein Angebot"], // Array von String
-		"w-seminare":               "Kein Angebot",   // String
-		"betreuungspersonal":       "-",   // String
-		"außerschulisches_angebot": "Ausschließlich außerschulisches Angebot",   // String
-		"beschreibung":             "Lernen mit Kick ist ein kostenloses, außerschulisches Bildungsangebot. Es bietet Schüler*innen unterschiedlicher Klassenstufen in vielfältigen Workshops, ein breites Spektrum an relevanten und aktuellen gesellschaftspolitischen Themen.",   // String
-		"buchungsadresse":          "<a href='mailto:lernenmitkick@awo-muenchen.de'>lernenmitkick@awo-muenchen.de</a>",   // String, Webseiten-URL ("http://...") oder E-Mail-Adresse (z.B.: "<a href='mailto:test@example.com'>test@example.com</a>")
-		"öffnungszeiten":           {
-			/* Hier sind Uhrzeiten oder kurze Beschreibungen passend */
-			"Mo": "Geschlossen",   // String
-			"Di": "Geschlossen",   // String
-			"Mi": "Geschlossen",   // String
-			"Do": "Geöffnet",   // String
-			"Fr": "Geschlossen",   // String
-			"Sa": "Geschlossen",   // String
-			"So": "Geschlossen",   // String
-		},
-		"öffnungszeiten_ausnahmen": "In Schulferien geschlossen",   // String, ganzer Satz
-		"images":                   ["/bilder/Musterbild.png;Manesh Jablonski"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
-		"buchungs_disclaimer":      true, // Boolean: true oder false
-	},
-
 	"TUMScienceLabs": {
 		"name":                     "TUM ScienceLabs",   // String
 		"website_url":              "https://www.edu.sot.tum.de/edu/schule/angebote-an-der-tum/sciencelabs/",   // String
