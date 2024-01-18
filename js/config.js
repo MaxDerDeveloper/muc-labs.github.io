@@ -384,8 +384,8 @@ var context  = {
 		"w-seminare":               "Kein Angebot",
 		"betreuungspersonal":       "Studierende",
 		"außerschulisches_angebot": "Nein",
-		"beschreibung":            "Genetik macht Schule vereint als \"Integriertes Schülerlabor\" die Interessen von Schülern und Studierenden, erstere kriegen eine spannende Unterichtsstunde mit anschließendem praktischen Teil; letztere können Unterichtserfahrung sammeln. Auf die theoretische Unterrichtsstunde folgt eine Woche später ein experimenteller Teil am Biozentrum der LMU, um das Gelernte zu festigen.",
-		"buchungsadresse":          "<a href='mailto:brachmann@lmu.de'>brachmann@lmu.de</a> </b> Die Schülerlabortage finden in den Wochen nach den Pfingstferien statt. Bitte wenden Sie sich an die <a href='https://teaching.genetik.biologie.uni-muenchen.de/teaching/kurse/genetik-macht-schule'>Webseite</a> des Schülerlabors für die jeweils aktuellen Termine.<b>",
+		"beschreibung":            "Genetik macht Schule vereint als \"Integriertes Schülerlabor\" die Interessen von Schülern und Studierenden; erstere bekommen eine spannende Unterichtsstunde mit anschließendem praktischen Teil; letztere können Unterichtserfahrung sammeln. Auf die theoretische Unterrichtsstunde folgt eine Woche später ein experimenteller Teil am Biozentrum der LMU, um das Gelernte zu festigen.",
+		"buchungsadresse":          "<a href='mailto:brachmann@lmu.de'>brachmann@lmu.de</a> </b> <br> Die Schülerlabortage finden in den Wochen nach den Pfingstferien statt. Bitte wenden Sie sich an die <a href='https://teaching.genetik.biologie.uni-muenchen.de/teaching/kurse/genetik-macht-schule'>Webseite</a> des Schülerlabors für die jeweils aktuellen Termine.<b>",
 		"öffnungszeiten":           {
 			"Mo": "-",
 			"Di": "-",
@@ -397,7 +397,7 @@ var context  = {
 		},
 		"öffnungszeiten_ausnahmen": "",
 		"images": ["/bilder/Genetik macht Schule/IMG_5882 Kopie.png;Eigenaufnahme Mateo Trampler", "/bilder/Genetik macht Schule/IMG_5855Berabeitet Kopie.png;Eigenaufnahme Mateo Trampler", "/bilder/Genetik macht Schule/IMG_5883 Kopie.png;Eigenaufnahme Mateo Trampler", "/bilder/Genetik macht Schule/IMG_5885 Kopie.png;Eigenaufnahme Mateo Trampler", "/bilder/Genetik macht Schule/IMG_5886 Kopie.png;Eigenaufnahme Mateo Trampler", "/bilder/Genetik macht Schule/IMG_5888 Kopie.png;Eigenaufnahme Mateo Trampler", "/bilder/Genetik macht Schule/IMG_5890 Kopie.png;Eigenaufnahme Mateo Trampler", "/bilder/Genetik macht Schule/IMG_5892 Kopie.png;Eigenaufnahme Mateo Trampler", "/bilder/Genetik macht Schule/IMG_5895 Kopie.png;Eigenaufnahme Mateo Trampler", "/bilder/Genetik macht Schule/IMG_5896 Kopie.png;Eigenaufnahme Mateo Trampler", "/bilder/Genetik macht Schule/IMG_5899 Kopie.png;Eigenaufnahme Mateo Trampler", "/bilder/Genetik macht Schule/IMG_5901 Kopie.png;Eigenaufnahme Mateo Trampler", "/bilder/Genetik macht Schule/IMG_5905 Kopie.png;Eigenaufnahme Mateo Trampler", "/bilder/Genetik macht Schule/IMG_5906 Kopie.png;Eigenaufnahme Mateo Trampler", "/bilder/Genetik macht Schule/IMG_5907 Kopie.png;Eigenaufnahme Mateo Trampler", "/bilder/Genetik macht Schule/IMG_5909 Kopie.png;Eigenaufnahme Mateo Trampler", "/bilder/Genetik macht Schule/IMG_5910 Kopie.png;Eigenaufnahme Mateo Trampler", "/bilder/Genetik macht Schule/IMG_5913 Kopie.png;Eigenaufnahme Mateo Trampler", "/bilder/Genetik macht Schule/IMG_5917 Kopie.png;Eigenaufnahme Mateo Trampler", "/bilder/Genetik macht Schule/IMG_5923 Kopie.png;Eigenaufnahme Mateo Trampler", "/bilder/Genetik macht Schule/IMG_5924 Kopie.png;Eigenaufnahme Mateo Trampler", "/bilder/Genetik macht Schule/IMG_5925 Kopie.png;Eigenaufnahme Mateo Trampler"],
-		"buchungs_disclaimer":      true,
+		"buchungs_disclaimer":      false,
 	},
 
 	"MINT Campus Dachau": {
