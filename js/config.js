@@ -542,7 +542,7 @@ var context  = {
 		"überthema":                ["Nachhaltigkeit"], // Array von Strings, siehe Liste von zulässigen Überthemen unten
 		"unterthema":               ["Bildung für nachhaltige Entwicklung"], // Array von Strings
 		"zielgruppe":               5,    // Zahl von 0 bis 10, Integer
-		"altersgruppe":             "7.-13. Jahrgangsstufe",   // String
+		"altersgruppe":             "3.-13. Jahrgangsstufe",   // String
 		"teilnehmer_anzahl":        "Max. eine Klassenstärke",   // String
 		"dauer":                    "Nach Absprache",   // String
 		"schularten":               ["Uneingeschränkt"], // Array von String
@@ -550,7 +550,7 @@ var context  = {
 		"praktika":                 ["Studentische Praktika"], // Array von String
 		"w-seminare":               "Zusammenarbeit möglich",   // String
 		"betreuungspersonal":       "Von Werkstudent*in bis Leitung, 1-2 Personen als Betreuer*in",   // String
-		"außerschulisches_angebot": "Spiele zur Nachhaltigkeit & Systemdenken; Exkursionen zu nachhaltigen Orten, u.a. in Kooperation mit weiteren Akteuren",   // String
+		"außerschulisches_angebot": "Spiele zur Nachhaltigkeit & Systemdenken, bei Wusch im Grünen und zwar in den Jurten von 'Mein Platz zum Leben' am Halt 58; Exkursionen zu nachhaltigen Orten, u.a. in Kooperation mit weiteren Akteuren.",   // String
 		"beschreibung":             "Das RCE BenE München ist das Regionale Kompetenzzentrum BNE. Wir initiieren und unterstützen – zum Teil in Kooperation mit anderen Akteur*innen – Bildungsprojekte im schulischen, außerschulischen und hochschulspezifischen Umfeld. Wir geben Bürger*innen in unseren AGs die Möglichkeit, sich aktiv zu beteiligen. Wir vernetzen BNE-Interessierte, Bildungseinrichtungen und Akteur*innen miteinander.",   // String
 		"buchungsadresse":          "<a href='mailto:info@bene-muenchen.de'>info@bene-muenchen.de</a> oder 089 23002784 oder <a href='https://www.bene-muenchen.de/'>Webseite</a>  ",   // String, Webseiten-URL ("http://...") oder E-Mail-Adresse (z.B.: "<a href='mailto:test@example.com'>test@example.com</a>")
 		"öffnungszeiten":           {
