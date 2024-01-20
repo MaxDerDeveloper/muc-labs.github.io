@@ -302,7 +302,7 @@ var context  = {
 	},
 
 	"FabLab": {
-		"name":                     "FabLab Muenchen e.V.",
+		"name":                     "FabLab München e.V.",
 		"website_url":              "https://www.fablab-muenchen.de/",
 		"adresse":                  "Gollierstraße 70D, 80339 München",
 		"google_maps_url":          "https://maps.app.goo.gl/GsbSmNG6R4BEgCJ26",
