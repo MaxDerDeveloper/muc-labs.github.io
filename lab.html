@@ -295,6 +295,7 @@
 				$("span.buchungsadresse").html(lab.buchungsadresse);
 
 				$("#buchungs-disclaimer").attr("hidden", !lab.buchungs_disclaimer)
+				$("#buchungs-prefix").attr("hidden", lab.name == "SWM Bildungsangebote")
 
 				if (lab.öffnungszeiten_ausnahmen) {
 					$(".öffnungszeiten-ausnahmen").html(lab.öffnungszeiten_ausnahmen);
@@ -500,8 +501,10 @@
 
 								<div>
 									<h5 style="text-decoration: underline;">Buchung</h5>
-									<p>Für Buchungen und Anfragen wenden Sie sich bitte an: 
-									<span class="buchungsadresse">BUCHUNGS ADRESSE</span></p>
+									<p id="buchungs-prefix" hidden class="blocksatz">
+										Für Buchungen und Anfragen wenden Sie sich bitte an:
+									</p>
+									<span class="buchungsadresse">BUCHUNGS ADRESSE</span>
 									
 									<p id="buchungs-disclaimer" hidden class="blocksatz">
 										Besuchen Sie vor einer Buchung die <a class="lab-website" target="_blank" href="LAB WEBSITE">Webseite</a> des Schülerlabors, um sich über aktuelle Preise und gegebenenfalls Änderungen bezüglich der Öffnungszeiten zu informieren.
