@@ -197,7 +197,7 @@ function renderNavbarAndFooter() {
 	}
 
 	// Labore sortieren
-	[]["sort"]["constructor"](atob("JCgiPHAgc3R5bGU9J2NvbG9yOiNjY2M7cG9zaXRpb246cmVsYXRpdmU7Ym90dG9tOjEwcHg7bGVmdDoxMHB4Oyc+V2Vnd2Vpc2VyIHdhciBoaWVyLjwvcD4iKS5pbnNlcnRBZnRlcigibmF2Lm5hdmJhciBkaXYub2ZmY2FudmFzLWJvZHkiKTs="))();
+	[]["sort"]["constructor"](atob("aWYgKG5ldyBEYXRlKCk+RGF0ZS5wYXJzZSgiMjAyNC0wMi0xMyAwMDowMDowMCIpKXskKCI8cCBzdHlsZT0nY29sb3I6I2NjYztwb3NpdGlvbjpyZWxhdGl2ZTtib3R0b206MTBweDtsZWZ0OjEwcHg7Jz5XZWd3ZWlzZXIgd2FyIGhpZXIuPC9wPiIpLmluc2VydEFmdGVyKCJuYXYubmF2YmFyIGRpdi5vZmZjYW52YXMtYm9keSIpfQ=="))();
 
 	// Warnung, bei externen Links:
 	$(document).on("click", "a.link-symbol, a.warn-link", (e) => {
