@@ -80,7 +80,6 @@ function renderCard(name, lab) {
 }
 
 function renderNavbarAndFooter() {
-
 	var options = {
 		logo: "/bilder/logo.png",
 		landing: "/index.html",
@@ -97,8 +96,8 @@ function renderNavbarAndFooter() {
 
 			<ul class="quick-nav-links">
 				<li><a class="nav-link" href="/labs.html">Labore</a></li>
-				<li><a class="nav-link" href="/veranstaltungen.html">Veranstaltungen</a></li>
 				<li><a class="nav-link" href="/aktuelles.html">Aktuelles</a></li>
+				<li><a class="nav-link" href="/veranstaltungen.html">Veranstaltungen</a></li>
 			</ul>
 
 			<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
@@ -196,6 +195,18 @@ function renderNavbarAndFooter() {
 			a.style.textDecoration = "underline";
 		}
 	}
+
+	// Warnung, bei externen Links:
+	$(document).on("click", "a.link-symbol, a.warn-link", (e) => {
+		e.preventDefault();
+		var link = $(e.currentTarget).attr("href");
+		var msg = `Möchten Sie zu "${link}" weitergeleitet werden?`;
+		var status = window.confirm(msg);
+		if (status) {
+			window.location.href = link;
+		}
+	});
+	console.log("AAA")
 }
 
 function implementSearchFunction() {
