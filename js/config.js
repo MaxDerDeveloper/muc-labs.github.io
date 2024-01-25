@@ -49,8 +49,8 @@ var context  = {
 		"w-seminare":               "Messungen u.ä möglich",
 		"betreuungspersonal":       "Ja",
 		"außerschulisches_angebot": "An speziellen Tagen wie Girlsday",
-		"beschreibung":             "Das DLR_School_Lab bietet eine Vielzahl an interessanten <a href='https://www.dlr.de/schoollab/desktopdefault.aspx/tabid-14243/'>Experimenten</a> an, welche sich über Themen von Satelitennavigation über Robotik bis zu Flugsimulatoren erstrecken. Es kann zwischen einem Ganztagsbesuch, bei dem zwei Experimente oder einem Halbtagsbesuch, bei dem nur ein Experiment durchgeführt wird entschieden werden.",
-		"buchungsadresse":          "<a href='https://www.dlr.de/schoollab/desktopdefault.aspx/tabid-15845'>Anmeldeformular</a> auf der Website",
+		"beschreibung":             "Das DLR_School_Lab bietet eine Vielzahl an interessanten <a href='https://www.dlr.de/schoollab/desktopdefault.aspx/tabid-14243/' class='warn-link'>Experimenten</a> an, welche sich über Themen von Satelitennavigation über Robotik bis zu Flugsimulatoren erstrecken. Es kann zwischen einem Ganztagsbesuch, bei dem zwei Experimente oder einem Halbtagsbesuch, bei dem nur ein Experiment durchgeführt wird entschieden werden.",
+		"buchungsadresse":          "<a href='https://www.dlr.de/schoollab/desktopdefault.aspx/tabid-15845' class='warn-link'>Anmeldeformular</a> auf der Website",
 		"öffnungszeiten":           {
 			"Mo": "-",
 			"Di": "-",
@@ -117,7 +117,7 @@ var context  = {
 		"betreuungspersonal":       "Leitung, Werkstudenten",
 		"außerschulisches_angebot": "Für Museumsbesucher",
 		"beschreibung":             "Physik und Technik mit Händen begreifen in der Experimentier-Werkstatt, dem Mitmachbereich im Deutschen Museum, München: Die Experimentier-Werkstatt bietet Programme für Schulklassen aller Schularten (3. -13. Jahrgangsstufe), Gruppen und Museumsbesucher. Verblüffende Experimente mit Alltagsbezug, Staunen über HighTech und das Tüfteln an eigenen Projekten machen Physik und Technik zu einem spannenden Erlebnis. Das Schülerlabor trägt zur Nachwuchsförderung im MINT-Bereich bei und unterstützt die allgemeine Technik- und Wissenschaftsmündigkeit.",
-		"buchungsadresse":          "<a href='https://www.deutsches-museum.de/museumsinsel/programm/programm-a-z/experimentier-werkstatt#c25480'>Buchungswebseite</a>",
+		"buchungsadresse":          "<a href='https://www.deutsches-museum.de/museumsinsel/programm/programm-a-z/experimentier-werkstatt#c25480' class='warn-link'>Buchungswebseite</a>",
 		// "öffnungszeiten":           null,
 		"öffnungszeiten":           {
 			"Mo": "Buchung möglich: 9:15-16:30 Uhr",
@@ -128,7 +128,7 @@ var context  = {
 			"Sa": "Buchung möglich: 9:15-16:30 Uhr",
 			"So": "Buchung möglich: 9:15-16:30 Uhr",
 		},
-		"öffnungszeiten_ausnahmen": "Wir berücksichtigen gerne soweit möglich Ihre Wunschtermine. Geben Sie diese in Ihrer Buchungsanfrage an.<br>Termine für die Offene Werkstatt finden Sie im <a href='https://www.deutsches-museum.de/museumsinsel/programm/kalender'>Kalender des Deutschen Museums</a>.",
+		"öffnungszeiten_ausnahmen": "Wir berücksichtigen gerne soweit möglich Ihre Wunschtermine. Geben Sie diese in Ihrer Buchungsanfrage an.<br>Termine für die Offene Werkstatt finden Sie im <a href='https://www.deutsches-museum.de/museumsinsel/programm/kalender' class='warn-link'>Kalender des Deutschen Museums</a>.",
 		"images": ["/bilder/experimentier-werkstatt/Titelbild/CD_L_7894_03 Kopie.png;Deutsches Museum","/bilder/experimentier-werkstatt/20201201 ZEW098 Experimentierwerkstatt Inszenierung02 Kopie.png;Deutsches Museum","/bilder/experimentier-werkstatt/CD_L_7023_23 Kopie.png;Deutsches Museum","/bilder/experimentier-werkstatt/CD_L_7270_163 Kopie.png;Deutsches Museum","/bilder/experimentier-werkstatt/CD_L_7278_075 Kopie.png;Deutsches Museum","bilder/experimentier-werkstatt/CD_L_7278_122 Kopie.png;Deutsches Museum","/bilder/experimentier-werkstatt/CD_L_7909_043 Kopie.png;Deutsches Museum","/bilder/experimentier-werkstatt/CD_L_7894_60.png;Deutsches Museum","/bilder/experimentier-werkstatt/20201201 ZEW098 Experimentierwerkstatt Inszenierung04.png;Deutsches Museum","/bilder/experimentier-werkstatt/CD_L_7267_055.png;Deutsches Museum","/bilder/experimentier-werkstatt/Regensensor_mit Händen.png;Deutsches Museum","/bilder/experimentier-werkstatt/IMG_5643 Kopie.png;Eigenaufnahme Mateo Trampler","/bilder/experimentier-werkstatt/IMG_5641 Kopie.png;Eigenaufnahme Mateo Trampler","/bilder/experimentier-werkstatt/IMG_5654Berabeitet Kopie.png;Eigenaufnahme Mateo Trampler", "/bilder/experimentier-werkstatt/IMG_5657 Kopie.png;Eigenaufnahme Mateo Trampler","/bilder/experimentier-werkstatt/IMG_5673 Kopie.png;Eigenaufnahme Mateo Trampler", "/bilder/experimentier-werkstatt/IMG_5674 Kopie.png;Eigenaufnahme Mateo Trampler", "/bilder/experimentier-werkstatt/IMG_5675 Kopie.png;Eigenaufnahme Mateo Trampler", "/bilder/experimentier-werkstatt/IMG_5676 Kopie.png;Eigenaufnahme Mateo Trampler"],
 		"buchungs_disclaimer":      true,
 	},
@@ -184,7 +184,7 @@ var context  = {
 		"betreuungspersonal":       "Pädagog*innen, Student*innen, Wissenschaftler*innen",
 		"außerschulisches_angebot": "Girls-Day<br>Führungen auch im Hauptquartier/Berufsorientierung, lehrerfortbildungen",
 		"beschreibung":             "Die ESO bietet altersspezifische Workshops, Ausstellungsführungen und Planetariumsvorstellungen an, die die Erforschung des Weltalls näherbringen sollen. Das Ziel ist es, Interesse für Naturwissenschaften zu wecken und das Schulwissen mit modernen Anwendungen in Astronomie und Technik zu kombinieren. Dabei werden Themen aus dem Lehrerplan mit alltäglichen Gegenständen erklärt und in einen astronomischen Kontext gebracht. Das Bildungsprogramm nutzt als Lernkonzept das forschende Lernen und unterstützt das Prinzip der Gleichberechtigung und Chancengleichheit, insbesondere in Bezug auf Bildung und Lernmöglichkeiten - aus diesem Grund ist das Bildungsprogramm für Schulklassen und Kindergartengruppen kostenlos.",
-		"buchungsadresse":          "<a href='https://supernova.eso.org/germany/education/'>Buchungswebseite</a>",
+		"buchungsadresse":          "<a href='https://supernova.eso.org/germany/education/' class='warn-link'>Buchungswebseite</a>",
 		"öffnungszeiten":           {
 			"Mo": "Geschlossen",
 			"Di": "Geschlossen",
@@ -263,7 +263,7 @@ var context  = {
 			"Sa": "-",
 			"So": "-",
 		},
-		"öffnungszeiten_ausnahmen": "Termine für angemeldete Gruppenbesuche können auf Anfrage festgelegt werden. Öffnungszeiten für Besucher:innen ohne Anmeldung werden regelmäßig auf der <a href='https://www.ma.tum.de/de/schulportal/ix-quadrat.html'>Webseite</a> vom ix-quadrat veröffentlicht.",
+		"öffnungszeiten_ausnahmen": "Termine für angemeldete Gruppenbesuche können auf Anfrage festgelegt werden. Öffnungszeiten für Besucher:innen ohne Anmeldung werden regelmäßig auf der <a href='https://www.ma.tum.de/de/schulportal/ix-quadrat.html' class='warn-link'>Webseite</a> vom ix-quadrat veröffentlicht.",
 		"images": ["/bilder/IX-Quadrat/Titelbild/07 Kopie.png;ix-quadrat", "/bilder/ix-quadrat/03 Kopie.png;ix-quadrat", "/bilder/IX-Quadrat/07 2 Kopie.png;ix-quadrat", "/bilder/IX-Quadrat/A003_0006 Kopie.png;ix-quadrat", "/bilder/IX-Quadrat/09 Kopie.png;ix-quadrat"],
 		"buchungs_disclaimer":      false,
 	},
@@ -286,7 +286,7 @@ var context  = {
 		"betreuungspersonal":       "Vorhanden",
 		"außerschulisches_angebot": "Nein",
 		"beschreibung":             "Die Bildungsprojekte umfassen Betriebsbesichtigungen der Strom- und Wärmeerzeugungsanlagen sowie der Anlagen der Trinkwassergewinnung und Veranstaltungen zu den Themen Wasser, Strom- und Wärmeerzeugung sowie Energiewende. Alle Angebote folgen dem Motto \„Lernen durch Erleben\".",
-		"buchungsadresse":          "Buchungen erfolgen über die <a href='https://www.swm.de/schule/besichtigungen-veranstaltungen'>Homepage der SWM</a> Haben Sie Fragen? Dann wenden Sie sich gern an <a href='mailto:schulkontakt@swm.de'>schulkontakt@swm.de</a>",
+		"buchungsadresse":          "Buchungen erfolgen über die <a href='https://www.swm.de/schule/besichtigungen-veranstaltungen' class='warn-link'>Homepage der SWM</a> Haben Sie Fragen? Dann wenden Sie sich gern an <a href='mailto:schulkontakt@swm.de'>schulkontakt@swm.de</a>",
 		"öffnungszeiten":           {
 			"Mo": "-",
 			"Di": "-",
@@ -296,7 +296,7 @@ var context  = {
 			"Sa": "-",
 			"So": "-",
 		},
-		"öffnungszeiten_ausnahmen": "Termine sind auf der <a href='https://www.swm.de/schule/besichtigungen-veranstaltungen'>Homepage der SWM</a> zu finden",
+		"öffnungszeiten_ausnahmen": "Termine sind auf der <a href='https://www.swm.de/schule/besichtigungen-veranstaltungen' class='warn-link'>Homepage der SWM</a> zu finden",
 		"images":                   ["/bilder/SWM/Titelbild/Energiewende_078.png;SWM","/bilder/SWM/Besichtigung_Mangfalltal_2014_Steffen Leiprecht_08.png;SWM","/bilder/SWM/HB Forstenrieder Park_2012_Rainer Viertlböck_06.png;SWM","/bilder/SWM/Mangfall_2019_Andreas_Leder_01.png;SWM","/bilder/SWM/SWM_Isar-2_2012_Stefan Obermeier_50.png;SWM","/bilder/SWM/SWM_Mangfall_2011_Gerald Wick.png;SWM"],
 		"buchungs_disclaimer":      false,
 	},
@@ -318,8 +318,8 @@ var context  = {
 		"w-seminare":               "Kein Angebot",
 		"betreuungspersonal":       "Vorhanden",
 		"außerschulisches_angebot": "Selbstständiges Nutzen der Werkstatt möglich ab 16 nach Einführung",
-		"beschreibung":             "Im Fablab München kannst Du eine Hightechwerkstatt mit unterschiedlichen computergesteuerten Maschinen hautnah erleben. Wir haben eine 300m² große Werkstatt, in der Du als Mitglied verschiedenste 3D Drucker, Lasercutter, Holz-, Metall, sowie Elektronikwerkstatt nach Einführungskursen 7/24/365 nutzen kannst. <br> <br> Ein Besichtigung der Räume ist in einem <a href='https://www.fablab-muenchen.de/unser-lab/unsere-raeume/'>virtuellen Rundgang</a> möglich.",
-		"buchungsadresse":          "<a href='https://www.eventbrite.de/o/fablab-munchen-ev-7227151391'>Buchungswebseite</a>",
+		"beschreibung":             "Im Fablab München kannst Du eine Hightechwerkstatt mit unterschiedlichen computergesteuerten Maschinen hautnah erleben. Wir haben eine 300m² große Werkstatt, in der Du als Mitglied verschiedenste 3D Drucker, Lasercutter, Holz-, Metall, sowie Elektronikwerkstatt nach Einführungskursen 7/24/365 nutzen kannst. <br> <br> Ein Besichtigung der Räume ist in einem <a href='https://www.fablab-muenchen.de/unser-lab/unsere-raeume/' class='warn-link'>virtuellen Rundgang</a> möglich.",
+		"buchungsadresse":          "<a href='https://www.eventbrite.de/o/fablab-munchen-ev-7227151391' class='warn-link'>Buchungswebseite</a>",
 		"öffnungszeiten":           {
 			"Mo": "-",
 			"Di": "-",
@@ -351,7 +351,7 @@ var context  = {
 		"w-seminare":               "Kein Angebot",
 		"betreuungspersonal":       "Vorhanden",
 		"außerschulisches_angebot": "siehe <a href='/lab.html?lab=FabLab'>FabLab Muenchen e.V.</a>, außerdem offene Werkstätte mit Kursleiter und Anmeldung",
-		"beschreibung":             "In den 200 Quadratmeter großen Bildungsräumen des FabLab München e.V. kannst Du selber lernen mit Maschinen wie 3D Drucker, Lasercutter, Roboter, Schneideplotter, Löten umzugehen und Modelle zum Drucken oder Cutten erstellen, sowie verschiedenste 3D-Druck-, Minecraft-, Programmier-, Elektronik-, Trickfilm- und Laserkurse mitmachen. Entweder Du kommst mit Deiner Klasse unter der Woche, oder am Wochenende oder in den Ferien zu einem Kurs zu uns. <br> <br> Ein Besichtigung der Räume ist in einem <a href='https://www.fablab-muenchen.de/unser-lab/unsere-raeume/'>virtuellen Rundgang</a> möglich.",
+		"beschreibung":             "In den 200 Quadratmeter großen Bildungsräumen des FabLab München e.V. kannst Du selber lernen mit Maschinen wie 3D Drucker, Lasercutter, Roboter, Schneideplotter, Löten umzugehen und Modelle zum Drucken oder Cutten erstellen, sowie verschiedenste 3D-Druck-, Minecraft-, Programmier-, Elektronik-, Trickfilm- und Laserkurse mitmachen. Entweder Du kommst mit Deiner Klasse unter der Woche, oder am Wochenende oder in den Ferien zu einem Kurs zu uns. <br> <br> Ein Besichtigung der Räume ist in einem <a href='https://www.fablab-muenchen.de/unser-lab/unsere-raeume/' class='warn-link'>virtuellen Rundgang</a> möglich.",
 		"buchungsadresse":          "<a href='https://www.eventbrite.de/o/fablab-kids-im-fablab-munchen-ev-7117094347' class='warn-link'>Buchungswebseite</a>",
 		"öffnungszeiten":           {
 			"Mo": "-",
@@ -385,7 +385,7 @@ var context  = {
 		"betreuungspersonal":       "Studierende",
 		"außerschulisches_angebot": "Nein",
 		"beschreibung":            "Genetik macht Schule vereint als \"Integriertes Schülerlabor\" die Interessen von Schülern und Studierenden; erstere bekommen eine spannende Unterichtsstunde mit anschließendem praktischen Teil; letztere können Unterichtserfahrung sammeln. Auf die theoretische Unterrichtsstunde folgt eine Woche später ein experimenteller Teil am Biozentrum der LMU, um das Gelernte zu festigen.",
-		"buchungsadresse":          "<a href='mailto:brachmann@lmu.de'>brachmann@lmu.de</a> </b> <br> Die Schülerlabortage finden in den Wochen nach den Pfingstferien statt. Bitte wenden Sie sich an die <a href='https://teaching.genetik.biologie.uni-muenchen.de/teaching/kurse/genetik-macht-schule'>Webseite</a> des Schülerlabors für die jeweils aktuellen Termine.<b>",
+		"buchungsadresse":          "<a href='mailto:brachmann@lmu.de'>brachmann@lmu.de</a> </b> <br> Die Schülerlabortage finden in den Wochen nach den Pfingstferien statt. Bitte wenden Sie sich an die <a href='https://teaching.genetik.biologie.uni-muenchen.de/teaching/kurse/genetik-macht-schule' class='warn-link'>Webseite</a> des Schülerlabors für die jeweils aktuellen Termine.<b>",
 		"öffnungszeiten":           {
 			"Mo": "-",
 			"Di": "-",
@@ -418,7 +418,7 @@ var context  = {
 		"betreuungspersonal":       "vorhanden",
 		"außerschulisches_angebot": "Offene Werkstätten, Workshops, Clubs, Wettbewerbe, Geburtstagsworkshops",
 		"beschreibung":             "Mathematik, Informatik, Natur­wissenschaft und Technik – das sind die Themen des MINT Campus Dachau. Hier wird getüftelt, experimentiert und geforscht. Die Kurse, Workshops und Werkstätten in unserem Schülerforschungszentrum vereinen theoretisches Wissen mit praktischem Ausprobieren und Erleben. Bei der Auswahl der Projekte wird dem Bereich der 'Bildung für nachhaltige Entwicklung' (BNE) und dem bewussten Umgang mit der Natur viel Raum gegeben. Kinder und Jugendliche entdecken ihre Talente im MINT-Bereich spielerisch und eigenständig – sowohl im Klassenverbund als auch privat. In Projekt- und Teamarbeit entwickeln sie Engagement, Erfindungsreichtum und unternehmerisches Denken.",
-		"buchungsadresse":          "<a href='https://www.mintcampus-dachau.de/angebote/kurse-workshops/aktuelle-kurse'>Buchungswebseite</a>",
+		"buchungsadresse":          "<a href='https://www.mintcampus-dachau.de/angebote/kurse-workshops/aktuelle-kurse' class='warn-link'>Buchungswebseite</a>",
 		"öffnungszeiten":           {
 			"Mo": "-",
 			"Di": "-",
@@ -451,7 +451,7 @@ var context  = {
 		"betreuungspersonal":       "Keine Angabe",   // String
 		"außerschulisches_angebot": "Unterschiedliche. Info auf der Webseite",   // String
 		"beschreibung":             "Wir setzen uns dafür ein, um allen Kindern und Jugendlichen Naturwissenschaften, Technik und Informatik in kreativen, lustigen und praktischen Experimenten nahe zu bringen. Bei uns stehen Fantasie, Fragen, Hinterfragen und Prüfen im Vorfeld. Insbesondere kümmern wir uns um Kinder, die aus vielen Gründen einen weiteren Weg zur guten Bildung haben. Unser größter Traum ist es, damit Kinder die MINT-Fächer nicht nur verstehen, sondern auch lieben. ",   // String
-		"buchungsadresse":          "<a href='mailto:info@little-lab.de'>info@little-lab.de</a> oder <a href='https://www.little-lab.de'>Webseite</a>",   // String, Webseiten-URL ("http://...") oder E-Mail-Adresse (z.B.: "<a href='mailto:test@example.com'>test@example.com</a>")
+		"buchungsadresse":          "<a href='mailto:info@little-lab.de'>info@little-lab.de</a> oder <a href='https://www.little-lab.de' class='warn-link'>Webseite</a>",   // String, Webseiten-URL ("http://...") oder E-Mail-Adresse (z.B.: "<a href='mailto:test@example.com'>test@example.com</a>")
 		"öffnungszeiten":           {
 			/* Hier sind Uhrzeiten oder kurze Beschreibungen passend */
 			"Mo": "-",   // String
@@ -552,7 +552,7 @@ var context  = {
 		"betreuungspersonal":       "Von Werkstudent*in bis Leitung, 1-2 Personen als Betreuer*in",   // String
 		"außerschulisches_angebot": "Spiele zur Nachhaltigkeit & Systemdenken, bei Wusch im Grünen und zwar in den Jurten von 'Mein Platz zum Leben' am Halt 58; Exkursionen zu nachhaltigen Orten, u.a. in Kooperation mit weiteren Akteuren.",   // String
 		"beschreibung":             "Das RCE BenE München ist das Regionale Kompetenzzentrum BNE. Wir initiieren und unterstützen – zum Teil in Kooperation mit anderen Akteur*innen – Bildungsprojekte im schulischen, außerschulischen und hochschulspezifischen Umfeld. Wir geben Bürger*innen in unseren AGs die Möglichkeit, sich aktiv zu beteiligen. Wir vernetzen BNE-Interessierte, Bildungseinrichtungen und Akteur*innen miteinander.",   // String
-		"buchungsadresse":          "<a href='mailto:info@bene-muenchen.de'>info@bene-muenchen.de</a> oder 089 23002784 oder <a href='https://www.bene-muenchen.de/'>Webseite</a>  ",   // String, Webseiten-URL ("http://...") oder E-Mail-Adresse (z.B.: "<a href='mailto:test@example.com'>test@example.com</a>")
+		"buchungsadresse":          "<a href='mailto:info@bene-muenchen.de'>info@bene-muenchen.de</a> oder 089 23002784 oder <a href='https://www.bene-muenchen.de/' class='warn-link'>Webseite</a>  ",   // String, Webseiten-URL ("http://...") oder E-Mail-Adresse (z.B.: "<a href='mailto:test@example.com'>test@example.com</a>")
 		"öffnungszeiten":           {
 			/* Hier sind Uhrzeiten oder kurze Beschreibungen passend */
 			"Mo": "-",   // String
@@ -586,7 +586,7 @@ var context  = {
 		"betreuungspersonal":       "ca. 7 freiberufliche Museumspädagog:innen, 9 studentische Hilfskräfte, eine Angestellte",   // String
 		"außerschulisches_angebot": "Pop-Up Ausstellung, VR-Flugsimulator Birdly, unterschiedliche Mini-Workshops für die Allgemeinheit",   // String
 		"beschreibung":             "Direkt im Botanischen Garten München-Nymphenburg gelegen, eröffnet das BIOTOPIA Lab den Besucher:innen vielfältige Erlebnisse: Durch kostenlose Experimentier-Workshops für Jung und Alt, interaktive Schulklassenprogramme und Pop-Up-Ausstellungen zu lebensnahen Themen wird Wissenschaft lebendig. ",   // String
-		"buchungsadresse":          "<a href='https://biotopialab.snsb.de/besucherinfo'>Besucherinfo</a>",   // String, Webseiten-URL ("http://...") oder E-Mail-Adresse (z.B.: "<a href='mailto:test@example.com'>test@example.com</a>")
+		"buchungsadresse":          "<a href='https://biotopialab.snsb.de/besucherinfo' class='warn-link'>Besucherinfo</a>",   // String, Webseiten-URL ("http://...") oder E-Mail-Adresse (z.B.: "<a href='mailto:test@example.com'>test@example.com</a>")
 		"öffnungszeiten":           {
 			/* Hier sind Uhrzeiten oder kurze Beschreibungen passend */
 			"Mo": "09:00-17:00 Uhr (Geschlossen; Geschlossen)",   // String
@@ -686,8 +686,8 @@ var context  = {
 		"praktika":                 ["Praktika per Anfrage möglich, wenn Betreuungskapazität vorhanden"], // Array von String
 		"w-seminare":               "Per Anfrage möglich, wenn Betreuungskapazität vorhanden",   // String
 		"betreuungspersonal":       "Studierende des Lehramts und verschiedener Fachdisziplinen, Leitung des Labors, Angestellte",   // String
-		"außerschulisches_angebot": "Schnupperkurse Robotik, Experimentierclub Robotik & Technik, private Gruppenbuchungen für Robotik-Kurse (z. B. für Geburtstagskurse), verschiedene Kursthemen in Kooperation mit der jungen VHS München (s. auch <a href='https://www.edu.sot.tum.de/tumlab/anmeldung/kurse-mit-einzelanmeldung'>Kurse mit Einzelanmeldung</a>)",   // String
-		"beschreibung":             "Im TUMlab, dem Experimentier-Labor der Technischen Universität München im Deutschen Museum, dürfen Jugendliche, Studierende und Lehrkräfte selbst konstruieren, bauen, steuern, programmieren – mit anderen Worten: Wissenschaft zum Anfassen erleben.<br>Das Besondere: Das TUMlab befindet sich im Deutschen Museum. So kann ein Kurs im TUMlab in den Ausstellungen vertieft oder aus einem anderen Blickwinkel betrachtet werden.<br>Unser Kursangebot finden Sie auf den Seiten: <a href='https://www.edu.sot.tum.de/tumlab/kursangebot'>Kursangebot</a> und <a href='https://www.edu.sot.tum.de/tumlab/anmeldung/kurse-mit-einzelanmeldung'>Kurse mit Einzelanmeldung</a>. Die Kurskosten sind bei den jeweiligen Kursen angegeben.",   // String
+		"außerschulisches_angebot": "Schnupperkurse Robotik, Experimentierclub Robotik & Technik, private Gruppenbuchungen für Robotik-Kurse (z. B. für Geburtstagskurse), verschiedene Kursthemen in Kooperation mit der jungen VHS München (s. auch <a href='https://www.edu.sot.tum.de/tumlab/anmeldung/kurse-mit-einzelanmeldung' class='warn-link'>Kurse mit Einzelanmeldung</a>)",   // String
+		"beschreibung":             "Im TUMlab, dem Experimentier-Labor der Technischen Universität München im Deutschen Museum, dürfen Jugendliche, Studierende und Lehrkräfte selbst konstruieren, bauen, steuern, programmieren – mit anderen Worten: Wissenschaft zum Anfassen erleben.<br>Das Besondere: Das TUMlab befindet sich im Deutschen Museum. So kann ein Kurs im TUMlab in den Ausstellungen vertieft oder aus einem anderen Blickwinkel betrachtet werden.<br>Unser Kursangebot finden Sie auf den Seiten: <a href='https://www.edu.sot.tum.de/tumlab/kursangebot' class='warn-link'>Kursangebot</a> und <a href='https://www.edu.sot.tum.de/tumlab/anmeldung/kurse-mit-einzelanmeldung' class='warn-link'>Kurse mit Einzelanmeldung</a>. Die Kurskosten sind bei den jeweiligen Kursen angegeben.",   // String
 		"buchungsadresse":          "<a href='mailto:kontakt@tumlab.de'>kontakt@tumlab.de</a>",   // String, Webseiten-URL ("http://...") oder E-Mail-Adresse (z.B.: "<a href='mailto:test@example.com'>test@example.com</a>")
 		"öffnungszeiten":           {
 			/* Hier sind Uhrzeiten oder kurze Beschreibungen passend */
@@ -699,7 +699,7 @@ var context  = {
 			"Sa": "Buchung möglich: 09:00-16:30 Uhr",   // String
 			"So": "Buchung möglich: 09:00-16:30 Uhr",   // String
 		},
-		"öffnungszeiten_ausnahmen": "Wunschtermine bitte bei uns anfragen, Workshops sind zwischen 9.00 und 16.30 Uhr möglich, angelehnt an die Museumsöffnungszeiten (s. auch <a href='https://www.edu.sot.tum.de/tumlab/haeufige-fragen'>Wann finden Kurse statt</a>)",   // String, ganzer Satz
+		"öffnungszeiten_ausnahmen": "Wunschtermine bitte bei uns anfragen, Workshops sind zwischen 9.00 und 16.30 Uhr möglich, angelehnt an die Museumsöffnungszeiten (s. auch <a href='https://www.edu.sot.tum.de/tumlab/haeufige-fragen' class='warn-link'>Wann finden Kurse statt</a>)",   // String, ganzer Satz
 		"images":                   ["/bilder/Musterbild.png;Manesh Jablonski"],   // Array von Strings mit URL-Pfaden zu den Bilddateien, z.B.: "/bilder/Beispielbild.png"
 		"buchungs_disclaimer":      true, // Boolean: true oder false
 	},
