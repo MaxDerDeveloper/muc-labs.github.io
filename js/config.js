@@ -352,7 +352,7 @@ var context  = {
 		"betreuungspersonal":       "Vorhanden",
 		"außerschulisches_angebot": "siehe <a href='/lab.html?lab=FabLab'>FabLab Muenchen e.V.</a>, außerdem offene Werkstätte mit Kursleiter und Anmeldung",
 		"beschreibung":             "In den 200 Quadratmeter großen Bildungsräumen des FabLab München e.V. kannst Du selber lernen mit Maschinen wie 3D Drucker, Lasercutter, Roboter, Schneideplotter, Löten umzugehen und Modelle zum Drucken oder Cutten erstellen, sowie verschiedenste 3D-Druck-, Minecraft-, Programmier-, Elektronik-, Trickfilm- und Laserkurse mitmachen. Entweder Du kommst mit Deiner Klasse unter der Woche, oder am Wochenende oder in den Ferien zu einem Kurs zu uns. <br> <br> Ein Besichtigung der Räume ist in einem <a href='https://www.fablab-muenchen.de/unser-lab/unsere-raeume/'>virtuellen Rundgang</a> möglich.",
-		"buchungsadresse":          "<a href='https://www.eventbrite.de/o/fablab-kids-im-fablab-munchen-ev-7117094347'>Buchungswebseite</a>",
+		"buchungsadresse":          "<a href='https://www.eventbrite.de/o/fablab-kids-im-fablab-munchen-ev-7117094347' class='warn-link'>Buchungswebseite</a>",
 		"öffnungszeiten":           {
 			"Mo": "-",
 			"Di": "-",
